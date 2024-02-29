@@ -62,19 +62,19 @@
 h1,
 h2,
 .fw-bold {
-    font-weight: 800 !important;
+    font-weight: 600 !important;
 }
 
 h3,
 h4,
 .fw-semi-bold {
-    font-weight: 700 !important;
+    font-weight: 500 !important;
 }
 
 h5,
 h6,
 .fw-medium {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 
@@ -141,6 +141,7 @@ h6,
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
+    text-decoration: none;
     margin-left: 8px;
     padding: 10px 8px;
     color: var(--dark);
@@ -149,6 +150,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
+    text-decoration: none;
     color: var(--light);
     background-color: #F19F1F;
     border-radius: 6px;
@@ -526,4 +528,10 @@ h6,
 }
 .brand-logo {
      padding: 30px;
+}
+
+.form-rounded {
+    border-radius: 2rem;
+    margin: 5px;
+    padding: 10px;
 }

@@ -15,7 +15,6 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Company</a>
                         <div class="dropdown-menu m-0">
                             <a href="blog.html" class="dropdown-item">About Us</a>
-
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -29,8 +28,6 @@
                     <a href="contact.html" class="nav-item nav-link">Review</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-
-
             </div>
             <div class="text-end text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px; margin-left:4px;">
