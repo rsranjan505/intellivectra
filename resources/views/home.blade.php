@@ -95,7 +95,7 @@
 
 
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5">
+            <div class="container">
                 <div class="flex-row justify-content-between">
                     <div class="d-flex flex-row justify-content-between">
                         <h3 ><span class="text-primary">Case </span> Studies</h3>
@@ -104,7 +104,7 @@
                           </svg></a>
                     </div>
                 </div>
-                <div class="case-content row mt-5 shadow shadow-warning shadow-intensity-lg">
+                <div class="box-shadow case-content row my-5">
                     <div class="col-lg-6">
                         <div class="card" style="width: 28rem;">
                             <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
@@ -235,8 +235,8 @@
 
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5">
-                <div class="case-content row mt-5 shadow shadow-warning shadow-intensity-lg">
-                    <div class="col-lg-6">
+                <div class="case-content row mt-5 box-shadow">
+                    <div class="col-lg-6 text-left">
                         <h3 >Get <span class="text-primary">  Expert’s Advice </span></h3>
                         <p class="mb-4">This Gartner® Market Guide on Microsegmentation highlights today's important key findings when it comes to the security and risk management and recommendations that SRM leaders responsible for infrastructure security should follow.</p>
 
@@ -269,7 +269,7 @@
                     <div class="col-lg-12">
                         <div class="row g-5 mt-6">
                             <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
-                                <div class="blog-item bg-light shadow shadow-warning shadow-intensity-lg rounded overflow-hidden">
+                                <div class="blog-item bg-light box-shadow overflow-hidden">
                                     <div class="blog-img position-relative overflow-hidden">
                                         <img class="img-fluid" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                                         {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
@@ -288,7 +288,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
-                                <div class="blog-item bg-light shadow shadow-warning shadow-intensity-lg rounded overflow-hidden">
+                                <div class="blog-item bg-light box-shadow overflow-hidden">
                                     <div class="blog-img position-relative overflow-hidden">
                                         <img class="img-fluid" src="{{ asset('assets/img/blog/blog-2.png')}}" alt="">
                                         {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
@@ -314,44 +314,40 @@
         </div>
         <!-- Blog End -->
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid wow fadeInUp py-5" data-wow-delay="0.1s">
             <div class="container">
-                <div class="case-content row mt-5 shadow shadow-warning shadow-intensity-lg">
+                <div class="case-content row mt-5 box-shadow ">
                     <div class="col-lg-6">
-                        <h3 > <span class="text-primary"> Get in  </span>Touch</h3>
+                        <h3> <span class="text-primary"> Get in  </span>Touch</h3>
                         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="container">
-                                <div class="row g-5">
-                                    <div>
-                                        <form>
-                                            <div class="row g-3">
-                                                <div class="col-md-12">
-                                                    <input type="text" class="form-control border border-warning form-rounded px-4" placeholder=" Name" style="height: 55px;">
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <input type="email" class="form-control border border-warning form-rounded px-4" placeholder=" Email" style="height: 55px;">
-                                                </div>
-                                                <div class="col-12">
-                                                    <input type="text" class="form-control border border-warning form-rounded px-4" placeholder="Mobile" style="height: 55px;">
-                                                </div>
-
-                                                <div >
-                                                    <button class="btn btn-dark w-100 form-rounded ml-2" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                                      </svg> </button>
-                                                </div>
+                                <div class="row">
+                                    <form class="getin-touch">
+                                        <div class="row g-3">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control border border-warning form-rounded input-form" placeholder=" Name" style="height: 55px;">
                                             </div>
-                                        </form>
-                                    </div>
+                                            <div class="col-md-12">
+                                                <input type="email" class="form-control border border-warning form-rounded input-form" placeholder=" Email" style="height: 55px;">
+                                            </div>
+                                            <div class="col-12">
+                                                <input type="text" class="form-control border border-warning form-rounded input-form" placeholder="Mobile" style="height: 55px;">
+                                            </div>
 
+
+                                            <button class="btn btn-dark form-rounded ml-2 mt-2" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                    </svg>
+                                            </button>
+
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="card" style="width: 28rem;">
-                            <img class="card-img-top" src="{{ asset('assets/img/get-in-touch.png')}}" alt="Card image cap">
-                          </div>
+                        <img class="card-img-top" width="100%" src="{{ asset('assets/img/get-in-touch.png')}}" alt="Card image cap">
                     </div>
                 </div>
             </div>
@@ -359,39 +355,31 @@
 
 
             <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #FEFBF5;">
+        <div class="container ">
             <div class="text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h3 class="text-primary">Testimonial</h3>
                 <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
             </div>
-            {{-- <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
-                <div class="card testimonial-item bg-light my-4">
+            <div class=" owl-carousel testimonial-carousel wow fadeInUp box-shadow" data-wow-delay="0.6s">
+                <div class=" testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/home-2.png')}}" style="width: 60px; height: 60px;" >
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
                     </div>
                 </div>
 
-                <div class="card testimonial-item bg-light my-4">
+                <div class=" testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/home-2.png')}}" style="width: 60px; height: 60px;" >
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
                     </div>
                 </div>
-            </div> --}}
-
-            <div class="carousel-item">
-                <img src="{{ asset('assets/img/home-2.png')}}" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>...</h5>
-                  <p>...</p>
-                </div>
-              </div>
+            </div>
         </div>
     </div>
     <!-- Testimonial End -->

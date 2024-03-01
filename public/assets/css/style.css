@@ -68,7 +68,7 @@ h2,
 h3,
 h4,
 .fw-semi-bold {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 h5,
@@ -76,7 +76,16 @@ h6,
 .fw-medium {
     font-weight: 500 !important;
 }
+a {
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: medium;
+}
 
+p.footer-text{
+    font-weight: 300;
+    font-size: medium;
+}
 
 /*** Button ***/
 .btn {
@@ -465,6 +474,15 @@ h6,
 }
 
 
+/* Footer */
+.footer {
+    margin-bottom: 0px !important;
+}
+.footer-about {
+    margin-bottom: 0px;
+}
+
+
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
     .facts {
@@ -492,12 +510,13 @@ h6,
 }
 
 .link-animated a:hover {
-    padding-left: 10px;
+    padding-left: 5px;
+    color: var(--primary) !important;
 }
 
 @media (min-width: 767.98px) {
     .footer-about {
-        margin-bottom: -75px;
+        margin-bottom: 0px;
     }
 }
 
@@ -529,9 +548,23 @@ h6,
 .brand-logo {
      padding: 30px;
 }
+.getin-touch{
+    margin: 5px;
+}
 
 .form-rounded {
     border-radius: 2rem;
-    margin: 5px;
-    padding: 10px;
+}
+.input-form{
+    margin-bottom: 5px;
+
+}
+.input-form-bg {
+    background-color: #101010;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(246, 187, 68, 0.2), 0 6px 20px 0 rgba(255, 170, 43, 0.19);
+    text-align: center;
+    border-radius: 30px;
 }
