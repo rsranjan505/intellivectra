@@ -2,109 +2,28 @@
 @extends('landing.layouts.base')
 
 @section('contents')
-        <!-- About Start -->
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #FEFBF5;">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-7">
-                        <div class="position-relative pb-3">
-                            <h3>About <span class="text-primary">IVT</span></h3>
-                        </div>
-                        <p class="mb-4">Intelli Vectra stands as a technology and vendor-agnostic solution provider. Our client relationships are fiduciary, dedicated to safeguarding their best interests as we drive business transformation through innovation and engagement. Embracing a holistic approach, we navigate diverse technological landscapes to deliver bespoke solutions tailored to each client's unique needs. Our commitment extends beyond mere consultation; we actively collaborate with clients, fostering an environment of mutual growth and success. By prioritizing innovation and fostering meaningful engagement, we empower businesses to adapt, thrive, and seize new opportunities in an ever-evolving digital ecosystem.</p>
 
-                        <a href="quote.html" class="btn btn-dark rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                          </svg></a>
-                    </div>
-                    <div class="col-lg-5" style="min-height: 500px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/about-1.png')}}" style="object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
+    @include('landing.components.pages.about-section')
 
+    @include('landing.components.pages.approach')
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                    <h3 ><span class="text-primary">IVT</span> Approach</h3>
-                    <h5 class="mb-0">At IVT, We love technology - But we are obsessed with your success.</h5>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-12 " data-wow-delay="0.9s" style="min-height: 650px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" data-wow-delay="0.1s" src="{{ asset('assets/img/home-2.jpg')}}" >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @include('landing.components.pages.services')
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s" style="background-color: #FEFBF5;">
-            <div class="container py-5">
-                <div class="text-center position-relative pb-3 mb-5 mx-auto">
-                    <h3 ><span class="text-primary">Services & </span>Soloutions</h3>
-                    <h5 class="mb-0">Empowering Your Digital Journey: Seamless Solutions for Every IT Need.</h5>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-12 " data-wow-delay="0.9s" style="min-height: 550px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute h-100" data-wow-delay="0.1s" src="{{ asset('assets/img/pie.png')}}" >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @include('landing.components.pages.process')
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="container py-5">
-                <div class="text-center position-relative pb-3 mb-5 mx-auto">
-                    <h3 >Our <span class="text-primary">Process</span>  </h3>
-                    <h5 class="mb-0">Streamlined Solutions for Seamless IT Services Tailored to Your Business Needs.</h5>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-12 " data-wow-delay="0.9s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute h-100" data-wow-delay="0.3s" src="{{ asset('assets/img/home-3.png')}}" >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @include('landing.components.pages.our-usp')
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.4s" style="background-color: #FEFBF5;">
-            <div class="container py-5">
-                <div class="text-center position-relative pb-3 mb-5 mx-auto">
-                    <h3 >Our<span class="text-primary"> USP</span></h3>
-                    <h5 class="mb-0">Tailored IT Solutions for Seamless Operations, Reliable Support, Cybersecurity Expertise, Innovation-driven Approach, Client-Centric Services, Proven Results.</h5>
-                </div>
-                <div class="row g-5">
-
-                    <div class="col-lg-12 " data-wow-delay="0.9s" style="min-height: 340px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute" data-wow-delay="0.4s" src="{{ asset('assets/img/home-4.png')}}" >
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
 
 
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
-                <div class="flex-row justify-content-between">
-                    <div class="d-flex flex-row justify-content-between">
-                        <h3 ><span class="text-primary">Case </span> Studies</h3>
-                        <a class="btn text-primary" href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                          </svg></a>
+                <div class="flex-row justify-content-center">
+                    <div class="d-flex flex-row justify-content-center">
+                        <h1 ><span class="text-primary">Case </span> Studies</h1>
+
                     </div>
                 </div>
-                <div class="box-shadow case-content row my-5">
+                <div class="box-shadow case-content row my-5 text-left">
                     <div class="col-lg-6">
                         <div class="card" style="width: 28rem;">
                             <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
@@ -119,16 +38,21 @@
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                           </svg></a>
                     </div>
+                    <div class="col-lg-12 p-2">
+                        <a class="btn text-primary d-flex flex-row justify-content-end " href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                          </svg></a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #FEFBF5;">
+        <div class="container-fluid  wow fadeInUp bg-primary" data-wow-delay="0.1s" >
             <div class="container py-5">
-                <div class="flex-row justify-content-between">
-                    <div class="d-flex flex-row justify-content-between">
-                        <h3 >Our<span class="text-primary"> OEMs </span></h3>
-                        <a class="btn text-primary" href="#"> See All</a>
+                <div class="flex-row justify-content-center">
+                    <div class="d-flex flex-row justify-content-center">
+                        <h1 >Our<span class="text-primary"> OEMs </span></h1>
+
                     </div>
                 </div>
                 <p>Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.</p>
@@ -230,38 +154,45 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-12 p-2">
+                    <a class="btn text-primary d-flex flex-row justify-content-end " href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></a>
+                </div>
             </div>
         </div>
 
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="case-content row mt-5 box-shadow">
+            <div class="container">
+                <div class="case-content p-4 row box-shadow">
                     <div class="col-lg-6 text-left">
-                        <h3 >Get <span class="text-primary">  Expert’s Advice </span></h3>
+                        <h1 >Get <span class="text-primary">  Expert’s Advice </span></h1>
                         <p class="mb-4">This Gartner® Market Guide on Microsegmentation highlights today's important key findings when it comes to the security and risk management and recommendations that SRM leaders responsible for infrastructure security should follow.</p>
 
                         <a href="quote.html" class="btn btn-primary rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Schedule a call <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                           </svg></a>
                     </div>
-                    <div class="col-lg-6">
+                    {{-- <div class="col-lg-6">
                         <div class="card" style="width: 28rem;">
                             <img class="card-img-top" src="{{ asset('assets/img/home-6.png')}}" alt="Card image cap">
                           </div>
+                    </div> --}}
+
+                    <div class="col-lg-6" >
+                        <img class="card-img-top case-content-img"  src="{{ asset('assets/img/home-6.png')}}" alt="Card image cap">
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Blog Start -->
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #FEFBF5;">
-            <div class="container py-5">
-                <div class="flex-row justify-content-between">
-                    <div class="d-flex flex-row justify-content-between">
-                        <h3 >Latest <span class="text-primary"> Blogs </span></h3>
-                        <a class="btn text-primary" href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                          </svg></a>
+        <div class="container-fluid py-2 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
+            <div class="container ">
+                <div class="flex-row justify-content-center">
+                    <div class="d-flex flex-row mb-2 justify-content-center">
+                        <h1>Latest <span class="text-primary"> Blogs </span></h1>
+
                     </div>
                 </div>
                 <div class="row g-5">
@@ -308,6 +239,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-12 p-2">
+                        <a class="btn text-primary d-flex flex-row justify-content-end " href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                          </svg></a>
+                    </div>
                     <!-- Blog list End -->
                 </div>
             </div>
@@ -316,26 +252,27 @@
 
         <div class="container-fluid wow fadeInUp py-5" data-wow-delay="0.1s">
             <div class="container">
-                <div class="case-content row mt-5 box-shadow ">
-                    <div class="col-lg-6">
-                        <h3> <span class="text-primary"> Get in  </span>Touch</h3>
-                        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="case-content row mt-5 box-shadow">
+                    <div class="col-lg-6 " >
+                        <h1 class="ml-4"> <span class="text-primary"> Get in  </span>Touch</h1>
+                        <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="container">
                                 <div class="row">
                                     <form class="getin-touch">
                                         <div class="row g-3">
                                             <div class="col-md-12">
-                                                <input type="text" class="form-control border border-warning form-rounded input-form" placeholder=" Name" style="height: 55px;">
+                                                <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="First Name" >
                                             </div>
                                             <div class="col-md-12">
-                                                <input type="email" class="form-control border border-warning form-rounded input-form" placeholder=" Email" style="height: 55px;">
+                                                <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name" >
+                                            </div>
+                                            <div class="col-md-12">
+                                                <input type="email" class="form-control border border-warning form-input-rounded input-form" placeholder=" Email" >
                                             </div>
                                             <div class="col-12">
-                                                <input type="text" class="form-control border border-warning form-rounded input-form" placeholder="Mobile" style="height: 55px;">
+                                                <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
                                             </div>
-
-
-                                            <button class="btn btn-dark form-rounded ml-2 mt-2" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <button class="btn btn-dark form-input-rounded ml-3 mt-2 text-center" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                                     </svg>
                                             </button>
@@ -346,41 +283,71 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <img class="card-img-top" width="100%" src="{{ asset('assets/img/get-in-touch.png')}}" alt="Card image cap">
+                    <div class="col-lg-6" >
+                        <img class="card-img-top case-content-img"  src="{{ asset('assets/img/get-in-touch.png')}}" alt="Card image cap">
                     </div>
                 </div>
             </div>
         </div>
 
-
-            <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #FEFBF5;">
-        <div class="container ">
-            <div class="text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h3 class="text-primary">Testimonial</h3>
-                <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
-            </div>
-            <div class=" owl-carousel testimonial-carousel wow fadeInUp box-shadow" data-wow-delay="0.6s">
-                <div class=" testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                    </div>
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
+            <div class="container ">
+                <div class="text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                    <h1 class="text-primary">Testimonial</h1>
+                    <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
                 </div>
+                <div class=" owl-carousel testimonial-carousel wow fadeInUp box-shadow" data-wow-delay="0.6s">
+                    <div class="" >
+                        <div class=" flex-row align-items-center justify-content-center">
+                            <div class="">
+                                <img src="{{ asset('assets/img/testimonials/img-1.png')}}" alt="Profile 1"  style="width: 25%;">
+                            </div>
 
-                <div class=" testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
+                            <h5>Jess Santiago</h5>
+                            <p class="text-muted">@jess_santiago</p>
+                            <div class="d-flex justify-content-center">
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                            </div>
+                            <p class="font-italic">"Outstanding IT Support! Quick Response Times And Knowledgeable Technicians. Highly Recommended!"</p>
+                        </div>
+                        {{-- <div class="d-flex align-items-center justify-content-center">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                        </div> --}}
                     </div>
-                    <div class="pt-4 pb-5 px-5">
-                        “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+
+                    <div class=" testimonial-item bg-light my-4">
+                        <div class=" flex-row align-items-center justify-content-center">
+                            <img class="align-items-center justify-content-center" src="{{ asset('assets/img/testimonials/img-1.png')}}" alt="Profile 1" style="width: 60px;">
+                            <h5>Jess Santiago</h5>
+                            <p class="text-muted">@jess_santiago</p>
+                            <div class="d-flex justify-content-center">
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                                <span class="text-warning">&#9733;</span>
+                            </div>
+                            <p class="font-italic">"Outstanding IT Support! Quick Response Times And Knowledgeable Technicians. Highly Recommended!"</p>
+                        </div>
+                        {{-- <div class="d-flex align-items-center justify-content-center">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Testimonial End -->
+        <!-- Testimonial End -->
+
+
 @endsection
