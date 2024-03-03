@@ -267,7 +267,7 @@
 
 
 
-        <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid py-4 mb-3 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container ">
                 <div class="text-center position-relative pb-3 mb-4 mx-auto">
                     <h1 class="text-primary">Testimonial</h1>
@@ -275,7 +275,7 @@
                 </div>
                 <div class="box-shadow pb-3">
                     <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
-                        {{-- <div class="testimonial-item bg-light my-4">
+                        <div class="testimonial-item bg-light my-4">
                             <div class="d-flex flex-column align-items-center justify-content-center" >
                                 <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
                                 <div class="d-flex flex-column align-items-center justify-content-center">
@@ -312,7 +312,7 @@
                                     “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                         <div class="testimonial-item bg-light my-4">
                             <div class="d-flex flex-column align-items-center justify-content-center" >
                                 <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >

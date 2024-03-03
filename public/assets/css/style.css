@@ -213,6 +213,10 @@ hr {
     color: var(--primary) !important;
 }
 
+video {
+    width: 100% !important;
+}
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
@@ -658,11 +662,13 @@ a.text-primaryv:hover{
 
 
   /* USP */
-  img.usp-img:hover {
-    background-color: #686868;
+  img.ups-img:hover {
+    transform: scale(1.15);
   }
 
-
+  img.ser-slice:hover {
+    transform: scale(1.15);
+  }
 
     .card {
         border-radius: 20px;
