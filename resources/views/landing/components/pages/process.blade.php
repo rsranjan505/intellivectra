@@ -1,5 +1,5 @@
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.3s">
-    <div class="container py-5">
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.3s">
+    <div class="container">
         <div class="text-center position-relative pb-3 mb-5 mx-auto">
             <h1 >Our <span class="text-primary">Process</span>  </h1>
             <h5 class="mb-0">Streamlined Solutions for Seamless IT Services Tailored to Your Business Needs.</h5>

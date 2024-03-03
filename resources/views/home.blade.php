@@ -15,7 +15,7 @@
 
 
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row justify-content-center">
@@ -23,9 +23,9 @@
 
                     </div>
                 </div>
-                <div class="box-shadow case-content row my-5 text-left">
+                <div class="box-shadow case-content row my-2 text-left">
                     <div class="col-lg-6">
-                        <div class="card" style="width: 28rem;">
+                        <div class="card">
                             <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
                           </div>
                     </div>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="container-fluid  wow fadeInUp bg-primary" data-wow-delay="0.1s" >
-            <div class="container py-5">
+            <div class="container">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row justify-content-center">
                         <h1 >Our<span class="text-primary"> OEMs </span></h1>
@@ -60,6 +60,9 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
+                            <img src="{{ asset('assets/img/brand/b-20.png')}}" width="100px"/>
+                        </div>
+                        <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-1.png')}}" width="100px"/>
                         </div>
 
@@ -67,12 +70,8 @@
                             <img src="{{ asset('assets/img/brand/b-2.png')}}" width="100px"/>
                         </div>
 
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-3.png')}}" width="100px"/>
-                        </div>
-
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-4.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-3.png')}}" width="100px"/>
                         </div>
                     </div>
                 </div>
@@ -84,24 +83,9 @@
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-6.png')}}" width="100px"/>
-                        </div>
-
-                        <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-7.png')}}" width="100px"/>
                         </div>
 
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-8.png')}}" width="100px"/>
-                        </div>
-
-                        <div class="brand-logo ">
-                            <img src="{{ asset('assets/img/brand/b-9.png')}}" width="100px"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-row justify-content-center ">
-                    <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-10.png')}}" width="100px"/>
                         </div>
@@ -109,11 +93,6 @@
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-11.png')}}" width="100px"/>
                         </div>
-
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-12.png')}}" width="100px"/>
-                        </div>
-
                         <div class="brand-logo">
                             <img src="{{ asset('assets/img/brand/b-13.png')}}" width="100px"/>
                         </div>
@@ -123,15 +102,7 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-14.png')}}" width="100px"/>
-                        </div>
-
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-15.png')}}" width="100px"/>
-                        </div>
-
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-16.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-19.png')}}" width="100px"/>
                         </div>
 
                         <div class="brand-logo column-line">
@@ -143,17 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-row justify-content-center ">
-                    <div class="row row-line justify-content-center">
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-19.png')}}" width="100px"/>
-                        </div>
 
-                        <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-20.png')}}" width="100px"/>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-12 p-2">
                     <a class="btn text-primary d-flex flex-row justify-content-end " href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
@@ -162,7 +123,7 @@
             </div>
         </div>
 
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="case-content p-4 row box-shadow">
                     <div class="col-lg-6 text-left">
@@ -171,7 +132,7 @@
 
                         <a href="quote.html" class="btn btn-primary rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Schedule a call <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                          </svg></a>
+                        </svg></a>
                     </div>
                     {{-- <div class="col-lg-6">
                         <div class="card" style="width: 28rem;">
@@ -207,8 +168,8 @@
                                     </div>
                                     <div class="p-4">
                                         <div class="d-flex mb-3">
-                                            <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                            <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                            <small class="me-3 mr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
+                                            <small class="me-3 mr-2"><i class="far fa-calendar-alt text-primary me-2"></i>  01 Jan, 2045</small>
                                         </div>
                                         <h4 class="mb-3">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
                                         <p>In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
@@ -226,8 +187,8 @@
                                     </div>
                                     <div class="p-4">
                                         <div class="d-flex mb-3">
-                                            <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                            <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                            <small class="me-3 pr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
+                                            <small class="pr-2"><i class="far fa-calendar-alt text-primary me-2 "></i>  01 Jan, 2045</small>
                                         </div>
                                         <h4 class="mb-3">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
                                         <p>In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
@@ -248,9 +209,19 @@
                 </div>
             </div>
         </div>
+
+        {{-- <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 mb-5">
+                <div class="bg-white">
+                    <div class="owl-carousel vendor-carousel">
+
+                    </div>
+                </div>
+            </div>
+        </div> --}}
         <!-- Blog End -->
 
-        <div class="container-fluid wow fadeInUp py-5" data-wow-delay="0.1s">
+        <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="case-content row mt-5 box-shadow">
                     <div class="col-lg-6 " >
@@ -290,21 +261,111 @@
             </div>
         </div>
 
+
+
+        <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container ">
+                <div class="text-center position-relative pb-3 mb-4 mx-auto">
+                    <h1 class="text-primary">Testimonial</h1>
+                    <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
+                </div>
+                <div class="box-shadow pb-3">
+                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+                        {{-- <div class="testimonial-item bg-light my-4">
+                            <div class="d-flex flex-column align-items-center justify-content-center" >
+                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-primary">Jess Santiago 1</h2>
+                                    <p class="text-muted">@jess_santiago</p>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                    </div>
+                                </div>
+                                <div class="pt-4 pb-5 px-5">
+                                    “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light my-4">
+                            <div class="d-flex flex-column align-items-center justify-content-center" >
+                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-primary">Jess Santiago 1</h2>
+                                    <p class="text-muted">@jess_santiago</p>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                    </div>
+                                </div>
+                                <div class="pt-4 pb-5 px-5">
+                                    “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                                </div>
+                            </div>
+                        </div> --}}
+                        <div class="testimonial-item bg-light my-4">
+                            <div class="d-flex flex-column align-items-center justify-content-center" >
+                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-primary">Jess Santiago 1</h2>
+                                    <p class="text-muted">@jess_santiago</p>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-4 pb-5 px-5 w-100">
+                                “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                            </div>
+
+                        </div>
+                        <div class="testimonial-item bg-light my-4">
+                            <div class="d-flex flex-column align-items-center justify-content-center" >
+                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-primary">Jess Santiago 5</h2>
+                                    <p class="text-muted">@jess_santiago</p>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                        <span class="text-warning">&#9733;</span>
+                                    </div>
+                                </div>
+                                <div class="pt-4 pb-5 px-5">
+                                    “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <!-- Testimonial Start -->
-        <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
+        {{-- <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
             <div class="container ">
                 <div class="text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                     <h1 class="text-primary">Testimonial</h1>
                     <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
                 </div>
                 <div class=" owl-carousel testimonial-carousel wow fadeInUp box-shadow" data-wow-delay="0.6s">
-                    <div class="" >
-                        <div class=" flex-row align-items-center justify-content-center">
-                            <div class="">
-                                <img src="{{ asset('assets/img/testimonials/img-1.png')}}" alt="Profile 1"  style="width: 25%;">
-                            </div>
-
-                            <h5>Jess Santiago</h5>
+                    <div class="d-flex flex-column align-items-center justify-content-center" >
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <h5>Jess Santiago 1</h5>
                             <p class="text-muted">@jess_santiago</p>
                             <div class="d-flex justify-content-center">
                                 <span class="text-warning">&#9733;</span>
@@ -313,20 +374,16 @@
                                 <span class="text-warning">&#9733;</span>
                                 <span class="text-warning">&#9733;</span>
                             </div>
-                            <p class="font-italic">"Outstanding IT Support! Quick Response Times And Knowledgeable Technicians. Highly Recommended!"</p>
-                        </div>
-                        {{-- <div class="d-flex align-items-center justify-content-center">
-                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
                         </div>
                         <div class="pt-4 pb-5 px-5">
                             “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                        </div> --}}
+                        </div>
                     </div>
 
-                    <div class=" testimonial-item bg-light my-4">
-                        <div class=" flex-row align-items-center justify-content-center">
-                            <img class="align-items-center justify-content-center" src="{{ asset('assets/img/testimonials/img-1.png')}}" alt="Profile 1" style="width: 60px;">
-                            <h5>Jess Santiago</h5>
+                    <div class="d-flex flex-column align-items-center justify-content-center" >
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px;" >
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <h5>Jess Santiago 2</h5>
                             <p class="text-muted">@jess_santiago</p>
                             <div class="d-flex justify-content-center">
                                 <span class="text-warning">&#9733;</span>
@@ -335,19 +392,65 @@
                                 <span class="text-warning">&#9733;</span>
                                 <span class="text-warning">&#9733;</span>
                             </div>
-                            <p class="font-italic">"Outstanding IT Support! Quick Response Times And Knowledgeable Technicians. Highly Recommended!"</p>
-                        </div>
-                        {{-- <div class="d-flex align-items-center justify-content-center">
-                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 60px; height: 60px;" >
                         </div>
                         <div class="pt-4 pb-5 px-5">
                             “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Testimonial End -->
+        {{-- <div class="gtco-testimonials">
+            <h2>Testimonials Carousel - Cards Comments</h2>
+            <div class="owl-carousel1 owl-theme">
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
+                  <div class="card-body">
+                    <h5>Ronne Galle <br />
+                      <span> Project Manager </span>
+                    </h5>
+                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                      impedit quo minus id quod maxime placeat ” </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
+                  <div class="card-body">
+                    <h5>Missy Limana<br />
+                      <span> Engineer </span>
+                    </h5>
+                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                      impedit quo minus id quod maxime placeat ” </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
+                  <div class="card-body">
+                    <h5>Martha Brown<br />
+                      <span> Project Manager </span>
+                    </h5>
+                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                      impedit quo minus id quod maxime placeat ” </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
+                  <div class="card-body">
+                    <h5>Hanna Lisem<br />
+                      <span> Project Manager </span>
+                    </h5>
+                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                      impedit quo minus id quod maxime placeat ” </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div> --}}
+
 
 
 @endsection
