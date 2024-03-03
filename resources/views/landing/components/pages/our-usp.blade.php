@@ -12,20 +12,20 @@
 
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4">
                             <img class="ups-img" data-wow-delay="0.2s" src="{{ asset('assets/img/oem-2.svg')}}" >
-                            <h5>CUSTOMER FOCUS </h5>
+                            <h5>Customer Focus </h5>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4">
                             <img class="ups-img" data-wow-delay="0.3s" src="{{ asset('assets/img/oem-3.svg')}}" >
-                            <h5>AGILITY & PASSION</h5>
+                            <h5>Agility & Passion</h5>
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4">
                             <img class="ups-img" data-wow-delay="0.3s" src="{{ asset('assets/img/oem-4.svg')}}" >
-                            <h5>COLLABORATION</h5>
+                            <h5>Collaboration</h5>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 py-4">
                             <img class="ups-img" data-wow-delay="0.1s" src="{{ asset('assets/img/oem-1.svg')}}" >
-                            <h5 class="pt-3">TRANSPARENCY & INTEGRITY</h5>
+                            <h5 class="pt-3">Tranparancy & Integrity</h5>
                         </div>
                     </div>
 

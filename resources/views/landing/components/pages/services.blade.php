@@ -1,7 +1,7 @@
-<div class="container-fluid my-5 wow fadeInUp bg-primary" data-wow-delay="0.2s" style="min-height: 800px;">
+<div class="container-fluid mb-4 wow fadeInUp bg-primary" data-wow-delay="0.2s" style="min-height: 800px;">
     <div class="container">
         <div class="text-center position-relative mx-auto pt-3 pb-3">
-            <h1 ><span class="text-primary">Services & </span>Soloutions</h1>
+            <h1 ><span class="text-primary">Services & </span>Solutions</h1>
             <h5 class="mb-0">Empowering Your Digital Journey: Seamless Solutions for Every IT Need.</h5>
         </div>
         <div class="row">
