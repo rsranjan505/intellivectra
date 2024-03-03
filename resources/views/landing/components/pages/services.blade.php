@@ -9,12 +9,12 @@
                 <div class="position-relative d-flex flex-row justify-content-center py-4" >
                     {{-- <img class="position-absolute" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/pie-2.png')}}" > --}}
 
-                    <img class="position-absolute ser-slice" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/Digital Services.svg')}}" >
-                    <img class="position-absolute ser-slice" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/Consulting Services.svg')}}" >
-                    <img class="position-absolute ser-slice" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/Enterprise Application Services.svg')}}" >
-                    <img class="position-absolute ser-slice" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/Platform And Operation Services.svg')}}" >
-                    <img class="position-absolute ser-slice" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/Security Services.svg')}}" >
-                    <img class="position-absolute ser-slice" height="600px" data-wow-delay="0.1s" src="{{ asset('assets/img/Staffing Services.svg')}}" >
+                    <img class="position-absolute ser-slice" style="rotate: 120deg;" height="400px" data-wow-delay="0.1s" src="{{ asset('assets/img/service/1.svg')}}" >
+                    {{-- <img class="position-absolute ser-slice" style="rotate: 120deg;" height="400px" data-wow-delay="0.1s" src="{{ asset('assets/img/service/2.svg')}}" >
+                    <img class="position-absolute ser-slice" style="rotate: 180deg;" height="400px" data-wow-delay="0.1s" src="{{ asset('assets/img/service/3.svg')}}" >
+                    <img class="position-absolute ser-slice" style="rotate: 240deg;" height="400px" data-wow-delay="0.1s" src="{{ asset('assets/img/service/4.svg')}}" >
+                    <img class="position-absolute ser-slice" style="rotate: 300deg;" height="400px" data-wow-delay="0.1s" src="{{ asset('assets/img/service/5.svg')}}" >
+                    <img class="position-absolute ser-slice" style="rotate: 360deg;" height="400px" data-wow-delay="0.1s" src="{{ asset('assets/img/service/6.svg')}}" > --}}
 
                 </div>
             </div>

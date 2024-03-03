@@ -117,6 +117,8 @@
         }
     });
 
+    const testimonial = $('.owl-stage');
+
 
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({

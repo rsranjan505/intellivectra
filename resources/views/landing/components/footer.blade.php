@@ -30,7 +30,7 @@
                 <div class="row gx-5">
                     <div class="col-lg-4 col-md-12 pt-5 mb-4">
                         <div class="position-relative pb-3 mb-4">
-                            <h3 class="text-primary mb-0">Our Company</h3>
+                            <h4 class="text-primary mb-0">Our Company</h4>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
                             <a class="text-light mb-3" href="{{ route('about')}}"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
                         <div class="position-relative pb-3 mb-4">
-                            <h3 class="text-primary mb-0">Our Solutions</h3>
+                            <h4 class="text-primary mb-0">Our Solutions</h4>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
                             <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Consulting Services</a>
@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
                         <div class="position-relative pb-3 mb-4">
-                            <h3 class="footer-text text-primary mb-0">Contact Us</h3>
+                            <h4 class="footer-text text-primary mb-0">Contact Us</h4>
                         </div>
                         <div class="d-flex mb-3">
                             <i class="bi bi-telephone text-primary me-2"></i>
@@ -90,12 +90,12 @@
         <div class="row justify-content-between py-3 ">
 
                 <div class="d-flex align-items-center justify-content-center" >
-                    <p class="mb-0">&copy; <a class="text-light border-bottom" href="#">2021 Intelli Vectra Technologies Pvt. Ltd</a>. All Rights Reserved.
+                    <p class="mb-0">&copy; <a class="text-light border-bottom" href="#">2021 Intelli Vectra Technologies Pvt. Ltd</a>. All rights reserved.
                    </p>
                 </div>
                 <div class="d-flex align-items-center justify-content-center" >
 
-                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #ffffff;"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #ffffff;"></i></a>
                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-twitter fw-normal" style="color: #ffffff;"></i></a>
 
                 </div>

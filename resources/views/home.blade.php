@@ -49,13 +49,13 @@
 
         <div class="container-fluid py-4 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
             <div class="container">
-                <div class="flex-row justify-content-center">
-                    <div class="d-flex flex-row justify-content-center">
+                <div class="flex-column justify-content-center">
+                    <div class="d-flex align-items-center flex-column justify-content-center">
                         <h1 >Our<span class="text-primary"> OEMs </span></h1>
-
+                        <p>Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.</p>
                     </div>
                 </div>
-                <p>Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.</p>
+
 
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
@@ -169,10 +169,10 @@
                                         <img class="img-fluid" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                                         {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                                     </div>
-                                    <div class="p-4">
+                                    <div class="p-4 text-left">
                                         <div class="d-flex mb-3">
                                             <small class="me-3 mr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
-                                            <small class="me-3 mr-2"><i class="far fa-calendar-alt text-primary me-2"></i>  01 Jan, 2045</small>
+                                            <small class="me-3 mr-2"><i class="far fa-calendar-alt text-primary me-2"></i>  03 Mar, 2024</small>
                                         </div>
                                         <h4 class="mb-3">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
                                         <p>In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
@@ -188,10 +188,10 @@
                                         <img class="img-fluid" src="{{ asset('assets/img/blog/blog-2.png')}}" alt="">
                                         {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                                     </div>
-                                    <div class="p-4">
+                                    <div class="p-4 text-left">
                                         <div class="d-flex mb-3">
                                             <small class="me-3 pr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
-                                            <small class="pr-2"><i class="far fa-calendar-alt text-primary me-2 "></i>  01 Jan, 2045</small>
+                                            <small class="pr-2"><i class="far fa-calendar-alt text-primary me-2 "></i>  03 Mar, 2024</small>
                                         </div>
                                         <h4 class="mb-3">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
                                         <p>In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
@@ -227,7 +227,7 @@
         <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="case-content row mt-5 box-shadow">
-                    <div class="col-lg-6 " >
+                    <div class="col-lg-6 pt-2" >
                         <h1 class="ml-4"> <span class="text-primary"> Get in  </span>Touch</h1>
                         <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="container">
@@ -246,7 +246,7 @@
                                             <div class="col-12">
                                                 <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
                                             </div>
-                                            <div class="d-flex flex-row align-items-center justify-content-center">
+                                            <div class="col-12">
                                                 <button class="btn btn-dark form-input-rounded ml-3 mt-2 px-4 text-center" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                                         </svg>
@@ -266,8 +266,7 @@
         </div>
 
 
-
-        <div class="container-fluid py-4 mb-3 wow fadeInUp" data-wow-delay="0.1s">
+        {{-- <div class="container-fluid py-4 mb-3 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container ">
                 <div class="text-center position-relative pb-3 mb-4 mx-auto">
                     <h1 class="text-primary">Testimonial</h1>
@@ -352,108 +351,139 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:200px;">
+                            <div class="carousel-inner" role="listbox">
+                              <div class="carousel-item active text-center p-4">
+                                <blockquote class="blockquote text-center">
+                                  <p class="mb-0"><i class="fa fa-quote-left"></i> Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
+                                  </p>
+                                  <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+                                  <!-- Client review stars -->
+                                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                  <p class="client-review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                  </p>
+                                </blockquote>
+                              </div>
+                              <div class="carousel-item text-center p-4">
+                                <blockquote class="blockquote text-center">
+                                  <p class="mb-0"><i class="fa fa-quote-left"></i> Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.
+                                  </p>
+                                  <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+                                  <!-- Client review stars -->
+                                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                  <p class="client-review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </p>
+                                </blockquote>
+                              </div>
+                              <div class="carousel-item text-center p-4">
+                                <blockquote class="blockquote text-center">
+                                  <p class="mb-0"><i class="fa fa-quote-left"></i> A person who never made a mistake never tried anything new.
+                                  </p>
+                                  <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+                                  <!-- Client review stars -->
+                                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                  <p class="client-review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </p>
+                                </blockquote>
+                              </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                              <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+                              <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
 
             </div>
+        </div> --}}
+
+        <div class="col-lg-10 offset-lg-1 pt-5 pb-5">
+            <div class="text-center position-relative pb-3 mb-4 mx-auto">
+                <h1 class="text-primary">Testimonial</h1>
+                <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
+            </div>
+            <div class="box-shadow">
+                <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:330px;">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active text-center p-4">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <h2 class="text-primary">Jess Santiago 1</h2>
+                                <p class="text-muted">@jess_santiago</p>
+                                <div class="d-flex justify-content-center">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                            </div>
+                            <div class="pt-4 pb-5 px-5">
+                                “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <h2 class="text-primary">Jess Santiago 1</h2>
+                                <p class="text-muted">@jess_santiago</p>
+                                <div class="d-flex justify-content-center">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                            </div>
+                            <div class="pt-4 pb-5 px-5">
+                                “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <h2 class="text-primary">Jess Santiago 1</h2>
+                                <p class="text-muted">@jess_santiago</p>
+                                <div class="d-flex justify-content-center">
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                </div>
+                            </div>
+                            <div class="pt-4 pb-5 px-5">
+                                “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+                <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+            </ol>
         </div>
 
-        <!-- Testimonial Start -->
-        {{-- <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
-            <div class="container ">
-                <div class="text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                    <h1 class="text-primary">Testimonial</h1>
-                    <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
-                </div>
-                <div class=" owl-carousel testimonial-carousel wow fadeInUp box-shadow" data-wow-delay="0.6s">
-                    <div class="d-flex flex-column align-items-center justify-content-center" >
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
-                        <div class="d-flex flex-column align-items-center justify-content-center">
-                            <h5>Jess Santiago 1</h5>
-                            <p class="text-muted">@jess_santiago</p>
-                            <div class="d-flex justify-content-center">
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="pt-4 pb-5 px-5">
-                            “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                        </div>
-                    </div>
 
-                    <div class="d-flex flex-column align-items-center justify-content-center" >
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px;" >
-                        <div class="d-flex flex-column align-items-center justify-content-center">
-                            <h5>Jess Santiago 2</h5>
-                            <p class="text-muted">@jess_santiago</p>
-                            <div class="d-flex justify-content-center">
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="pt-4 pb-5 px-5">
-                            “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <!-- Testimonial End -->
-        {{-- <div class="gtco-testimonials">
-            <h2>Testimonials Carousel - Cards Comments</h2>
-            <div class="owl-carousel1 owl-theme">
-              <div>
-                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
-                  <div class="card-body">
-                    <h5>Ronne Galle <br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                      impedit quo minus id quod maxime placeat ” </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
-                  <div class="card-body">
-                    <h5>Missy Limana<br />
-                      <span> Engineer </span>
-                    </h5>
-                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                      impedit quo minus id quod maxime placeat ” </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
-                  <div class="card-body">
-                    <h5>Martha Brown<br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                      impedit quo minus id quod maxime placeat ” </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
-                  <div class="card-body">
-                    <h5>Hanna Lisem<br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                      impedit quo minus id quod maxime placeat ” </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div> --}}
 
 
 
