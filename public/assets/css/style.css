@@ -575,6 +575,9 @@ hr {
 .text-primary {
     color: var(--primary) !important;
 }
+a.text-primaryv:hover{
+    color: var(--dark) !important;
+}
 
 .case-content {
     /* border: #F19F1F 1px solid; */
@@ -661,6 +664,9 @@ hr {
 
 
 
+    .card {
+        border-radius: 20px;
+    }
 
     .active {
       opacity: 1;
