@@ -16,14 +16,14 @@
 
 
         <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
+            <div class="container py-3">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row justify-content-center">
                         <h1 ><span class="text-primary">Case </span> Studies</h1>
 
                     </div>
                 </div>
-                <div class="box-shadow case-content row my-2 text-left">
+                <div class="box-shadow case-content row my-4 text-left">
                     <div class="col-lg-6">
                         <div class="card">
                             <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
@@ -123,7 +123,7 @@
             </div>
         </div>
 
-        <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="case-content p-4 row box-shadow">
                     <div class="col-lg-6 text-left">
@@ -149,7 +149,7 @@
 
         <!-- Blog Start -->
         <div class="container-fluid py-2 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
-            <div class="container ">
+            <div class="container py-3">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row mb-2 justify-content-center">
                         <h1>Latest <span class="text-primary"> Blogs </span></h1>
