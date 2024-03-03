@@ -10,29 +10,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <div class="collapse navbar-collapse aligns-content-center justify-content-center" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    {{-- <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-bs-toggle="dropdown">Company</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="{{ route('about')}}" class="dropdown-item">About Us</a>
-                        </div>
-                    </div> --}}
-                    {{-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services & Solutions</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="price.html" class="dropdown-item dropdown-toggle">Professional Services</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="price.html" class="dropdown-item">Professional Services</a>
-                                <a href="price.html" class="dropdown-item">Staffing Services</a>
-                            </div>
-                            <a href="price.html" class="dropdown-item">Staffing Services</a>
-                        </div>
-                    </div> --}}
-                    {{-- <a href="{{ route('blogs')}}" class="nav-item nav-link">Blogs</a>
-                    <a href="{{ route('career')}}" class="nav-item nav-link">Career</a>
-                    <a href="{{ route('contact')}}" class="nav-item nav-link">Contact Us</a> --}}
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>

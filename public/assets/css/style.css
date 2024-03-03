@@ -128,11 +128,15 @@ hr {
     border: var(--primary);
 }
 .btn-primary:hover {
-    box-shadow: inset 0 0 0 0 var(--primary);
+    /* box-shadow: inset 0 0 0 0 var(--dark); */
+    background-color: var(--dark);
 }
 
 .btn-secondary:hover {
-    box-shadow: inset 0 0 0 0 var(--secondary);
+    background-color: var(--primary);
+}
+.btn-dark:hover {
+    background-color: var(--primary);
 }
 
 .btn-square {
