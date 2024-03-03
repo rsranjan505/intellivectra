@@ -23,14 +23,14 @@
 
                     </div>
                 </div>
-                <div class="box-shadow case-content row my-4 text-left">
+                <div class="box-shadow case-content row my-2 text-left py-4">
                     <div class="col-lg-6">
                         <div class="card">
                             <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
                           </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h3 > <span class="text-primary"> SmartCityTech</span> Solutions</h3>
+                    <div class="col-lg-6 py-2">
+                        <h3 class="pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h3>
                         <h5 class="mb-0"><strong>Challenge:</strong></h5>
                         <p class="mb-4">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
 
@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="container-fluid  wow fadeInUp bg-primary" data-wow-delay="0.1s" >
+        <div class="container-fluid py-4 wow fadeInUp bg-primary" data-wow-delay="0.1s" >
             <div class="container">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row justify-content-center">
