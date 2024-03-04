@@ -96,7 +96,7 @@
                 <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
             </div>
             <div class="carousel-inner" >
-                <div class="carousel-item active" style="margin-top: 55px; padding-bottom:2px; height:628px;">
+                <div class="carousel-item header-top active" >
                     {{-- <img class="w-100" src="{{ asset('assets/img/bg-2.jpg')}}" alt="Image"> --}}
                     <video autoplay loop muted class="myvid" id="player2">
                         <source src="{{ asset('assets/img/intell.mp4')}}" type="video/mp4">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item " style="margin-top: 65px;height:630px;">
+                <div class="carousel-item header-top" >
                     <img class="w-100" src="{{ asset('assets/img/bg-2.jpg')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                         <div class="container">
@@ -156,7 +156,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item " style="margin-top: 65px;height:630px;">
+                <div class="carousel-item  header-top" >
                     <img class="w-100" src="{{ asset('assets/img/bg-3.jpg')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                         <div class="container">
