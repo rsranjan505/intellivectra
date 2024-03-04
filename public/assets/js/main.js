@@ -172,3 +172,104 @@ $("#carouselExampleIndicators").carousel({interval: 3000});
 //   }
 // });
 
+
+//Pie Chart
+
+$('.slice1').click(function (param) {
+
+    $('#line').css('margin-top','');
+    $('#line').css('margin-right','');
+    $('#line').css('margin-left','');
+    $('#line').css('transform','');
+    $('#line').css('rotate','');
+
+    $('#line').css('display','block');
+    $('#line').css('margin-top','200px');
+    $('#line').css('margin-right','680px');
+    $('#line').css('transform','rotateY(180deg)');
+
+    var conte = $(this).children('.title').find('h5').text();
+
+    $('#line').children('div').find('h6').html('<a href="#" >Know more </a>');
+
+    console.log(conte);
+
+    var dis = $(".line").css("display");
+
+});
+$('.slice2').click(function (param) {
+    $('#line').css('margin-top','');
+    $('#line').css('margin-right','');
+    $('#line').css('margin-left','');
+    $('#line').css('transform','');
+    $('#line').css('rotate','');
+
+    $('#line').css('display','block');
+    $('#line').css('margin-top','-70px');
+    $('#line').css('margin-left','70px');
+    $('#line').css('rotate','270deg');
+
+    var dis = $(".line").css("display");
+
+
+});
+
+$('.slice3').click(function (param) {
+    $('#line').css('margin-top','');
+    $('#line').css('margin-right','');
+    $('#line').css('margin-left','');
+    $('#line').css('transform','');
+    $('#line').css('rotate','');
+
+    $('#line').css('display','block');
+    $('#line').css('margin-top','150px');
+    $('#line').css('margin-left','450px');
+
+    var dis = $(".line").css("display");
+
+});
+
+$('.slice4').click(function (param) {
+    $('#line').css('margin-top','');
+    $('#line').css('margin-right','');
+    $('#line').css('margin-left','');
+    $('#line').css('transform','');
+    $('#line').css('rotate','');
+
+    $('#line').css('display','block');
+    $('#line').css('margin-top','450px');
+    $('#line').css('margin-right','190px');
+    $('#line').css('rotate','90deg');
+
+    var dis = $(".line").css("display");
+
+});
+
+$('.slice5').click(function (param) {
+    $('#line').css('margin-top','');
+    $('#line').css('margin-right','');
+    $('#line').css('margin-left','');
+    $('#line').css('transform','');
+    $('#line').css('rotate','');
+
+    $('#line').css('display','block');
+    $('#line').css('margin-top','360px');
+    $('#line').css('margin-right','580px');
+    $('#line').css('transform','rotateY(180deg)');
+
+});
+
+$('.slice6').click(function (param) {
+    $('#line').css('margin-top','');
+    $('#line').css('margin-right','');
+    $('#line').css('margin-left','');
+    $('#line').css('transform','');
+    $('#line').css('rotate','');
+
+    $('#line').css('display','block');
+    $('#line').css('margin-top','350px');
+    $('#line').css('margin-left','450px');
+
+    var dis = $(".line").css("display");
+
+});
