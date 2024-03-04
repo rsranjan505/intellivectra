@@ -38,7 +38,7 @@
                                             <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Platform and Operations</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                <li class="dropdown-item"><a href="#">cloud services and solutions</a></li>
+                                                <li class="dropdown-item"><a href="#">Cloud services and solutions</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-item dropdown">
