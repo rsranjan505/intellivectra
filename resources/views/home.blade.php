@@ -60,18 +60,18 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-20.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-20.png')}}" class="brand-img"/>
                         </div>
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-1.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-1.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-2.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-2.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-3.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-3.png')}}" class="brand-img"/>
                         </div>
                     </div>
                 </div>
@@ -79,22 +79,22 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-5.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-5.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-7.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-7.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-10.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-10.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-11.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-11.png')}}" class="brand-img"/>
                         </div>
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-13.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-13.png')}}" class="brand-img"/>
                         </div>
                     </div>
                 </div>
@@ -102,18 +102,18 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-19.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-19.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-17.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-17.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-18.png')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/b-18.png')}}" class="brand-img"/>
                         </div>
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/roombr.svg')}}" width="100px"/>
+                            <img src="{{ asset('assets/img/brand/roombr.svg')}}" class="brand-img"/>
                         </div>
                     </div>
                 </div>
@@ -265,155 +265,6 @@
             </div>
         </div>
 
-
-        {{-- <div class="container-fluid py-4 mb-3 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container ">
-                <div class="text-center position-relative pb-3 mb-4 mx-auto">
-                    <h1 class="text-primary">Testimonial</h1>
-                    <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
-                </div>
-                <div class="box-shadow pb-3">
-                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="testimonial-item bg-light my-4">
-                            <div class="d-flex flex-column align-items-center justify-content-center" >
-                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
-                                <div class="d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="text-primary">Jess Santiago 1</h2>
-                                    <p class="text-muted">@jess_santiago</p>
-                                    <div class="d-flex justify-content-center">
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                    </div>
-                                </div>
-                                <div class="pt-4 pb-5 px-5">
-                                    “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item bg-light my-4">
-                            <div class="d-flex flex-column align-items-center justify-content-center" >
-                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
-                                <div class="d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="text-primary">Jess Santiago 1</h2>
-                                    <p class="text-muted">@jess_santiago</p>
-                                    <div class="d-flex justify-content-center">
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                    </div>
-                                </div>
-                                <div class="pt-4 pb-5 px-5">
-                                    “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item bg-light my-4">
-                            <div class="d-flex flex-column align-items-center justify-content-center" >
-                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
-                                <div class="d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="text-primary">Jess Santiago 1</h2>
-                                    <p class="text-muted">@jess_santiago</p>
-                                    <div class="d-flex justify-content-center">
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pt-4 pb-5 px-5 w-100">
-                                “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                            </div>
-
-                        </div>
-                        <div class="testimonial-item bg-light my-4">
-                            <div class="d-flex flex-column align-items-center justify-content-center" >
-                                <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
-                                <div class="d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="text-primary">Jess Santiago 5</h2>
-                                    <p class="text-muted">@jess_santiago</p>
-                                    <div class="d-flex justify-content-center">
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                        <span class="text-warning">&#9733;</span>
-                                    </div>
-                                </div>
-                                <div class="pt-4 pb-5 px-5">
-                                    “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
-                                </div>
-                            </div>
-                        </div>
-                        <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:200px;">
-                            <div class="carousel-inner" role="listbox">
-                              <div class="carousel-item active text-center p-4">
-                                <blockquote class="blockquote text-center">
-                                  <p class="mb-0"><i class="fa fa-quote-left"></i> Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
-                                  </p>
-                                  <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
-                                  <!-- Client review stars -->
-                                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                                  <p class="client-review-stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <i class="far fa-star"></i>
-                                  </p>
-                                </blockquote>
-                              </div>
-                              <div class="carousel-item text-center p-4">
-                                <blockquote class="blockquote text-center">
-                                  <p class="mb-0"><i class="fa fa-quote-left"></i> Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.
-                                  </p>
-                                  <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
-                                  <!-- Client review stars -->
-                                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                                  <p class="client-review-stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                  </p>
-                                </blockquote>
-                              </div>
-                              <div class="carousel-item text-center p-4">
-                                <blockquote class="blockquote text-center">
-                                  <p class="mb-0"><i class="fa fa-quote-left"></i> A person who never made a mistake never tried anything new.
-                                  </p>
-                                  <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
-                                  <!-- Client review stars -->
-                                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                                  <p class="client-review-stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                  </p>
-                                </blockquote>
-                              </div>
-                            </div>
-                            <ol class="carousel-indicators">
-                              <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
-                              <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
-                              <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div> --}}
-
         <div class="col-lg-10 offset-lg-1 pt-5 pb-5">
             <div class="text-center position-relative pb-3 mb-4 mx-auto">
                 <h1 class="text-primary">Testimonial</h1>
@@ -435,7 +286,7 @@
                                     <span class="text-warning">&#9733;</span>
                                 </div>
                             </div>
-                            <div class="pt-4 pb-5 px-5">
+                            <div class=" px-5">
                                 “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
                             </div>
                         </div>

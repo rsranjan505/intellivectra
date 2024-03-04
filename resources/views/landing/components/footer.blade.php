@@ -29,7 +29,7 @@
             <div class="col-lg-8 col-md-6">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-md-12 pt-5 mb-4">
-                        <div class="position-relative pb-3 mb-4">
+                        <div class="position-relative pb-3 mb-2">
                             <h4 class="text-primary mb-0">Our Company</h4>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
@@ -41,7 +41,7 @@
 
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
-                        <div class="position-relative pb-3 mb-4">
+                        <div class="position-relative pb-3 mb-2">
                             <h4 class="text-primary mb-0">Our Solutions</h4>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
-                        <div class="position-relative pb-3 mb-4">
+                        <div class="position-relative pb-3 mb-2">
                             <h4 class="footer-text text-primary mb-0">Contact Us</h4>
                         </div>
                         <div class="d-flex mb-3">

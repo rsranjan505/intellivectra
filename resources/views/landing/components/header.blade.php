@@ -45,8 +45,8 @@
                                             <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Enterprise Application Services</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                <li class="dropdown-item"><a href="#">backup and archieve solutions</a></li>
-                                                <li class="dropdown-item"><a href="#">data management solutions</a></li>
+                                                <li class="dropdown-item"><a href="#">Backup and archieve solutions</a></li>
+                                                <li class="dropdown-item"><a href="#">Data management solutions</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-item dropdown">
@@ -104,7 +104,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                         <div class="container">
                             <div class="p-3 text-left">
-                                <h2 class="display-1 text-primary mb-md-4 animated slideInDown">Business &</h2>
+                                <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Business &</h2>
                                 <h2 class="display-1 text-white mb-md-4 animated zoomIn">Enterprise Hub</h2>
                                 <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                                     <form action="">
@@ -132,7 +132,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                         <div class="container">
                             <div class="p-3 text-left">
-                                <h2 class="display-1 text-primary mb-md-4 animated slideInDown">Secure Data </h2>
+                                <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Secure Data </h2>
                                 <h2 class="display-1 text-white mb-md-4 animated zoomIn">Handling</h2>
                                 <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                                     <form action="">
@@ -161,7 +161,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                         <div class="container">
                             <div class="p-3 text-left">
-                                <h2 class="display-1 text-primary mb-md-4 animated slideInDown">Recruitment </h2>
+                                <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Recruitment </h2>
                                 <h2 class="display-1 text-white mb-md-4 animated zoomIn">Made Easy</h2>
                                 <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                                     <form action="">
