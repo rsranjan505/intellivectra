@@ -427,10 +427,10 @@ p.ivt-text {
 
 
 /* service pie slice */
-img.ser-slice:hover {
+/* .ser-slice img:hover {
     transform: scale(1.09);
-  }
-.ser-slice {
+  } */
+.ser-slice, .ser-slice img {
     height: 220px;
 }
 .slice1 {
@@ -468,6 +468,52 @@ img.ser-slice:hover {
     position: absolute;
     top: 280px;
     left: 535px;
+}
+
+.titile h5 {
+    font-weight: 600;
+    width: 100px;
+    color: var(--light);
+}
+
+.slice1-text{
+    rotate: 180deg;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+.slice2-text {
+    rotate: 120deg;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+
+}
+.slice3-text {
+    rotate: -300deg;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+.slice4-text {
+    rotate: -60deg;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+
+}
+.slice5-text {
+    rotate: -120deg;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+}
+.slice6-text {
+    z-index: 999;
+    rotate: 360deg;
+    position: absolute;
+    top: 50px;
+    left: 80px;
 }
 
 /*** Testimonial ***/

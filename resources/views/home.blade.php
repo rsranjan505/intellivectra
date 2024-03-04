@@ -276,7 +276,7 @@
                         <div class="carousel-item active text-center p-4">
                             <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
                             <div class="d-flex flex-column align-items-center justify-content-center">
-                                <h2 class="text-primary">Jess Santiago 1</h2>
+                                <h3 class="text-primary">Jess Santiago 1</h3>
                                 <p class="text-muted">@jess_santiago</p>
                                 <div class="d-flex justify-content-center">
                                     <span class="text-warning">&#9733;</span>
@@ -293,7 +293,7 @@
                         <div class="carousel-item text-center p-4">
                             <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
                             <div class="d-flex flex-column align-items-center justify-content-center">
-                                <h2 class="text-primary">Jess Santiago 1</h2>
+                                <h3 class="text-primary">Jess Santiago 1</h3>
                                 <p class="text-muted">@jess_santiago</p>
                                 <div class="d-flex justify-content-center">
                                     <span class="text-warning">&#9733;</span>
@@ -303,14 +303,14 @@
                                     <span class="text-warning">&#9733;</span>
                                 </div>
                             </div>
-                            <div class="pt-4 pb-5 px-5">
+                            <div class="px-5">
                                 “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
                             </div>
                         </div>
                         <div class="carousel-item text-center p-4">
                             <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
                             <div class="d-flex flex-column align-items-center justify-content-center">
-                                <h2 class="text-primary">Jess Santiago 1</h2>
+                                <h3 class="text-primary">Jess Santiago 1</h3>
                                 <p class="text-muted">@jess_santiago</p>
                                 <div class="d-flex justify-content-center">
                                     <span class="text-warning">&#9733;</span>
@@ -320,7 +320,7 @@
                                     <span class="text-warning">&#9733;</span>
                                 </div>
                             </div>
-                            <div class="pt-4 pb-5 px-5">
+                            <div class="px-5">
                                 “Outstanding IT support! Quick response times and knowledgeable technicians. Highly recommended!”
                             </div>
                         </div>
