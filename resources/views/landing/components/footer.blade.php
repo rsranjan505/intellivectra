@@ -4,7 +4,7 @@
             <div class="col-lg-4 col-md-6 footer-about">
                 <div class="d-flex flex-column align-items-center justify-content-evenly mt-3">
                     <a href="index.html" class="my-3 navbar-brand">
-                        <img src="{{ asset('assets/img/footer-logo.png')}}" width="220"/>
+                        <img src="{{ asset('assets/img/footer-logo.png')}}" width="200"/>
                     </a>
                     {{-- <p class="mt-3 mb-4"><span class="text-primary">Intelli Vectra</span> is a Technology and Vendor agnostic solution provider. </p> --}}
                     <div class="form-rounded input-form-bg mt-2">

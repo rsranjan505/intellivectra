@@ -2,7 +2,7 @@
     <div class="container">
         <div class="text-center position-relative pb-3 mx-auto">
             <h1 >Our<span class="text-primary"> USP</span></h1>
-            <h5 class="mb-0">Tailored IT Solutions for Seamless Operations, Reliable Support, Cybersecurity Expertise, Innovation-driven Approach, Client-Centric Services, Proven Results.</h5>
+            <p class="mb-0">Tailored IT Solutions for Seamless Operations, Reliable Support, Cybersecurity Expertise, and Innovation-driven Approach. Experience client-centric services and proven results.</p>
         </div>
         <div class="row g-5">
 

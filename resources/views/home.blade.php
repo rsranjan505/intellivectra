@@ -417,7 +417,7 @@
         <div class="col-lg-10 offset-lg-1 pt-5 pb-5">
             <div class="text-center position-relative pb-3 mb-4 mx-auto">
                 <h1 class="text-primary">Testimonial</h1>
-                <p class="mb-0">Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>
+                <p class="mb-0">Our work speaks louder than our word. Find out how we helped clients overcome challenges and succeed.</p>
             </div>
             <div class="box-shadow">
                 <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:330px;">
