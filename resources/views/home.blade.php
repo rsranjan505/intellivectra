@@ -24,12 +24,12 @@
                     </div>
                 </div>
                 <div class="box-shadow case-content row my-2 text-left py-4">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                         <div class="card">
                             <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
                           </div>
                     </div>
-                    <div class="col-lg-6 ">
+                    <div class="col-lg-6 col-sm-12">
                         <h3 class="pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h3>
                         <h5 class="mb-0 pb-1"><strong>Challenge:</strong></h5>
                         <p class="mb-4">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
@@ -38,7 +38,7 @@
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                           </svg></a>
                     </div>
-                    <div class="col-lg-12 pr-2">
+                    <div class="col-lg-12 col-sm-12 pr-2">
                         <a class="btn text-primary d-flex flex-row justify-content-end " href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                           </svg></a>
@@ -129,7 +129,7 @@
         <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="case-content p-4 row box-shadow">
-                    <div class="col-lg-6 text-left">
+                    <div class="col-lg-6 col-sm-12 text-left">
                         <h1 >Get <span class="text-primary">  Expert’s Advice </span></h1>
                         <p class="mb-4">This Gartner® Market Guide on Microsegmentation highlights today's important key findings when it comes to the security and risk management and recommendations that SRM leaders responsible for infrastructure security should follow.</p>
 
@@ -143,7 +143,7 @@
                           </div>
                     </div> --}}
 
-                    <div class="col-lg-6" >
+                    <div class="col-lg-6 col-sm-12" >
                         <img class="card-img-top case-content-img"  src="{{ asset('assets/img/home-6.png')}}" alt="Card image cap">
                     </div>
                 </div>
@@ -156,18 +156,16 @@
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row mb-2 justify-content-center">
                         <h1>Latest <span class="text-primary"> Blogs </span></h1>
-
                     </div>
                 </div>
                 <div class="row g-5">
-                    <!-- Blog list Start -->
                     <div class="col-lg-12">
                         <div class="row g-5 mt-6">
-                            <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-12 wow slideInUp" data-wow-delay="0.1s">
                                 <div class="blog-item bg-light box-shadow overflow-hidden">
                                     <div class="blog-img position-relative overflow-hidden">
                                         <img class="img-fluid" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
-                                        {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
+
                                     </div>
                                     <div class="p-4 text-left">
                                         <div class="d-flex mb-3">
@@ -182,11 +180,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="col-md-6 col-sm-12 wow slideInUp" data-wow-delay="0.6s">
                                 <div class="blog-item bg-light box-shadow overflow-hidden">
                                     <div class="blog-img position-relative overflow-hidden">
                                         <img class="img-fluid" src="{{ asset('assets/img/blog/blog-2.png')}}" alt="">
-                                        {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
+
                                     </div>
                                     <div class="p-4 text-left">
                                         <div class="d-flex mb-3">
@@ -208,7 +206,6 @@
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                           </svg></a>
                     </div>
-                    <!-- Blog list End -->
                 </div>
             </div>
         </div>

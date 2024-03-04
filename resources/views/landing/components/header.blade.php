@@ -104,8 +104,8 @@
                     <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                         <div class="container">
                             <div class="p-3 text-left">
-                                <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Business &</h2>
-                                <h2 class="display-1 text-white mb-md-4 animated zoomIn">Enterprise Hub</h2>
+                                <h2 class="display-1 text-primary mb-md-1 animated slideInDown">We deliver smart solutions </h2>
+                                <h2 class="display-1 text-white mb-md-4 animated zoomIn">for your business</h2>
                                 <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                                     <form action="">
                                         <div class="input-group ">
