@@ -427,9 +427,9 @@ p.ivt-text {
 
 
 /* service pie slice */
-/* .ser-slice img:hover {
+.ser-slice img:hover {
     transform: scale(1.09);
-  } */
+  }
 .ser-slice, .ser-slice img {
     height: 220px;
 }
@@ -767,7 +767,7 @@ a.text-primaryv:hover{
     border-radius: 100%;
     margin-bottom: 40px;
     margin-right: 2px;
-    background-color: var(--dark);
+    background-color: #dbdbdb;
   }
 
   .carousel-indicators li.active {

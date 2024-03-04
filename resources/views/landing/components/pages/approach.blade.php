@@ -9,7 +9,7 @@
                 <div class="position-relative d-flex flex-row justify-content-center">
                     {{-- <img class="position-absolute" height="500px" data-wow-delay="0.1s" src="{{ asset('assets/img/home-2.jpg')}}" > --}}
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img width="250px" class="wow fadeInUp" style="margin-left:100px;margin-top: 130px;" data-wow-delay="0.1s" src="{{ asset('assets/img/ap-1.png')}}" >
+                        <img width="250px" class="wow fadeInUp" style="margin-left:100px;margin-top: 100px;" data-wow-delay="0.1s" src="{{ asset('assets/img/ap-1.png')}}" >
                         <div class="item" style="margin-left: 40px ">
                             <h4 class="text-primary">Consult & Envision</h4>
                             <p class="ivt-text">Collaboratively crafting a strategic roadmap to align our technology with your business needs, empowering you to achieve your goals.</p>
@@ -23,7 +23,7 @@
                         <img width="250px" style="margin-top: -130px;" class="wow fadeInUp" data-wow-delay="0.2s" src="{{ asset('assets/img/ap-2.png')}}" >
                     </div >
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img width="250px" class="wow fadeInUp" style="margin-top: 130px;margin-left:-100px " data-wow-delay="0.3s" src="{{ asset('assets/img/ap-3.png')}}" >
+                        <img width="250px" class="wow fadeInUp" style="margin-top: 100px;margin-left:-100px " data-wow-delay="0.3s" src="{{ asset('assets/img/ap-3.png')}}" >
                         <div class="item mr-3" style="margin-left: -100px;margin-top: -20px;">
                             <h4 class="text-primary">Manage & Improve</h4>
                             <p class="ivt-text">Gain consistent access to managed, reported, and monitored services, coupled with dedicated consulting for proactive,continuous improvements through strategic planning.</p>

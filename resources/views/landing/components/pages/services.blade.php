@@ -154,11 +154,11 @@
 
 
 </style>
-<div class="container-fluid mb-4 wow fadeInUp bg-primary" data-wow-delay="0.2s" style="min-height: 690px;">
+<div class="container-fluid mb-4 bg-primary" data-wow-delay="0.2s" style="min-height: 690px;">
     <div class="container">
         <div class="text-center position-relative mx-auto pt-3">
             <h1 ><span class="text-primary">Services & </span>Solutions</h1>
-            <hp class="mb-0">Empowering Your Digital Journey: Seamless Solutions for Every IT Need.</hp>
+            <hp class="mb-0">Empowering your digital journey: seamless solutions for every IT need.</hp>
         </div>
 
      {{-- <main> --}}
@@ -177,48 +177,42 @@
             <div class="col-lg-12 " data-wow-delay="0.9s">
                 <div class="position-relative d-flex flex-column align-items-center justify-content-center pt-4 ">
                     <div class="d-flex flex-column align-items-center justify-content-center ">
-                        <div class="ser-slice slice1">
-                            <img data-wow-delay="0.1s" src="{{ asset('assets/img/service/1.svg')}}" >
+                        <div class="ser-slice slice1 wow fadeInUp" data-wow-delay="0.1s" >
+                            <img src="{{ asset('assets/img/service/1.svg')}}" >
                             <div class="titile slice1-text">
-                                <h5 tooltip="Digital Services" flow="left">Digital Services</h5>
+                                <h5 tooltip="Digital Services" flow="left" >Digital Services</h5>
                             </div>
                         </div>
-                        <div class="ser-slice slice2">
-                            <img  data-wow-delay="0.2s" src="{{ asset('assets/img/service/2.svg')}}" >
+                        <div class="ser-slice slice2 wow fadeInUp">
+                            <img src="{{ asset('assets/img/service/2.svg')}}" >
                             <div class="titile slice2-text">
-                                <h5>Platform And Operation Services</h5>
+                                <h5 tooltip="Platform And Operation Services" flow="up">Platform And Operation Services</h5>
                             </div>
                         </div>
-                        <div class="ser-slice slice3">
-                            <img  data-wow-delay="0.3s" src="{{ asset('assets/img/service/3.svg')}}" tooltip="Slide to the left" flow="left">
+                        <div class="ser-slice slice3 wow fadeInUp">
+                            <img src="{{ asset('assets/img/service/3.svg')}}" tooltip="Slide to the left" flow="left">
                             <div class="titile slice3-text">
-                                <h5>Security Services </h5>
+                                <h5 tooltip="Security Services" flow="right">Security Services </h5>
                             </div>
                         </div>
-                        <div class="ser-slice slice4">
-                            <img  data-wow-delay="0.4s" src="{{ asset('assets/img/service/4.svg')}}" >
+                        <div class="ser-slice slice4 wow fadeInUp">
+                            <img src="{{ asset('assets/img/service/4.svg')}}" >
                             <div class="titile slice4-text">
-                                <h5>Enterprise Application Services</h5>
+                                <h5 tooltip="Enterprise Application Services" flow="down">Enterprise Application Services</h5>
                             </div>
                         </div>
-                        <div class="ser-slice slice5">
-                            <img  data-wow-delay="0.5s" src="{{ asset('assets/img/service/5.svg')}}" >
+                        <div class="ser-slice slice5 wow fadeInUp">
+                            <img src="{{ asset('assets/img/service/5.svg')}}" >
                             <div class="titile slice5-text">
-                                <h5>Consulting Services</h5>
+                                <h5 tooltip="Consulting Services" flow="left">Consulting Services</h5>
                             </div>
                         </div>
-                        <div class="ser-slice slice6">
-                            <img  data-wow-delay="0.6s" src="{{ asset('assets/img/service/6.svg')}}" >
+                        <div class="ser-slice slice6 wow fadeInUp">
+                            <img src="{{ asset('assets/img/service/6.svg')}}" >
                             <div class="titile slice6-text">
-                                <h5>Staffing Services</h5>
+                                <h5 tooltip="Staffing Services" flow="right">Staffing Services</h5>
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>

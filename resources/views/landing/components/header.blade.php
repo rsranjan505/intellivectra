@@ -93,7 +93,7 @@
             <div class="carousel-indicators">
                 <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
                 <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
-                {{-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> --}}
+                <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
             </div>
             <div class="carousel-inner" >
                 <div class="carousel-item active" style="margin-top: 55px; padding-bottom:2px; height:628px;">
