@@ -160,66 +160,51 @@
             <h1 ><span class="text-primary">Services & </span>Solutions</h1>
             <hp class="mb-0">Empowering your digital journey: seamless solutions for every IT need.</hp>
         </div>
-
-     {{-- <main> --}}
-            {{-- <div>
-              <span tooltip="I'm up above it!">Up</span>
-            </div>
-            <div>
-              <span tooltip="Slide to the left" flow="left">Left</span>
-              <h3 tooltip="Slide to the right" flow="right">Right</h3>
-            </div>
-            <div>
-              <span  data-html="true" tooltip="Get Down. &#013 &#013; &#10; \\n &lt;br /&gt; coucou" flow="down">Down</span>
-            </div> --}}
-        {{-- </main> --}}
         <div class="row">
             <div class="col-lg-12 " data-wow-delay="0.9s">
                 <div class="position-relative d-flex flex-column align-items-center justify-content-center pt-4 ">
                     <div class="d-flex flex-column align-items-center justify-content-center ">
                         <div class="ser-slice slice1 wow fadeInUp" data-wow-delay="0.1s" >
-
                             <img src="{{ asset('assets/img/service/1.svg')}}" >
                             <div class="titile slice1-text">
                                 <h5 tooltip="Digital Services" flow="left" >Digital Services</h5>
                             </div>
                         </div>
-
                         <div class="ser-slice slice2 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/2.svg')}}" >
                             <div class="titile slice2-text">
-                                <h5 tooltip="Platform And Operation Services" flow="up">Platform And Operation Services</h5>
+                                <h5>Platform And Operation Services</h5>
                             </div>
                         </div>
                         <div class="ser-slice slice3 wow fadeInUp">
-                            <img src="{{ asset('assets/img/service/3.svg')}}" tooltip="Slide to the left" flow="left">
+                            <img src="{{ asset('assets/img/service/3.svg')}}" >
                             <div class="titile slice3-text">
-                                <h5 tooltip="Security Services" flow="right">Security Services </h5>
+                                <h5>Security Services </h5>
                             </div>
                         </div>
                         <div class="ser-slice slice4 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/4.svg')}}" >
                             <div class="titile slice4-text">
-                                <h5 tooltip="Enterprise Application Services" flow="down">Enterprise Application Services</h5>
+                                <h5>Enterprise Application Services</h5>
                             </div>
                         </div>
                         <div class="ser-slice slice5 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/5.svg')}}" >
                             <div class="titile slice5-text">
-                                <h5 tooltip="Consulting Services" flow="left">Consulting Services</h5>
+                                <h5>Consulting Services</h5>
                             </div>
                         </div>
                         <div class="ser-slice slice6 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/6.svg')}}" >
                             <div class="titile slice6-text">
-                                <h5 tooltip="Staffing Services" flow="right">Staffing Services</h5>
+                                <h5>Staffing Services</h5>
                             </div>
                         </div>
                         {{-- <div style="position: absolute;"> --}}
-                            <div id="line" class="line" style="display: none">
+                            <div id="line" class="line" style="display: none" data-wow-delay="0.1s">
                                 <img src="{{ asset('assets/img/line.svg')}}" width="100px">
                                 <div id="slice-item" class="slice-box" style="padding:10px;">
-                                    <h6>V-</h6>
+                                    <h6>Know More</h6>
                                 </div>
                             </div>
                             {{-- <div id="line2" class="line line2">

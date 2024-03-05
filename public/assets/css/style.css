@@ -434,7 +434,7 @@ p.ivt-text {
 
 /* service pie slice */
 .ser-slice:hover {
-    transform: scale(.89);
+
   }
 
   .line {
@@ -531,8 +531,9 @@ p.ivt-text {
 
 .slice-box {
     border-radius: 10px;
-    border: 1px solid var(--dark);
-    background-color: var(--light);
+    border: 1px solid var(--primary);
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 2px rgba(246, 187, 68, 0.2), 4px 6px 20px 2px rgba(255, 170, 43, 0.19);
     padding: 20px;
     margin-left: 30px;
 }
@@ -802,7 +803,7 @@ a.text-primaryv:hover{
   }
 
     .card {
-        border-radius: 20px;
+        border-radius: 18px;
     }
 
     .active {
@@ -837,4 +838,49 @@ a.text-primaryv:hover{
         left: 0;
         top: 0;
       } */
+
+      /* Processs */
+
+      .process-img img:hover {
+        transform: scale(1.05);
+      }
+
+    /* .process-svg {
+        transform: scale(1.05);
+    } */
+
+      .process-item {
+         z-index: 999;
+
+      }
+    .pitem1 {
+        margin-top: -70px;
+        margin-left: 50px;
+    }
+    .pitem2 {
+        margin-left: 20px;
+    }
+    .pitem3 {
+        margin-top: -70px;
+        margin-left: 20px;
+    }
+    .pitem4 {
+        margin-left: 20px;
+    }
+    .pitem5 {
+        margin-top: -70px;
+        margin-left: 20px;
+    }
+
+
+
+    /* Contact  */
+.contact-card {
+    padding: 20px;
+    min-height: 180px;
+    box-shadow: 10px 10px 10px 10px rgba(246, 187, 68, 0.2), 4px 6px 20px 2px rgba(255, 170, 43, 0.19);
+}
+h6.contact-text {
+    font-weight: 700 !important;
+}
 

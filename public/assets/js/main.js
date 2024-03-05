@@ -177,6 +177,7 @@ $("#carouselExampleIndicators").carousel({interval: 3000});
 
 $('.slice1').click(function (param) {
 
+
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
     $('#line').css('margin-left','');
@@ -189,13 +190,16 @@ $('.slice1').click(function (param) {
     $('#line').css('transform','rotateY(180deg)');
 
     var conte = $(this).children('.title').find('h5').text();
+    $(this).siblings().children('img').css({'transform' : ''});
+    $(this).children('img').css({'transform' : 'scale(1.09)'});
 
     $('#line').children('div').find('h6').html('<a href="#" >Know more </a>');
 
     console.log(conte);
 
-    var dis = $(".line").css("display");
-
+    $('.line').children('#slice-item').css('transform','');
+    $('.line').children('#slice-item').css('rotate','');
+    $('.line').children('#slice-item').css('transform','scaleX(-1)');
 });
 $('.slice2').click(function (param) {
     $('#line').css('margin-top','');
@@ -206,12 +210,16 @@ $('.slice2').click(function (param) {
 
     $('#line').css('display','block');
     $('#line').css('margin-top','-70px');
-    $('#line').css('margin-left','70px');
+    $('#line').css('margin-left','270px');
     $('#line').css('rotate','270deg');
 
+    $(this).siblings().children('img').css({'transform' : ''});
+    $(this).children('img').css({'transform' : 'scale(1.09)'});
     var dis = $(".line").css("display");
 
-
+    $('.line').children('#slice-item').css('transform','');
+    $('.line').children('#slice-item').css('rotate','');
+    $('.line').children('#slice-item').css('rotate','-270deg');
 });
 
 $('.slice3').click(function (param) {
@@ -224,9 +232,12 @@ $('.slice3').click(function (param) {
     $('#line').css('display','block');
     $('#line').css('margin-top','150px');
     $('#line').css('margin-left','450px');
+    $(this).siblings().children('img').css({'transform' : ''});
+    $(this).children('img').css({'transform' : 'scale(1.09)'});
 
-    var dis = $(".line").css("display");
-
+    $('.line').children('#slice-item').css('transform','');
+    $('.line').children('#slice-item').css('rotate','');
+    $('.line').children('#slice-item').css('transform','');
 });
 
 $('.slice4').click(function (param) {
@@ -240,9 +251,12 @@ $('.slice4').click(function (param) {
     $('#line').css('margin-top','450px');
     $('#line').css('margin-right','190px');
     $('#line').css('rotate','90deg');
+    $(this).siblings().children('img').css({'transform' : ''});
+    $(this).children('img').css({'transform' : 'scale(1.09)'});
 
-    var dis = $(".line").css("display");
-
+    $('.line').children('#slice-item').css('transform','');
+    $('.line').children('#slice-item').css('rotate','');
+    $('.line').children('#slice-item').css('rotate','270deg');
 });
 
 $('.slice5').click(function (param) {
@@ -257,6 +271,12 @@ $('.slice5').click(function (param) {
     $('#line').css('margin-right','580px');
     $('#line').css('transform','rotateY(180deg)');
 
+    $(this).siblings().children('img').css({'transform' : ''});
+    $(this).children('img').css({'transform' : 'scale(1.09)'});
+
+    $('.line').children('#slice-item').css('transform','');
+    $('.line').children('#slice-item').css('rotate','');
+    $('.line').children('#slice-item').css('transform','scaleX(-1)');
 });
 
 $('.slice6').click(function (param) {
@@ -270,6 +290,14 @@ $('.slice6').click(function (param) {
     $('#line').css('margin-top','350px');
     $('#line').css('margin-left','450px');
 
-    var dis = $(".line").css("display");
+    $(this).siblings().children('img').css({'transform' : ''});
+    $(this).children('img').css({'transform' : 'scale(1.09)'});
 
+    $('.line').children('#slice-item').css('transform','');
+    $('.line').children('#slice-item').css('rotate','');
+
+});
+
+$('body').click(function () {
+    // $('#line').css('display','none');
 });
