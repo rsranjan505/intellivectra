@@ -70,7 +70,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('blogs')}}" class="nav-item nav-link">Blogs</a>
+                            <a href="{{ route('blogs')}}" class="nav-item nav-link {{ Request::is('blogs') ? 'active' : ''}}">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('career')}}" class="nav-item nav-link">Career</a>
@@ -96,6 +96,8 @@
             @include('landing.components.sub-header',['type' => 'about'])
         @elseif (Request::is('contact-us'))
             @include('landing.components.sub-header',['type' => 'contact'])
+        @elseif (Request::is('blogs'))
+            @include('landing.components.sub-header',['type' => 'blogs'])
         @endif
 
 
