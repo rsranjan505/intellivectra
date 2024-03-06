@@ -16,7 +16,7 @@
                                       </svg></span>
                                   </div>
                                 <input type="text" class="form-control border-0 p-3 input-form-bg"  placeholder="Your Email">
-                                <button class="btn btn-primary rounded-circle btn-sm btn-arrow-icon" >
+                                <button class="btn btn-primary rounded-circle btn-sm btn-arrow-icon shadow-none" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
                                       </svg>
@@ -90,14 +90,12 @@
         <div class="row justify-content-between py-3 ">
 
                 <div class="d-flex align-items-center justify-content-center" >
-                    <p class="mb-0">&copy; <a class="text-light border-bottom" href="#">2021 Intelli Vectra Technologies Pvt. Ltd</a>. All rights reserved.
+                    <p class="mb-0">&copy; <a class="text-light" href="#">2024 Intelli Vectra Technologies Pvt. Ltd</a>. All rights reserved.
                    </p>
                 </div>
                 <div class="d-flex align-items-center justify-content-center" >
-
-                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #ffffff;"></i></a>
-                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-twitter fw-normal" style="color: #ffffff;"></i></a>
-
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #0077b5 ;"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-twitter fw-normal" style="color: #1DA1F2;"></i></a>
                 </div>
                 <div class="d-flex align-items-end justify-content-center" >
                     <a class="text-light bottom-footer-link" href="#">Terms & Conditions</a>

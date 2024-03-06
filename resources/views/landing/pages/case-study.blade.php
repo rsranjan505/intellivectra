@@ -1,0 +1,119 @@
+
+@extends('landing.layouts.base')
+
+@section('contents')
+
+<div class="container-fluid pt-4 wow fadeInUp bg-primary" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="form-rounded-serach w-100 box-shadow" >
+                        <form action="">
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-start-icon w-100"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                      </svg></span>
+                                </div>
+                                <input type="search" class="form-control border-0 p-3 shadow-none"   placeholder="Search">
+                                <button class="btn btn-primary rounded-circle btn-sm btn-arrow-icon" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                                      </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" >
+                <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="form-rounded-serach w-100 box-shadow" >
+                        <form action="">
+                            <div class="input-group ">
+                                <select class="form-control border-0 shadow-none mx-2">
+                                    <option selected>Category</option>
+                                </select>
+                                {{-- <button class="btn btn-primary rounded-circle btn-sm btn-arrow-icon" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                                      </svg>
+                                </button> --}}
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="box-shadow case-content row my-2 text-left py-4">
+            <div class="col-lg-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
+                  </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h3>
+                <h5 class="mb-0 pb-1"><strong>Challenge:</strong></h5>
+                <p class="mb-4 text-justify">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
+
+                <a href="{{ route('case-study')}}" class="btn btn-dark rounded-pill py-3 px-5 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-3">
+        <div class="box-shadow case-content row my-2 text-left py-4">
+            <div class="col-lg-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
+                  </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h3>
+                <h5 class="mb-0 pb-1"><strong>Challenge:</strong></h5>
+                <p class="mb-4 text-justify">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
+
+                <a href="{{ route('case-study')}}" class="btn btn-dark rounded-pill py-3 px-5 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-3">
+        <div class="box-shadow case-content row my-2 text-left py-4">
+            <div class="col-lg-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
+                  </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h3>
+                <h5 class="mb-0 pb-1"><strong>Challenge:</strong></h5>
+                <p class="mb-4 text-justify">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
+
+                <a href="{{ route('case-study')}}" class="btn btn-dark rounded-pill py-3 px-5 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+@endsection

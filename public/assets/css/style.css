@@ -116,6 +116,7 @@ hr {
 }
 
 /*** Button ***/
+
 .btn {
     font-family: 'Montserrat', serif;
     font-weight: 400;
@@ -287,14 +288,6 @@ video {
     }
 }
 
-.item {
-    width: 300px;
-    text-align: center !important;
-    justify-items: center;
-}
-p.ivt-text {
-    font-size: 12px !important;
-}
 
 
 /*** Carousel ***/
@@ -705,6 +698,10 @@ p.ivt-text {
     padding-left: 5px;
     color: var(--primary) !important;
 }
+.link-animated a.active {
+    color: var(--primary) !important;
+    background-color: var(--dark) !important;
+}
 
 @media (min-width: 767.98px) {
     .footer-about {
@@ -883,8 +880,11 @@ a.text-primaryv:hover{
 
       .process-item {
          z-index: 999;
-
       }
+      .process-item:hover{
+        transform: scale(1.05);
+      }
+
     .pitem1 {
         margin-top: -70px;
         margin-left: 50px;
@@ -918,4 +918,22 @@ h6.contact-text, h4.contact-text ,h4.blog-title{
 h6.contact-items {
     font-size: 14px !important;
 }
+
+/* Approach */
+
+.item {
+    width: 300px;
+    text-align: center !important;
+    justify-items: center;
+}
+.item:hover {
+    transform: scale(1.05);
+}
+.approach-img:hover {
+    transform: scale(1.05);
+}
+p.ivt-text {
+    font-size: 12px !important;
+}
+
 

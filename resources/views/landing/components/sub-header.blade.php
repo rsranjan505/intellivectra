@@ -1,31 +1,45 @@
 
 @php
-    $page ='';
-    $subtitle = '';
+    $colortitle ='';
+    $whitetitle = '';
     $subheading = '';
     $img =asset('assets/img/about-bg.jpg');
 @endphp
     @if (isset($type))
         @if ($type == 'about')
             @php
-                $page = $type;
-                $subtitle = 'Us';
+                $whitetitle = 'Us';
+                $colortitle = 'About';
                 $subheading = 'Intelli Vectra Technologies is an IT solution provider that is technology and vendor agnostic.';
                 $img = asset('assets/img/about-bg.jpg');
             @endphp
         @elseif ($type == 'contact')
             @php
-                $page = $type;
-                $subtitle = 'Us';
+                $whitetitle = 'Us';
+                $colortitle = 'Contact';
                 $subheading = "Get in touch today for expert IT solutions tailored to your business needs. We're here to support your success.";
                 $img = asset('assets/img/contact-bg.jpg');
             @endphp
         @elseif ($type == 'blogs')
             @php
-                $page = $type;
-                $subtitle = 'Our';
+                $whitetitle = 'Blogs';
+                $colortitle = 'Our';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
                 $img = asset('assets/img/blog-bg.jpg');
+            @endphp
+         @elseif ($type == 'blogs-details')
+            @php
+                $whitetitle = 'Blogs';
+                $colortitle = 'Our';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/blog-bg.jpg');
+            @endphp
+        @elseif ($type == 'case-study')
+            @php
+               $whitetitle = 'Study';
+                $colortitle = 'Case';
+                $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
+                $img = asset('assets/img/case-study-bg.jpg');
             @endphp
         @endif
     @endif
@@ -36,7 +50,7 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="p-3 text-left">
-                        <h2 class="text-primary mb-md-1 animated slideInDown">{{ ucfirst($page)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($subtitle)}}</span></h2>
+                        <h2 class="text-primary mb-md-1 animated slideInDown">{{ ucfirst($colortitle)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($whitetitle)}}</span></h2>
                         <p>{{ ucfirst($subheading)}}</p>
                         {{-- <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                             <form action="">

@@ -1,7 +1,16 @@
 
     <!-- Navbar & Carousel Start -->
 
-
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row justify-content-end">
+            <div class="aligns-content-center justify-content-center">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light mr-3"><i class="fa fa-phone-alt me-2 mr-3"></i>012-4496-0635</small>
+                    <small class="text-light mr-3"><i class="fa fa-envelope-open me-2 mr-3"></i>info@intellivectra.tech</small>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-4 py-lg-0">
             <a href="{{route('home')}}" class="navbar-brand p-0 ml-4">
@@ -70,7 +79,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('blogs')}}" class="nav-item nav-link {{ Request::is('blogs') ? 'active' : ''}}">Blogs</a>
+                            <a href="{{ route('blogs')}}" class="nav-item nav-link {{ Request::is('blogs') || str_contains(Request::url(),'blogs') ? 'active' : ''}}">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('career')}}" class="nav-item nav-link">Career</a>
@@ -83,8 +92,8 @@
             </div>
             <div class="text-end text-lg-end mr-4">
                 <div class="d-inline-flex align-items-center" style="height: 45px; margin-left:4px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #F19F1F;"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-twitter fw-normal" style="color: #F19F1F;"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-2 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #0077b5 ;"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-twitter fw-normal" style="color: #1DA1F2;"></i></a>
 
                 </div>
             </div>
@@ -98,6 +107,10 @@
             @include('landing.components.sub-header',['type' => 'contact'])
         @elseif (Request::is('blogs'))
             @include('landing.components.sub-header',['type' => 'blogs'])
+        @elseif (Request::is('blogs/*'))
+            @include('landing.components.sub-header',['type' => 'blogs-details'])
+        @elseif (Request::is('case-study'))
+            @include('landing.components.sub-header',['type' => 'case-study'])
         @endif
 
 

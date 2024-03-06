@@ -3,6 +3,7 @@
 use App\Http\Controllers\Landing\AboutController;
 use App\Http\Controllers\Landing\BlogController;
 use App\Http\Controllers\Landing\CareerController;
+use App\Http\Controllers\Landing\CaseStudyController;
 use App\Http\Controllers\Landing\ContactController;
 use App\Http\Controllers\Landing\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -30,4 +31,6 @@ Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about-us',[AboutController::class,'index'])->name('about');
 Route::get('/careers',[CareerController::class,'index'])->name('career');
 Route::get('/blogs',[BlogController::class,'index'])->name('blogs');
+Route::get('/blogs/{name}',[BlogController::class,'blogDetail'])->name('blogs-details');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
+Route::get('/case-study',[CaseStudyController::class,'index'])->name('case-study');
