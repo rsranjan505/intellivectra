@@ -36,7 +36,7 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="p-3 text-left">
-                        <h2 class="text-primary mb-md-1 animated slideInDown">{{ ucfirst($subtitle)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($page)}}</span></h2>
+                        <h2 class="text-primary mb-md-1 animated slideInDown">{{ ucfirst($page)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($subtitle)}}</span></h2>
                         <p>{{ ucfirst($subheading)}}</p>
                         {{-- <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                             <form action="">
