@@ -123,23 +123,23 @@
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({
         loop: true,
-        margin: 45,
-        dots: false,
+        margin: 0,
+
         loop: true,
         autoplay: true,
         smartSpeed: 1000,
         responsive: {
             0:{
-                items:2
+                items:1
             },
             576:{
-                items:4
+                items:1
             },
             768:{
-                items:6
+                items:2
             },
             992:{
-                items:8
+                items:2
             }
         }
     });

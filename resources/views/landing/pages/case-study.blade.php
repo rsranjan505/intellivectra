@@ -33,7 +33,7 @@
                         <form action="">
                             <div class="input-group ">
                                 <select class="form-control border-0 shadow-none mx-2">
-                                    <option selected>Category</option>
+                                    <option selected>Categories</option>
                                 </select>
                                 {{-- <button class="btn btn-primary rounded-circle btn-sm btn-arrow-icon" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">

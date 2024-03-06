@@ -936,4 +936,19 @@ p.ivt-text {
     font-size: 12px !important;
 }
 
+/* Pagination */
+.page-item1 a{
+    border-radius: 25px !important;
+    margin: 2px;
+    color: #EEF9FF;
+    background-color: var(--primary) !important;
+}
+
+.page-item2 a{
+    border-radius: 25px !important;
+    margin: 2px;
+    color: #000000;
+    background-color: #FFFFFF !important;
+}
+
 

@@ -88,14 +88,14 @@
     <div class="container text-center ">
     <hr>
         <div class="row justify-content-between py-3 ">
-
                 <div class="d-flex align-items-center justify-content-center" >
                     <p class="mb-0">&copy; <a class="text-light" href="#">2024 Intelli Vectra Technologies Pvt. Ltd</a>. All rights reserved.
                    </p>
                 </div>
-                <div class="d-flex align-items-center justify-content-center" >
+                <div class="d-flex align-items-center justify-content-center pl-2" >
+
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #0077b5 ;"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><i class="fab fa-twitter fw-normal" style="color: #1DA1F2;"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><svg class="ml-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 912"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
                 </div>
                 <div class="d-flex align-items-end justify-content-center" >
                     <a class="text-light bottom-footer-link" href="#">Terms & Conditions</a>
