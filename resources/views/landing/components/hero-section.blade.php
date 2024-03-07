@@ -5,10 +5,10 @@
         <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
     </div>
     <div class="carousel-inner" >
-        <div class="carousel-item header-top active" >
+        <div class="carousel-item  active" >
             {{-- <img class="w-100" src="{{ asset('assets/img/bg-2.jpg')}}" alt="Image"> --}}
             <video autoplay loop muted class="myvid" id="player2">
-                <source src="{{ asset('assets/img/intell.mp4')}}" type="video/mp4">
+                <source src="{{ asset('assets/img/video-1.mp4')}}" type="video/mp4">
             </video>
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
@@ -37,8 +37,11 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item header-top" >
+        <div class="carousel-item " >
             <img class="w-100" src="{{ asset('assets/img/bg-2.jpg')}}" alt="Image">
+            {{-- <video autoplay loop muted class="myvid" id="player2">
+                <source src="{{ asset('assets/img/video-2.mp4')}}" type="video/mp4">
+            </video> --}}
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="p-3 text-left">
@@ -66,8 +69,11 @@
             </div>
         </div>
 
-        <div class="carousel-item  header-top" >
-            <img class="w-100" src="{{ asset('assets/img/bg-3.jpg')}}" alt="Image">
+        <div class="carousel-item " >
+            {{-- <img class="w-100" src="{{ asset('assets/img/bg-3.jpg')}}" alt="Image"> --}}
+            <video autoplay loop muted class="myvid" id="player2">
+                <source src="{{ asset('assets/img/video-3.mp4')}}" type="video/mp4">
+            </video>
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="p-3 text-left">

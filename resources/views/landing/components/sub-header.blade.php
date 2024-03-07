@@ -41,11 +41,18 @@
                 $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp
+        @elseif ($type == 'career')
+            @php
+                $whitetitle = '';
+                $colortitle = 'career';
+                $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
+                $img = asset('assets/img/career-bg.jpg');
+            @endphp
         @endif
     @endif
 
     <div class="carousel-inner" >
-        <div class="carousel-item active" style="margin-top: 65px">
+        <div class="carousel-item active">
             <img class="w-100" src="{{ $img }}" alt="Image">
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">

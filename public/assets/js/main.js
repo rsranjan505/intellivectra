@@ -51,7 +51,7 @@
     //         $dropdown.off("mouseenter mouseleave");
     //     }
     // });
-    $('.dropdown-toggle').navbarDropdown({trigger: 'mouseover'});
+    // $('.dropdown-toggle').navbarDropdown({trigger: 'mouseover'});
 
     // $('.dropdown-toggle').on('mouseover', function(){
 
@@ -186,14 +186,18 @@ $('.slice1').click(function (param) {
 
     $('#line').css('display','block');
     $('#line').css('margin-top','200px');
-    $('#line').css('margin-right','680px');
+    $('#line').css('margin-right','820px');
     $('#line').css('transform','rotateY(180deg)');
 
     var conte = $(this).children('.title').find('h5').text();
     $(this).siblings().children('img').css({'transform' : ''});
     $(this).children('img').css({'transform' : 'scale(1.09)'});
 
-    $('#line').children('div').find('h6').html('<a href="#" >Know more </a>');
+    $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
+                                                <p class="">Personalized Digital Services drive efficiency, insights, and cost
+                                                savings.</p>
+                                                    <a class="text-primary" href="#" >Know more </a>
+                                                </div`);
 
     console.log(conte);
 
@@ -209,8 +213,8 @@ $('.slice2').click(function (param) {
     $('#line').css('rotate','');
 
     $('#line').css('display','block');
-    $('#line').css('margin-top','-70px');
-    $('#line').css('margin-left','270px');
+    $('#line').css('margin-top','-160px');
+    $('#line').css('margin-left','290px');
     $('#line').css('rotate','270deg');
 
     $(this).siblings().children('img').css({'transform' : ''});
@@ -220,6 +224,13 @@ $('.slice2').click(function (param) {
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
     $('.line').children('#slice-item').css('rotate','-270deg');
+
+
+    $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
+    <p class="">We offer streamlined operations, minimised
+    downtime, cost-effective scalability</p>
+        <a class="text-primary" href="#" >Know more </a>
+    </div`);
 });
 
 $('.slice3').click(function (param) {
@@ -231,13 +242,19 @@ $('.slice3').click(function (param) {
 
     $('#line').css('display','block');
     $('#line').css('margin-top','150px');
-    $('#line').css('margin-left','450px');
+    $('#line').css('margin-left','650px');
     $(this).siblings().children('img').css({'transform' : ''});
     $(this).children('img').css({'transform' : 'scale(1.09)'});
 
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
     $('.line').children('#slice-item').css('transform','');
+
+    $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
+    <p class="">Offering Comprehensive Security Services which are Proactive,
+    Efficient, Compliant, Cost-effective.</p>
+        <a class="text-primary" href="#" >Know more </a>
+    </div`);
 });
 
 $('.slice4').click(function (param) {
@@ -248,7 +265,7 @@ $('.slice4').click(function (param) {
     $('#line').css('rotate','');
 
     $('#line').css('display','block');
-    $('#line').css('margin-top','450px');
+    $('#line').css('margin-top','510px');
     $('#line').css('margin-right','190px');
     $('#line').css('rotate','90deg');
     $(this).siblings().children('img').css({'transform' : ''});
@@ -257,6 +274,12 @@ $('.slice4').click(function (param) {
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
     $('.line').children('#slice-item').css('rotate','270deg');
+
+    $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
+    <p class="">Tailored Enterprise Application Services which
+    optimise processes, enhance productivity, and innovate.</p>
+        <a class="text-primary" href="#" >Know more </a>
+    </div`);
 });
 
 $('.slice5').click(function (param) {
@@ -268,7 +291,7 @@ $('.slice5').click(function (param) {
 
     $('#line').css('display','block');
     $('#line').css('margin-top','360px');
-    $('#line').css('margin-right','580px');
+    $('#line').css('margin-right','780px');
     $('#line').css('transform','rotateY(180deg)');
 
     $(this).siblings().children('img').css({'transform' : ''});
@@ -277,6 +300,12 @@ $('.slice5').click(function (param) {
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
     $('.line').children('#slice-item').css('transform','scaleX(-1)');
+
+    $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
+    <p class="">Customised consulting services to foster competitiveness,
+    performance enhancement, and growth.</p>
+        <a class="text-primary" href="#" >Know more </a>
+    </div`);
 });
 
 $('.slice6').click(function (param) {
@@ -288,7 +317,7 @@ $('.slice6').click(function (param) {
 
     $('#line').css('display','block');
     $('#line').css('margin-top','350px');
-    $('#line').css('margin-left','450px');
+    $('#line').css('margin-left','650px');
 
     $(this).siblings().children('img').css({'transform' : ''});
     $(this).children('img').css({'transform' : 'scale(1.09)'});
@@ -296,8 +325,82 @@ $('.slice6').click(function (param) {
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
 
+    $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
+    <p class="">Offering Efficient, tailored staffing solutions for organisational
+    success.</p>
+        <a class="text-primary" href="#" >Know more </a>
+    </div`);
+
 });
 
 $('body').click(function () {
-    // $('#line').css('display','none');
+    // if($('#line').css('display') == 'block'){
+    //     $('#line').css('display','none');
+    // }
 });
+
+
+//data animation
+// Txt Rotate
+$(document).ready(function() {
+	var TxtRotate = function(el, toRotate, period) {
+	  this.toRotate = toRotate;
+	  this.el = el;
+	  this.loopNum = 0;
+	  this.period = parseInt(period, 10) || 1500;
+	  this.txt = '';
+	  this.tick();
+	  this.isDeleting = false;
+	};
+
+	TxtRotate.prototype.tick = function() {
+	  var i = this.loopNum % this.toRotate.length;
+	  var fullTxt = this.toRotate[i];
+
+	  if (this.isDeleting) {
+		this.txt = fullTxt.substring(0, this.txt.length - 1);
+	  } else {
+		this.txt = fullTxt.substring(0, this.txt.length + 1);
+	  }
+
+	  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+	  var that = this;
+	  var delta = 300 - Math.random() * 100;
+
+	  if (this.isDeleting) { delta /= 2; }
+
+	  if (!this.isDeleting && this.txt === fullTxt) {
+		delta = this.period;
+		this.isDeleting = true;
+	  } else if (this.isDeleting && this.txt === '') {
+		this.isDeleting = false;
+		this.loopNum++;
+		delta = 300;
+	  }
+
+	  setTimeout(function() {
+		that.tick();
+	  }, delta);
+	};
+
+	window.onload = function() {
+	  var elements = document.getElementsByClassName('txt-rotate');
+	  for (var i=0; i<elements.length; i++) {
+		var toRotate = elements[i].getAttribute('data-rotate');
+		var period = elements[i].getAttribute('data-period');
+		if (toRotate) {
+		  new TxtRotate(elements[i], JSON.parse(toRotate), period);
+		}
+	  }
+	  // INJECT CSS
+	  var css = document.createElement("style");
+	  css.type = "text/css";
+	  css.innerHTML = ".txt-rotate > .wrap { border-right: 1px solid transparent }";
+	  document.body.appendChild(css);
+
+	};
+});
+/* 9. ScrollAnimations */
+var $containers = $('[data-animation]:not([data-animation-child]), [data-animation-container]');
+$containers.scrollAnimations();

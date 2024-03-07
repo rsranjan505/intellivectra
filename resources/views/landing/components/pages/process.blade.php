@@ -11,23 +11,24 @@
                     <div class="d-flex flex-row justify-content-center" style="margin-top: 270px;">
                         <div class="process-item pitem1 wow fadeInUp" data-wow-delay="0.4s">
                             <h4 class="text-primary text-center ">Concept</h4>
-                            <p class="ivt-text text-justify">Unlock innovation with our concept-driven approach, blending creativity and strategy to develop tailored IT solutions that propel businesses forward.</p>
+                            <p class="ivt-text text-center">Innovative approach blending creativity & strategy for tailored IT solutions.
+                            </p>
                         </div>
                         <div class="process-item pitem2 wow fadeInUp" data-wow-delay="0.5s">
                             <h4 class="text-primary text-center">Communication</h4>
-                            <p class="ivt-text text-justify">Seamless dialogue channels, proactive updates, and client-centric collaboration define our IT solutions, ensuring clarity and satisfaction at every step.</p>
+                            <p class="ivt-text text-center">Proactive updates, client-centric collaboration for clarity & satisfaction.</p>
                         </div>
                         <div class="process-item pitem3 wow fadeInUp" data-wow-delay="0.6s">
                             <h4 class="text-primary text-center">Budget</h4>
-                            <p class="ivt-text text-justify">Streamlined budgeting ensures cost-effectiveness. From initial assessment to final delivery, we optimize resources without compromising quality.</p>
+                            <p class="ivt-text text-center">Streamlined budgeting for cost-effective solutions without compromising quality.</p>
                         </div>
                         <div class="process-item pitem4 wow fadeInUp" data-wow-delay="0.7s">
                             <h4 class="text-primary text-center">Development</h4>
-                            <p class="ivt-text text-justify">From ideation to deployment, we engineer tailored solutions ensuring scalability, security, and seamless integration for your digital transformation journey.</p>
+                            <p class="ivt-text text-center">Tailored solutions ensuring scalability, security, & seamless integration.</p>
                         </div>
                         <div class="process-item pitem5 wow fadeInUp" data-wow-delay="0.8s">
                             <h4 class="text-primary text-center">Resuts</h4>
-                            <p class="ivt-text text-justify">Our Process: Streamlined workflows, expert solutions. Results: Elevating your business with efficiency, innovation, and measurable success.</p>
+                            <p class="ivt-text text-center">Streamlined workflows, expert solutions elevating business efficiency & innovation.</p>
                         </div>
                     </div>
                 </div>

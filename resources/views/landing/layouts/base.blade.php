@@ -25,11 +25,13 @@
         <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/gh/fontenele/bootstrap-navbar-dropdowns@5.0.2/dist/css/bootstrap-navbar-dropdowns.min.css"
               rel="stylesheet">
-              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-              <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
         <!-- Customized Bootstrap Stylesheet -->
         {{-- <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet"> --}}
+
+        <link href="{{ asset('assets/plugins/plugins.css')}}" rel="stylesheet">
 
     </head>
 
@@ -80,6 +82,8 @@
 
         <!-- Template Javascript -->
         <script src="{{ asset('assets/js/main.js')}}"></script>
+
+        <script src="{{ asset('assets/plugins/plugins.js')}}"></script>
 
 
 

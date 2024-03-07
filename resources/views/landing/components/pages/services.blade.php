@@ -167,13 +167,13 @@
                         <div class="ser-slice slice1 wow fadeInUp" data-wow-delay="0.1s" >
                             <img src="{{ asset('assets/img/service/1.svg')}}" >
                             <div class="titile slice1-text">
-                                <h5 tooltip="Digital Services" flow="left" >Digital Services</h5>
+                                <h5>Digital Services</h5>
                             </div>
                         </div>
                         <div class="ser-slice slice2 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/2.svg')}}" >
                             <div class="titile slice2-text">
-                                <h5>Platform And Operation Services</h5>
+                                <h5>Platform & Operation Services</h5>
                             </div>
                         </div>
                         <div class="ser-slice slice3 wow fadeInUp">
@@ -200,30 +200,13 @@
                                 <h5>Staffing Services</h5>
                             </div>
                         </div>
-                        {{-- <div style="position: absolute;"> --}}
+
                             <div id="line" class="line" style="display: none" data-wow-delay="0.1s">
                                 <img src="{{ asset('assets/img/line.svg')}}" width="100px">
                                 <div id="slice-item" class="slice-box" style="padding:10px;">
                                     <h6>Know More</h6>
                                 </div>
                             </div>
-                            {{-- <div id="line2" class="line line2">
-                                <img src="{{ asset('assets/img/line.svg')}}" width="100px">
-                            </div>
-                            <div id="line3" class="line line3">
-                                <img src="{{ asset('assets/img/line.svg')}}" width="100px">
-                            </div>
-                            <div id="line4" class="line line4">
-                                <img src="{{ asset('assets/img/line.svg')}}" width="100px">
-                            </div>
-                            <div id="line5" class="line line5">
-                                <img src="{{ asset('assets/img/line-l.svg')}}" width="100px">
-                            </div>
-                            <div id="line6" class="line line6">
-                                <img src="{{ asset('assets/img/line.svg')}}" width="100px">
-                            </div>
-                        </div> --}}
-
 
                     </div>
                 </div>

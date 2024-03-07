@@ -131,7 +131,7 @@
                 <div class="case-content p-4 row box-shadow">
                     <div class="col-lg-6 col-sm-12 text-left">
                         <h1 >Get <span class="text-primary">  Expert’s Advice </span></h1>
-                        <p class="mb-4 text-justify">This Gartner® Market Guide on Microsegmentation highlights today's important key findings when it comes to the security and risk management and recommendations that SRM leaders responsible for infrastructure security should follow.</p>
+                        <p class="mb-4 text-justify">Get the expertise from our professionals for personalised advice crafted to address your unique business needs. Access industry-leading insights and unique solutions customised to propel your business forward.</p>
 
                         <a href="quote.html" class="btn btn-primary rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Schedule a call <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
@@ -172,8 +172,8 @@
                                                 <small class="me-3 mr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
                                                 <small class="me-3 mr-2"><i class="far fa-calendar-alt text-primary me-2"></i>  03 Mar, 2024</small>
                                             </div>
-                                            <h4 class="mb-3 text-justify">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
-                                            <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
+                                            <h4 class="mb-3 text-justify blog-title">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
+                                            <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge.</p>
                                             <a class="btn btn-dark rounded-pill" href="">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                               </svg></a>
@@ -191,8 +191,8 @@
                                                 <small class="me-3 pr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
                                                 <small class="pr-2"><i class="far fa-calendar-alt text-primary me-2 "></i>  03 Mar, 2024</small>
                                             </div>
-                                            <h4 class="mb-3 text-justify">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
-                                            <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
+                                            <h4 class="mb-3 text-justify blog-title">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
+                                            <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge.</p>
                                             <a class="btn btn-dark rounded-pill" href="">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                               </svg></a>
