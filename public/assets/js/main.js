@@ -109,10 +109,10 @@
                 items:1
             },
             768:{
-                items:2
+                items:1
             },
             992:{
-                items:3
+                items:1
             }
         }
     });
@@ -121,10 +121,10 @@
 
 
     // Vendor carousel
-    $('.vendor-carousel').owlCarousel({
+    $('.blogs-carousel').owlCarousel({
         loop: true,
         margin: 0,
-
+        dots: true,
         loop: true,
         autoplay: true,
         smartSpeed: 1000,
@@ -145,6 +145,8 @@
     });
 
 })(jQuery);
+
+
 
 
 // video
@@ -174,7 +176,7 @@ $("#carouselExampleIndicators").carousel({interval: 3000});
 
 
 //Pie Chart
-
+var mouse_is_inside = false;
 $('.slice1').click(function (param) {
 
 
@@ -199,7 +201,7 @@ $('.slice1').click(function (param) {
                                                     <a class="text-primary" href="#" >Know more </a>
                                                 </div`);
 
-    console.log(conte);
+
 
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
@@ -242,7 +244,7 @@ $('.slice3').click(function (param) {
 
     $('#line').css('display','block');
     $('#line').css('margin-top','150px');
-    $('#line').css('margin-left','650px');
+    $('#line').css('margin-left','720px');
     $(this).siblings().children('img').css({'transform' : ''});
     $(this).children('img').css({'transform' : 'scale(1.09)'});
 
@@ -300,7 +302,6 @@ $('.slice5').click(function (param) {
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
     $('.line').children('#slice-item').css('transform','scaleX(-1)');
-
     $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
     <p class="">Customised consulting services to foster competitiveness,
     performance enhancement, and growth.</p>
@@ -324,7 +325,6 @@ $('.slice6').click(function (param) {
 
     $('.line').children('#slice-item').css('transform','');
     $('.line').children('#slice-item').css('rotate','');
-
     $('#line').children('div').find('h6').html(`<div class="pie-slice-hover">
     <p class="">Offering Efficient, tailored staffing solutions for organisational
     success.</p>
@@ -333,11 +333,28 @@ $('.slice6').click(function (param) {
 
 });
 
-$('body').click(function () {
-    // if($('#line').css('display') == 'block'){
-    //     $('#line').css('display','none');
-    // }
+var mouse_is_inside = false;
+
+$(document).ready(function()
+{
+    $('.ser-slice').hover(function(){
+        mouse_is_inside=true;
+    }, function(){
+        mouse_is_inside=false;
+    });
+
+    // $("body").mouseup(function(){
+    //     if(! mouse_is_inside) $('.form_wrapper').hide();
+    // });
+    $('body').click(function () {
+        if( ! mouse_is_inside){
+            $('.ser-slice').siblings().children('img').css({'transform' : ''});
+            $('#line').css('display','none');
+        }
+    });
+
 });
+
 
 
 //data animation
@@ -401,6 +418,3 @@ $(document).ready(function() {
 
 	};
 });
-/* 9. ScrollAnimations */
-var $containers = $('[data-animation]:not([data-animation-child]), [data-animation-container]');
-$containers.scrollAnimations();

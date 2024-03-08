@@ -1,7 +1,7 @@
 <div class="container-fluid py-4 wow fadeInUp bg-primary" data-wow-delay="0.4s" >
     <div class="container">
         <div class="text-center position-relative pb-3 mx-auto">
-            <h1 >Our<span class="text-primary"> USP</span></h1>
+            <h1 ><span class="text-primary">Our </span>USP</h1>
             <p class="mb-0 text-justify text-center">Tailored IT solutions for seamless operations, reliable support, cybersecurity expertise, and innovation-driven approach. experience client-centric services and proven results.</p>
         </div>
         <div class="row g-5">

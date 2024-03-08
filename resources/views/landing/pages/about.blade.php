@@ -16,7 +16,7 @@
                     We offer the finest customer experience and an easy-to-use platform that analyses clients' needs and helps businesses.
                 </p>
 
-                <a href="quote.html" class="btn btn-dark rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <a href="{{ route('about')}}" class="btn btn-dark rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                   </svg></a>
             </div>
@@ -32,9 +32,9 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s">
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-12" style="min-height: 900px;" >
+            <div class="col-lg-12" style="min-height: 700px;" >
 
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" style="min-height: 900px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" style="min-height: 700px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
 
             </div>
             {{-- <div class="col-lg-4">

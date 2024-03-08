@@ -19,7 +19,7 @@
             <div class="container py-3">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row justify-content-center">
-                        <h1 ><span class="text-primary">Case </span> Studies</h1>
+                        <h1><span class="text-primary">Use </span> Case</h1>
 
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                           </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
-                        <h3 class="pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h3>
-                        <h5 class="mb-0 pb-1"><strong>Challenge:</strong></h5>
+                        <h4 class="fw-medium pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h4>
+                        <h6 class="mb-0 pb-1"><strong>Challenge:</strong></h6>
                         <p class="mb-4 text-justify">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
 
                         <a href="{{ route('case-study')}}" class="btn btn-dark rounded-pill py-3 px-5 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="flex-column justify-content-center">
                     <div class="d-flex align-items-center flex-column justify-content-center">
-                        <h1 >Our<span class="text-primary"> OEMs </span></h1>
+                        <h1 ><span class="text-primary">Our  </span>OEMs</h1>
                         <p>Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.</p>
                     </div>
                 </div>
@@ -60,18 +60,18 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-20.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-20.png')}}" class="brand-img pt-3"/>
                         </div>
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-1.png')}}" class="brand-img"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-2.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-2.png')}}" class="brand-img pt-1"/>
                         </div>
 
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-3.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-3.png')}}" class="brand-img pt-2"/>
                         </div>
                     </div>
                 </div>
@@ -83,18 +83,18 @@
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-7.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-7.png')}}" class="brand-img pt-3"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-10.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-10.png')}}" class="brand-img pt-3"/>
                         </div>
 
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-11.png')}}" class="brand-img"/>
                         </div>
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-13.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-13.png')}}" class="brand-img pt-3"/>
                         </div>
                     </div>
                 </div>
@@ -106,14 +106,14 @@
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-17.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-17.png')}}" class="brand-img pt-2"/>
                         </div>
 
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-18.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-18.png')}}" class="brand-img pt-4"/>
                         </div>
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/roombr.svg')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/roombr.svg')}}" class="brand-img pt-1"/>
                         </div>
                     </div>
                 </div>
@@ -155,13 +155,13 @@
             <div class="container py-3">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row mb-2 justify-content-center">
-                        <h1>Latest <span class="text-primary"> Blogs </span></h1>
+                        <h1 class="fw-bold"> <span class="text-primary">Latest  </span>Blogs</h1>
                     </div>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-12">
                         <div class="row g-5">
-                            <div class="owl-carousel vendor-carousel">
+                            <div id="blogs" class="owl-carousel blogs-carousel">
                                 <div class="mr-4 wow slideInUp " data-wow-delay="0.1s">
                                     <div class="blog-item bg-light box-shadow overflow-hidden m-4">
                                         <div class="blog-img position-relative overflow-hidden">
@@ -199,6 +199,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                {{-- <ol class="carousel-indicators">
+                                    <li data-target="#blogs" data-slide-to="0" class="active"></li>
+                                    <li data-target="#blogs" data-slide-to="1"></li>
+                                    <li data-target="#blogs" data-slide-to="2"></li>
+                                </ol> --}}
                             </div>
 
                         </div>

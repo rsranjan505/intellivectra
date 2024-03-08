@@ -19,33 +19,28 @@
             <a href="{{route('home')}}" class="navbar-brand p-0 ml-4 dk-img">
                 <img class="" src="{{ asset('assets/img/logo.png')}}" width="64px"/>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse aligns-content-center justify-content-center pt-2" id="navbarCollapse">
+            <div class="collapse navbar-collapse aligns-content-center justify-content-center pt-2" id="main_nav" >
                 <div class="navbar-nav ms-auto py-0">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item ">
                             <a href="{{route('home')}}" class="nav-item nav-link {{ Request::is('/') ? 'active' : ''}} ">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a href="{{route('about')}}" class="nav-link {{ Request::is('about-us') ? 'active' : ''}}" data-bs-toggle="dropdown">Company</a>
+                            <a href="{{route('about')}}" class="nav-link {{ Request::is('about-us') ? 'active' : ''}}" >Company</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                                aria-expanded="false">Services & Solutions</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                {{-- <li class="dropdown-item"><a href="#">Professional Services</a></li> --}}
                                 <li class="dropdown-item"><a href="#">Staffing Services</a></li>
                                 <li class="dropdown-item dropdown">
                                     <a class="dropdown-toggle" id="dropdown2-1" data-toggle="dropdown" aria-haspopup="true"
                                        aria-expanded="false">Professional Services</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown2-1">
                                         <li class="dropdown-item"><a href="#">Consulting Services</a></li>
-                                        {{-- <li class="dropdown-item"><a href="#">Platform and Operations</a></li> --}}
-                                        {{-- <li class="dropdown-item"><a href="#">Enterprise Application Services</a></li> --}}
-                                        {{-- <li class="dropdown-item"><a href="#">Digital Services</a></li>
-                                        <li class="dropdown-item"><a href="#">Security Services</a></li> --}}
                                         <li class="dropdown-item dropdown">
                                             <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Platform and Operations</a>

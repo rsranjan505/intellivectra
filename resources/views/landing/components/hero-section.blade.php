@@ -1,8 +1,8 @@
-<div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+<div id="header-carousel" class="carousel" data-ride="carousel">
     <div class="carousel-indicators">
-        <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
-        <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
-        <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+        <li type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+        <li type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2"></li>
+        <li type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
     </div>
     <div class="carousel-inner" >
         <div class="carousel-item  active" >
@@ -70,10 +70,10 @@
         </div>
 
         <div class="carousel-item " >
-            {{-- <img class="w-100" src="{{ asset('assets/img/bg-3.jpg')}}" alt="Image"> --}}
-            <video autoplay loop muted class="myvid" id="player2">
+            <img class="w-100" src="{{ asset('assets/img/bg-3.jpg')}}" alt="Image">
+            {{-- <video autoplay loop muted class="myvid" id="player2">
                 <source src="{{ asset('assets/img/video-3.mp4')}}" type="video/mp4">
-            </video>
+            </video> --}}
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="p-3 text-left">
@@ -100,6 +100,17 @@
                 </div>
             </div>
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
 
     </div>
 </div>
