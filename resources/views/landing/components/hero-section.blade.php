@@ -12,7 +12,7 @@
             </video>
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
-                    <div class="p-3 text-left">
+                    <div class="mx-3 px-5 text-left">
                         <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Business & </h2>
                         <h2 class="display-1 text-white mb-md-4 animated zoomIn">Enterprise Hub</h2>
                         <p>We deliver smart solutions for your business</p>
@@ -44,7 +44,7 @@
             </video> --}}
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
-                    <div class="p-3 text-left">
+                    <div class="mx-3 px-5 text-left">
                         <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Secure Data </h2>
                         <h2 class="display-1 text-white mb-md-4 animated zoomIn">Handling</h2>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
@@ -76,7 +76,7 @@
             </video> --}}
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
-                    <div class="p-3 text-left">
+                    <div class="mx-3 px-5 text-left">
                         <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Recruitment </h2>
                         <h2 class="display-1 text-white mb-md-4 animated zoomIn">Made Easy</h2>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
@@ -102,15 +102,14 @@
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden"></span>
-            </button>
-
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
     </div>
 </div>

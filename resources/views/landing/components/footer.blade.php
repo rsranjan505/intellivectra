@@ -70,7 +70,7 @@
                             <i class="bi bi-geo-alt text-primary me-2 mr-2"></i>
                             <p class="footer-text mb-0">2nd Floor, Plot No. 29,
                                 Maruti Industrial Area, Sector-18,
-                                Gurugram–122015 (Haryana).</p>
+                                Gurugram–122015 (Haryana)</p>
                         </div>
                         {{-- <div class="d-flex mt-4">
                             <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
