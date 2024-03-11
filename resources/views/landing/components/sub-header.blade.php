@@ -18,7 +18,7 @@
                 $whitetitle = 'Us';
                 $colortitle = 'Contact';
                 $subheading = "Get in touch today for expert IT solutions tailored to your business needs. We're here to support your success.";
-                $img = asset('assets/img/contact-bg.jpg');
+                $img = asset('assets/img/contact-bg.png');
             @endphp
         @elseif ($type == 'blogs')
             @php

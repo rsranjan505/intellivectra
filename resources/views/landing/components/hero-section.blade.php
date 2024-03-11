@@ -7,7 +7,7 @@
     <div class="carousel-inner" >
         <div class="carousel-item  active" >
             {{-- <img class="w-100" src="{{ asset('assets/img/bg-2.jpg')}}" alt="Image"> --}}
-            <video autoplay loop muted class="myvid" id="player2">
+            <video autoplay loop muted class="myvid" id="player2" >
                 <source src="{{ asset('assets/img/video-1.mp4')}}" type="video/mp4">
             </video>
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">

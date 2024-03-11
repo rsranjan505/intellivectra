@@ -100,14 +100,14 @@
                 <div class="box-shadow px-3 p-2 ">
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="form-rounded-serach mb-2 mt-2 p-2 box-shadow">
-                            <h4 class="mb-0 text-left text-dark pl-3">Categories</h4>
+                            <h6 class="mb-0 text-left pl-3" style="color:#a5a8aa;">Categories</h6>
                         </div>
-                        <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','consulting-service')}}"><i class="bi bi-arrow-right me-2"></i>Consulting Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','platform-and-operation-service')}}"><i class="bi bi-arrow-right me-2"></i>Platform And Operation Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','enterprise-application-service')}}"><i class="bi bi-arrow-right me-2"></i>Enterprise Application Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','digital-service')}}"><i class="bi bi-arrow-right me-2"></i>Digital Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','staffing-service')}}"><i class="bi bi-arrow-right me-2"></i>Staffing Services</a>
+                        <div class="link-animated d-flex flex-column justify-content-left text-left" >
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 " href="{{ route('blogs-details','consulting-service')}}">Consulting Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','platform-and-operation-service')}}">Platform And Operation Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','enterprise-application-service')}}">Enterprise Application Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','digital-service')}}">Digital Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','staffing-service')}}">Staffing Services</a>
                         </div>
                     </div>
                 </div>

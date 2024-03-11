@@ -82,29 +82,29 @@
                             <img src="{{ asset('assets/img/brand/b-5.png')}}" class="brand-img"/>
                         </div>
 
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-7.png')}}" class="brand-img pt-3"/>
+                        <div class="brand-logo">
+                            <img src="{{ asset('assets/img/brand/roombr.svg')}}" class="brand-img pt-1"/>
                         </div>
 
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-10.png')}}" class="brand-img pt-3"/>
                         </div>
-
                         <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-11.png')}}" class="brand-img"/>
+                            <img src="{{ asset('assets/img/brand/b-19.png')}}" class="brand-img"/>
                         </div>
+
                         <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/b-13.png')}}" class="brand-img pt-3"/>
+                            <img src="{{ asset('assets/img/brand/b-13.png')}}"  class="brand-img-big pt-3"/>
                         </div>
                     </div>
                 </div>
 
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row row-line justify-content-center">
-                        <div class="brand-logo column-line">
-                            <img src="{{ asset('assets/img/brand/b-19.png')}}" class="brand-img"/>
-                        </div>
 
+                        <div class="brand-logo column-line">
+                            <img src="{{ asset('assets/img/brand/b-11.png')}}" class="brand-img-big"/>
+                        </div>
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-17.png')}}" class="brand-img pt-2"/>
                         </div>
@@ -112,8 +112,9 @@
                         <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/b-18.png')}}" class="brand-img pt-4"/>
                         </div>
-                        <div class="brand-logo">
-                            <img src="{{ asset('assets/img/brand/roombr.svg')}}" class="brand-img pt-1"/>
+
+                        <div class="brand-logo column-line">
+                            <img src="{{ asset('assets/img/brand/b-7.png')}}" class="brand-img pt-3"/>
                         </div>
                     </div>
                 </div>
@@ -273,7 +274,7 @@
 
         <div class="col-lg-10 offset-lg-1 pt-5 pb-5">
             <div class="text-center position-relative pb-3 mb-4 mx-auto">
-                <h1 class="text-primary">Testimonial</h1>
+                <h1 class="text-primary">Testimonials</h1>
                 <p class="mb-0">Our work speaks louder than our word. Find out how we helped clients overcome challenges and succeed.</p>
             </div>
             <div class="box-shadow">
@@ -282,7 +283,7 @@
                         <div class="carousel-item active text-center p-4">
                             <img class="img-fluid rounded" src="{{ asset('assets/img/testimonials/img-1.png')}}" style="width: 100px; " >
                             <div class="d-flex flex-column align-items-center justify-content-center">
-                                <h3 class="text-primary">Jess Santiago 1</h3>
+                                <h4 class="text-primary">Jess Santiago</h4>
                                 <p class="text-muted">@jess_santiago</p>
                                 <div class="d-flex justify-content-center">
                                     <span class="text-warning">&#9733;</span>

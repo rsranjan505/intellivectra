@@ -32,10 +32,8 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s">
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-12" style="min-height: 700px;" >
-
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" style="min-height: 700px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
-
+            <div class="col-lg-12" style="min-height: 600px;" >
+                <img class="position-absolute w-100 h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
             </div>
             {{-- <div class="col-lg-4">
                 <div class="position-relative pb-3">

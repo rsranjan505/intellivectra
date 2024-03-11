@@ -696,6 +696,9 @@ video {
 .brand-logo img.brand-img {
     width: 120px !important;
 }
+.brand-logo img.brand-img-big {
+    width: 100px !important;
+}
 
 .column-line {
     /* padding: 0 10px 0 10px; */
@@ -747,6 +750,17 @@ video {
     color: var(--primary) !important;
 }
 .link-animated a.active {
+    color: var(--primary) !important;
+    background-color: var(--dark) !important;
+}
+.social-link a{
+    transition: .5s;
+    color: var(--primary);
+}
+.social-link a:hover {
+    color: var(--dark) !important;
+}
+.social-link a.active {
     color: var(--primary) !important;
     background-color: var(--dark) !important;
 }
@@ -1165,4 +1179,57 @@ p.ivt-text {
         transition: none;
     }
 }
+
+
+
+/* Career */
+.career-box-title {
+    box-shadow: 2px 2px 4px 2px rgba(246, 187, 68, 0.2), 4px 6px 20px 2px rgba(255, 170, 43, 0.19);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.title-box {
+    padding: 6px 14px;
+    font-size: 12px;
+    border: none;
+    width: 270px;
+    border-radius: 35px;
+    border-color: #686868;
+    background-color: #F1F3F9;
+}
+
+.cereer-search-btn {
+    margin-right: 5px;
+    margin-top: 2px;
+    border-radius: 45px !important;
+    padding: 12px;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark) !important;
+    border-color: var(--dark) !important;
+}
+
+/* accordian */
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+  }
+
+  .collapsible-link::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' color='#F19F1F' width='16' height='16' fill='currentColor' class='bi bi-arrow-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5'/%3E%3C/svg%3E");
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    /* font-family: "FontAwesome";
+    font-size: 1.1rem; */
+  }
+
+  .collapsible-link[aria-expanded="true"]::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' color='#F19F1F' width='16' height='16' fill='currentColor' class='bi bi-arrow-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5'/%3E%3C/svg%3E");
+  }
 

@@ -161,8 +161,8 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4">
                     <div class="d-flex align-items-center flex-column justify-content-center">
-                        <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/india-gate.jpg')}}" style="object-fit: cover;">
-                        <div class="d-flex align-items-center flex-column justify-content-cente w-50 py-3">
+                        <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/gateway-of-india-1.png')}}" style="object-fit: cover;">
+                        <div class="d-flex align-items-center flex-column justify-content-cente w-60 py-3">
                             <h4 class="contact-text"><span class="text-primary">Maharastra, Mumbai</span></h4>
 
                             <p class="text-center text-justify">Cooming Soon</p>
