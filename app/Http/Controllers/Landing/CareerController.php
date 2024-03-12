@@ -10,4 +10,9 @@ class CareerController extends Controller
     public function index(){
         return view('landing.pages.career');
     }
+
+    //Career Apply Form
+    public function apply(){
+        return view('landing.pages.career-apply');
+    }
 }

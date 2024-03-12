@@ -26,42 +26,56 @@
                             <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>{{ $tagname}}</small>
                         </div>
                         <div class="">
-                            <div class="blog-item bg-light overflow-hidden">
+                            <div class="blog-item overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
                                     {{-- <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                                     <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a> --}}
                                 </div>
 
-
                                 <h3 class="mb-3 text-left blog-title text-primary">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h3>
                                 <div>
                                     <h4 class="mb-3 text-left blog-title">The Importance of Efficient Staffing Solutions</h4>
-                                    <p class="text-left text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
+                                    <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge. One crucial aspect of this optimization is ensuring that the right talent is in the right place at the right time. Efficient staffing solutions play a pivotal role in achieving this goal. Whether it's scaling up for a new project or filling crucial skill gaps, having access to a reliable staffing service can make all the difference.</p>
                                 </div>
 
                                 <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                                 <div>
                                     <h4 class=" text-left blog-title py-3">Streamlining Recruitment Processes</h4>
-                                    <p class="text-left text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
+                                    <p class="text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
                                 </div>
 
                                 <div>
                                     <h4 class=" text-left blog-title py-3">Streamlining Recruitment Processes</h4>
-                                    <p class="text-left text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
+                                    <p class="text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
                                 </div>
                                 <div>
                                     <h4 class=" text-left blog-title py-3">Streamlining Recruitment Processes</h4>
-                                    <p class="text-left text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
+                                    <p class="text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
                                 </div>
                                 <div>
                                     <h4 class=" text-left blog-title py-3">Streamlining Recruitment Processes</h4>
-                                    <p class="text-left text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
+                                    <p class="text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
                                 </div>
                                 <div>
                                     <h4 class=" text-left blog-title py-3">Streamlining Recruitment Processes</h4>
-                                    <p class="text-left text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
+                                    <p class="text-justify">Recruitment can be a time-consuming and resource-intensive process for any organization. From sourcing candidates to conducting interviews and negotiating offers, there are numerous steps involved in finding the perfect fit for a role. However, by outsourcing these tasks to a professional staffing service, companies can streamline their recruitment processes and free up internal resources to focus on core business activities. Staffing agencies specialize in identifying top talent, screening candidates, and ensuring that only the most qualified individuals make it through to the final stages of the hiring process.</p>
                                 </div>
 
+                            </div>
+
+                            <div class="mx-5 px-3 p-2 mt-3">
+                                <div class="d-flex flex-column justify-content-center mx-5 mb-5 wow slideInUp" data-wow-delay="0.1s">
+                                    {{-- <div class="rounded-blog-category w-50 ">
+                                        <a class="text-white py-2 text-center" href="#">Share </a>
+                                    </div> --}}
+                                    <div class="social-link d-flex flex-row justify-content-center text-left pt-3">
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fas fa-link fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded" href="#"><i class="fas fa-envelope fw-normal"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -108,7 +122,7 @@
                     </div>
                 </div>
 
-                <div class="box-shadow px-3 p-2 mt-3">
+                {{-- <div class="box-shadow px-3 p-2 mt-3">
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="rounded-blog-category mb-2 mt-2 p-2">
                             <a class="text-white py-2 px-5 mb-2" href="#">Share </a>
@@ -121,7 +135,7 @@
                             <a class="btn box-shadow btn-rounded" href="#"><i class="fas fa-envelope fw-normal"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
 
 

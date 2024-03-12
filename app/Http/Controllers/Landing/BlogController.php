@@ -11,7 +11,7 @@ class BlogController extends Controller
         return view('landing.pages.blog');
     }
 
-    public function blogDetail($name){
-        return view('landing.pages.blog-details',['name'=>$name]);
+    public function blogDetail($title){
+        return view('landing.pages.blog-details',['name'=>$title]);
     }
 }

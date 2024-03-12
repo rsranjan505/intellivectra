@@ -688,6 +688,13 @@ video {
     transform: scale(1.15);
 }
 
+.team-card {
+    border-radius: 35px;
+    padding: 20px;
+    min-height: 180px;
+    box-shadow: 10px 10px 10px 10px rgba(246, 187, 68, 0.2), 4px 6px 20px 2px rgba(255, 170, 43, 0.19);
+}
+
 /* /Brands */
 .brand-logo {
     align-items: center;
@@ -1212,24 +1219,41 @@ p.ivt-text {
 }
 
 /* accordian */
-.collapsible-link {
-    width: 100%;
-    position: relative;
-    text-align: left;
-  }
-
-  .collapsible-link::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' color='#F19F1F' width='16' height='16' fill='currentColor' class='bi bi-arrow-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5'/%3E%3C/svg%3E");
-    position: absolute;
-    top: 50%;
-    right: 0.8rem;
-    transform: translateY(-50%);
-    display: block;
-    /* font-family: "FontAwesome";
-    font-size: 1.1rem; */
-  }
-
-  .collapsible-link[aria-expanded="true"]::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' color='#F19F1F' width='16' height='16' fill='currentColor' class='bi bi-arrow-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5'/%3E%3C/svg%3E");
-  }
-
+.card-header .title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 650;
+}
+.card-header .accicon {
+  float: right;
+  font-size: 20px;
+  width: 1.2em;
+  margin-top: -6px;
+}
+.card-header{
+  cursor: pointer;
+  border-bottom: none;
+}
+.card{
+    width: 100% !important;
+  border: 1px solid #ddd;
+}
+.card-body{
+  border-top: 1px solid #ddd;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+.acoord-btn {
+    margin-top: -35px;
+}
+.rounded-career-btn {
+    border-radius: 45px !important;
+    background-color: var(--dark) !important;
+    color: #fff !important;
+}
+.rounded-career-arrow {
+    border-radius: 45px !important;
+    background-color: var(--primary) !important;
+    color: #fff !important;
+}

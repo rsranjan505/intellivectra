@@ -32,8 +32,8 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s">
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-12" style="min-height: 600px;" >
-                <img class="position-absolute w-100 h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
+            <div class="col-lg-12 d-flex aligns-content-center justify-content-center" style="min-height: 600px;" >
+                <img class="position-absolute h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
             </div>
             {{-- <div class="col-lg-4">
                 <div class="position-relative pb-3">
@@ -54,52 +54,41 @@
     </div>
 </div>
 
-{{-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h1 class="fw-boldtext-uppercase">Meet our <span class="text-primary">Leaders</span></h1>
             <p class="mb-0">Start your future today, connect with the IVT team</p>
         </div>
-
-        <div class="row g-5">
-            <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                <div class="team-item bg-light rounded overflow-hidden">
-                    <div class="team-img position-relative overflow-hidden">
+        <div class="d-flex flex-row aligns-content-center justify-content-center">
+            <div class="team-card wow slideInUp mx-4" data-wow-delay="0.3s">
+                <div class="team-item bg-light overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
                         <img class="img-fluid w-50" src="{{ asset('assets/img/team-2.png')}}" alt="">
-                        <div class="team-social">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                        </div>
                     </div>
                     <div class="text-center py-4">
-                        <h4 class="text-primary">Full Name</h4>
-                        <p class="text-uppercase m-0">Designation</p>
+                        <h4 class="fw-bold">MANAS <span class="text-primary">SINHA</span></h4>
+                        <p class="m-0 my-3">Founder, C.E.O. & M.D.</p>
+                        <i class="fab fa-linkedin-in fw-normal text-primary" ></i>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
-                <div class="team-item bg-light rounded overflow-hidden">
-                    <div class="team-img position-relative overflow-hidden">
+            <div class="team-card wow slideInUp mx-4" data-wow-delay="0.3s">
+                <div class="team-item bg-light  overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
                         <img class="img-fluid w-50" src="{{ asset('assets/img/team-1.png')}}" alt="">
-                        <div class="team-social">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                        </div>
                     </div>
                     <div class="text-center py-4">
-                        <h4 class="text-primary">Full Name</h4>
-                        <p class="text-uppercase m-0">Designation</p>
+                        <h4 class="fw-bold">MANOJ <span class="text-primary">PRADHAN</span></h4>
+                        <p class="m-0 my-3">Director</p>
+                        <i class="fab fa-linkedin-in fw-normal text-primary" ></i>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
-</div> --}}
+</div>
 
 
 @endsection

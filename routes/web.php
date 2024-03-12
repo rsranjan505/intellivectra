@@ -30,6 +30,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about-us',[AboutController::class,'index'])->name('about');
 Route::get('/careers',[CareerController::class,'index'])->name('career');
+Route::get('/careers/apply',[CareerController::class,'apply'])->name('career.apply');
 Route::get('/blogs',[BlogController::class,'index'])->name('blogs');
 Route::get('/blogs/{name}',[BlogController::class,'blogDetail'])->name('blogs-details');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');

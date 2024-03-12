@@ -80,7 +80,7 @@
                             <a href="{{ route('blogs')}}" class="nav-item nav-link {{ Request::is('blogs') || str_contains(Request::url(),'blogs') ? 'active' : ''}}">Blogs</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('career')}}" class="nav-item nav-link {{ Request::is('careers') ? 'active' : ''}}">Career</a>
+                            <a href="{{ route('career')}}" class="nav-item nav-link {{ Request::is('careers') || str_contains(Request::url(),'careers') ? 'active' : ''}}">Career</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('contact')}}" class="nav-item nav-link {{ Request::is('contact-us') ? 'active' : ''}}">Contact Us</a>
@@ -110,6 +110,8 @@
             @include('landing.components.sub-header',['type' => 'case-study'])
         @elseif (Request::is('careers'))
             @include('landing.components.sub-header',['type' => 'career'])
+        @elseif (Request::is('careers/apply'))
+            @include('landing.components.sub-header',['type' => 'career-apply'])
         @endif
 
 

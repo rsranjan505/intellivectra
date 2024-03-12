@@ -48,6 +48,13 @@
                 $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
                 $img = asset('assets/img/career-bg.jpg');
             @endphp
+        @elseif ($type == 'career-apply')
+            @php
+                $whitetitle = '';
+                $colortitle = 'career';
+                $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
+                $img = asset('assets/img/career-bg.jpg');
+            @endphp
         @endif
     @endif
 
