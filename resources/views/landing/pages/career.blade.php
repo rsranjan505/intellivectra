@@ -38,7 +38,7 @@
                         {{-- <span  class="accicon"><i class=" rounded-career-arrow py-2 px-3 fas fa-angle-down rotate-icon"></i></span> --}}
                     </div>
                 </div>
-                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse " data-parent="#accordionExample">
                     <div class="card-body">
 
                         <h6 class="fw-bold">Job Type: Remote</h6>
@@ -109,10 +109,11 @@
                         </ul>
                         <h6 class="fw-bold">Benefits: </h6>
                         <ul>
-                            <li>Visa Formalities and Airfare: Company will handle all necessary visa formalities for employees traveling between Dubai and India initially. </li>
-                            <li>Initial Accommodation: Upon arrival in Dubai, Company will cover the cost of accommodation in a hotel for one week to help employees settle in.</li>
-                            <li>Assistance with Finding Accommodation: IVT will assist employees in finding suitable accommodation near their workplace in Dubai, easing their transition to the new location.</li>
-                            <li>90-B Pascos gyan marg, Udyog Vihar, Pascos, Sector-18 Gurgaon-  122015,  Haryana GSTIN/UIN: 06AAFCI5537C1ZT </li>
+                            <li><strong>Visa Formalities and Airfare:</strong> Company will handle all necessary visa formalities for employees traveling between Dubai and India initially. </li>
+                            <li><strong>Initial Accommodation:</strong> Upon arrival in Dubai, Company will cover the cost of accommodation in a hotel for one week to help employees settle in.</li>
+                            <li><strong>Assistance with Finding Accommodation:</strong> IVT will assist employees in finding suitable accommodation near their workplace in Dubai, easing their transition to the new location.</li>
+                            <li><strong>Medical Insurance: </strong>Company will provide comprehensive medical insurance coverage for employees during their stay in Dubai, ensuring their health and wellbeing are taken care of.  </li>
+                            <li><strong>Round-Trip Ticket: </strong> Company will provide employees with a round-trip ticket from Dubai to India and back, allowing them to visit their family at home. This benefit includes one month of paid leave to spend with their families.  </li>
                         </ul>
                     </div>
                 </div>
@@ -158,7 +159,28 @@
                             <li>Troubleshooting Application and Workplace IT & Communications & Collaboration
                                 Support</li>
                             <li>Interaction with internal and external stakeholders. </li>
-                            <li>Strong knowledge of Microsoft based operating systems with emphasis on Windows 7, Windows 10 and Office 2013 90-B Pascos gyan marg, Udyog Vihar, Pascos, Sector-18  Gurgaon-  122015,  Haryana GSTIN/UIN: 06AAFCI5537C1ZT </li>
+                            <li>Strong knowledge of Microsoft based operating systems with emphasis on Windows 7, Windows 10 and Office 2013.</li>
+                        </ul>
+
+                        <h6 class="fw-bold"> Skills Required:</h6>
+                        <ul>
+                            <li>Good to have – knowledge in AD and smart hands and feet support. </li>
+                            <li>Good to have – knowledge and experience of supporting MAC devices and tablets </li>
+                            <li>Excellent problem-solving and multitasking skills </li>
+                        </ul>
+
+                        <h6 class="fw-bold">Preferred Qualifications:</h6>
+                        <ul>
+                            <li>Bachelor's Degree in computer science, IT, or information systems, or equivalent experience. </li>
+                        </ul>
+
+                        <h6 class="fw-bold">Benefits:</h6>
+                        <ul>
+                            <li><strong>Visa Formalities and Airfare :</strong> Company will handle all necessary visa formalities for employees traveling between Dubai and India initially. </li>
+                            <li><strong>Initial Accommodation : </strong>Upon arrival in Dubai, Company will cover the cost of accommodation in a hotel for one week to help employees settle in.  </li>
+                            <li><strong>Assistance with Finding Accommodation : </strong> Company will assist employees in finding suitable accommodation near their workplace in Dubai, easing their transition to the new location.  </li>
+                            <li><strong>Medical Insurance :</strong>Company will provide comprehensive medical insurance coverage for employees during their stay in Dubai, ensuring their health and wellbeing are taken care of.  </li>
+                            <li><strong>Round-Trip Ticket :</strong> Company will provide employees with a round-trip ticket from Dubai to India and back, allowing them to visit their family at home. This benefit includes one month of paid leave to spend with their families.  </li>
                         </ul>
                     </div>
                 </div>

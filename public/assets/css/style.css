@@ -472,6 +472,9 @@ video {
 
 /* service pie slice */
 
+.ser-slice {
+    cursor: pointer;
+}
 
   .line {
     z-index: 1;

@@ -82,7 +82,7 @@
                             <img src="{{ asset('assets/img/brand/b-5.png')}}" class="brand-img"/>
                         </div>
 
-                        <div class="brand-logo">
+                        <div class="brand-logo column-line">
                             <img src="{{ asset('assets/img/brand/roombr.svg')}}" class="brand-img pt-1"/>
                         </div>
 
@@ -113,7 +113,7 @@
                             <img src="{{ asset('assets/img/brand/b-18.png')}}" class="brand-img pt-4"/>
                         </div>
 
-                        <div class="brand-logo column-line">
+                        <div class="brand-logo">
                             <img src="{{ asset('assets/img/brand/b-7.png')}}" class="brand-img pt-3"/>
                         </div>
                     </div>
