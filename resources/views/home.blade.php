@@ -163,7 +163,7 @@
                     <div class="col-lg-12">
                         <div class="row g-5">
                             <div id="blogs" class="owl-carousel blogs-carousel">
-                                <div class="mr-4 wow slideInUp " data-wow-delay="0.1s">
+                                {{-- <div class="mr-4 wow slideInUp " data-wow-delay="0.1s">
                                     <div class="blog-item bg-light box-shadow overflow-hidden m-4">
                                         <div class="blog-img position-relative overflow-hidden">
                                             <img class="img-fluid" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
@@ -199,6 +199,139 @@
                                               </svg></a>
                                         </div>
                                     </div>
+                                </div> --}}
+
+                                <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
+                                    <div class="">
+                                        <div class="blog-item bg-light rounded overflow-hidden">
+                                            <div class="blog-img position-relative overflow-hidden">
+                                                <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="d-flex mb-3">
+                                                    <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
+                                                    <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
+                                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
+                                                </div>
+                                                <h4 class="mb-3 text-left blog-title">Driving growth with the power of Custom Staffing Services</h4>
+                                                <p class="text-justify">In the competitive business world, the ability to acquire and retain top talent is crucial for any organization to achieve its goals. At Intelli Vectra staffing services organization, we are dedicated to ..</p>
+                                                <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                  </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                                    <div class="">
+                                        <div class="blog-item bg-light rounded overflow-hidden">
+                                            <div class="blog-img position-relative overflow-hidden">
+                                                <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="d-flex mb-3">
+                                                    <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
+                                                    <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
+                                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
+                                                </div>
+                                                <h4 class="mb-3 text-left blog-title">Shield your Organization with Cyber Security Services</h4>
+                                                <p class="text-justify">IIn recent times, one of the most concerning things in today's digital era is security, security concerns for organizations of all sizes and industries. With the drastic changes in cyber threats, organizations.. </p>
+                                                <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                  </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
+                                    <div class="">
+                                        <div class="blog-item bg-light rounded overflow-hidden">
+                                            <div class="blog-img position-relative overflow-hidden">
+                                                <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="d-flex mb-3">
+                                                    <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
+                                                    <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
+                                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
+                                                </div>
+                                                <h4 class="mb-3 text-left blog-title">Revolutionizing Operations with the Digital Services</h4>
+                                                <p class="text-justify">In this digital world, organizations are increasingly turning to digital services to stay competitive and adapt to changes in market dynamics. Digital transformation services play a crucial role in helping businesses..</p>
+                                                <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                  </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mr-4 wow slideInUp" data-wow-delay="0.4s">
+                                    <div class="">
+                                        <div class="blog-item bg-light rounded overflow-hidden">
+                                            <div class="blog-img position-relative overflow-hidden">
+                                                <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="d-flex mb-3">
+                                                    <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
+                                                    <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
+                                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
+                                                </div>
+                                                <h4 class="mb-3 text-left blog-title">The Role of Surveillance Solutions in Modern Security</h4>
+                                                <p class="text-justify">Wherever we go it is all about the safety and security of us. Surveillance solutions play a vital role and provide organizations with the tools and technologies that are needed to.. </p>
+                                                <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                  </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mr-4 wow slideInUp" data-wow-delay="0.5s">
+                                    <div class="">
+                                        <div class="blog-item bg-light rounded overflow-hidden">
+                                            <div class="blog-img position-relative overflow-hidden">
+                                                <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="d-flex mb-3">
+                                                    <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
+                                                    <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
+                                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
+                                                </div>
+                                                <h4 class="mb-3 text-left blog-title">Safeguarding Business Continuity with Backup and Archive Solutions</h4>
+                                                <p class="text-justify">Protecting data and applications no matter where they are to avoid costly business interruptions or to meet compliance requirements. The data is King. From important documents and business..</p>
+                                                <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                  </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mr-4 wow slideInUp" data-wow-delay="0.6s">
+                                    <div class="">
+                                        <div class="blog-item bg-light rounded overflow-hidden">
+                                            <div class="blog-img position-relative overflow-hidden">
+                                                <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="d-flex mb-3">
+                                                    <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
+                                                    <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
+                                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
+                                                </div>
+                                                <h4 class="mb-3 text-left blog-title">Unlocking Business Potential through Infrastructure Solutions</h4>
+                                                <p class="text-justify">Infrastructure solutions help businesses to escalate the technological landscape enduring with the world of digital and cloud. Investing in IT infrastructure solutions is mandatory.   </p>
+                                                <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                  </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 {{-- <ol class="carousel-indicators">
                                     <li data-target="#blogs" data-slide-to="0" class="active"></li>
@@ -210,7 +343,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 p-2">
-                        <a class="btn text-primary d-flex flex-row justify-content-end " href="#"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
+                        <a class="btn text-primary d-flex flex-row justify-content-end " href="{{route('blogs')}}"> See All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mt-1" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                           </svg></a>
                     </div>
