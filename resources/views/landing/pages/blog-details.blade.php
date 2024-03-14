@@ -54,9 +54,6 @@
                                             <strong>Expert IT Consulting:</strong> Professional services offer expert guidance and consulting services to help organizations navigate the complexities of modern IT environments.
                                         </li>
                                         <li class="text-justify">
-                                            <strong>Expert IT Consulting:</strong> Professional services offer expert guidance and consulting services to help organizations navigate the complexities of modern IT environments.
-                                        </li>
-                                        <li class="text-justify">
                                             <strong> Digital Transformation:</strong> These specialize in facilitating digital transformation initiatives, helping businesses adapt to the rapidly changing digital landscape.
                                         </li>
                                         <li class="text-justify">
@@ -87,13 +84,15 @@
                             </div>
 
                             <div class="mx-5 px-3 p-2 mt-3">
-                                <div class="d-flex flex-column justify-content-center mx-5 mb-5 wow slideInUp mt-4" data-wow-delay="0.1s">
-                                    {{-- <div class="rounded-blog-category w-50 ">
-                                        <a class="text-white py-2 text-center" href="#">Share </a>
-                                    </div> --}}
+                                <div class="d-flex flex-column justify-content-center wow slideInUp mt-4" data-wow-delay="0.1s">
+                                    <div class="d-flex flex-row justify-content-center mt-5">
+                                        <a class="btn box-shadow btn-rounded text-primary" href="#">Share  </a>
+                                    </div>
                                     <div class="social-link d-flex flex-row justify-content-center text-left pt-3">
                                         <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fas fa-link fw-normal"></i></a>
-                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                          </svg></a>
                                         <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
                                         <a class="btn box-shadow btn-rounded me-2 mr-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                         <a class="btn box-shadow btn-rounded" href="#"><i class="fas fa-envelope fw-normal"></i></a>

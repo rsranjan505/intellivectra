@@ -690,6 +690,12 @@ video {
 .blog-item:hover .blog-img img {
     transform: scale(1.15);
 }
+.blog-link:hover {
+    background-color: var(--dark);
+    color: var(--light) !important;
+    border-radius: 45px;
+    padding: 10px 14px;
+}
 
 .team-card {
     border-radius: 35px;
