@@ -55,6 +55,69 @@
                 $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
                 $img = asset('assets/img/career-bg.jpg');
             @endphp
+        @elseif ($type == 'staffing')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'staffing';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'consulting')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'consulting';
+                $subheading = "Customized consulting, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'cloud')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'cloud';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'backup')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'backup';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'data')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'data';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'survillence')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'survillence';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'command')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'command';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'security')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'security';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
+        @elseif ($type == 'infrastucture')
+            @php
+                $whitetitle = 'services';
+                $colortitle = 'infrastucture';
+                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $img = asset('assets/img/service-bg.jpg');
+            @endphp
         @endif
     @endif
 

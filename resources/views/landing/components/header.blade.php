@@ -32,44 +32,44 @@
                             <a href="{{route('about')}}" class="nav-link {{ Request::is('about-us') ? 'active' : ''}}" >Company</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'services') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                                aria-expanded="false">Services & Solutions</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                <li class="dropdown-item"><a href="#">Staffing Services</a></li>
+                                <li class="dropdown-item"><a href="{{ route('services.staffing')}}">Staffing Services</a></li>
                                 <li class="dropdown-item dropdown">
                                     <a class="dropdown-toggle" id="dropdown2-1" data-toggle="dropdown" aria-haspopup="true"
                                        aria-expanded="false">Professional Services</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown2-1">
-                                        <li class="dropdown-item"><a href="#">Consulting Services</a></li>
+                                        <li class="dropdown-item"><a href="{{ route('services.consulting')}}">Consulting Services</a></li>
                                         <li class="dropdown-item dropdown">
                                             <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Platform and Operations</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                <li class="dropdown-item"><a href="#">Cloud services and solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.cloud')}}">Cloud services and solutions</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-item dropdown">
                                             <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Enterprise Application Services</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                <li class="dropdown-item"><a href="#">Backup and archieve solutions</a></li>
-                                                <li class="dropdown-item"><a href="#">Data management solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.backup')}}">Backup and archieve solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.data')}}">Data management solutions</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-item dropdown">
                                             <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Digital Services</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                <li class="dropdown-item"><a href="#">Surveillance solutions</a></li>
-                                                <li class="dropdown-item"><a href="#">Command and control solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.survillence')}}">Surveillance solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.command')}}">Command and control solutions</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-item dropdown">
                                             <a class="dropdown-toggle" id="dropdown2-1-2" data-toggle="dropdown"
                                                aria-haspopup="true" aria-expanded="false">Security Services</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown2-1-2">
-                                                <li class="dropdown-item"><a href="#">Security solutions</a></li>
-                                                <li class="dropdown-item"><a href="#">Infrastructure solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.security')}}">Security solutions</a></li>
+                                                <li class="dropdown-item"><a href="{{ route('services.infrastucture')}}">Infrastructure solutions</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -112,6 +112,25 @@
             @include('landing.components.sub-header',['type' => 'career'])
         @elseif (Request::is('careers/apply'))
             @include('landing.components.sub-header',['type' => 'career-apply'])
+
+        @elseif (Request::is('services/staffing'))
+            @include('landing.components.sub-header',['type' => 'staffing'])
+        @elseif (Request::is('services/consulting'))
+            @include('landing.components.sub-header',['type' => 'consulting'])
+         @elseif (Request::is('services/cloud'))
+            @include('landing.components.sub-header',['type' => 'cloud'])
+        @elseif (Request::is('services/backup'))
+            @include('landing.components.sub-header',['type' => 'backup'])
+        @elseif (Request::is('services/data'))
+            @include('landing.components.sub-header',['type' => 'data'])
+        @elseif (Request::is('services/survillence'))
+            @include('landing.components.sub-header',['type' => 'survillence'])
+        @elseif (Request::is('services/command'))
+            @include('landing.components.sub-header',['type' => 'command'])
+        @elseif (Request::is('services/security'))
+            @include('landing.components.sub-header',['type' => 'security'])
+        @elseif (Request::is('services/infrastucture'))
+            @include('landing.components.sub-header',['type' => 'infrastucture'])
         @endif
 
 

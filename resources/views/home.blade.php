@@ -163,44 +163,6 @@
                     <div class="col-lg-12">
                         <div class="row g-5">
                             <div id="blogs" class="owl-carousel blogs-carousel">
-                                {{-- <div class="mr-4 wow slideInUp " data-wow-delay="0.1s">
-                                    <div class="blog-item bg-light box-shadow overflow-hidden m-4">
-                                        <div class="blog-img position-relative overflow-hidden">
-                                            <img class="img-fluid" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
-                                        </div>
-                                        <div class="p-4 text-left">
-                                            <div class="d-flex mb-3">
-                                                <small class="me-3 mr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
-                                                <small class="me-3 mr-2"><i class="far fa-calendar-alt text-primary me-2"></i>  03 Mar, 2024</small>
-                                            </div>
-                                            <h4 class="mb-3 text-justify blog-title">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
-                                            <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge.</p>
-                                            <a class="btn btn-dark rounded-pill" href="">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                              </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mr-4 wow slideInUp" data-wow-delay="0.6s">
-                                    <div class="blog-item bg-light box-shadow overflow-hidden m-4">
-                                        <div class="blog-img position-relative overflow-hidden">
-                                            <img class="img-fluid" src="{{ asset('assets/img/blog/blog-2.png')}}" alt="">
-
-                                        </div>
-                                        <div class="p-4 text-left">
-                                            <div class="d-flex mb-3">
-                                                <small class="me-3 pr-2"><i class="far fa-user text-primary me-2"></i>  John Doe</small>
-                                                <small class="pr-2"><i class="far fa-calendar-alt text-primary me-2 "></i>  03 Mar, 2024</small>
-                                            </div>
-                                            <h4 class="mb-3 text-justify blog-title">Maximizing Efficiency and Talent Acquisition with Professional Staffing Services</h4>
-                                            <p class="text-justify">In today's competitive business landscape, companies are constantly striving to optimize their operations and gain a competitive edge.</p>
-                                            <a class="btn btn-dark rounded-pill" href="">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                              </svg></a>
-                                        </div>
-                                    </div>
-                                </div> --}}
-
                                 <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
                                     <div class="">
                                         <div class="blog-item bg-light rounded overflow-hidden">

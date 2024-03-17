@@ -33,7 +33,7 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-12 d-flex aligns-content-center justify-content-center" style="min-height: 600px;" >
-                <img class="position-absolute h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.png')}}" >
+                <img class="position-absolute h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.svg')}}" >
             </div>
             {{-- <div class="col-lg-4">
                 <div class="position-relative pb-3">
