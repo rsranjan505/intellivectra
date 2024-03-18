@@ -10,6 +10,7 @@ use App\Http\Controllers\Landing\CareerController;
 use App\Http\Controllers\Landing\CaseStudyController;
 use App\Http\Controllers\Landing\ContactController;
 use App\Http\Controllers\Landing\HomeController;
+use App\Http\Controllers\Landing\OemsController;
 use App\Http\Controllers\Landing\ServicesController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -41,6 +42,7 @@ Route::get('/blogs',[BlogController::class,'index'])->name('blogs');
 Route::get('/blogs/{name}',[BlogController::class,'blogDetail'])->name('blogs-details');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
 Route::get('/case-study',[CaseStudyController::class,'index'])->name('case-study');
+Route::get('/oems',[OemsController::class,'index'])->name('oems');
 
 Route::get('/services/staffing',[ServicesController::class,'staffingIndex'])->name('services.staffing');
 Route::get('/services/consulting',[ServicesController::class,'consultingIndex'])->name('services.consulting');

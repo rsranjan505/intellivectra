@@ -118,6 +118,13 @@
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
                 $img = asset('assets/img/service-bg.jpg');
             @endphp
+        @elseif ($type == 'oems')
+            @php
+                $whitetitle = 'oems';
+                $colortitle = 'Our';
+                $subheading = "Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.";
+                $img = asset('assets/img/oem-bg.jpg');
+            @endphp
         @endif
     @endif
 

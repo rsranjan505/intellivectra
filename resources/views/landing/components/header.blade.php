@@ -131,6 +131,8 @@
             @include('landing.components.sub-header',['type' => 'security'])
         @elseif (Request::is('services/infrastucture'))
             @include('landing.components.sub-header',['type' => 'infrastucture'])
+        @elseif (Request::is('oems'))
+            @include('landing.components.sub-header',['type' => 'oems'])
         @endif
 
 
