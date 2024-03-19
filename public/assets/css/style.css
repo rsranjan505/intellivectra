@@ -707,9 +707,9 @@ video {
 .blog-item:hover .blog-img img {
     transform: scale(1.15);
 }
-.blog-link:hover {
-    background-color: var(--dark);
-    color: var(--light) !important;
+a.blog-link:hover {
+    background-color: var(--dark) !important;
+    color: var(--primary) !important;
     border-radius: 45px;
     padding: 10px 14px;
 }
@@ -825,7 +825,7 @@ a.text-primaryv:hover{
 
 .case-content {
     /* border: #F19F1F 1px solid; */
-    max-height: 400px;
+    max-height: 550px;
     border-radius: 6px;
     box-shadow: inset 0 0 0 0 var(--primary);
 }
@@ -833,7 +833,7 @@ a.text-primaryv:hover{
     margin-right: -30px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    max-height: 400px;
+    max-height: 550px;
 }
 /* .header-carousel {
     margin-top: 100px;
@@ -941,11 +941,11 @@ a.text-primaryv:hover{
     .center {
       opacity: 1;
 
-      .card-img-top {
+      /* .card-img-top {
         max-width: 100%;
         height: 120px;
         width: 120px;
-      }
+      } */
     }
 
       /* Processs */
@@ -1019,6 +1019,14 @@ a.text-primaryv:hover{
     .blogs-carousel .owl-item.center .vendor-item {
         background: #FFFFFF !important;
         box-shadow: 0 0 30px #DDDDDD;
+    }
+
+    .blog-share a {
+        width: 40%;
+    }
+    .blog-share a:hover {
+        background-color: var(--primary);
+        color: var(--dark)  !important;
     }
 
 
@@ -1257,7 +1265,6 @@ p.ivt-text {
   float: right;
   font-size: 20px;
   width: 1.2em;
-  margin-top: -6px;
 }
 .card-header{
   cursor: pointer;
@@ -1270,9 +1277,9 @@ p.ivt-text {
 .card-body{
   border-top: 1px solid #ddd;
 }
-.card-header:not(.collapsed) .rotate-icon {
+/* .card-header:not(.collapsed) .rotate-icon {
   transform: rotate(180deg);
-}
+} */
 .acoord-btn {
     margin-top: -35px;
 }
@@ -1287,6 +1294,16 @@ p.ivt-text {
     color: #fff !important;
 }
 
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
 /* oems */
 .oem-search-box {
     box-shadow: 2px 2px 4px 2px rgba(246, 187, 68, 0.2), 4px 6px 20px 2px rgba(255, 170, 43, 0.19);

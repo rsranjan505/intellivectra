@@ -165,7 +165,7 @@
                         <div class="d-flex align-items-center flex-column justify-content-cente w-60 py-3">
                             <h4 class="contact-text"><span class="text-primary">Maharastra, Mumbai</span></h4>
 
-                            <p class="text-center text-justify">Cooming Soon</p>
+                            <p class="text-center text-justify">Coming Soon</p>
                         </div>
                     </div>
                 </div>

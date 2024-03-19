@@ -85,7 +85,7 @@
 
                             <div class="mx-5 px-3 p-2 mt-3">
                                 <div class="d-flex flex-column justify-content-center wow slideInUp mt-4" data-wow-delay="0.1s">
-                                    <div class="d-flex flex-row justify-content-center mt-5">
+                                    <div class="d-flex flex-row justify-content-center mt-5 blog-share">
                                         <a class="btn box-shadow btn-rounded text-primary" href="#">Share  </a>
                                     </div>
                                     <div class="social-link d-flex flex-row justify-content-center text-left pt-3">

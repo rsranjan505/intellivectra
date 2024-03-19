@@ -10,9 +10,9 @@
                 <div class="position-relative pb-3">
                     <h1>Welcome To <span class="text-primary">IVT</span></h1>
                 </div>
-                <p class="mb-2"><span class="text-primary">Intelli Vectra Technologies</span> is an IT Solution Provider that is technology and vendor agnostic. Our client relationships are fiduciary because we always look out for our clients' best interests and use Innovation and Engagement to transform organisations.
+                <p class="mb-2 text-justify"><span class="text-primary">Intelli Vectra Technologies</span> is an IT Solution Provider that is technology and vendor agnostic. Our client relationships are fiduciary because we always look out for our clients' best interests and use Innovation and Engagement to transform organisations.
                 </p>
-                <p>
+                <p class="text-justify">
                     We offer the finest customer experience and an easy-to-use platform that analyses clients' needs and helps businesses.
                 </p>
 
@@ -68,7 +68,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h4 class="fw-bold">MANAS <span class="text-primary">SINHA</span></h4>
-                        <p class="m-0 my-3">Founder, C.E.O. & M.D.</p>
+                        <p class="m-0 my-3">Founder, CEO & MD</p>
                         <i class="fab fa-linkedin-in fw-normal text-primary" ></i>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h4 class="fw-bold">MANOJ <span class="text-primary">PRADHAN</span></h4>
-                        <p class="m-0 my-3">Director</p>
+                        <p class="m-0 my-3">Executive Director</p>
                         <i class="fab fa-linkedin-in fw-normal text-primary" ></i>
                     </div>
                 </div>

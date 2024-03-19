@@ -15,6 +15,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
+        <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
 

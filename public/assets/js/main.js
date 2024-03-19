@@ -175,7 +175,7 @@
 
 // video
 
-$("#carouselExampleIndicators").carousel({interval: 3000});
+$("#carouselExampleIndicators").carousel({interval: 5000});
 
 // let allVids = $("#myCarousel").find('.carousel-item');
 

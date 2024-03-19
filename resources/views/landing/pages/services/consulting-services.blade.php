@@ -16,7 +16,10 @@
                 <div class="position-relative pb-3">
                     <h1>About <span class="text-primary"> {{ ucfirst($data['title'])}} Services</span></h1>
                 </div>
-                <p class="mb-2 text-justify">At Intelli Vectra, our focus is on delivering exceptional value to our clients through our comprehensive suite of services. Whether it's managing servers or providing support to end-users, we understand the importance of addressing diverse needs across various domains. With a commitment to optimising performance and driving success, we leverage our expertise and innovative solutions to help businesses thrive in today's dynamic environment.
+                <p class="mb-2 text-justify">At Intelli Vectra, we offer a comprehensive range of consulting services to help businesses
+                    lead with a strategic vision and thrive amidst change. From Strategic Management Advisory
+                    to Digital Transformation Consulting, our expert team is dedicated to providing tailored
+                    solutions that drive competitive advantage and performance improvement.
                 </p>
 
                 {{-- <a href="{{ route('about')}}" class="btn btn-dark rounded-pill py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -39,8 +42,8 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-1.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Server Management</h5>
-                        <p class="text-justify">Full-service solutions for OS, Active Directory, virtualization, upgrades, and migrations with 24x7 support.</p>
+                        <h5 class="fw-bold">Strategic Management Advisory</h5>
+                        <p class="text-justify">Enhancing competitiveness and performance.</p>
                     </div>
                 </div>
             </div>
@@ -50,8 +53,9 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-6.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Storage, Backup, and Recovery</h5>
-                        <p class="text-justify">Full-service solutions for OS, Active Directory, virtualization, upgrades, and migrations with 24x7 support.</p>
+                        <h5 class="fw-bold">Business Process Management</h5>
+                        <p class="text-justify">Streamlining operations across the enterprise.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -63,8 +67,8 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-2.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Network and Unified Communication</h5>
-                        <p class="text-justify">Evaluation, design, implementation, and monitoring for LAN, WAN, wireless, with 24x7 support.</p>
+                        <h5 class="fw-bold">Technology Consulting</h5>
+                        <p class="text-justify">Implementing industry-relevant technology solutions</p>
                     </div>
                 </div>
             </div>
@@ -74,8 +78,9 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-3.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Cloud Services</h5>
-                        <p class="text-justify">Design, integration, monitoring, support, analytics, upgrades for seamless cloud operations.</p>
+                        <h5 class="fw-bold">Digital Transformation Consulting</h5>
+                        <p class="text-justify">Recommending digital processes for
+                            transformation.</p>
                     </div>
                 </div>
             </div>
@@ -87,8 +92,8 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-4.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Database Services</h5>
-                        <p class="text-justify">Design, implementation, monitoring, administration, upgrades, patch management, with continuous support.</p>
+                        <h5 class="fw-bold">Organisation Transformation</h5>
+                        <p class="text-justify">Driving change with behavioural analytics</p>
                     </div>
                 </div>
             </div>
@@ -98,8 +103,8 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-5.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">End User Services</h5>
-                        <p class="text-justify">Evaluation, training, support for device, application rollouts, O365, migrations, upgrades.</p>
+                        <h5 class="fw-bold">On-Demand Consulting</h5>
+                        <p class="text-justify">Efficient resource management for project demands.</p>
                     </div>
                 </div>
             </div>
@@ -122,23 +127,23 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.6s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.2s" src="{{ asset('assets/img/oem-1.svg')}}" >
                             <h5>Step-1 </h5>
-                            <p>We evaluate your systems to understand your needs.</p>
+                            <p>Collaborating closely with clients to craft a clear vision for success</p>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.7s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/service-orm-1.svg')}}" >
                             <h5>Step-2</h5>
-                            <p>Tailored solutions are designed based on assessment. </p>
+                            <p>Implementing customised solutions for specific needs and opportunities. </p>
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.8s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/oem-2.svg')}}" >
                             <h5>Step-3</h5>
-                            <p>Seamless integration into your environment. </p>
+                            <p>Providing expert insights and hands-on assistance throughout. Continuous STEP</p>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.9s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.1s"  src="{{ asset('assets/img/service-orm-2.svg')}}" >
                             <h5 class="">Step-4</h5>
-                            <p>24x7 support ensures smooth operation. </p>
+                            <p>Constantly monitoring and refining strategies for alignment with evolving goals. </p>
                         </div>
                     </div>
                 </div>
@@ -154,8 +159,12 @@
             <div class="container-fluid py-4 wow fadeInUp bg-primary ml-5" data-wow-delay="0.4s" >
                 <div class="container">
                     <div class="text-center position-relative pb-3 mb-4 mx-auto">
-                        <h4 class="text-left text-primary">Key Features of Our Platform and Operational Services</h4>
-                        <p class="text-left mb-0">Our services offer comprehensive, tailored solutions supported by expertise and 24x7 support. With end-to-end coverage from evaluation to ongoing assistance, we ensure maximum effectiveness and uninterrupted operation for our clients.
+                        <h4 class="text-left text-primary">Key Features of Our Consulting Services</h4>
+                        <p class="text-justify mb-0">Our key features include comprehensive solutions covering evaluation, implementation,
+                            customization, and support for ERP, CRM & BPM applications. We prioritise tailored
+                            approaches to meet specific business needs, ensuring maximum effectiveness and
+                            efficiency. Also our expertise in standardisation, optimization, and automation drives
+                            innovation and competitiveness in business processes.
                         </p>
                     </div>
                 </div>
@@ -172,8 +181,10 @@
                                         <img class="img-fluid w-50 h-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
                                     </div>
                                     <div class="text-center py-4">
-                                        <h5 class="fw-bold">Enhanced Efficiency</h5>
-                                        <p class="mx-3 text-center m-0 my-3">Streamlined operations boost overall efficiency. </p>
+                                        <h5 class="fw-bold">Competitive Advantage</h5>
+                                        <p class="mx-3 text-center m-0 my-3">: Gain a competitive edge in your industry with strategic
+                                            insights and innovative solutions.
+                                             </p>
 
                                     </div>
                                 </div>
@@ -186,8 +197,41 @@
                                         <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
                                     </div>
                                     <div class="text-center py-4">
-                                        <h5 class="fw-bold">Enhanced Efficiency</h5>
-                                        <p class="mx-3 text-center m-0 my-3">Streamlined operations boost overall efficiency. </p>
+                                        <h5 class="fw-bold">Performance Improvement</h5>
+                                        <p class="mx-3 text-center m-0 my-3">Enhance operational efficiency and performance
+                                            through tailored consulting services.
+                                            </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
+                            <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                <div class="ser-feature-card  bg-light overflow-hidden">
+                                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                        <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                    </div>
+                                    <div class="text-center py-4">
+                                        <h5 class="fw-bold">Adaptability</h5>
+                                        <p class="mx-3 text-center m-0 my-3">Navigate change and uncertainty with confidence, knowing you have
+                                            expert guidance and support.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                            <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                <div class="ser-feature-card  bg-light overflow-hidden">
+                                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                        <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                    </div>
+                                    <div class="text-center py-4">
+                                        <h5 class="fw-bold">Business Growth</h5>
+                                        <p class="mx-3 text-center m-0 my-3"> Unlock opportunities for growth and expansion with our strategic
+                                            management advisory and transformational consulting services.</p>
 
                                     </div>
                                 </div>
@@ -227,75 +271,89 @@
 
 
 <div class="container my-5 ">
-    <div class="accordion feature-faq" id="accordionExample" >
-        <div class="card"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
-            <div class="card-header" >
-                <h6>What industries do you specialise in?</h6>
+    <div class="d-flex flex-column align-items-center justify-content-center py-2 pb-2">
+        <h4 class="fw-bold text-primary">FAQ</h4>
+    </div>
 
+    <div class="accordion feature-faq" id="accordionExample" >
+        <div class="card"  >
+            <div class="card-header collapsed py-3" data-toggle="collapse" data-parent="#accordionExample" data-target="#collapseOne" aria-expanded="true">
+                <h6 class="fw-bold">What industries do you specialise in?</h6>
                 <div class="acoord-btn text-right mr-2">
-                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
-                    <span  class="accicon"><i class="py-2 px-3 fas fa-angle-down rotate-icon"></i></span>
+
                 </div>
             </div>
             <div id="collapseOne" class="collapse " data-parent="#accordionExample">
                 <div class="card-body">
-                    <p>We specialise in catering to a wide range of industries, ensuring our services meet diverse needs effectively.</p>
+                    <p>We have expertise across various industries, including technology, finance, and
+                        manufacturing, among others.</p>
                 </div>
             </div>
         </div>
-        <div class="card"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true">
-            <div class="card-header">
-                <h6>How do you ensure smooth implementation of platform and operational services? </h6>
-                <div class="acoord-btn text-right mr-2  pb-3">
+
+        <div class="card" >
+            <div class="card-header collapsed py-3"  data-toggle="collapse" data-parent="#accordionExample" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
+                <h6 class="fw-bold">How do you ensure the success of consulting projects?
+                </h6>
+                <div class="acoord-btn text-right mr-2">
                     {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
-                    <span  class="accicon"><i class=" py-2 px-3 fas fa-angle-down rotate-icon"></i></span>
+                    {{-- <span  class="accicon"><i class=" fas fa-angle-down rotate-icon"></i></span> --}}
+                </div>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>We ensure project success through thorough planning, strategic implementation,
+                        continuous monitoring, and responsive support, tailored to each client's unique
+                        requirements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-header collapsed py-3" data-toggle="collapse" data-parent="#accordionExample" data-target="#collapseThree" aria-expanded="true">
+                <h6 class="fw-bold">Can you provide examples of your past successful consulting engagements? </h6>
+                <div class="acoord-btn text-right mr-2  pb-3">
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    {{-- <span  class="accicon"><i class=" fas fa-angle-down rotate-icon"></i></span> --}}
                 </div>
             </div>
             <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                 <div class="card-body">
-
+                    <p>Certainly, we have a track record of successful projects. Please feel free to request
+                        examples for reference</p>
                 </div>
             </div>
         </div>
-        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
-            <div class="card-header">
-                <h6>What level of support do you offer for platform and operational services? </h6>
+        <div class="card" >
+            <div class="card-header collapsed py-3" data-toggle="collapse" data-parent="#accordionExample" data-target="#collapseFour" aria-expanded="true">
+                <h6 class="fw-bold">How do you maintain confidentiality and data security during consulting
+                    engagements?
+                     </h6>
                 <div class="acoord-btn text-right mr-2  pb-3">
-                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
-                    <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span>
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    {{-- <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span> --}}
                 </div>
             </div>
-            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+            <div id="collapseFour" class="collapse" data-parent="#accordionExample">
                 <div class="card-body">
-
+                    <p>Confidentiality and data security are paramount to us. We implement stringent
+                        protocols and industry best practices to safeguard client information throughout the
+                        consulting process</p>
                 </div>
             </div>
         </div>
-        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
-            <div class="card-header">
-                <h6>Can you accommodate specific requirements or preferences in your platform and operational solutions? </h6>
+        <div class="card" >
+            <div class="card-header collapsed py-3" data-toggle="collapse" data-parent="#accordionExample" data-target="#collapseFive" aria-expanded="true">
+                <h6 class="fw-bold">What sets your consulting services apart from others in the market?</h6>
                 <div class="acoord-btn text-right mr-2  pb-3">
-                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
-                    <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span>
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    {{-- <span  class="accicon"><i class=" fas fa-angle-down rotate-icon"></i></span> --}}
                 </div>
             </div>
-            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+            <div id="collapseFive" class="collapse" data-parent="#accordionExample">
                 <div class="card-body">
-
-                </div>
-            </div>
-        </div>
-        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
-            <div class="card-header">
-                <h6>How do you handle scalability in platform and operational services?</h6>
-                <div class="acoord-btn text-right mr-2  pb-3">
-                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
-                    <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span>
-                </div>
-            </div>
-            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
-                <div class="card-body">
-
+                    <p>Our consulting services stand out due to our collaborative approach, industry
+                        expertise, tailored solutions, and commitment to delivering tangible results for our
+                        clients.</p>
                 </div>
             </div>
         </div>

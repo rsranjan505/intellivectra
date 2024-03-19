@@ -30,9 +30,9 @@
                           </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
-                        <h4 class="fw-medium pb-2"> <span class="text-primary"> SmartCityTech</span> Solutions</h4>
-                        <h6 class="mb-0 pb-1"><strong>Challenge:</strong></h6>
-                        <p class="mb-4 text-justify">SmartCityTech Solutions pioneers innovative IT services, specializing in the development of integrated command and control solutions for smart cities. With a focus on dynamic data analysis and security, they empower urban environments to make efficient, informed, and coordinated decisions, driving forward the evolution of modern city infrastructure.</p>
+                        <h4 class="fw-medium pb-2"> <span class="text-primary">Prayagraj Smart City-</span> Smart Classroom Automation Framework</h4>
+                        {{-- <h6 class="mb-0 pb-1"><strong>Challenge:</strong></h6> --}}
+                        <p class="mb-4 text-justify">Prayagraj Smart City Limited (PSCL) is the special purpose vehicle created under the Smart City Mission to deliver several Pan City and Area Based Development Initiatives with a focus on both infrastructure and ICT advancements in the city and at strategic locations.</p>
 
                         <a href="{{ route('case-study')}}" class="btn btn-dark rounded-pill py-3 px-5 wow zoomIn" data-wow-delay="0.9s">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
@@ -347,6 +347,9 @@
                                             </div>
                                             <div class="col-12">
                                                 <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Message" ></textarea>
                                             </div>
                                             <div class="col-12">
                                                 <button class="btn btn-dark form-input-rounded ml-3 mt-2 px-4 text-center" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">

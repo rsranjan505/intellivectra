@@ -27,7 +27,7 @@
                             <p class="ivt-text text-center">Tailored solutions ensuring scalability, security, & seamless integration.</p>
                         </div>
                         <div class="process-item pitem5 wow fadeInUp" data-wow-delay="0.8s">
-                            <h4 class="text-primary text-center">Resuts</h4>
+                            <h4 class="text-primary text-center">Results</h4>
                             <p class="ivt-text text-center">Streamlined workflows, expert solutions elevating business efficiency & innovation.</p>
                         </div>
                     </div>

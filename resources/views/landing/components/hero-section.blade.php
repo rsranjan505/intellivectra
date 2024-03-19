@@ -13,9 +13,9 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="mx-3 px-5 text-left">
-                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Business & </h2>
-                        <h2 class="display-1 text-white mb-md-4 animated zoomIn">Enterprise Hub</h2>
-                        <p>We deliver smart solutions for your business</p>
+                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown fw-bold">Business & </h2>
+                        <h2 class="display-1 text-white mb-md-1 animated zoomIn">Enterprise <strong>Hub</strong></h2>
+                        <p class="mb-md-4">We deliver smart solutions for your business</p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                             <form action="">
                                 <div class="input-group ">
@@ -45,8 +45,9 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="mx-3 px-5 text-left">
-                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Secure Data </h2>
-                        <h2 class="display-1 text-white mb-md-4 animated zoomIn">Handling</h2>
+                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown fw-bold">Innovative Solutions  </h2>
+                        <h2 class="display-1 text-white mb-md-1 animated zoomIn">for Sustainable <strong>Digital Growth </strong></h2>
+                        <p class="mb-md-3">Stay Ahead Of The Curve With Our Expert Digital Services</p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                             <form action="">
                                 <div class="input-group ">
@@ -77,8 +78,9 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="mx-3 px-5 text-left">
-                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown">Recruitment </h2>
-                        <h2 class="display-1 text-white mb-md-4 animated zoomIn">Made Easy</h2>
+                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown fw-bold">Cutting-edge Technology </h2>
+                        <h2 class="display-1 text-white mb-md-1 animated zoomIn">Integration for <strong>Enhanced Security</strong></h2>
+                        <p class="mb-md-3">Protect Your Business With Our Proactive Security Services</p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                             <form action="">
                                 <div class="input-group ">

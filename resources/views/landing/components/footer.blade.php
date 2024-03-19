@@ -35,8 +35,9 @@
                         <div class="link-animated d-flex flex-column">
                             <a class="text-light mb-3 ml-4" href="{{ route('about')}}">About Us</a>
                             <a class="text-light mb-3 ml-4" href="{{ route('about')}}">Our Team</a>
-                            <a class="text-light mb-3 ml-4" href="{{ route('about')}}">Our OEMs</a>
-                            <a class="text-light  ml-4" href="{{ route('contact')}}">Contact Us</a>
+                            <a class="text-light mb-3 ml-4" href="{{ route('oems')}}">Our OEMs</a>
+                            <a class="text-light  mb-3 ml-4" href="{{ route('contact')}}">Contact Us</a>
+                            <a class="text-light  ml-4" href="{{ route('career')}}">Career</a>
                         </div>
 
                     </div>
@@ -45,12 +46,12 @@
                             <h4 class="text-primary mb-0">Our Solutions</h4>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-3" href="#">Consulting Services</a>
-                            <a class="text-light mb-3" href="#">Platform And Operation Services</a>
-                            <a class="text-light mb-3" href="#">Enterprise Application Services</a>
-                            <a class="text-light mb-3" href="#">Digital Services</a>
-                            <a class="text-light mb-3" href="#">Security Services</a>
-                            <a class="text-light" href="#">Staffing Services</a>
+                            <a class="text-light mb-3" href="{{ route('services.consulting')}}">Consulting Services</a>
+                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Platform And Operation Services</a>
+                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Enterprise Application Services</a>
+                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Digital Services</a>
+                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Security Services</a>
+                            <a class="text-light" href="{{ route('services.staffing')}}">Staffing Services</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
