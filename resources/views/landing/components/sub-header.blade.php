@@ -46,7 +46,7 @@
                 $whitetitle = '';
                 $colortitle = 'career';
                 $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
-                $img = asset('assets/img/career-bg.jpg');
+                $img = asset('assets/img/career-bg.png');
             @endphp
         @elseif ($type == 'career-apply')
             @php
@@ -131,9 +131,9 @@
     <div class="carousel-inner" >
         <div class="carousel-item active">
             <img class="w-100" src="{{ $img }}" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="container">
-                    <div class="p-3 text-left">
+                    <div class="p-3 text-center">
                         <h2 class="text-primary mb-md-1 animated slideInDown">{{ ucfirst($colortitle)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($whitetitle)}}</span></h2>
                         <p>{{ ucfirst($subheading)}}</p>
                         {{-- <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">

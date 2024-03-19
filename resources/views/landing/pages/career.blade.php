@@ -27,13 +27,28 @@
         </div>
     </div>
 
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <h4 class="text-center">Welcome to Our Career Page!</h4>
+            <p class="text-justify">
+                At Intelli Vectra Technologies, we are committed to developing a culture that is innovative, collaborative, and growth-oriented. We're excited that you're considering joining our team as we continue to push boundaries, drive change, and make a positive impact in the world.
+
+                </p>
+                <p class="text-justify">Here, you'll find more than just a job; you'll find opportunities to thrive, grow your skills, and contribute to meaningful projects that shape the future. Whether you're a seasoned professional or just starting your career journey, we have a place for you.</p>
+                <p class="text-justify">Check out our current openings, learn more about our company, and see why Intelli Vectra can be the ideal fit for you. We're dedicated to helping our employees realise their full potential by encouraging their talents and providing them with the necessary support.</p>
+        </div>
+    </div>
+
 
     <div class="container">
         <div class="accordion" id="accordionExample">
             <div class="card">
-                <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
-                    <img src="{{ asset('assets/img/car-1.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">Lead Generation </span>
-                    <div class="acoord-btn text-right mr-2">
+                <div class="card-header" >
+                    <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
+                        <img src="{{ asset('assets/img/car-1.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">Lead Generation </span>
+                    </div>
+
+                    <div class="acoord-btn text-right mr-2 pb-3">
                         <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a>
                         {{-- <span  class="accicon"><i class=" rounded-career-arrow py-2 px-3 fas fa-angle-down rotate-icon"></i></span> --}}
                     </div>
@@ -71,9 +86,12 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true">
-                    <img src="{{ asset('assets/img/car-2.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">L1 Support Engineer (On-site) </span>
-                    <div class="acoord-btn text-right mr-2">
+                <div class="card-header">
+                    <div  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true">
+                        <img src="{{ asset('assets/img/car-2.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">L1 Support Engineer (On-site) </span>
+                    </div>
+
+                    <div class="acoord-btn text-right mr-2  pb-3">
                         <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a>
                         {{-- <span  class="accicon"><i class=" rounded-career-arrow py-2 px-3 fas fa-angle-down rotate-icon"></i></span> --}}
                     </div>
@@ -119,9 +137,12 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
-                    <img src="{{ asset('assets/img/car-3.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">L2 Support Engineer (On-site) </span>
-                    <div class="acoord-btn text-right mr-2">
+                <div class="card-header">
+                    <div  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
+                        <img src="{{ asset('assets/img/car-3.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">L2 Support Engineer (On-site) </span>
+                    </div>
+
+                    <div class="acoord-btn text-right mr-2  pb-3">
                         <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a>
                         {{-- <span  class="accicon"><i class=" rounded-career-arrow py-2 px-3 fas fa-angle-down rotate-icon"></i></span> --}}
                     </div>

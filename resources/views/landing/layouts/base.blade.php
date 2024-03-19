@@ -8,7 +8,7 @@
         <meta content="Consulting Website Template Free Download" name="description">
 
         <!-- Favicon -->
-        <link href="{{ asset('assets/img/logo.png')}}" rel="icon">
+        <link href="{{ asset('assets/img/fevicon-IVT.png')}}" rel="icon">
 
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

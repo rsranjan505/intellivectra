@@ -144,6 +144,30 @@
         }
     });
 
+    //service features
+    $('.service-feature-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        dots: true,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:2
+            }
+        }
+    });
+
 })(jQuery);
 
 

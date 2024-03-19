@@ -468,6 +468,23 @@ video {
     opacity: 1;
 }
 
+.service-feature {
+    border-top-left-radius: 25px;
+    padding: 10px;
+}
+
+.ser-feature-card {
+    border-radius: 25px;
+    min-height: 400px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 4px 2px rgba(255, 201, 92, 0.2), 4px 6px 20px 2px rgba(255, 202, 121, 0.19);
+}
+
+.feature-faq{
+    border-radius: 25px;
+    border-color: var(--primary);
+    box-shadow: 2px 2px 4px 2px rgba(255, 201, 92, 0.2), 4px 6px 20px 2px rgba(255, 202, 121, 0.19);
+}
 
 
 /* service pie slice */
@@ -788,6 +805,9 @@ video {
 }
 
 /* /Custom */
+.bg{
+    background-color: var(--primary);
+}
 .bg-primary {
     background-color: #FEFBF5 !important;
 }

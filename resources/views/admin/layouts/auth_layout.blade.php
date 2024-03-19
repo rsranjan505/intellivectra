@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="{{ asset('assets/img/logo.png') }}">
+    <link rel="icon" href="{{ asset('assets/img/fevicon-IVT.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('page_title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">

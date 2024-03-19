@@ -148,60 +148,48 @@
 </div>
 
 
-<div class="container-fluid py-4 wow fadeInUp bg-primary" data-wow-delay="0.4s" >
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="text-center position-relative pb-3 mb-4 mx-auto">
-                    <h4 class="text-left text-primary">Key Features of Our Platform and Operational Services</h4>
-                    <p class="text-left mb-0">Our services offer comprehensive, tailored solutions supported by expertise and 24x7 support. With end-to-end coverage from evaluation to ongoing assistance, we ensure maximum effectiveness and uninterrupted operation for our clients.
-                    </p>
+<div class="col-lg-12 my-5 mb-5" style="min-height: 600px">
+    <div class="row mb-5">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container-fluid py-4 wow fadeInUp bg-primary ml-5" data-wow-delay="0.4s" >
+                <div class="container">
+                    <div class="text-center position-relative pb-3 mb-4 mx-auto">
+                        <h4 class="text-left text-primary">Key Features of Our Platform and Operational Services</h4>
+                        <p class="text-left mb-0">Our services offer comprehensive, tailored solutions supported by expertise and 24x7 support. With end-to-end coverage from evaluation to ongoing assistance, we ensure maximum effectiveness and uninterrupted operation for our clients.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="service-feature bg" style="height: 300px">
                 <div class="row g-5">
-                    <div id="blogs" class="owl-carousel blogs-carousel">
+                    <div id="service-feature" class="px-5 owl-carousel service-feature-carousel">
                         <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
-                            <div class="">
-                                <div class="blog-item bg-light rounded overflow-hidden">
-                                    <div class="blog-img position-relative overflow-hidden">
-                                        {{-- <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt=""> --}}
-                                        <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                            <div class=" wow slideInUp mx-2 " data-wow-delay="0.3s">
+                                <div class="ser-feature-card bg-light overflow-hidden">
+                                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                        <img class="img-fluid w-50 h-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
                                     </div>
-                                    {{-- <div class="p-4">
-                                        <div class="d-flex mb-3">
-                                            <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
-                                            <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
-                                            <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
-                                        </div>
-                                        <h4 class="mb-3 text-left blog-title">Driving growth with the power of Custom Staffing Services</h4>
-                                        <p class="text-justify">In the competitive business world, the ability to acquire and retain top talent is crucial for any organization to achieve its goals. At Intelli Vectra staffing services organization, we are dedicated to ..</p>
-                                        <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                        </svg></a>
-                                    </div> --}}
+                                    <div class="text-center py-4">
+                                        <h5 class="fw-bold">Enhanced Efficiency</h5>
+                                        <p class="mx-3 text-center m-0 my-3">Streamlined operations boost overall efficiency. </p>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
-                            <div class="">
-                                <div class="blog-item bg-light rounded overflow-hidden">
-                                    <div class="blog-img position-relative overflow-hidden">
-                                        {{-- <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt=""> --}}
-                                        <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
+                            <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                <div class="ser-feature-card  bg-light overflow-hidden">
+                                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                        <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
                                     </div>
-                                    {{-- <div class="p-4">
-                                        <div class="d-flex mb-3">
-                                            <small class="me-3  mr-2"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
-                                            <small class="mr-2"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
-                                            <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>Enterprise Application Services</small>
-                                        </div>
-                                        <h4 class="mb-3 text-left blog-title">Shield your Organization with Cyber Security Services</h4>
-                                        <p class="text-justify">IIn recent times, one of the most concerning things in today's digital era is security, security concerns for organizations of all sizes and industries. With the drastic changes in cyber threats, organizations.. </p>
-                                        <a class="text-primary blog-link" href="{{ route('blogs-details','consultaing-service')}}">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                        </svg></a>
-                                    </div> --}}
+                                    <div class="text-center py-4">
+                                        <h5 class="fw-bold">Enhanced Efficiency</h5>
+                                        <p class="mx-3 text-center m-0 my-3">Streamlined operations boost overall efficiency. </p>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -215,15 +203,147 @@
 
                 </div>
             </div>
+
         </div>
-
-
-        {{-- <ol class="carousel-indicators">
-            <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
-            <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
-        </ol> --}}
     </div>
 </div>
+
+
+<div class="carousel-inner" >
+    <div class="carousel-item active">
+        <img class="w-100" src="{{ asset('assets/img/service/feature-bg.jpg')}}" alt="Image">
+        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="container">
+                <div class="p-3 text-left">
+                    <h4>EXPERIENCE CENTRE</h4>
+                    <h2 class="text-primary mb-md-1"><span class="text-white mb-md-4">Visit our IVT Platform to learn how our solutions can help you</span> Work Better and Smarter.</h2>
+                    <p></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container my-5 ">
+    <div class="accordion feature-faq" id="accordionExample" >
+        <div class="card"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
+            <div class="card-header" >
+                <h6>What industries do you specialise in?</h6>
+
+                <div class="acoord-btn text-right mr-2">
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    <span  class="accicon"><i class="py-2 px-3 fas fa-angle-down rotate-icon"></i></span>
+                </div>
+            </div>
+            <div id="collapseOne" class="collapse " data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>We specialise in catering to a wide range of industries, ensuring our services meet diverse needs effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true">
+            <div class="card-header">
+                <h6>How do you ensure smooth implementation of platform and operational services? </h6>
+                <div class="acoord-btn text-right mr-2  pb-3">
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    <span  class="accicon"><i class=" py-2 px-3 fas fa-angle-down rotate-icon"></i></span>
+                </div>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
+            <div class="card-header">
+                <h6>What level of support do you offer for platform and operational services? </h6>
+                <div class="acoord-btn text-right mr-2  pb-3">
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span>
+                </div>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
+            <div class="card-header">
+                <h6>Can you accommodate specific requirements or preferences in your platform and operational solutions? </h6>
+                <div class="acoord-btn text-right mr-2  pb-3">
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span>
+                </div>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
+            <div class="card-header">
+                <h6>How do you handle scalability in platform and operational services?</h6>
+                <div class="acoord-btn text-right mr-2  pb-3">
+                    {{-- <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a> --}}
+                    <span  class="accicon"><i class="  px-3 fas fa-angle-down rotate-icon"></i></span>
+                </div>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="case-content row mt-5 box-shadow">
+                <div class="col-lg-6 pt-2" >
+                    <h1 class="ml-4"> <span class="text-primary"> Get in  </span>Touch</h1>
+                    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="container">
+                            <div class="row">
+                                <form class="getin-touch">
+                                    <div class="row g-3">
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="First Name" >
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name" >
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="email" class="form-control border border-warning form-input-rounded input-form" placeholder=" Email" >
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-dark form-input-rounded ml-3 mt-2 px-4 text-center" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                                    </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" >
+                    <img class="card-img-top case-content-img"  src="{{ asset('assets/img/get-in-touch.png')}}" alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 @endsection
