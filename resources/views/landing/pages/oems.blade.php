@@ -21,94 +21,17 @@
     </div>
 
 
-
-
-<div class="education">
-    <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-      {{-- <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="pills-btech-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-btech" aria-selected="true">B Tech</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-intermediate-tab" data-toggle="pill" href="#pills-intermediate" role="tab" aria-controls="pills-intermediate" aria-selected="false">Intermediate</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-tenth-tab" data-toggle="pill" href="#pills-tenth" role="tab" aria-controls="pills-tenth" aria-selected="false">Tenth</a>
-      </li> --}}
-    </ul>
-    {{-- <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-btech" role="tabpanel" aria-labelledby="pills-btech-tab">
-
-            <div class="container">
-              <div class="row ">
-                <div class="col lg-6">College Name</div>
-                <div class="col lg-6">CVR College of Engineering</div>
-
-              </div>
-              <div class="row ">
-                <div class="col lg-6">Location</div>
-                <div class="col lg-6">Mangalpally,Hyderabad</div>
-
-              </div>
-              <div class="row ">
-                <div class="col lg-6">Stream</div>
-                <div class="col lg-6">CSE</div>
-
-              </div>
-            </div>
-
-      </div>
-      <div class="tab-pane fade" id="pills-intermediate" role="tabpanel" aria-labelledby="pills-intermediate-tab">
-
-            <div class="container">
-              <div class="row ">
-                <div class="col lg-6">College Name</div>
-                <div class="col lg-6">Narayana Jr College</div>
-
-              </div>
-              <div class="row ">
-                <div class="col lg-6">Location</div>
-                <div class="col lg-6">Dilsukhnagar,Hyderabad</div>
-
-              </div>
-              <div class="row ">
-                <div class="col lg-6">Stream</div>
-                <div class="col lg-6">MPC</div>
-
-              </div>
-            </div>
-      </div>
-      <div class="tab-pane fade" id="pills-tenth" role="tabpanel" aria-labelledby="pills-tenth-tab">
-
-            <div class="container">
-              <div class="row ">
-                <div class="col lg-6">School Name</div>
-                <div class="col lg-6">Vignan Integrated High School</div>
-
-              </div>
-              <div class="row ">
-                <div class="col lg-6">Location</div>
-                <div class="col lg-6">Nadergul,Hyderabad</div>
-
-              </div>
-
-            </div>
-      </div>
-    </div>
-    </div> --}}
-
-
     <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-between">
-                        <h4 class="pb-2"><span class="text-primary">  Disk Archive Corporation </span></h4>
+                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Disk Archive Corporation </span></h4>
                         <div class="" style="height: 0px;">
-                            <img alt="oems disk" style="width: 250px; margin-top:-80px;"  src="{{ asset('assets/img/oems/disk.png')}}" class=""/>
+                            <img alt="oems disk" style="width: 250px; margin-top:-10px;"  src="{{ asset('assets/img/brand/b-20.png')}}" class=""/>
                         </div>
                     </div>
-
-                    <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction" role="tabpanel" aria-labelledby="pills-introduction-tab">
 
                             <h5 class="pb-1">Introduction</h5>
@@ -156,20 +79,12 @@
                             </p>
                         </div>
                     </div>
-
-
-
                 </div>
-                {{-- <div class="col-lg-4 col-md-4 col-sm-12"  >
-
-
-                </div> --}}
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="d-flex flex-column justify-content-center" >
                         {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
-
 
                                 <a class=" active" id="pills-introduction-tab" data-toggle="pill" href="#pills-introduction" role="tab" aria-controls="pills-introduction" aria-selected="true"><div style="    position: relative;
                                     top: 80%;
@@ -180,7 +95,6 @@
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-
                                 <a class=" " id="pills-benifits" data-toggle="pill" href="#pills-benifits" role="tab" aria-controls="pills-benifits" aria-selected="false"><div style="    position: relative;
                                     top: 80%;
                                     left: 50%;
@@ -190,14 +104,12 @@
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-
                                 <a class="" id="pills-journey" data-toggle="pill" href="#pills-journey" role="tab" aria-controls="pills-journey" aria-selected="false"><div style="    position: relative;
                                     top: 80%;
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
                                     </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
-
                             </li>
                         </ul>
 
@@ -207,102 +119,304 @@
         </div>
     </div>
 
-
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center">
-                        <div class="oems-card mb-2">
-                            <img alt="oems disk"  src="{{ asset('assets/img/oems/cyviz-c-1.png')}}" class=""/>
+                    <div class="d-flex flex-column justify-content-center" >
+                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-cyviz" role="tab" aria-controls="pills-introduction-cyviz" aria-selected="true"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-cyviz" role="tab" aria-controls="pills-benifits-cyviz" aria-selected="false"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-cyviz" role="tab" aria-controls="pills-journey-cyviz" aria-selected="false"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="d-flex flex-row justify-content-between">
+                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Cyviz  </span></h4>
+                        <div class="" style="height: 0px;">
+                            <img alt="oems disk" style="width: 250px; margin-top:-50px"  src="{{ asset('assets/img/brand/b-1.png')}}" class=""/>
                         </div>
-                        <div class="oems-card mb-2">
-                            <img alt="oems disk" src="{{ asset('assets/img/oems/cyviz-c-2.png')}}" class=""/>
+                    </div>
+                    <div class="tab-content pt-2" id="pills-tabContent">
+                        <div class="tab-pane fade show active " id="pills-introduction-cyviz" role="tabpanel" aria-labelledby="pills-introduction-cyviz-tab">
+
+                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+                            <p class="mb-4 text-justify">Cyviz is next-level collaboration and visualisation solutions to empower organisations
+                                worldwide. With over 25 years of experience, Cyviz has become synonymous with
+                                innovative technologies that transform the way people communicate and work together.
+                                </p>
+                                <p>At the core of Cyviz's offerings are turnkey video wall solutions and room management
+                                    systems tailored for Command and Control Centres, Executive Meeting Rooms, and
+                                    versatile work environments. Over the years, Cyviz has established itself as a global leader
+                                    with offices in major cities across the USA, Europe, the Middle East, and Asia. Their footprint
+                                    extends to over 80 countries, serving more than 500 large enterprises and government
+                                    bodies, including over 35 Global Fortune 500 enterprises.</p>
                         </div>
-                        <div class="oems-card">
-                            <img alt="oems disk" src="{{ asset('assets/img/oems/cyviz-c-3.png')}}" class=""/>
+                        <div class="tab-pane fade mt-2 pt-3" id="pills-benifits-cyviz" role="tabpanel" aria-labelledby="pills-benifits-cyviz-tab">
+                            <p >Cyviz's standardised and configurable solutions accommodate diverse industries, offering
+                                reliability, usability, and precision essential for effective collaborative spaces. From finance to
+                                defence and energy sectors, Cyviz ensures well-designed solutions for various verticals.</p>
+                            <h5>
+                                Benefits of Cyviz's products/services:
+                            </h5>
+                            <ul>
+                                <li><strong>Enhanced Collaboration:</strong>  Cyviz fosters seamless communication, driving teamwork.
+                                </li>
+                                <li><strong>Improved Efficiency:</strong>Streamlined workflows boost productivity with intuitive
+                                    interfaces.
+                                    </li>
+                                <li><strong>Advanced Technology:</strong>: Cutting-edge solutions deliver immersive user experiences,
+                                    spurring innovation.</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="tab-pane fade mt-2 pt-3" id="pills-journey-cyviz" role="tabpanel" aria-labelledby="pills-journey-cyviz-tab">
+                            <p>
+                                Cyviz has delivered 1500+ command and control rooms globally to demanding government
+clients, showcasing their expertise in mission-critical solutions. They've also established
+forward-thinking visualisation centres for organisations like Smart Innovation Norway,
+fostering innovation. Collaborations with Microsoft Technology Centers have provided
+impactful experiences for enterprise customers, cementing Cyviz's reputation as a trusted
+industry partner
+                            </p>
+                            <p>
+                                Cyviz's commitment to innovation and customer satisfaction makes them a trusted partner
+for organisations seeking to enhance collaboration and visualisation capabilities. With Cyviz,
+the future of work is not just a vision but a reality, empowering businesses to work better and
+smarter, right here, right now.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12"  >
-                    <div class="box-shadow" style="height: 450px;">
-                        <img alt="oems disk" style="width:100%;
-                        height:100%;" src="{{ asset('assets/img/oems/cyviz.png')}}" class=""/>
-                    </div>
 
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="d-flex flex-row justify-content-between">
+                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4>
+                        <div class="" style="height: 0px;">
+                            <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-2.png')}}" class=""/>
+                        </div>
+                    </div>
+                    <div class="tab-content pt-2" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-introduction-scale" role="tabpanel" aria-labelledby="pills-introduction-scale-tab">
+
+                            <h5 class="pb-1">Introduction</h5>
+                            <p class="mb-4 text-justify">Scale Computing is revolutionising IT infrastructure with its innovative Scale Computing
+                                Platform. This solution integrates virtualization software, disaster recovery software, servers,
+                                and shared storage into one highly available platform, eliminating the need for separate
+                                components. The HyperCore software ensures maximum uptime by automatically identifying
+                                and correcting problems in real-time.
+                                </p>
+                                <p>With the ever-expanding demands of the digital world, Scale Computing recognizes the need
+                                    for applications to run outside centralised data centres, closer to where they are used. Its
+                                    platform enables organisations to run applications and process data at the edge of their
+                                    networks, reducing cost and complexity associated with managing distributed infrastructure.
+                                    </p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-benifits-scale" role="tabpanel" aria-labelledby="pills-benifits-scale-tab">
+                            <h5>
+                                The benefits of choosing Scale Computing are -
+                            </h5>
+                            <ul>
+                                <li><strong>Integrated Solution:</strong> Combines multiple components into one platform for
+                                    streamlined IT management.</li>
+                                <li><strong>Maximum Uptime:</strong>Self-healing technology ensures continuous operation with
+                                    real-time issue resolution.</li>
+                                <li><strong>Cost Efficiency:</strong>Eliminates the need for separate IT silos, reducing hardware and
+                                    operational expenses.</li>
+                                <li><strong>Improved Performance:</strong>Ensures high availability and performance for critical
+                                    applications, enhancing business productivity</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-journey-scale" role="tabpanel" aria-labelledby="pills-journey-scale-tab">
+                            <p>
+                                Scale Computing's track record of success is evident through numerous awards and
+accolades, including recognition from Gartner Peer Insights, The CHANNEL Co,
+TrustRadius, and more. Its commitment to customer satisfaction and innovative solutions
+positions them as a trusted leader in edge computing, virtualization, and hyperconverged
+infrastructure.
+
+                            </p>
+                            <p>
+                                Scale Computing is delivering cutting-edge solutions that simplify IT infrastructure, enhance
+performance, and reduce costs for organisations worldwide. With the comprehensive suite of
+products and services, customers can confidently navigate the complexities of modern IT
+environments while unlocking the full potential of edge computing
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h4 class="pb-2"><span class="text-primary"> Cyviz </span></h4>
-                    <h5 class="pb-1">Backup and Archive Solutions</h5>
-                    <p class="mb-4 text-justify">Partnering with industry-leading OEMs, we offer robust backup and archive solutions designed to safeguard your critical data. From seamless data protection to efficient archival processes, our solutions ensure business continuity and compliance with regulatory requirements. With cutting-edge technology and reliable support, we empower your organization to securely store and retrieve data, mitigating risks of data loss or corruption.</p>
+                    <div class="d-flex flex-column justify-content-center" >
+                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+
+                                <a class=" active" data-toggle="pill" href="#pills-introduction-scale" role="tab" aria-controls="pills-introduction-scale" aria-selected="true"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-scale" role="tab" aria-controls="pills-benifits-scale" aria-selected="false"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-scale" role="tab" aria-controls="pills-journey-scale" aria-selected="false"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.3s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h4 class="pb-2"><span class="text-primary">  Scale Computing </span></h4>
-                    <h5 class="pb-1">Backup and Archive Solutions</h5>
-                    <p class="mb-4 text-justify">Partnering with industry-leading OEMs, we offer robust backup and archive solutions designed to safeguard your critical data. From seamless data protection to efficient archival processes, our solutions ensure business continuity and compliance with regulatory requirements. With cutting-edge technology and reliable support, we empower your organization to securely store and retrieve data, mitigating risks of data loss or corruption.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12"  >
-                    <div class="box-shadow" style="height: 450px;">
-                        <img alt="oems disk" style="width:100%;
-                        height:100%;" src="{{ asset('assets/img/oems/scale.png')}}" class=""/>
-                    </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
 
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center">
-                        <div class="oems-card mb-2">
-                            <img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/>
-                        </div>
-                        <div class="oems-card mb-2">
-                            <img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/>
-                        </div>
-                        <div class="oems-card">
-                            <img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-motadata" role="tab" aria-controls="pills-introduction-motadata" aria-selected="true"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
 
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-motadata" role="tab" aria-controls="pills-benifits-motadata" aria-selected="false"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
 
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="container">
-            <div class="row">
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-motadata" role="tab" aria-controls="pills-journey-motadata" aria-selected="false"><div style="    position: relative;
+                                    top: 80%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);">
+                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                            </li>
+                        </ul>
 
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center">
-                        <div class="oems-card mb-2">
-                            <img alt="oems disk"  src="{{ asset('assets/img/oems/cyviz-c-1.png')}}" class=""/>
-                        </div>
-                        <div class="oems-card mb-2">
-                            <img alt="oems disk" src="{{ asset('assets/img/oems/cyviz-c-2.png')}}" class=""/>
-                        </div>
-                        <div class="oems-card">
-                            <img alt="oems disk" src="{{ asset('assets/img/oems/cyviz-c-3.png')}}" class=""/>
-                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12"  >
-                    <div class="box-shadow" style="height: 450px;">
-                        <img alt="oems disk" style="width:100%;
-                        height:100%;" src="{{ asset('assets/img/oems/motadata.png')}}" class=""/>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="d-flex flex-row justify-content-between">
+                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Motadata  </span></h4>
+                        <div class="" style="height: 0px;">
+                            <img alt="oems disk" style="width: 250px; margin-top:-50px"  src="{{ asset('assets/img/brand/b-3.png')}}" class=""/>
+                        </div>
                     </div>
+                    <div class="tab-content pt-2" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-introduction-motadata" role="tabpanel" aria-labelledby="pills-introduction-motadata-tab">
 
+                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+                            <p class="mb-4 text-justify">Motadata, a leading brand under Mindarray Systems Pvt Ltd, is a global software
+                                organisation specialising in IT operations solutions through its AIOps and ServiceOps
+                                platforms. Utilising the Deep Learning Framework for IT Operations (DFIT), these platforms
+                                enhance visibility and control over IT infrastructure, ensuring every event is meticulously
+                                monitored and analysed to drive business outcomes.</p>
+                                <p>Motadata has made significant strides in the industry, earning accolades such as being
+                                    featured in the Market Guide for Network Automation and Orchestration 2020 and winning
+                                    the prestigious Tech Fast50 India & Fast500 APAC awards for three consecutive years.
+                                    Additionally, it has been recognized as a notable vendor in various software market reports.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-benifits-motadata" role="tabpanel" aria-labelledby="pills-benifits-motadata-tab">
+                            <h5>
+                                Benefits of Motadata's Products/Services
+                            </h5>
+                            <ul>
+                                <li><strong>Real-time Monitoring:</strong> Instant alerts and dashboards minimise downtime, ensuring
+                                    smooth IT operations.</li>
+
+                                <li><strong>Advanced Analytics:</strong> Machine-learning-driven insights from logs, metrics, and
+                                    traces enable proactive decision-making</li>
+                                <li><strong>Comprehensive Solutions:</strong>From network observability to streamlined service
+                                    operations, Motadata offers tools to optimise IT performance and drive business
+                                    success.
+                                    </li>
+
+                            </ul>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-journey-motadata" role="tabpanel" aria-labelledby="pills-journey-motadata-tab">
+                            <p>
+                                On the ServiceOps front, Motadata streamlines business processes with features such as
+virtual service desk agents, asset management, patch automation, and conversational
+AI-powered incident resolution. Also, the platform offers native integrations with over 200
+monitoring protocols, cloud services, and third-party APIs, enabling seamless automation
+and remediation.
+
+                            </p>
+                            <p>
+                                Motadata excels in providing comprehensive IT operations solutions that help businesses
+efficiently manage their growing data volumes, meet SLAs, and scale their monitoring
+activities without limits. Trusted by leading enterprises globally, Motadata continues to
+innovate and deliver value through its advanced technology solutions
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h4 class="pb-2"><span class="text-primary"> Motadata </span></h4>
-                    <h5 class="pb-1">Backup and Archive Solutions</h5>
-                    <p class="mb-4 text-justify">Partnering with industry-leading OEMs, we offer robust backup and archive solutions designed to safeguard your critical data. From seamless data protection to efficient archival processes, our solutions ensure business continuity and compliance with regulatory requirements. With cutting-edge technology and reliable support, we empower your organization to securely store and retrieve data, mitigating risks of data loss or corruption.</p>
-                </div>
+
             </div>
         </div>
     </div>
