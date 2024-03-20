@@ -5,7 +5,7 @@
         <div class="row justify-content-end">
             <div class="aligns-content-center justify-content-center">
                 <div class="d-inline-flex align-items-center" style="height: 55px;">
-                    <small class="me-3 text-light mr-3"><i class="fa fa-phone-alt me-2 mr-3"></i>012-4496-0635</small>
+                    <small class="me-3 text-light mr-3"><i class="fa fa-phone-alt me-2 mr-3"></i>+91-012-4496-0635</small>
                     <small class="text-light mr-3"><i class="fa fa-envelope-open me-2 mr-3"></i>info@intellivectra.tech</small>
                 </div>
             </div>

@@ -60,7 +60,7 @@
                         </div>
                         <div class="d-flex mb-3">
                             <i class="bi bi-telephone text-primary me-2 mr-2"></i>
-                            <p class="footer-text mb-0">012-4496-0635</p>
+                            <p class="footer-text mb-0">+91-012-4496-0635</p>
                         </div>
                         <div class="d-flex mb-3">
                             <i class="bi bi-envelope-open text-primary me-2 mr-2"></i>

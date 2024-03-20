@@ -43,12 +43,12 @@
     <div class="container">
         <div class="accordion" id="accordionExample">
             <div class="card">
-                <div class="card-header" >
+                <div class="card-career p-3" >
                     <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
                         <img src="{{ asset('assets/img/car-1.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">Lead Generation </span>
                     </div>
 
-                    <div class="acoord-btn text-right mr-2 pb-3">
+                    <div class="acoord-btn text-right mr-2 pb-3 ">
                         <a href="{{ route('career.apply')}}" class="rounded-career-btn mr-2 py-2 px-3 bg-dark mx-2">Apply <i class=" fas fa-arrow-right fw-normal"></i></a>
                         {{-- <span  class="accicon"><i class=" rounded-career-arrow py-2 px-3 fas fa-angle-down rotate-icon"></i></span> --}}
                     </div>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header">
+                <div class="card-career p-3">
                     <div  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true">
                         <img src="{{ asset('assets/img/car-2.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">L1 Support Engineer (On-site) </span>
                     </div>
@@ -137,7 +137,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header">
+                <div class="card-career p-3">
                     <div  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true">
                         <img src="{{ asset('assets/img/car-3.png')}}" class="rounded-circle mr-4" alt="Cinque Terre" width="64" height="60" > <span class="title">L2 Support Engineer (On-site) </span>
                     </div>
@@ -213,7 +213,7 @@
     <div class="container-fluid pt-2 wow fadeInUp" data-wow-delay="0.3s">
         <div class="container py-4">
             <div class="text-center position-relative mx-auto">
-                <h1>Contact & <span class="text-primary">Join Together</span> </h1>
+                <h1>Contact<span class="text-primary"> Us</span> </h1>
                 <p class="mb-0">Connect with Us Today to Enhance Efficiency and Drive Growth Together.</p>
             </div>
             <div class="row g-5">
@@ -228,7 +228,7 @@
                                         <h6 class="text-primary contact-text">Call Us On</h6>
                                     </div>
                                 </div>
-                                <h6 class="contact-items">Tel: 012-4496-0635</h6>
+                                <h6 class="contact-items">Tel: +91-012-4496-0635</h6>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">

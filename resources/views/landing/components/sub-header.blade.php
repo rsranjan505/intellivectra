@@ -53,7 +53,7 @@
                 $whitetitle = '';
                 $colortitle = 'career';
                 $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
-                $img = asset('assets/img/career-bg.jpg');
+                $img = asset('assets/img/career-bg.png');
             @endphp
         @elseif ($type == 'staffing')
             @php

@@ -23,7 +23,7 @@
                                         <h6 class="text-primary contact-text">Call Us On</h6>
                                     </div>
                                 </div>
-                                <h6 class="contact-items">Tel: 012-4496-0635</h6>
+                                <h6 class="contact-items">Tel: +91-012-4496-0635</h6>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">

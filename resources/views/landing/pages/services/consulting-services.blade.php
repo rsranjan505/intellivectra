@@ -253,21 +253,7 @@
 </div>
 
 
-<div class="carousel-inner" >
-    <div class="carousel-item active">
-        <img class="w-100" src="{{ asset('assets/img/service/feature-bg.jpg')}}" alt="Image">
-        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-            <div class="container">
-                <div class="p-3 text-left">
-                    <h4>EXPERIENCE CENTRE</h4>
-                    <h2 class="text-primary mb-md-1"><span class="text-white mb-md-4">Visit our IVT Platform to learn how our solutions can help you</span> Work Better and Smarter.</h2>
-                    <p></p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('landing.components.service-banner')
 
 
 <div class="container my-5 ">
@@ -362,46 +348,6 @@
 </div>
 
 
-    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="case-content row mt-5 box-shadow">
-                <div class="col-lg-6 pt-2" >
-                    <h1 class="ml-4"> <span class="text-primary"> Get in  </span>Touch</h1>
-                    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="container">
-                            <div class="row">
-                                <form class="getin-touch">
-                                    <div class="row g-3">
-                                        <div class="col-md-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="First Name" >
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name" >
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="email" class="form-control border border-warning form-input-rounded input-form" placeholder=" Email" >
-                                        </div>
-                                        <div class="col-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
-                                        </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-dark form-input-rounded ml-3 mt-2 px-4 text-center" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                                    </svg>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6" >
-                    <img class="card-img-top case-content-img"  src="{{ asset('assets/img/get-in-touch.png')}}" alt="Card image cap">
-                </div>
-            </div>
-        </div>
-    </div>
-
+@include('landing.components.get-in-touch')
 
 @endsection
