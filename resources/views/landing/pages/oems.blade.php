@@ -25,16 +25,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12">
-                    <div class="d-flex flex-row justify-content-between">
-                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Disk Archive Corporation </span></h4>
-                        <div class="" style="height: 0px;">
-                            <img alt="oems disk" style="width: 250px; margin-top:-10px;"  src="{{ asset('assets/img/brand/b-20.png')}}" class=""/>
+                    <div class="d-flex flex-row justify-content-start">
+                        {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Disk Archive Corporation </span></h4> --}}
+                        <div class="oems-b">
+                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-20.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction" role="tabpanel" aria-labelledby="pills-introduction-tab">
 
-                            <h5 class="pb-1">Introduction</h5>
+                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify">The archive storage innovation, Disk Archive Corporation stands as a pioneer with its
                                 groundbreaking ALTO systems. For over 15 years, this OEM has been at the forefront of
                                 revolutionising cold data storage, catering specifically to the film, television, and legal
@@ -48,7 +48,7 @@
                                     user-defined replication levels</p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits" role="tabpanel" aria-labelledby="pills-benifits-tab">
-                            <h5>
+                            <h5 class="mt-2 mb-3">
                                 The benefits of choosing ALTO are -
                             </h5>
                             <ul>
@@ -65,7 +65,7 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-journey" role="tabpanel" aria-labelledby="pills-journey-tab">
-                            <p>
+                            <p class="mt-2 mb-3">
                                 ALTO's scalability is unparalleled, allowing for seamless expansion as business needs
                                 evolve, without the hassle of costly migrations. With the ability to scale up to 1EiB without
                                 compromising on performance or reliability, ALTO presents a future-proof solution for
@@ -99,7 +99,7 @@
                                     top: 80%;
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
                                     </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
 
                             </li>
@@ -141,7 +141,7 @@
                                     top: 80%;
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
                                     </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
 
                             </li>
@@ -158,10 +158,10 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
-                    <div class="d-flex flex-row justify-content-between">
-                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Cyviz  </span></h4>
-                        <div class="" style="height: 0px;">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px"  src="{{ asset('assets/img/brand/b-1.png')}}" class=""/>
+                    <div class="d-flex flex-row justify-content-end">
+                        {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Cyviz  </span></h4> --}}
+                        <div class="oems-b">
+                            <img alt="oems disk" style="width: 250px; "  src="{{ asset('assets/img/brand/b-1.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -180,7 +180,7 @@
                                     bodies, including over 35 Global Fortune 500 enterprises.</p>
                         </div>
                         <div class="tab-pane fade mt-2 pt-3" id="pills-benifits-cyviz" role="tabpanel" aria-labelledby="pills-benifits-cyviz-tab">
-                            <p >Cyviz's standardised and configurable solutions accommodate diverse industries, offering
+                            <p class="mt-2 mb-3">Cyviz's standardised and configurable solutions accommodate diverse industries, offering
                                 reliability, usability, and precision essential for effective collaborative spaces. From finance to
                                 defence and energy sectors, Cyviz ensures well-designed solutions for various verticals.</p>
                             <h5>
@@ -199,24 +199,22 @@
 
                         </div>
                         <div class="tab-pane fade mt-2 pt-3" id="pills-journey-cyviz" role="tabpanel" aria-labelledby="pills-journey-cyviz-tab">
-                            <p>
+                            <p class="mt-2 mb-3">
                                 Cyviz has delivered 1500+ command and control rooms globally to demanding government
-clients, showcasing their expertise in mission-critical solutions. They've also established
-forward-thinking visualisation centres for organisations like Smart Innovation Norway,
-fostering innovation. Collaborations with Microsoft Technology Centers have provided
-impactful experiences for enterprise customers, cementing Cyviz's reputation as a trusted
-industry partner
+                                clients, showcasing their expertise in mission-critical solutions. They've also established
+                                forward-thinking visualisation centres for organisations like Smart Innovation Norway,
+                                fostering innovation. Collaborations with Microsoft Technology Centers have provided
+                                impactful experiences for enterprise customers, cementing Cyviz's reputation as a trusted
+                                industry partner
                             </p>
-                            <p>
-                                Cyviz's commitment to innovation and customer satisfaction makes them a trusted partner
-for organisations seeking to enhance collaboration and visualisation capabilities. With Cyviz,
-the future of work is not just a vision but a reality, empowering businesses to work better and
-smarter, right here, right now.
+                            <p>Cyviz's commitment to innovation and customer satisfaction makes them a trusted partner
+                                for organisations seeking to enhance collaboration and visualisation capabilities. With Cyviz,
+                                the future of work is not just a vision but a reality, empowering businesses to work better and
+                                smarter, right here, right now.
                             </p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -226,15 +224,15 @@ smarter, right here, right now.
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-between">
-                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4>
-                        <div class="" style="height: 0px;">
+                        {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4> --}}
+                        <div class="oems-b">
                             <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-2.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-scale" role="tabpanel" aria-labelledby="pills-introduction-scale-tab">
 
-                            <h5 class="pb-1">Introduction</h5>
+                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify">Scale Computing is revolutionising IT infrastructure with its innovative Scale Computing
                                 Platform. This solution integrates virtualization software, disaster recovery software, servers,
                                 and shared storage into one highly available platform, eliminating the need for separate
@@ -248,7 +246,7 @@ smarter, right here, right now.
                                     </p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-scale" role="tabpanel" aria-labelledby="pills-benifits-scale-tab">
-                            <h5>
+                            <h5 class="mt-2 mb-3">
                                 The benefits of choosing Scale Computing are -
                             </h5>
                             <ul>
@@ -265,7 +263,7 @@ smarter, right here, right now.
 
                         </div>
                         <div class="tab-pane fade" id="pills-journey-scale" role="tabpanel" aria-labelledby="pills-journey-scale-tab">
-                            <p>
+                            <p class="mt-2 mb-3">
                                 Scale Computing's track record of success is evident through numerous awards and
 accolades, including recognition from Gartner Peer Insights, The CHANNEL Co,
 TrustRadius, and more. Its commitment to customer satisfaction and innovative solutions
@@ -301,7 +299,7 @@ environments while unlocking the full potential of edge computing
                                     top: 80%;
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
                                     </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
 
                             </li>
@@ -343,7 +341,7 @@ environments while unlocking the full potential of edge computing
                                     top: 80%;
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benifits</h5>
+                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
                                     </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
 
                             </li>
@@ -360,10 +358,10 @@ environments while unlocking the full potential of edge computing
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
-                    <div class="d-flex flex-row justify-content-between">
-                        <h4 class="pb-2 fw-bold"><span class="text-primary">  Motadata  </span></h4>
-                        <div class="" style="height: 0px;">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px"  src="{{ asset('assets/img/brand/b-3.png')}}" class=""/>
+                    <div class="d-flex flex-row justify-content-end">
+                        {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Motadata  </span></h4> --}}
+                        <div class="oems-b">
+                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-3.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -381,7 +379,7 @@ environments while unlocking the full potential of edge computing
                                     Additionally, it has been recognized as a notable vendor in various software market reports.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-motadata" role="tabpanel" aria-labelledby="pills-benifits-motadata-tab">
-                            <h5>
+                            <h5 class="mt-2 mb-3">
                                 Benefits of Motadata's Products/Services
                             </h5>
                             <ul>
@@ -393,20 +391,18 @@ environments while unlocking the full potential of edge computing
                                 <li><strong>Comprehensive Solutions:</strong>From network observability to streamlined service
                                     operations, Motadata offers tools to optimise IT performance and drive business
                                     success.
-                                    </li>
-
+                                </li>
                             </ul>
-
                         </div>
                         <div class="tab-pane fade" id="pills-journey-motadata" role="tabpanel" aria-labelledby="pills-journey-motadata-tab">
-                            <p>
+                            <pc class="mt-2 mb-3">
                                 On the ServiceOps front, Motadata streamlines business processes with features such as
 virtual service desk agents, asset management, patch automation, and conversational
 AI-powered incident resolution. Also, the platform offers native integrations with over 200
 monitoring protocols, cloud services, and third-party APIs, enabling seamless automation
 and remediation.
 
-                            </p>
+                            </pc>
                             <p>
                                 Motadata excels in providing comprehensive IT operations solutions that help businesses
 efficiently manage their growing data volumes, meet SLAs, and scale their monitoring

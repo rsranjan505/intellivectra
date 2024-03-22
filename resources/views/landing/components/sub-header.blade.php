@@ -120,7 +120,7 @@
             @endphp
         @elseif ($type == 'oems')
             @php
-                $whitetitle = 'oems';
+                $whitetitle = 'OEMs';
                 $colortitle = 'Our';
                 $subheading = "Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.";
                 $img = asset('assets/img/oem-bg.jpg');
