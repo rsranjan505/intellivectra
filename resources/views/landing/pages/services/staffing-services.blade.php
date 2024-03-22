@@ -16,11 +16,12 @@
                 <div class="position-relative pb-3">
                     <h1>About <span class="text-primary"> {{ ucfirst($data['title'])}} Services</span></h1>
                 </div>
-                <p class="mb-2 text-justify">At Intelli Vectra, we offer a comprehensive range of consulting services to help businesses
-                    lead with a strategic vision and thrive amidst change. From Strategic Management Advisory
-                    to Digital Transformation Consulting, our expert team is dedicated to providing tailored
-                    solutions that drive competitive advantage and performance improvement.
-                </p>
+                <p class="mb-2 text-justify">At Intelli Vectra, we are dedicated to empowering organisations to achieve their business
+                    goals effortlessly through the provision of tailored resources and technology solutions. As a
+                    premier IT Infrastructure Solution and Staffing Services Organization in India, we are
+                    committed to supporting our clients in navigating the ever-evolving landscape of technology
+                    and talent acquisition.
+                    </p>
             </div>
         </div>
     </div>
@@ -34,8 +35,12 @@
                     <div class="p-4 px-5">
                         <h2 class="text-white">Our <span class="text-primary"> Commitment to Excellence</span> </h2>
                         <p class="mb-2 text-white text-justify pb-4 mb-4">Driven by a passion for excellence, our staffing team endeavours to match the most talented
-                            resources with the greatest tech openings. </p>
-                        <div class="row">
+                            resources with the greatest tech openings. We are dedicated to supporting cutting-edge
+                            technology that drives organisational success and propels our world forward. With a focus
+                            on skill, fit, culture, compensation, and beyond, our hiring team ensures the perfect
+                            alignment between candidates and opportunities.
+                             </p>
+                        {{-- <div class="row">
                             <div class="col-md-2" >
                                 <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-1.svg')}}">
                             </div>
@@ -54,7 +59,7 @@
                                 <p class="text-justify text-white">Flexible staffing options providing skilled professionals on a
                                     temporary basis, handling payroll, benefits, and compliance.</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -65,8 +70,11 @@
                     <div class="p-4 px-5">
                         <h2 class="text-white">Expertise and <span class="text-dark">  Services</span> </h2>
                         <p class="mb-2 text-white text-justify pb-4 mb-4">Our team comprises seasoned experts in technical staff augmentation, professional
-                            services, and system integration program delivery. </p>
-                        <div class="row">
+                            services, and system integration program delivery. Drawing upon extensive experience in
+                            technical, IT, and engineering program management across diverse industries and verticals,
+                            we excel in aligning the best resources to meet your specific job requirements.
+                             </p>
+                        {{-- <div class="row">
                             <div class="col-md-2" >
                                 <img class="position-absolute wow zoomIn bg-dark" data-wow-delay="0.9s"  src="{{ asset('assets/img/service/offering-1.svg')}}">
                             </div>
@@ -85,17 +93,237 @@
                                 <p class="text-justify text-white">Flexible staffing options providing skilled professionals on a
                                     temporary basis, handling payroll, benefits, and compliance.</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
-
 </div>
 
-<div class="container-fluid py-5 bg-primary wow fadeInUp" data-wow-delay="0.2s">
+
+    <div class="col-lg-12 my-3 pt-4 bg-primary" style="min-height: 660px">
+        <div class="text-center">
+            <h3 class="fw-bold">Recruitment <span class="text-primary"> Solutions and Services</span> </h3>
+        </div>
+                <div class="service-solution" style="height: 300px">
+                    <div class="row g-5">
+                        <div id="service-solution" class="owl-carousel service-solution-carousel">
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
+                                <div class=" wow slideInUp mx-2 " data-wow-delay="0.3s">
+                                    <div class="ser-feature-card bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 h-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">IT Manpower Consultancy</h5>
+                                            <p class="mx-3 text-center m-0 my-3">From workforce planning to end-to-end hiring support,
+                                                our consultancy solutions cover the entire recruitment spectrum.
+                                                 </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                    <div class="ser-feature-card  bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">Permanent IT Staffing</h5>
+                                            <p class="mx-3 text-center m-0 my-3">We specialise in finding, attracting, and hiring top-tier
+                                                software and tech talent for permanent positions, enhancing talent retention rates.
+                                                </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
+                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                    <div class="ser-feature-card  bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">Remote IT Staffing</h5>
+                                            <p class="mx-3 text-center m-0 my-3">Our industry-specific remote staffing approach is tailored to
+                                                each client's needs, ensuring the selection of the best-suited candidates.
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                    <div class="ser-feature-card  bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">IT Outsourcing Support </h5>
+                                            <p class="mx-3 text-center m-0 my-3">Leveraging our vast network, we expedite the process of
+                                                finding the ideal IT talent from India and South Asian countries.
+                                                </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                    <div class="ser-feature-card  bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">International IT Recruitment</h5>
+                                            <p class="mx-3 text-center m-0 my-3"> - With expertise in international IT recruitment, we
+                                                source professionals with precise skill sets and experience.
+                                                </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                    <div class="ser-feature-card  bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">Contractual Offshore Recruitment</h5>
+                                            <p class="mx-3 text-center m-0 my-3">Our customizable approaches ensure the
+                                                successful fulfilment of offshore contractual IT recruitment needs.
+                                                </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                                    <div class="ser-feature-card  bg-light overflow-hidden">
+                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                        </div>
+                                        <div class="text-center py-4">
+                                            <h5 class="fw-bold">IT Executive Search</h5>
+                                            <p class="mx-3 text-center m-0 my-3"> Let our IT executive search teams assist in filling top
+                                                leadership positions with outstanding talent.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators carousel" id="service-solution" data-ride="carousel">
+                            <li data-target="#service-solution" data-slide-to="0" class="active"></li>
+                            <li data-target="#service-solution" data-slide-to="1"></li>
+                            <li data-target="#service-solution" data-slide-to="2"></li>
+                            <li data-target="#service-solution" data-slide-to="3"></li>
+                            <li data-target="#service-solution" data-slide-to="4"></li>
+                        </ol>
+                    </div>
+                </div>
+    </div>
+
+
+    <div class="col-lg-12 my-5 mb-5 " >
+        <div class="text-center">
+            <h3 class="fw-bold">Types of  <span class="text-primary"> Hiring</span> </h3>
+        </div>
+        <div class="service-solution py-4 my-4" >
+            <div class="row g-5">
+                <div id="service-solution" class="  owl-carousel service-solution-carousel">
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column aligns-content-center justify-content-center wow slideInUp mx-2 " data-wow-delay="0.3s">
+                            <div class="text-center overflow-hidden">
+                                <img class="img-fluid w-50  p-3" src="{{ asset('assets/img/hiring-1.png')}}" alt="">
+                            </div>
+                            <h4>Onshore</h4>
+                        </div>
+                    </div>
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="   overflow-hidden">
+                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-2.png')}}" alt="">
+                            </div>
+                            <h4>Offshore Permanent</h4>
+                        </div>
+                    </div>
+
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="   overflow-hidden">
+                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-3.png')}}" alt="">
+                            </div>
+                            <h4>Contractual</h4>
+                        </div>
+                    </div>
+
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="   overflow-hidden">
+                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-4.png')}}" alt="">
+                            </div>
+                            <h4>Remote</h4>
+                        </div>
+                    </div>
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="   overflow-hidden">
+                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-1.png')}}" alt="">
+                            </div>
+                            <h4>Comprehensive</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        {{-- <ol class="carousel-indicators carousel" id="service-solution" data-ride="carousel">
+                <li data-target="#service-solution" data-slide-to="0" class="active"></li>
+                <li data-target="#service-solution" data-slide-to="1"></li>
+                <li data-target="#service-solution" data-slide-to="2"></li>
+                <li data-target="#service-solution" data-slide-to="3"></li>
+                <li data-target="#service-solution" data-slide-to="4"></li>
+            </ol> --}}
+    </div>
+
+    <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6" >
+                    <div class="card" style="min-height: 300px;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/staffing.png')}}" >
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative pb-2">
+                        <h1 class="fw-fold">Comprehensive  <br><span class="text-primary">Staffing Services</span></h1>
+                    </div>
+                    <p class="mb-2 text-justify">At Intelli Vectra, we recognize the critical importance of finding the right talent for
+                        organisational success. Therefore, we offer comprehensive staffing services tailored to meet
+                        your human resource needs effectively. Whether you require permanent hires, contract
+                        consultants, or recruitment process outsourcing, we have the solutions to support your
+                        staffing requirements seamlessly.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<div class="container-fluid py-5  wow fadeInUp" data-wow-delay="0.2s">
     <div class="container">
         <div class="text-center position-relative pb-3 mb-4 mx-auto">
             <h1>Our <span class="text-primary"> Offerings</span></h1>
@@ -107,8 +335,9 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-1.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Strategic Management Advisory</h5>
-                        <p class="text-justify">Enhancing competitiveness and performance.</p>
+                        <h5 class="fw-bold">Permanent Hiring</h5>
+                        <p class="text-justify">Tailored solutions for identifying and securing top-tier talent for
+                            long-term positions within your organisation</p>
                     </div>
                 </div>
             </div>
@@ -118,8 +347,9 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-6.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Business Process Management</h5>
-                        <p class="text-justify">Streamlining operations across the enterprise.
+                        <h5 class="fw-bold">Contract Consultants</h5>
+                        <p class="text-justify">Flexible staffing options providing skilled professionals on a
+                            temporary basis, handling payroll, benefits, and compliance.
                         </p>
                     </div>
                 </div>
@@ -132,12 +362,14 @@
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-2.svg')}}">
                     </div>
                     <div class="col-md-10" >
-                        <h5 class="fw-bold">Technology Consulting</h5>
-                        <p class="text-justify">Implementing industry-relevant technology solutions</p>
+                        <h5 class="fw-bold">Recruitment Process Outsourcing (RPO)</h5>
+                        <p class="text-justify">Comprehensive support in optimising
+                            recruitment strategies, from project-based to selective recruitment, using
+                            technology-driven approaches.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" >
+            {{-- <div class="col-lg-6 col-md-6 col-sm-12" >
                 <div class="row">
                     <div class="col-md-2 " >
                         <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-3.svg')}}">
@@ -148,32 +380,9 @@
                             transformation.</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
-        <div class="row mt-3">
-            <div class="col-lg-6 col-md-6 col-sm-12" >
-                <div class="row">
-                    <div class="col-md-2" >
-                        <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-4.svg')}}">
-                    </div>
-                    <div class="col-md-10" >
-                        <h5 class="fw-bold">Organisation Transformation</h5>
-                        <p class="text-justify">Driving change with behavioural analytics</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" >
-                <div class="row">
-                    <div class="col-md-2 " >
-                        <img class="position-absolute wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/service/offering-5.svg')}}">
-                    </div>
-                    <div class="col-md-10" >
-                        <h5 class="fw-bold">On-Demand Consulting</h5>
-                        <p class="text-justify">Efficient resource management for project demands.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
 
@@ -192,23 +401,25 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.6s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.2s" src="{{ asset('assets/img/oem-1.svg')}}" >
                             <h5>Step-1 </h5>
-                            <p>Collaborating closely with clients to craft a clear vision for success</p>
+                            <p>Define roles, find candidates, and present them within three days.
+                            </p>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.7s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/service-orm-1.svg')}}" >
                             <h5>Step-2</h5>
-                            <p>Implementing customised solutions for specific needs and opportunities. </p>
+                            <p>Handle payroll, benefits, and compliance for temporary staff. </p>
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.8s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/oem-2.svg')}}" >
                             <h5>Step-3</h5>
-                            <p>Providing expert insights and hands-on assistance throughout. Continuous STEP</p>
+                            <p>Streamline recruitment processes, offer support, and utilise technology.</p>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.9s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.1s"  src="{{ asset('assets/img/service-orm-2.svg')}}" >
                             <h5 class="">Step-4</h5>
-                            <p>Constantly monitoring and refining strategies for alignment with evolving goals. </p>
+                            <p>Choose full support or specific services based on your requirements.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -239,22 +450,7 @@
             <div class="service-feature bg" style="height: 300px">
                 <div class="row g-5">
                     <div id="service-feature" class="px-5 owl-carousel service-feature-carousel">
-                        <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
-                            <div class=" wow slideInUp mx-2 " data-wow-delay="0.3s">
-                                <div class="ser-feature-card bg-light overflow-hidden">
-                                    <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                        <img class="img-fluid w-50 h-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                    </div>
-                                    <div class="text-center py-4">
-                                        <h5 class="fw-bold">Competitive Advantage</h5>
-                                        <p class="mx-3 text-center m-0 my-3">: Gain a competitive edge in your industry with strategic
-                                            insights and innovative solutions.
-                                             </p>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
                             <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
                                 <div class="ser-feature-card  bg-light overflow-hidden">

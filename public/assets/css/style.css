@@ -446,17 +446,17 @@ video {
 }
 .about-jurney .jurney-left-2020 {
     top: 80px;
-    left: 130px;
+    left: 100px;
 
 }
 .about-jurney .jurney-left-2022 {
     top: 310px;
-    left: 130px;
+    left: 100px;
 
 }
 .about-jurney .jurney-left-2024 {
     top: 540px;
-    left: 130px;
+    left: 100px;
 
 }
 
@@ -468,7 +468,7 @@ video {
 }
 
 .about-jurney .jurney-right-2023 {
-    top: 300px;
+    top: 303px;
     left: auto;
     right: 62px;
 
@@ -770,6 +770,9 @@ a.blog-link:hover {
     padding: 20px;
     min-height: 180px;
     box-shadow: 10px 10px 10px 10px rgba(246, 187, 68, 0.2), 4px 6px 20px 2px rgba(255, 170, 43, 0.19);
+}
+.team-card:hover{
+    background-color: var(--primary);
 }
 
 /* /Brands */

@@ -168,6 +168,30 @@
         }
     });
 
+    // Services solutions carousel
+    $('.service-solution-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        dots: true,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:3
+            },
+            768:{
+                items:4
+            },
+            992:{
+                items:4
+            }
+        }
+    });
+
 })(jQuery);
 
 

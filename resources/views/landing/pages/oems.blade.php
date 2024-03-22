@@ -40,7 +40,7 @@
                                 revolutionising cold data storage, catering specifically to the film, television, and legal
                                 evidence sectors. With a track record of over 400 systems in daily operation, Disk Archive
                                 Corporation has solidified its position as a trusted Archive Solution provider in the industry.</p>
-                                <p>Disk Archive Corporation's ALTO systems deliver a trifecta of scalability, flexibility, and
+                                <p class="text-justify">Disk Archive Corporation's ALTO systems deliver a trifecta of scalability, flexibility, and
                                     reliability, perfectly meeting the demanding requirements of modern media-related
                                     organisations. Unlike traditional robotic tape libraries or clustered RAID setups, ALTO offers
                                     a cost-effective alternative with its high-density, enterprise-class offline data archive platform.
@@ -65,13 +65,13 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-journey" role="tabpanel" aria-labelledby="pills-journey-tab">
-                            <p class="mt-2 mb-3">
+                            <p class="mt-2 mb-3 text-justify">
                                 ALTO's scalability is unparalleled, allowing for seamless expansion as business needs
                                 evolve, without the hassle of costly migrations. With the ability to scale up to 1EiB without
                                 compromising on performance or reliability, ALTO presents a future-proof solution for
                                 growing storage demands.
                             </p>
-                            <p>
+                            <p class="text-justify">
                                 Disk Archive Corporation's dedication to archive innovation shines through its ALTO
                                 systems, offering a comprehensive solution that prioritises performance, affordability, and
                                 environmental sustainability. By choosing ALTO, businesses can safeguard their valuable
@@ -172,7 +172,7 @@
                                 worldwide. With over 25 years of experience, Cyviz has become synonymous with
                                 innovative technologies that transform the way people communicate and work together.
                                 </p>
-                                <p>At the core of Cyviz's offerings are turnkey video wall solutions and room management
+                                <p class="text-justify">At the core of Cyviz's offerings are turnkey video wall solutions and room management
                                     systems tailored for Command and Control Centres, Executive Meeting Rooms, and
                                     versatile work environments. Over the years, Cyviz has established itself as a global leader
                                     with offices in major cities across the USA, Europe, the Middle East, and Asia. Their footprint
@@ -180,7 +180,7 @@
                                     bodies, including over 35 Global Fortune 500 enterprises.</p>
                         </div>
                         <div class="tab-pane fade mt-2 pt-3" id="pills-benifits-cyviz" role="tabpanel" aria-labelledby="pills-benifits-cyviz-tab">
-                            <p class="mt-2 mb-3">Cyviz's standardised and configurable solutions accommodate diverse industries, offering
+                            <p class="mt-2 mb-3 text-justify">Cyviz's standardised and configurable solutions accommodate diverse industries, offering
                                 reliability, usability, and precision essential for effective collaborative spaces. From finance to
                                 defence and energy sectors, Cyviz ensures well-designed solutions for various verticals.</p>
                             <h5>
@@ -199,7 +199,7 @@
 
                         </div>
                         <div class="tab-pane fade mt-2 pt-3" id="pills-journey-cyviz" role="tabpanel" aria-labelledby="pills-journey-cyviz-tab">
-                            <p class="mt-2 mb-3">
+                            <p class="mt-2 mb-3 text-justify">
                                 Cyviz has delivered 1500+ command and control rooms globally to demanding government
                                 clients, showcasing their expertise in mission-critical solutions. They've also established
                                 forward-thinking visualisation centres for organisations like Smart Innovation Norway,
@@ -207,7 +207,7 @@
                                 impactful experiences for enterprise customers, cementing Cyviz's reputation as a trusted
                                 industry partner
                             </p>
-                            <p>Cyviz's commitment to innovation and customer satisfaction makes them a trusted partner
+                            <p class="text-justify">Cyviz's commitment to innovation and customer satisfaction makes them a trusted partner
                                 for organisations seeking to enhance collaboration and visualisation capabilities. With Cyviz,
                                 the future of work is not just a vision but a reality, empowering businesses to work better and
                                 smarter, right here, right now.
@@ -239,7 +239,7 @@
                                 components. The HyperCore software ensures maximum uptime by automatically identifying
                                 and correcting problems in real-time.
                                 </p>
-                                <p>With the ever-expanding demands of the digital world, Scale Computing recognizes the need
+                                <p class="text-justify">With the ever-expanding demands of the digital world, Scale Computing recognizes the need
                                     for applications to run outside centralised data centres, closer to where they are used. Its
                                     platform enables organisations to run applications and process data at the edge of their
                                     networks, reducing cost and complexity associated with managing distributed infrastructure.
@@ -263,7 +263,7 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-journey-scale" role="tabpanel" aria-labelledby="pills-journey-scale-tab">
-                            <p class="mt-2 mb-3">
+                            <p class="mt-2 mb-3 text-justify">
                                 Scale Computing's track record of success is evident through numerous awards and
 accolades, including recognition from Gartner Peer Insights, The CHANNEL Co,
 TrustRadius, and more. Its commitment to customer satisfaction and innovative solutions
@@ -271,7 +271,7 @@ positions them as a trusted leader in edge computing, virtualization, and hyperc
 infrastructure.
 
                             </p>
-                            <p>
+                            <p class="text-justify">
                                 Scale Computing is delivering cutting-edge solutions that simplify IT infrastructure, enhance
 performance, and reduce costs for organisations worldwide. With the comprehensive suite of
 products and services, customers can confidently navigate the complexities of modern IT
@@ -373,7 +373,7 @@ environments while unlocking the full potential of edge computing
                                 platforms. Utilising the Deep Learning Framework for IT Operations (DFIT), these platforms
                                 enhance visibility and control over IT infrastructure, ensuring every event is meticulously
                                 monitored and analysed to drive business outcomes.</p>
-                                <p>Motadata has made significant strides in the industry, earning accolades such as being
+                                <p class="text-justify">Motadata has made significant strides in the industry, earning accolades such as being
                                     featured in the Market Guide for Network Automation and Orchestration 2020 and winning
                                     the prestigious Tech Fast50 India & Fast500 APAC awards for three consecutive years.
                                     Additionally, it has been recognized as a notable vendor in various software market reports.</p>
@@ -395,15 +395,15 @@ environments while unlocking the full potential of edge computing
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="pills-journey-motadata" role="tabpanel" aria-labelledby="pills-journey-motadata-tab">
-                            <pc class="mt-2 mb-3">
+                            <p class="mt-2 mb-3 text-justify">
                                 On the ServiceOps front, Motadata streamlines business processes with features such as
 virtual service desk agents, asset management, patch automation, and conversational
 AI-powered incident resolution. Also, the platform offers native integrations with over 200
 monitoring protocols, cloud services, and third-party APIs, enabling seamless automation
 and remediation.
 
-                            </pc>
-                            <p>
+                            </p>
+                            <p class="text-justify">
                                 Motadata excels in providing comprehensive IT operations solutions that help businesses
 efficiently manage their growing data volumes, meet SLAs, and scale their monitoring
 activities without limits. Trusted by leading enterprises globally, Motadata continues to
