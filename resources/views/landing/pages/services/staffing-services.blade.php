@@ -103,135 +103,134 @@
 </div>
 
 
-    <div class="col-lg-12 my-3 pt-4 bg-primary" style="min-height: 660px">
+    <div class="col-lg-12 mt-3 pt-4 bg-primary" style="min-height: 660px">
         <div class="text-center">
             <h3 class="fw-bold">Recruitment <span class="text-primary"> Solutions and Services</span> </h3>
         </div>
-                <div class="service-solution" style="height: 300px">
-                    <div class="row g-5">
-                        <div id="service-solution" class="owl-carousel service-solution-carousel">
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
-                                <div class=" wow slideInUp mx-2 " data-wow-delay="0.3s">
-                                    <div class="ser-feature-card bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 h-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">IT Manpower Consultancy</h5>
-                                            <p class="mx-3 text-center m-0 my-3">From workforce planning to end-to-end hiring support,
-                                                our consultancy solutions cover the entire recruitment spectrum.
-                                                 </p>
-
-                                        </div>
-                                    </div>
+        <div class="service-solution" style="height: 300px">
+            <div class="row g-5">
+                <div id="service-solution" class="owl-carousel service-solution-carousel">
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
+                        <div class=" wow slideInUp mx-2 " data-wow-delay="0.3s">
+                            <div class="staffing-card bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 h-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
                                 </div>
-                            </div>
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
-                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                                    <div class="ser-feature-card  bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">Permanent IT Staffing</h5>
-                                            <p class="mx-3 text-center m-0 my-3">We specialise in finding, attracting, and hiring top-tier
-                                                software and tech talent for permanent positions, enhancing talent retention rates.
-                                                </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
-                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                                    <div class="ser-feature-card  bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">Remote IT Staffing</h5>
-                                            <p class="mx-3 text-center m-0 my-3">Our industry-specific remote staffing approach is tailored to
-                                                each client's needs, ensuring the selection of the best-suited candidates.
-                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
-                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                                    <div class="ser-feature-card  bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">IT Outsourcing Support </h5>
-                                            <p class="mx-3 text-center m-0 my-3">Leveraging our vast network, we expedite the process of
-                                                finding the ideal IT talent from India and South Asian countries.
-                                                </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
-                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                                    <div class="ser-feature-card  bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">International IT Recruitment</h5>
-                                            <p class="mx-3 text-center m-0 my-3"> - With expertise in international IT recruitment, we
-                                                source professionals with precise skill sets and experience.
-                                                </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
-                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                                    <div class="ser-feature-card  bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">Contractual Offshore Recruitment</h5>
-                                            <p class="mx-3 text-center m-0 my-3">Our customizable approaches ensure the
-                                                successful fulfilment of offshore contractual IT recruitment needs.
-                                                </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
-                                <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                                    <div class="ser-feature-card  bg-light overflow-hidden">
-                                        <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
-                                            <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
-                                        </div>
-                                        <div class="text-center py-4">
-                                            <h5 class="fw-bold">IT Executive Search</h5>
-                                            <p class="mx-3 text-center m-0 my-3"> Let our IT executive search teams assist in filling top
-                                                leadership positions with outstanding talent.</p>
-
-                                        </div>
-                                    </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">IT Manpower Consultancy</h5>
+                                    <p class="mx-3 text-center m-0 my-3">From workforce planning to end-to-end hiring support,
+                                        our consultancy solutions cover the entire recruitment spectrum.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <ol class="carousel-indicators carousel" id="service-solution" data-ride="carousel">
-                            <li data-target="#service-solution" data-slide-to="0" class="active"></li>
-                            <li data-target="#service-solution" data-slide-to="1"></li>
-                            <li data-target="#service-solution" data-slide-to="2"></li>
-                            <li data-target="#service-solution" data-slide-to="3"></li>
-                            <li data-target="#service-solution" data-slide-to="4"></li>
-                        </ol>
+                    </div>
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="staffing-card  bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">Permanent IT Staffing</h5>
+                                    <p class="mx-3 text-center m-0 my-3">We specialise in finding, attracting, and hiring top-tier
+                                        software and tech talent for permanent positions, enhancing talent retention rates.
+                                        </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="staffing-card  bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">Remote IT Staffing</h5>
+                                    <p class="mx-3 text-center m-0 my-3">Our industry-specific remote staffing approach is tailored to
+                                        each client's needs, ensuring the selection of the best-suited candidates.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="staffing-card  bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">IT Outsourcing Support </h5>
+                                    <p class="mx-3 text-center m-0 my-3">Leveraging our vast network, we expedite the process of
+                                        finding the ideal IT talent from India and South Asian countries.
+                                        </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="staffing-card  bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">International IT Recruitment</h5>
+                                    <p class="mx-3 text-center m-0 my-3"> - With expertise in international IT recruitment, we
+                                        source professionals with precise skill sets and experience.
+                                        </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="staffing-card  bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">Contractual Offshore Recruitment</h5>
+                                    <p class="mx-3 text-center m-0 my-3">Our customizable approaches ensure the
+                                        successful fulfilment of offshore contractual IT recruitment needs.
+                                        </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
+                            <div class="staffing-card  bg-light overflow-hidden">
+                                <div class="team-img position-relative overflow-hidden d-flex justify-content-center">
+                                    <img class="img-fluid w-50 p-5" src="{{ asset('assets/img/service-orm-1.svg')}}" alt="">
+                                </div>
+                                <div class="text-center py-4">
+                                    <h5 class="fw-bold">IT Executive Search</h5>
+                                    <p class="mx-3 text-center m-0 my-3"> Let our IT executive search teams assist in filling top
+                                        leadership positions with outstanding talent.</p>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <ol class="carousel-indicators carousel" id="service-solution" data-ride="carousel">
+                    <li data-target="#service-solution" data-slide-to="0" class="active"></li>
+                    <li data-target="#service-solution" data-slide-to="1"></li>
+                    <li data-target="#service-solution" data-slide-to="2"></li>
+                    <li data-target="#service-solution" data-slide-to="3"></li>
+                    <li data-target="#service-solution" data-slide-to="4"></li>
+                </ol>
+            </div>
+        </div>
     </div>
 
 
@@ -239,49 +238,73 @@
         <div class="text-center">
             <h3 class="fw-bold">Types of  <span class="text-primary"> Hiring</span> </h3>
         </div>
-        <div class="service-solution py-4 my-4" >
+        <div class="hiring py-4 my-4" >
             <div class="row g-5">
-                <div id="service-solution" class="  owl-carousel service-solution-carousel">
+                <div id="hiring" class="  owl-carousel hiring-carousel">
                     <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
                         <div class="d-flex flex-column aligns-content-center justify-content-center wow slideInUp mx-2 " data-wow-delay="0.3s">
-                            <div class="text-center overflow-hidden">
+                            {{-- <div class=" overflow-hidden">
                                 <img class="img-fluid w-50  p-3" src="{{ asset('assets/img/hiring-1.png')}}" alt="">
                             </div>
-                            <h4>Onshore</h4>
+                            --}}
+
+                            <div class="d-flex flex-column justify-content-center wow slideInUp " data-wow-delay="0.1s">
+                                <div class="d-flex flex-row justify-content-center blog-share">
+                                    <img class="img-fluid img-border m-2 w-50  p-3" src="{{ asset('assets/img/hiring-1.png')}}" alt="">
+                                </div>
+                                <h5 class="text-center">Onshore</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
                         <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                            <div class="   overflow-hidden">
-                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-2.png')}}" alt="">
+                            <div class="d-flex flex-column justify-content-center wow slideInUp " data-wow-delay="0.1s">
+                                <div class="d-flex flex-row justify-content-center blog-share">
+                                    <img class="img-fluid img-border m-2 w-50  p-3" src="{{ asset('assets/img/hiring-2.png')}}" alt="">
+                                </div>
+                                <h5 class="text-center">Offshore Permanent</h5>
                             </div>
-                            <h4>Offshore Permanent</h4>
                         </div>
                     </div>
 
                     <div class="mr-4 wow slideInUp" data-wow-delay="0.3s">
                         <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                            <div class="   overflow-hidden">
-                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-3.png')}}" alt="">
+                            {{-- <div class="   overflow-hidden">
+                                <img class="img-fluid img-border m-2 w-50 p-3" src="{{ asset('assets/img/hiring-3.png')}}" alt="">
                             </div>
-                            <h4>Contractual</h4>
+                            <h4>Contractual</h4> --}}
+                            <div class="d-flex flex-column justify-content-center wow slideInUp " data-wow-delay="0.1s">
+                                <div class="d-flex flex-row justify-content-center blog-share">
+                                    <img class="img-fluid img-border m-2 w-50  p-3" src="{{ asset('assets/img/hiring-3.png')}}" alt="">
+                                </div>
+                                <h5 class="text-center">Contractual </h5>
+                            </div>
                         </div>
                     </div>
 
                     <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
                         <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                            <div class="   overflow-hidden">
-                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-4.png')}}" alt="">
+
+                            <div class="d-flex flex-column justify-content-center wow slideInUp " data-wow-delay="0.1s">
+                                <div class="d-flex flex-row justify-content-center blog-share">
+                                    <img class="img-fluid img-border m-2 w-50  p-3" src="{{ asset('assets/img/hiring-4.png')}}" alt="">
+                                </div>
+                                <h5 class="text-center">Remote </h5>
                             </div>
-                            <h4>Remote</h4>
                         </div>
                     </div>
                     <div class="mr-4 wow slideInUp" data-wow-delay="0.2s">
                         <div class="wow slideInUp mx-2" data-wow-delay="0.3s">
-                            <div class="   overflow-hidden">
-                                <img class="img-fluid w-50 p-3" src="{{ asset('assets/img/hiring-1.png')}}" alt="">
+                            {{-- <div class="   overflow-hidden">
+                                <img class="img-fluid img-border m-2 w-50 p-3" src="{{ asset('assets/img/hiring-1.png')}}" alt="">
                             </div>
-                            <h4>Comprehensive</h4>
+                            <h4>Comprehensive</h4> --}}
+                            <div class="d-flex flex-column justify-content-center wow slideInUp " data-wow-delay="0.1s">
+                                <div class="d-flex flex-row justify-content-center blog-share">
+                                    <img class="img-fluid img-border m-2 w-50  p-3" src="{{ asset('assets/img/hiring-2.png')}}" alt="">
+                                </div>
+                                <h5 class="text-center">Comprehensive </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -289,12 +312,12 @@
             </div>
 
         </div>
-        {{-- <ol class="carousel-indicators carousel" id="service-solution" data-ride="carousel">
-                <li data-target="#service-solution" data-slide-to="0" class="active"></li>
-                <li data-target="#service-solution" data-slide-to="1"></li>
-                <li data-target="#service-solution" data-slide-to="2"></li>
-                <li data-target="#service-solution" data-slide-to="3"></li>
-                <li data-target="#service-solution" data-slide-to="4"></li>
+        {{-- <ol class="carousel-indicators carousel" id="hiring" data-ride="carousel">
+                <li data-target="#hiring" data-slide-to="0" class="active"></li>
+                <li data-target="#hiring" data-slide-to="1"></li>
+                <li data-target="#hiring" data-slide-to="2"></li>
+                <li data-target="#hiring" data-slide-to="3"></li>
+                <li data-target="#hiring" data-slide-to="4"></li>
             </ol> --}}
     </div>
 

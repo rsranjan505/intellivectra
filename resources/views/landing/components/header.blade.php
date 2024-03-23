@@ -133,7 +133,14 @@
             @include('landing.components.sub-header',['type' => 'infrastucture'])
         @elseif (Request::is('oems'))
             @include('landing.components.sub-header',['type' => 'oems'])
+        @elseif (Request::is('privacy-policy'))
+            @include('landing.components.sub-header',['type' => 'privacy'])
+        @elseif (Request::is('term-condition'))
+            @include('landing.components.sub-header',['type' => 'term'])
+        @elseif (Request::is('case-study/prayagraj-smart'))
+            @include('landing.components.sub-header',['type' => 'prayagraj'])
         @endif
+
 
 
     </div>

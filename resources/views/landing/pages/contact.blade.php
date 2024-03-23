@@ -147,6 +147,7 @@
                             <h4 class="contact-text"><span class="text-primary">Delhi, NCR</span></h4>
                             <p class="text-center text-justify">2nd Floor, Plot No. 29, Maruti Industrial Area, Sector-18, Gurugram–122015, Haryana</p>
                         </div>
+                        <a class="link-map text-primary" href="https://www.google.com/maps/dir/25.6170256,85.116814/Intelli+Vectra+Technologies/@26.787533,75.8239746,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390d1930ce6b42f9:0xb39219cee9e1d009!2m2!1d77.0743589!2d28.490693?entry=ttu" target="_blank"><i class="bi bi-geo-alt text-primary me-2 mr-2"></i> Get Direction</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4">

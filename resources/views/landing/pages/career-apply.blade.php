@@ -35,7 +35,25 @@
                                             <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
                                         </div>
                                         <div class="col-12">
+                                            <input type="number" class="form-control border border-warning form-input-rounded input-form" placeholder="Total Experience" >
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Applied For" >
+                                        </div>
+                                        <div class="col-12">
                                             <textarea type="text" rows="6" class="form-control border border-warning form-input-textarea input-form" placeholder="Message" ></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <label class="fw-bold pt-3">Upload Your CV</label>
+                                                </div>
+                                                <div class="col-8">
+                                                    <input type="file" class="form-control border border-warning form-input-rounded input-form" placeholder="Applied For" >
+                                                </div>
+                                            </div>
+
+
                                         </div>
                                         <div class="col-12">
                                             <button class="btn btn-dark form-input-rounded ml-3 mt-4 px-4 text-center" type="submit">Send  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">

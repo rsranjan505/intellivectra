@@ -42,6 +42,10 @@ Route::get('/blogs',[BlogController::class,'index'])->name('blogs');
 Route::get('/blogs/{name}',[BlogController::class,'blogDetail'])->name('blogs-details');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
 Route::get('/case-study',[CaseStudyController::class,'index'])->name('case-study');
+Route::get('/case-study/prayagraj-smart',[CaseStudyController::class,'pragrajIndex'])->name('case-study-pragraj');
+
+
+
 Route::get('/oems',[OemsController::class,'index'])->name('oems');
 
 Route::get('/services/staffing',[ServicesController::class,'staffingIndex'])->name('services.staffing');
@@ -54,6 +58,9 @@ Route::get('/services/command',[ServicesController::class,'commandIndex'])->name
 Route::get('/services/security',[ServicesController::class,'securityIndex'])->name('services.security');
 Route::get('/services/infrastucture',[ServicesController::class,'infrastuctureIndex'])->name('services.infrastucture');
 
+
+Route::get('/privacy-policy',[HomeController::class,'privacy'])->name('privacy');
+Route::get('/term-condition',[HomeController::class,'term'])->name('term');
 
 #############################################################
 ################ Admin #####################################

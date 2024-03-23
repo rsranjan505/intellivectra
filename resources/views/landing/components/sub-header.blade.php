@@ -41,6 +41,13 @@
                 $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp
+        @elseif ($type == 'prayagraj')
+            @php
+            $whitetitle = 'Smart City ';
+                $colortitle = 'Prayagraj';
+                $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
+                $img = asset('assets/img/case-study-bg.jpg');
+            @endphp
         @elseif ($type == 'career')
             @php
                 $whitetitle = '';
@@ -124,6 +131,20 @@
                 $colortitle = 'Our';
                 $subheading = "Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.";
                 $img = asset('assets/img/oem-bg.jpg');
+            @endphp
+         @elseif ($type == 'privacy')
+            @php
+                $whitetitle = 'policy';
+                $colortitle = ' Privacy';
+                $subheading = "";
+                $img = asset('assets/img/privacy-bg.jpg');
+            @endphp
+        @elseif ($type == 'term')
+            @php
+                $whitetitle = 'And Condition';
+                $colortitle = 'Term';
+                $subheading = "";
+                $img = asset('assets/img/privacy-bg.jpg');
             @endphp
         @endif
     @endif

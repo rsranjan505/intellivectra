@@ -10,4 +10,10 @@ class CaseStudyController extends Controller
     public function index(){
         return view('landing.pages.case-study');
     }
+
+     //infrastucture solutions
+     public function pragrajIndex(){
+        $data['title']='pragraj';
+        return view('landing.pages.case-study.prayagraj-smart',compact('data'));
+    }
 }

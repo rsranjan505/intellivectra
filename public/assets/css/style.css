@@ -538,6 +538,18 @@ video {
     background-color: var(--primary);
 }
 
+.img-border {
+    border: 2px solid var(--primary);
+    border-radius: 90px;
+}
+
+.staffing-card {
+    border-radius: 5px;
+    min-height: 400px;
+    margin-top: 40px;
+    box-shadow: 20px 20px 40px 20px rgba(255, 201, 92, 0.2), 4px 6px 20px 2px rgba(255, 202, 121, 0.19);
+}
+
 /* service pie slice */
 
 .ser-slice {
@@ -1100,6 +1112,9 @@ h4.blog-title{
 }
 h6.contact-items {
     font-size: 14px !important;
+}
+a.link-map:hover {
+    color: var(--dark) !important;
 }
 
 /* Approach */
