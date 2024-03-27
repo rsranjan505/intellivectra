@@ -50,6 +50,11 @@ class BlogController extends Controller
                 $image['document_type']='banner';
                 $blog->banner()->create($image);
             }
+            if($request->service_image !=null){
+                $image = $this->fileUpload($request->service_image,$blog,'local');
+                $image['document_type']='images';
+                $blog->image()->create($image);
+            }
             return redirect()->route('blogs.index')->with('Blogs created successfully.');
         }
         return redirect()->route('blogs.index');
@@ -96,6 +101,11 @@ class BlogController extends Controller
                 $image = $this->fileUpload($request->banner,$blog,'local');
                 $image['document_type']='banner';
                 $blog->banner()->create($image);
+            }
+            if($request->service_image !=null){
+                $image = $this->fileUpload($request->service_image,$blog,'local');
+                $image['document_type']='images';
+                $blog->image()->create($image);
             }
         }
         return redirect()->route('blogs.index')->with('Blogs updated successfully.');

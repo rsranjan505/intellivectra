@@ -25,8 +25,7 @@ class BlogController extends Controller
     }
 
     public function blogDetail($category,$slug){
-        $blog = Blog::where('slug',$slug)->get()->first();
-
+        $blog = Blog::with('banner','image')->where('slug',$slug)->get()->first();
         return view('landing.pages.blog-details',compact('blog'));
     }
 }

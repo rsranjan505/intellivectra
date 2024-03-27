@@ -138,7 +138,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.8s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/oem-2.svg')}}" >
                             <h5>Step-3</h5>
-                            <p>Providing expert insights and hands-on assistance throughout. Continuous STEP</p>
+                            <p>Providing expert insights and hands-on assistance throughout. Continuous Step</p>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.9s">
                             <img class="ups-img w-50 py-2" data-wow-delay="0.1s"  src="{{ asset('assets/img/service-orm-2.svg')}}" >

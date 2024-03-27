@@ -101,6 +101,12 @@
                                             <input type="file" class="form-control" id="banner" name="banner">
                                         </div>
                                     </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Upload Service Image</label>
+                                            <input type="file" class="form-control" id="service_image" name="service_image">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">

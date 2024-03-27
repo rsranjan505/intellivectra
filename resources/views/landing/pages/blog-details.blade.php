@@ -30,7 +30,12 @@
                                     <small class="mr-4"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>{{ date('D, d M Y', strtotime($blog->created_at))}}</small>
                                     <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>{{ $blog->category ? $blog->category->name : ''}}</small>
                                 </div>
-                                <img class="img-fluid w-100 mb-4" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                @if ($blog->image)
+                                    <img class="img-fluid w-100 pb-3" style="width: 468px; border-radius:10px;" src="{{ $blog->image->url}}" alt="">
+                                @else
+                                    <img class="img-fluid w-100 pb-3"  src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                @endif
+
 
                                 {!! $blog->description !!}
 

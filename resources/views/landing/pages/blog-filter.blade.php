@@ -1,11 +1,15 @@
 @if (count($blogs) > 0)
     @foreach ($blogs as $key => $item)
-
     <div class="col-md-12 wow slideInUp py-4" data-wow-delay="0.1s">
         <div class="blog-box-shadow">
             <div class="blog-item bg-light rounded overflow-hidden">
                 <div class="blog-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                    @if ($item->image)
+                        <img class="img-fluid w-100" src="{{ $item->image->url}}" alt="">
+                    @else
+                        <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                    @endif
+
                     <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
                 </div>
                 <div class="p-4">

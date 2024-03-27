@@ -31,8 +31,8 @@
             @php
                 $whitetitle = '';
                 $colortitle = $blog->title;
-                $subheading = $blog->slug;
-                $img = asset('assets/img/blog-bg.jpg');
+                $subheading = $blog->title;
+                $img = $blog->banner ? asset($blog->banner->url) : asset('assets/img/blog-bg.jpg');
             @endphp
         @elseif ($type == 'case-study')
             @php
@@ -130,7 +130,7 @@
                 $whitetitle = 'OEMs';
                 $colortitle = 'Our';
                 $subheading = "Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.";
-                $img = asset('assets/img/oem-bg.jpg');
+                $img =  asset('assets/img/oem-bg.jpg');
             @endphp
          @elseif ($type == 'privacy')
             @php

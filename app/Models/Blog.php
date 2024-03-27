@@ -22,6 +22,11 @@ class Blog extends Model
     //here is many to one polymorph
     public function banner()
     {
-        return $this->morphOne(AssetFile::class, 'pictureable','model_type', 'model_id')->latestOfMany();
+        return $this->morphOne(AssetFile::class, 'pictureable','model_type', 'model_id')->where('document_type','banner')->latestOfMany();
+    }
+
+    public function image()
+    {
+        return $this->morphOne(AssetFile::class, 'pictureable','model_type', 'model_id')->where('document_type','images')->latestOfMany();
     }
 }

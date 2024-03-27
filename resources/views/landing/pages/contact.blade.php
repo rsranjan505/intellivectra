@@ -158,6 +158,9 @@
 
                             <p class="text-center text-justify">Office #1111, Clover Bay Tower, Business Bay, PO Box: 283426, Dubai, UAE</p>
                         </div>
+                        <a class="link-map text-primary mt-4" href="https://maps.app.goo.gl/91mdqZL9617oJdke7" target="_blank"><i class="bi bi-geo-alt text-primary me-2 mr-2"></i> Get Direction</a>
+
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4">

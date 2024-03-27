@@ -13,7 +13,7 @@ class BlogService
 
     public function getAllBlogs()
     {
-        $blogs = Blog::with('category','sub_category','banner');
+        $blogs = Blog::with('category','sub_category','banner','image');
 
         return   $blogs->orderBy('id',$this->orderBy)->paginate($this->defaultPage);
 
@@ -21,7 +21,7 @@ class BlogService
 
     public function getBlogsByFilter($request)
     {
-        $blogs = Blog::with('category','sub_category','banner');
+        $blogs = Blog::with('category','sub_category','banner','image');
 
         return  $blogs
         ->where( function($q)use($request){

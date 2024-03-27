@@ -91,8 +91,8 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Is Active</label>
                                             <select class="form-control" id="is_active" name="is_active">
-                                                <option value="1" {{ $blog->is_active ? 'selected' : '' }}></option>Yes</option>
-                                                <option value="0" {{ !$blog->is_active ? 'selected' : '' }}>No</option>
+                                                <option value="1" {{ $blog->is_active ==1 ? 'selected' : '' }}></option>Yes</option>
+                                                <option value="0" {{ $blog->is_active == 0 ? 'selected' : '' }}>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -100,6 +100,12 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Upload Banner</label>
                                             <input type="file" class="form-control" id="banner" name="banner">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Upload Service Image</label>
+                                            <input type="file" class="form-control" id="service_image" name="service_image">
                                         </div>
                                     </div>
                                 </div>

@@ -10,7 +10,12 @@
                                 @csrf
                                 <div class="row g-3">
                                     <div class="col-md-12">
-                                        <input type="text" name="first_name" id="first_name" class="form-control border border-warning form-input-rounded input-form" placeholder="First Name" >
+                                        <input type="text" name="first_name" id="first_name" class="form-control border border-warning form-input-rounded input-form @error('first_name') is-invalid @enderror" placeholder="First Name" >
+                                        @error('first_name')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
                                     </div>
                                     <div class="col-md-12">
                                         <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name" >
