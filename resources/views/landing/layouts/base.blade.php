@@ -6,7 +6,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Consulting Website Template Free Download" name="keywords">
         <meta content="Consulting Website Template Free Download" name="description">
-
+        <meta name="token" content="{{csrf_token()}}">
         <!-- Favicon -->
         <link href="{{ asset('assets/img/fevicon-IVT.png')}}" rel="icon">
 
@@ -53,17 +53,42 @@
     <!-- Topbar End -->
         @include('landing.components.header')
 
-
             @yield('contents')
 
-
         @include('landing.components.footer')
-
 
          <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
           </svg></a>
+
+
+
+
+        <div class="modal fade" id="gettouchmodal" tabindex="-1" role="dialog" data-bs-backdrop="true" aria-labelledby="gettouchmodalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    {{-- <h5 class="modal-title" id="exampleModalLongTitle"> </h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button> --}}
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <h4 class="fw-bold text-success">Message Sent Successfully</h4>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+                </div>
+                </div>
+            </div>
+        </div>
+
+
 
 
         <!-- JavaScript Libraries -->
@@ -95,14 +120,33 @@
         <!-- contact animation Javascript -->
         <script src="{{ asset('assets/plugins/plugins.js')}}"></script>
 
-
-
-
-        <script>
+    <script>
             $('.navbar').navbarDropdown({trigger: 'mouseover'});
-        </script>
 
+    // $(function () {
 
+        $('#gettouch').on('submit', function (e) {
+
+            e.preventDefault();
+            $('#loading').text('Please Wait......');
+
+            $.ajax({
+            type: 'post',
+            url: $(this).attr('action'),
+            data: $('gettouch').serialize(),
+            headers: {
+                    'X-CSRF-TOKEN': $('meta[name="token"]').attr('content')
+                },
+            success: function () {
+                $('#loading').text('');
+                $('#gettouchmodal').modal('toggle');
+            }
+            });
+
+        });
+
+        // });
+    </script>
 
     </body>
 </html>

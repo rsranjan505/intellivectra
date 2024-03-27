@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\Blogs\BlogController as BlogsBlogController;
 use App\Http\Controllers\Admin\Blogs\CategoryController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ResetPasswordRequestController;
@@ -35,11 +36,13 @@ use Illuminate\Support\Facades\Route;
 #############################################################
 
 Route::get('/',[HomeController::class,'index'])->name('home');
+Route::post('/getInTouch',[HomeController::class,'getInTouch'])->name('getInTouch');
+
 Route::get('/about-us',[AboutController::class,'index'])->name('about');
 Route::get('/careers',[CareerController::class,'index'])->name('career');
 Route::get('/careers/apply',[CareerController::class,'apply'])->name('career.apply');
 Route::get('/blogs',[BlogController::class,'index'])->name('blogs');
-Route::get('/blogs/{name}',[BlogController::class,'blogDetail'])->name('blogs-details');
+Route::get('/blogs/{category}/{slug}',[BlogController::class,'blogDetail'])->name('blogs-details');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
 Route::get('/case-study',[CaseStudyController::class,'index'])->name('case-study');
 Route::get('/case-study/prayagraj-smart',[CaseStudyController::class,'pragrajIndex'])->name('case-study-pragraj');
@@ -84,5 +87,5 @@ Route::prefix('admin/')->middleware('auth','web')->group(function(){
 
     // Blogs
     Route::resource('category',CategoryController::class);
-    Route::resource('blogs',BlogController::class);
+    Route::resource('blogs',BlogsBlogController::class);
 });

@@ -147,11 +147,19 @@ $(function () {
             required: true,
             name: true,
         },
+        small_desc: {
+            required: true,
+            name: true,
+        },
       },
       messages: {
         name: {
             required: "Please enter a name ",
             name: "Please enter a valid name"
+        },
+        small_desc: {
+            required: "Please enter a small_desc ",
+            name: "Please enter a valid small desc"
         },
       },
       errorElement: 'span',
@@ -173,7 +181,7 @@ $(function () {
         processing: true,
         serverSide: false,
         paging: true,
-        ajax: "category/",
+        ajax: "category",
 
     columns: [
         {
@@ -183,10 +191,10 @@ $(function () {
             orderable: false,
             searchable: false,
         },
-        {data: 'Category Name', name: 'Category Name'},
-        {data: 'Sub Category Name', name: 'Sub Category Name'},
-        {data: 'Description', name: 'Description'},
-        {data: 'Status', name: 'Status'},
+        {data: 'name', name: 'name'},
+        // {data: 'parent_id', name: 'parent_id'},
+        {data: 'small_desc', name: 'small_desc'},
+        {data: 'is_active', name: 'is_active'},
         {data: 'action', name: 'action', orderable: false, searchable: false},
     ],
 
@@ -195,41 +203,15 @@ $(function () {
 
 
 
-  //Product settings
-  $(function () {
-    $('#add-brands-form').validate({
-      rules: {
-        name: {
-            required: true,
-            name: true,
-        },
-      },
-      messages: {
-        name: {
-            required: "Please enter a name ",
-            name: "Please enter a valid name"
-        },
-      },
-      errorElement: 'span',
-      errorPlacement: function (error, element) {
-        error.addClass('invalid-feedback');
-        element.closest('.form-group').append(error);
-      },
-      highlight: function (element, errorClass, validClass) {
-        $(element).addClass('is-invalid');
-      },
-      unhighlight: function (element, errorClass, validClass) {
-        $(element).removeClass('is-invalid');
-      }
-    });
-  });
+  //Blogs settings
+
 
   $(function () {
-    $('#brands-table').DataTable({
+    $('#blog-table').DataTable({
         processing: true,
         serverSide: false,
         paging: true,
-        ajax: "brands/",
+        ajax: "blogs",
 
     columns: [
         {
@@ -239,10 +221,15 @@ $(function () {
             orderable: false,
             searchable: false,
         },
-        {data: 'Name', name: 'Name'},
-        {data: 'Status', name: 'Status'},
+        {data: 'title', name: 'title'},
+        {data: 'category_id', name: 'category_id'},
+        {data: 'sub_category_id', name: 'sub_category_id'},
+        {data: 'small_desc', name: 'small_desc'},
+        {data: 'meta_title', name: 'meta_title'},
+        {data: 'is_active', name: 'is_active'},
         {data: 'action', name: 'action', orderable: false, searchable: false},
     ],
+
     });
   });
 
@@ -251,8 +238,8 @@ $(function () {
 function deleteConfirmation(id,model){
         console.log(model);
 
-        if(model == 'item'){
-            var url = "../../purchases/items-delete/"+id;
+        if(model == 'category'){
+            var url = "/admin/category/"+id;
         }else if(model == 'purchase'){
             var url = "purchases/delete/"+id;
         }
@@ -272,9 +259,9 @@ function deleteConfirmation(id,model){
             if (result.value) {
                 $.ajax({
                     url:url,
-                    type: "GET",
+                    type: "DELETE",
                     // data: {
-                    //     id: 5
+                    //     id: id
                     // },
                     dataType: "html",
                     success: function (data) {

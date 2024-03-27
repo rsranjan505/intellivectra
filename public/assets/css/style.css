@@ -4,6 +4,8 @@
     --secondary: #101010;
     --light: #EEF9FF;
     --dark: #090601;
+    --success: #39f31d;
+    --failed: #ff0a0a;
 }
 
 
@@ -143,6 +145,13 @@ hr {
 }
 .btn-dark:hover {
     background-color: var(--primary);
+}
+.text-success {
+    color: var(--success);
+}
+
+.text-failed {
+    color: var(--failed);
 }
 
 .btn-square {
@@ -1095,6 +1104,18 @@ a.text-primaryv:hover{
         color: var(--dark)  !important;
     }
 
+
+    p.blog-slug {
+        font-size: 20px;
+    }
+    p.blog-slug  a{
+        color: var(--light);
+        font-size: 20px;
+    }
+
+    p.blog-slug  a:hover{
+       color: var(--primary)
+    }
 
 
     /* Contact  */

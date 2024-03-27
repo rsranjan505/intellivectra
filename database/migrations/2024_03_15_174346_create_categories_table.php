@@ -14,7 +14,8 @@ return new class extends Migration
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('small_desc')->nullable();
+            $table->string('slug');
+            $table->text('small_desc')->nullable();
             $table->string('meta_title')->nullable();
             $table->text('meta_desc')->nullable();
             $table->unsignedBigInteger('parent_id')->nullable();

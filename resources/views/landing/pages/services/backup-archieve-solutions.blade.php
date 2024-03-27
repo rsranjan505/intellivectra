@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 pl-5">
                 <div class="position-relative pb-3">
-                    <h1>About <span class="text-primary"> BackUp & Archive Solutions</span></h1>
+                    <h1> <span class="text-primary"> BackUp & Archive Solutions</span></h1>
                 </div>
                 <p class="mb-2 text-justify">At Intelli Vectra Technologies, we understand the importance of keeping your data safe and
                     accessible. That's why we offer revolutionary solutions designed to protect, manage, and

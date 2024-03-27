@@ -39,21 +39,21 @@
                 <div class="d-flex flex-row  flex-content-between">
                     <div class="d-flex flex-column aligns-content-left flex-content-start">
                         <div class="timeline jurney-left-2020">
-                            <p class="text-justify">IVT embarked on its journey, navigating the digital landscape from various locations in pursuit of its first project, marking a significant milestone amidst uncertainityand challenges.</p>
+                            <p class="text-justify text-secoundary">IVT embarked on its journey, navigating the digital landscape from various locations in pursuit of its first project, marking a significant milestone amidst uncertainityand challenges.</p>
                         </div>
                         <div class="timeline jurney-left-2022">
-                            <p class="text-justify">Securing its first major project in 2022 reinforced IBT's position in the industry, showcasing the team's proficiency and dedication to delivering high-quality solutions.</p>
+                            <p class="text-justify text-secoundary">Securing its first major project in 2022 reinforced IVT's position in the industry, showcasing the team's proficiency and dedication to delivering high-quality solutions.</p>
                         </div>
                         <div class="timeline jurney-left-2024">
-                            <p class="text-justify">IVT's atragic expansion into western India in 2024 underscores its commitment to establishing a comprehensive PAN-India presence, ensuring accessibility and exceeding client expections nationwide.</p>
+                            <p class="text-justify text-secoundary">IVT's satragic expansion into western India in 2024 underscores its commitment to establishing a comprehensive PAN-India presence, ensuring accessibility and exceeding client expections nationwide.</p>
                         </div>
                     </div>
                     <div class="d-flex flex-column aligns-content-right flex-content-end">
                         <div class="timeline jurney-right-2021">
-                            <p class="text-justify">Transitioning to a co-working office in August marked a turning point, leading to strategic projects aimed at achieving new height of success and innovation.</p>
+                            <p class="text-justify text-secoundary">Transitioning to a co-working office in August marked a turning point, leading to strategic projects aimed at achieving new height of success and innovation.</p>
                         </div>
                         <div class="timeline jurney-right-2023">
-                            <p class="text-justify">The launch of IVT2.0 in 2023 ushered in a new chapter, introducing a modernized office space designed to foster innovation, collaboration, and growth.</p>
+                            <p class="text-justify text-secoundary">The launch of IVT2.0 in 2023 ushered in a new chapter, introducing a modernized office space designed to foster innovation, collaboration, and growth.</p>
                         </div>
                     </div>
                 </div>

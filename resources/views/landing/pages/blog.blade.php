@@ -5,10 +5,12 @@
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
+
         <div class="row g-5">
             <div class="col-lg-8">
                 <div class="row g-5">
-                    <div class="col-md-12 wow slideInUp py-4" data-wow-delay="0.1s">
+                    @include('landing.pages.blog-filter')
+                    {{-- <div class="col-md-12 wow slideInUp py-4" data-wow-delay="0.1s">
                         <div class="blog-box-shadow">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
@@ -29,8 +31,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-12 wow slideInUp py-4" data-wow-delay="0.2s">
+                    </div> --}}
+                    {{-- <div class="col-md-12 wow slideInUp py-4" data-wow-delay="0.2s">
                         <div class="blog-box-shadow">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
@@ -293,7 +295,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="col-lg-4">
@@ -322,18 +324,19 @@
                             <h6 class="mb-0 text-left pl-3" style="color:#a5a8aa;">Categories</h6>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-left text-left" >
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 " href="{{ route('blogs-details','consulting-service')}}">Consulting Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','platform-and-operation-service')}}">Platform And Operation Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','enterprise-application-service')}}">Enterprise Application Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','digital-service')}}">Digital Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','staffing-service')}}">Staffing Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs-details','professional-service')}}">Professional Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 " href="{{ route('blogs','consulting-service')}}">Consulting Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs','platform-and-operation-service')}}">Platform And Operation Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs','enterprise-application-service')}}">Enterprise Application Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs','digital-service')}}">Digital Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs','staffing-service')}}">Staffing Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2" href="{{ route('blogs','professional-service')}}">Professional Services</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+        {!! $blogs->links() !!}
+        {{-- <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
             <nav aria-label="...">
                 <ul class="pagination d-flex flex-row justify-content-between">
                     <li class="page-item1 rounded disabled ">
@@ -355,7 +358,7 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div> --}}
     </div>
 </div>
 

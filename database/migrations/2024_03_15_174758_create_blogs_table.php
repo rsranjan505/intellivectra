@@ -14,14 +14,15 @@ return new class extends Migration
         Schema::create('blogs', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('small_desc');
+            $table->string('slug');
+            $table->text('small_desc');
             $table->longText('description');
-            $table->longText('section_desc')->nullable();
             $table->string('meta_title')->nullable();
             $table->text('meta_desc')->nullable();
             $table->unsignedBigInteger('category_id')->nullable();
             $table->unsignedBigInteger('sub_category_id')->nullable();
             $table->tinyInteger('is_active')->default(1);
+            $table->string('created_by')->default(null);
             $table->timestamps();
 
             $table->foreign('category_id')->references('id')->on('categories')->onUpdate('cascade')->onDelete('cascade');

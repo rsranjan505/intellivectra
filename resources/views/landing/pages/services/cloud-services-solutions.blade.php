@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 pl-5">
                 <div class="position-relative pb-3">
-                    <h1>About <span class="text-primary"> Cloud Services And Solution</span></h1>
+                    <h1> <span class="text-primary"> Cloud Services And Solution</span></h1>
                 </div>
                 <p class="mb-2 text-justify">At Intelli Vectra, we offer comprehensive Cloud Services and Solutions tailored to meet the
                     diverse needs of businesses. From consulting and designing to building, optimising, and

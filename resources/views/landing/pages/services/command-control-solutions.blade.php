@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 pl-5">
                 <div class="position-relative pb-3">
-                    <h1>About <span class="text-primary"> Command & Control Solutions</span></h1>
+                    <h1> <span class="text-primary"> Command & Control Solutions</span></h1>
                 </div>
                 <p class="mb-2 text-justify">Cyviz's cutting-edge technology, in partnership with Intelli Vectra's expertise, introduces
                     Roombr – the world's first Walltop Computer. This partnership aims to revolutionise

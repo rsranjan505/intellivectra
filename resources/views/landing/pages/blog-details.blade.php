@@ -2,13 +2,11 @@
 @extends('landing.layouts.base')
 
 @section('contents')
-@php
-    $tagname = ucwords(str_replace('-', ' ', $name));
-@endphp
+
 {{-- <div class="container-fluid pt-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <div class="text-center position-relative mx-auto">
-            <h1>{{str_replace('Service','',$tagname)}}<span class="text-primary">Services</span> </h1>
+            <h1>{{str_replace('Service','',$$blog->category ? $blog->category->name : '')}}<span class="text-primary">Services</span> </h1>
         </div>
     </div>
 </div> --}}
@@ -20,22 +18,23 @@
             <div class="col-lg-8">
                 <div class="row g-5">
                     <div class="col-md-12 wow slideInUp py-4" data-wow-delay="0.1s">
-
                         <div class="">
                             <div class="blog-item overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
                                     {{-- <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                                     <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a> --}}
                                 </div>
-
-                                <h3 class="mb-3 text-left blog-title text-primary">Transforming Businesses using Professional IT Services</h3>
+                                <h3 class="mb-3 text-left blog-title text-primary">{{$blog->title}}</h3>
                                 <div class="d-flex mb-3 pb-2">
-                                    <small class="me-3  mr-4"><i class="far fa-user text-primary me-2  pr-2"></i>John Doe</small>
-                                    <small class="mr-4"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>01 Mar, 2024</small>
-                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>{{ $tagname}}</small>
+                                    <small class="me-3  mr-4"><i class="far fa-user text-primary me-2  pr-2"></i>Admin</small>
+                                    <small class="mr-4"><i class="far fa-calendar-alt text-primary me-2 pr-2"></i>{{ date('D, d M Y', strtotime($blog->created_at))}}</small>
+                                    <small><i class="far fa-bookmark text-primary me-2 pr-2"></i>{{ $blog->category ? $blog->category->name : ''}}</small>
                                 </div>
                                 <img class="img-fluid w-100 mb-4" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
-                                <div>
+
+                                {!! $blog->description !!}
+
+                                {{-- <div>
                                     <h4 class="mb-3 text-left blog-title">Introduction</h4>
                                     <p class="text-justify">Businesses face several challenges and opportunities driven by technological advancement. Professional IT service stands as one of the best experiences, offering a range of IT Consulting Services to get organizations through the various IT environments. With a focus on digital transformation and technology innovation, these play a crucial role in helping businesses navigate the complexities of IT complexity while ensuring the best Information security measures, optimizing cloud platforms, and modernizing IT Infrastructure.</p>
 
@@ -45,8 +44,6 @@
                                     <p class="text-justify">Infrastructure forms the backbone of organizational operations, and professional services offer vendor-agnostic solutions to optimize infrastructure performance. From data centre augmentation to networking services and VMware solutions, these services provide customer strategies to enhance infrastructure efficiency and reliability. By customizing their expertise in infrastructure management, these services enable organizations to maximize their IT investments and drive business growth.</p>
 
                                 </div>
-
-
                                 <div>
                                     <p class="text-justify py-3">To provide support & maintenance for long-term success, businesses must follow:</p>
                                     <ul>
@@ -67,7 +64,6 @@
                                         </li>
                                     </ul>
                                 </div>
-
                                 <div>
                                     <p class="text-justify">Business transformation is essential for organizations looking to stay ahead in today's competitive world. Professional services specialize in IT modernization solutions, helping organizations streamline processes, improve productivity, and drive innovation. Through services such as data centre deployment, business process optimization, and technology integration, these services empower businesses to achieve their transformation goals and  unlock new growth opportunities.</p>
                                 </div>
@@ -79,7 +75,7 @@
                                 </div>
                                 <div>
                                     <p class="text-justify">Lastly, professional services play a crucial and critical role in helping organizations navigate the complexities of modern IT environments and drive business success. Through IT consulting, digital transformation, and technology innovation, these services help businesses optimize their IT infrastructure, enhance information security, and unlock new growth opportunities. With a commitment to excellence and a focus on delivering value, professional services are needed as partners in helping organizations in the digital era.</p>
-                                </div>
+                                </div> --}}
 
                             </div>
 
@@ -135,11 +131,11 @@
                             <h6 class="mb-0 text-left pl-3" style="color:#a5a8aa;">Categories</h6>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-left text-left">
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ $tagname =='Consulting Service' ? 'active' :''  }} " href="{{ route('blogs-details','consulting-service')}}">Consulting Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ $tagname =='Platform And Operation Service' ? 'active' :''  }}" href="{{ route('blogs-details','platform-and-operation-service')}}">Platform And Operation Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ $tagname =='Enterprise Application Service' ? 'active' :''  }}" href="{{ route('blogs-details','enterprise-application-service')}}">Enterprise Application Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ $tagname =='Digital Service' ? 'active' :''  }}" href="{{ route('blogs-details','digital-service')}}">Digital Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ $tagname =='Staffing Service' ? 'active' :''  }}" href="{{ route('blogs-details','staffing-service')}}">Staffing Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Consulting Service' ? 'active' :''  }} " href="{{ route('blogs','consulting-service')}}">Consulting Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Platform And Operation Service' ? 'active' :''  }}" href="{{ route('blogs','platform-and-operation-service')}}">Platform And Operation Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Enterprise Application Service' ? 'active' :''  }}" href="{{ route('blogs','enterprise-application-service')}}">Enterprise Application Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Digital Service' ? 'active' :''  }}" href="{{ route('blogs','digital-service')}}">Digital Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Staffing Service' ? 'active' :''  }}" href="{{ route('blogs','staffing-service')}}">Staffing Services</a>
                         </div>
                     </div>
                 </div>

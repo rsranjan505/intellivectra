@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 pl-5">
                 <div class="position-relative pb-3">
-                    <h1>About <span class="text-primary"> Data Management Solution</span></h1>
+                    <h1> <span class="text-primary"> Data Management Solution</span></h1>
                 </div>
                 <p class="mb-2 text-justify">At Intelli Vectra Technologies, in partnership with leading enterprise data storage solution
                     provider Infortrend Technology, we understand the value of data in today's world. Our Data

@@ -31,7 +31,7 @@
         </li>
 
         <li class="nav-item">
-            <a href="#" class="nav-link @yield('blogs_blogs')">
+            <a href="{{ route('blogs.index')}}" class="nav-link @yield('blogs_blog')">
             <i class="far fa-circle nav-icon"></i>
             <p>
                 Blogs
