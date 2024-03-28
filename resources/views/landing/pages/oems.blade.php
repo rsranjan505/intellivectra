@@ -28,7 +28,7 @@
                     <div class="d-flex flex-row justify-content-start">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Disk Archive Corporation </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-20.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px;"  src="{{ asset('assets/img/brand/b-20.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -91,7 +91,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/disk-1.png')}}" class="oem-img-right"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -100,7 +100,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/disk-2.png')}}" class="oem-img-right"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
@@ -109,7 +109,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/disk-3.png')}}" class="oem-img-right"/></a>
                             </li>
                         </ul>
 
@@ -133,7 +133,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/cyviz-1.png')}}" class="oem-img-left"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -142,7 +142,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-2.png')}}" class="oem-img-left"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
@@ -151,7 +151,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-3.png')}}" class="oem-img-left"/></a>
                             </li>
                         </ul>
 
@@ -161,7 +161,7 @@
                     <div class="d-flex flex-row justify-content-end">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Cyviz  </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; "  src="{{ asset('assets/img/brand/b-1.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px; "  src="{{ asset('assets/img/brand/b-1.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -226,7 +226,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-2.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-2.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -288,7 +288,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/scale-1.png')}}" class="oem-img-right"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -297,7 +297,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/scale-2.png')}}" class="oem-img-right"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
@@ -306,7 +306,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/scale-3.png')}}" class="oem-img-right"/></a>
                             </li>
                         </ul>
 
@@ -330,7 +330,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/motadata-1.png')}}" class="oem-img-left"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -339,7 +339,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/motadata-2.png')}}" class="oem-img-left"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
@@ -348,7 +348,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/motadata-3.png')}}" class="oem-img-left"/></a>
                             </li>
                         </ul>
 
@@ -358,7 +358,7 @@
                     <div class="d-flex flex-row justify-content-end">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Motadata  </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-3.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px;"  src="{{ asset('assets/img/brand/b-3.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -422,7 +422,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-5.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-5.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -483,7 +483,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/juniper-1.png')}}" class="oem-img-right"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -492,7 +492,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/juniper-2.png')}}" class="oem-img-right"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
@@ -501,7 +501,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/juniper-3.png')}}" class="oem-img-right"/></a>
                             </li>
                         </ul>
 
@@ -526,7 +526,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/disk-c-1.png')}}" class=""/> </a>
+                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/exagrid-1.png')}}" class="oem-img-left"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -535,7 +535,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-2.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/exagrid-2.png')}}" class="oem-img-left"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
@@ -544,7 +544,7 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);">
                                         <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/disk-c-3.png')}}" class=""/></a>
+                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/exagrid-3.png')}}" class="oem-img-left"/></a>
                             </li>
                         </ul>
 
@@ -554,7 +554,7 @@
                     <div class="d-flex flex-row justify-content-end">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  exagrid  </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-7.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px;"  src="{{ asset('assets/img/brand/b-7.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
@@ -610,6 +610,32 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+            <nav aria-label="...">
+                <ul class="pagination d-flex flex-row justify-content-between">
+                    <li class="page-item1 rounded disabled ">
+                        <a class="page-link shadow" href="{{ route('oems')}}" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                        </svg></a>
+                    </li>
+                    <div class="d-flex justify-row">
+                        <li class="page-item2 rounded active disabled"><a class="page-link shadow" href="#">1</a></li>
+                        <li class="page-item2 rounded}">
+                            <a class="page-link shadow" href="{{ route('oems-page2')}}">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                    </div>
+                    <li class="page-item1 rounded ">
+                        <a class="page-link shadow" href="{{ route('oems-page2')}}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                        </svg></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 

@@ -128,8 +128,10 @@
         $('#gettouch').on('submit', function (e) {
 
             e.preventDefault();
-            $('#loading').text('Please Wait......');
-
+            // $('#spinner-border').text('Please Wait......');
+            $('.spinner-border').css('display','block');
+            $('.btn-submit').css('display','none');
+            // btn-submit
             $.ajax({
             type: 'post',
             url: $(this).attr('action'),
@@ -138,9 +140,21 @@
                     'X-CSRF-TOKEN': $('meta[name="token"]').attr('content')
                 },
             success: function () {
-                $('#loading').text('');
+                $('.spinner-border').css('display','none');
+                $('.btn-submit').css('display','block');
                 $('#gettouchmodal').modal('toggle');
-            }
+            },
+            error: function(  jqXHR,  textStatus,  errorThrown){
+
+                $.each(jqXHR.responseJSON.errors, function (index, value) {
+                    $('.spinner-border').css('display','none');
+                    $('.btn-submit').css('display','block');
+
+                    console.log(index);
+                    $('#'+index+'_error').empty();
+                    $('#'+index+'_error').append(value);
+                });
+                }
             });
 
         });

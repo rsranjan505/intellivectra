@@ -133,6 +133,8 @@
             @include('landing.components.sub-header',['type' => 'infrastucture'])
         @elseif (Request::is('oems'))
             @include('landing.components.sub-header',['type' => 'oems'])
+        @elseif (Request::is('oems/page-2'))
+            @include('landing.components.sub-header',['type' => 'oems-page2'])
         @elseif (Request::is('privacy-policy'))
             @include('landing.components.sub-header',['type' => 'privacy'])
         @elseif (Request::is('term-condition'))

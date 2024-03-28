@@ -10,14 +10,14 @@
         <div class="carousel-item  active" >
             {{-- <img class="w-100" src="{{ asset('assets/img/bg-2.jpg')}}" alt="Image"> --}}
             <video autoplay loop muted class="myvid" id="player2" >
-                <source src="{{ asset('assets/img/video-1.mp4')}}" type="video/mp4">
+                <source class="w-100" src="{{ asset('assets/img/video-1.mp4')}}" type="video/mp4">
             </video>
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="mx-3 px-5 text-left">
                         <h2 class="display-1 text-primary mb-md-1 animated slideInDown fw-bold">Business & </h2>
                         <h2 class="display-1 text-white mb-md-1 animated zoomIn">Enterprise <strong>Hub</strong></h2>
-                        <p class="mb-md-4">We deliver smart solutions for your business</p>
+                        <p class="mb-md-3">We Deliver Smart Solutions For Your Business</p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
                             <form action="">
                                 <div class="input-group ">
@@ -146,14 +146,14 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="mx-3 px-5 text-left">
-                        <h2 class="display-1 text-primary mb-md-1 animated slideInDown fw-bold">Expert Guidance </h2>
-                        <h2 class="display-1 text-white mb-md-1 animated zoomIn">For Long Term <strong>Success</strong></h2>
-                        <p class="mb-md-3">Transform Your Business With Our Strategic Consulting Services</p>
+                        <h3 class="text-primary mb-md-1 animated slideInDown fw-bold">EXPERIENCE CENTRE </h3>
+                        <h2 class="display-1 text-white mb-md-1 animated zoomIn">Visit our IVT Platform to learn how our <strong>Success </strong>Solutions can help you Work Better and Smarter.</h2>
+                        <p class="mb-md-3"></p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
 
                             <button class="btn btn-primary btn-lg bg shadow-none btn-book w-100" >Book A Demo
-
                             </button>
+
                             {{-- <button class="  rounded-circle" style="border: 1px solid;
 
                                 background-color: #fff;">

@@ -10,4 +10,10 @@ class OemsController extends Controller
     public function index(){
         return view('landing.pages.oems');
     }
+
+    public function index2(){
+        return view('landing.pages.oems-page-2');
+    }
+
+
 }

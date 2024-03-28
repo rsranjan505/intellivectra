@@ -50,6 +50,7 @@ Route::get('/case-study/prayagraj-smart',[CaseStudyController::class,'pragrajInd
 
 
 Route::get('/oems',[OemsController::class,'index'])->name('oems');
+Route::get('/oems/page-2',[OemsController::class,'index2'])->name('oems-page2');
 
 Route::get('/services/staffing',[ServicesController::class,'staffingIndex'])->name('services.staffing');
 Route::get('/services/consulting',[ServicesController::class,'consultingIndex'])->name('services.consulting');

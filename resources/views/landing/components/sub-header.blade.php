@@ -132,6 +132,13 @@
                 $subheading = "Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.";
                 $img =  asset('assets/img/oem-bg.jpg');
             @endphp
+         @elseif ($type == 'oems-page2')
+            @php
+                $whitetitle = 'OEMs';
+                $colortitle = 'Our';
+                $subheading = "Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.";
+                $img =  asset('assets/img/oem-bg.jpg');
+            @endphp
          @elseif ($type == 'privacy')
             @php
                 $whitetitle = 'policy';
