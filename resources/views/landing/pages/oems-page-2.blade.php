@@ -668,11 +668,11 @@
                         <div class="tab-pane fade" id="pills-journey-roombr" role="tabpanel" aria-labelledby="pills-journey-roombr-tab">
                             <p class="mt-2 mb-3 text-justify">
                                 The journey of Roombr has been marked by relentless innovation and a commitment to
-enhancing user experience. From the development of hardware to complement software
-applications, Roombr ensures that virtual collaboration is as seamless and lifelike as
-possible. With its state-of-the-art specifications, including a powerful Intel i5 10th Generation
-processor, integrated Harman Kardon speakers, and advanced IR technology for
-interactivity, Roombr sets a new standard for performance and functionality
+                                enhancing user experience. From the development of hardware to complement software
+                                applications, Roombr ensures that virtual collaboration is as seamless and lifelike as
+                                possible. With its state-of-the-art specifications, including a powerful Intel i5 10th Generation
+                                processor, integrated Harman Kardon speakers, and advanced IR technology for
+                                interactivity, Roombr sets a new standard for performance and functionality
 
                             </p>
                             {{-- <p class="text-justify">

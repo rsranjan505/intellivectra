@@ -125,7 +125,7 @@
                 <div class="d-flex flex-row justify-content-center ">
                     <div class="row d-flex flex-row justify-content-between">
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.6s">
-                            <img class="ups-img w-50 py-2" data-wow-delay="0.2s" src="{{ asset('assets/img/oem-1.svg')}}" >
+                            <img class="ups-img w-50 py-2" data-wow-delay="0.2s" src="{{ asset('assets/img/service-orm-4.svg')}}" >
                             <h5>Step-1 </h5>
                             <p>Collaborating closely with clients to craft a clear vision for success</p>
                         </div>
@@ -136,7 +136,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-6 text-center px-4 wow fadeInUp" data-wow-delay="0.8s">
-                            <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/oem-2.svg')}}" >
+                            <img class="ups-img w-50 py-2" data-wow-delay="0.3s" src="{{ asset('assets/img/service-orm-3.svg')}}" >
                             <h5>Step-3</h5>
                             <p>Providing expert insights and hands-on assistance throughout. Continuous Step</p>
                         </div>

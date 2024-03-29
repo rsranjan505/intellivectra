@@ -64,7 +64,7 @@
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
-        <div class="text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+        <div class="text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 660px;">
             <h1 class="fw-boldtext-uppercase">Meet our <span class="text-primary">Leaders</span></h1>
             <p class="mb-0">Start your future today, connect with the IVT team</p>
         </div>
@@ -79,6 +79,13 @@
                         <p class="m-0 my-3">Founder, CEO & MD</p>
                         <i class="fab fa-linkedin-in fw-normal text-primary" ></i>
                     </div>
+
+                </div>
+                <div class="overlay d-flex aligns-content-center justify-content-center">
+                    <div class="text-white  ove-text">
+                        <p  class="text-justify px-5 py-5">An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio.</p>
+                    </div>
+                    <button type="button" class="btn btn-dark w-100 py-3 social-btn"><i class="fab fa-linkedin-in fw-normal text-white" ></i></button>
                 </div>
             </div>
             <div class="team-card wow slideInUp mx-4" data-wow-delay="0.3s">
@@ -92,8 +99,12 @@
                         <i class="fab fa-linkedin-in fw-normal text-primary" ></i>
                     </div>
                 </div>
+                <div class="overlay d-flex aligns-content-center justify-content-center">
+                    <div class="text-center text-white ove-text"><p class="text-justify px-5 py-5">Seasoned Sales professional with around 35+ years of experience in Sales, specialization in the Government Ministries and Departments in India. A result-oriented Sales leader with the ability to formulate the sales strategy, develop alliances, manage client relationships & lead teams in multiple domains. Worked for companies like SAP India Pvt Ltd, IBM India Pvt Ltd., Tata Infotech Ltd, Pertech Computers Ltd.
+                        </p></div>
+                    <button type="button" class="btn btn-dark w-100 py-3 social-btn"><i class="fab fa-linkedin-in fw-normal text-white" ></i></button>
+                </div>
             </div>
-
         </div>
     </div>
 </div>

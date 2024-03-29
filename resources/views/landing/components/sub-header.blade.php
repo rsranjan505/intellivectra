@@ -29,8 +29,8 @@
             @endphp
          @elseif ($type == 'blogs-details')
             @php
-                $whitetitle = '';
-                $colortitle = $blog->title;
+                $whitetitle = $blog->title;
+                $colortitle = '';
                 $subheading = $blog->title;
                 $img = $blog->banner ? asset($blog->banner->url) : asset('assets/img/blog-bg.jpg');
             @endphp
@@ -164,7 +164,7 @@
                     <div class="p-3 text-center">
                         <h2 class="fw-bold text-primary mb-md-1 animated slideInDown">{{ ucfirst($colortitle)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($whitetitle)}}</span></h2>
                         @if ($type == 'blogs-details')
-                            <p class="blog-slug text-white"> <a href="{{ route('home')}}">Home</a> - <a href="{{ route('blogs')}}">Blogs</a> - <a href="{{ route('blogs')}}">{{$blog->category ? $blog->category->name :''}}</a> - {{ ucfirst($subheading)}}</p>
+                            <p class="blog-slug text-primary"> <a href="{{ route('home')}}">Home</a> - <a href="{{ route('blogs')}}">Blogs</a> - <a href="{{ route('blogs')}}">{{$blog->category ? $blog->category->name :''}}</a> - {{ ucfirst($subheading)}}</p>
                         @else
                             <p>{{ ucfirst($subheading)}}</p>
                         @endif
