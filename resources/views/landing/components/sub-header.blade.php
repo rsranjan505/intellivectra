@@ -74,56 +74,56 @@
                 $whitetitle = 'services';
                 $colortitle = 'consulting';
                 $subheading = "Customized consulting, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-7.jpg');
             @endphp
         @elseif ($type == 'cloud')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'cloud';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-18.jpg');
             @endphp
         @elseif ($type == 'backup')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'backup';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-6.jpg');
             @endphp
         @elseif ($type == 'data')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'data';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-8.jpg');
             @endphp
         @elseif ($type == 'survillence')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'survillence';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-4.jpg');
             @endphp
         @elseif ($type == 'command')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'command';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-2.jpg');
             @endphp
         @elseif ($type == 'security')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'security';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-12.jpg');
             @endphp
         @elseif ($type == 'infrastucture')
             @php
                 $whitetitle = 'services';
                 $colortitle = 'infrastucture';
                 $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
-                $img = asset('assets/img/service-bg.jpg');
+                $img = asset('assets/img/service/service-bg-15.jpg');
             @endphp
         @elseif ($type == 'oems')
             @php

@@ -136,11 +136,13 @@
                             <h6 class="mb-0 text-left pl-3" style="color:#a5a8aa;">Categories</h6>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-left text-left">
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Consulting Service' ? 'active' :''  }} " href="{{ route('blogs','consulting-service')}}">Consulting Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Platform And Operation Service' ? 'active' :''  }}" href="{{ route('blogs','platform-and-operation-service')}}">Platform And Operation Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Enterprise Application Service' ? 'active' :''  }}" href="{{ route('blogs','enterprise-application-service')}}">Enterprise Application Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Digital Service' ? 'active' :''  }}" href="{{ route('blogs','digital-service')}}">Digital Services</a>
-                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? $blog->category->name : '') =='Staffing Service' ? 'active' :''  }}" href="{{ route('blogs','staffing-service')}}">Staffing Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? Str::title($blog->category->name) : '') =='Consulting Services' ? 'active' :''  }} " href="{{ route('blogs','consulting-service')}}">Consulting Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? Str::title($blog->category->name) : '') =='Platform And Operation Services' ? 'active' :''  }}" href="{{ route('blogs','platform-and-operation-service')}}">Platform And Operation Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? Str::title($blog->category->name) : '') =='Enterprise Application Services' ? 'active' :''  }}" href="{{ route('blogs','enterprise-application-service')}}">Enterprise Application Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? Str::title($blog->category->name) : '') =='Digital Services' ? 'active' :''  }}" href="{{ route('blogs','digital-service')}}">Digital Services</a>
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? Str::title($blog->category->name) : '') =='Staffing Services' ? 'active' :''  }}" href="{{ route('blogs','staffing-service')}}">Staffing Services</a>
+
+                            <a class="bg-dark rounded-blog-category py-2 px-3 mb-2 {{ ($blog->category ? Str::title($blog->category->name) : '') =='Professional Services' ? 'active' :''  }}" href="{{ route('blogs','professional-service')}}">Professional Services</a>
                         </div>
                     </div>
                 </div>

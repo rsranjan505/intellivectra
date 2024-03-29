@@ -20,28 +20,36 @@
                         </div>
                         <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="row">
-                                <form class="getin-touch">
+                                <form class="career-apply" id="career-apply" method="post" action="{{ route('career.apply.send')}}" enctype="multipart/form-data">
+                                    @csrf
+
                                     <div class="row g-3">
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="First Name" >
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" name="first_name" id="first_name" placeholder="First Name" >
+                                            <p class="ml-3 text-danger fw-bold text-left" id="first_name_error"></p>
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name" >
+                                            <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name" >
+                                            <p class="ml-3 text-danger fw-bold text-left" id="last_name_error"></p>
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="email" class="form-control border border-warning form-input-rounded input-form" placeholder=" Email" >
+                                            <input type="email" name="email" id="email" class="form-control border border-warning form-input-rounded input-form" placeholder=" name@example.com" >
+                                            <p class="ml-3 text-danger fw-bold text-left" id="email_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Mobile" >
+                                            <input type="text" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="+91-0000-000-000" >
+                                            <p class="ml-3 text-danger fw-bold text-left" id="mobile_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="number" class="form-control border border-warning form-input-rounded input-form" placeholder="Total Experience" >
+                                            <input type="number" name="total_experience" id="total_experience" class="form-control border border-warning form-input-rounded input-form" placeholder="Total Experience" >
+                                            <p class="ml-3 text-danger fw-bold text-left" id="total_experience_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" placeholder="Applied For" >
+                                            <input type="text" name="applied_for" id="applied_for" class="form-control border border-warning form-input-rounded input-form" placeholder="Applied For" >
+                                            <p class="ml-3 text-danger fw-bold text-left" id="applied_for_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <textarea type="text" rows="6" class="form-control border border-warning form-input-textarea input-form" placeholder="Message" ></textarea>
+                                            <textarea type="text" name="message" id="message" rows="6" class="form-control border border-warning form-input-textarea input-form" placeholder="Message" ></textarea>
                                         </div>
                                         <div class="col-12">
                                             <div class="row">
@@ -49,11 +57,11 @@
                                                     <label class="fw-bold pt-3">Upload Your CV</label>
                                                 </div>
                                                 <div class="col-8">
-                                                    <input type="file" class="form-control border border-warning form-input-rounded input-form" placeholder="Applied For" >
+                                                    <input type="file"  name="attach_cv" id="attach_cv" class="form-control border border-warning form-input-rounded input-form" >
+                                                    <p class="ml-3 text-danger fw-bold text-left" id="attach_cv_error"></p>
                                                 </div>
+
                                             </div>
-
-
                                         </div>
                                         <div class="col-12">
                                             <button class="btn btn-dark form-input-rounded ml-3 mt-4 px-4 text-center" type="submit">Send  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -135,5 +143,10 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+
+    </script>
 
 @endsection

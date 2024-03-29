@@ -41,6 +41,8 @@ Route::post('/getInTouch',[HomeController::class,'getInTouch'])->name('getInTouc
 Route::get('/about-us',[AboutController::class,'index'])->name('about');
 Route::get('/careers',[CareerController::class,'index'])->name('career');
 Route::get('/careers/apply',[CareerController::class,'apply'])->name('career.apply');
+Route::post('/careers/apply',[CareerController::class,'sendApply'])->name('career.apply.send');
+
 Route::get('/blogs',[BlogController::class,'index'])->name('blogs');
 Route::get('/blogs/{category}/{slug}',[BlogController::class,'blogDetail'])->name('blogs-details');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
