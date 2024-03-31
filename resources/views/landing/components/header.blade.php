@@ -32,7 +32,7 @@
                             <a href="{{route('about')}}" class="nav-link {{ Request::is('about-us') ? 'active' : ''}}" >Company</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'services') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'services/') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                                aria-expanded="false">Services & Solutions</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown2">
                                 <li class="dropdown-item"><a href="{{ route('services.staffing')}}">Staffing Services</a></li>
