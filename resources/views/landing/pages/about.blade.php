@@ -39,21 +39,21 @@
                 <div class="d-flex flex-row  flex-content-between">
                     <div class="d-flex flex-column aligns-content-left flex-content-start">
                         <div class="timeline jurney-left-2020">
-                            <p class="text-justify text-secoundary">IVT embarked on its journey, navigating the digital landscape from various locations in pursuit of its first project, marking a significant milestone amidst uncertainityand challenges.</p>
+                            <p class="text-left text-secoundary">IVT embarked on its journey, navigating the digital landscape from various locations in pursuit of its first project, marking a significant milestone amidst uncertainityand challenges.</p>
                         </div>
                         <div class="timeline jurney-left-2022">
-                            <p class="text-justify text-secoundary">Securing its first major project in 2022 reinforced IVT's position in the industry, showcasing the team's proficiency and dedication to delivering high-quality solutions.</p>
+                            <p class="text-left text-secoundary">Securing its first major project in 2022 reinforced IVT's position in the industry, showcasing the team's proficiency and dedication to delivering high-quality solutions.</p>
                         </div>
                         <div class="timeline jurney-left-2024">
-                            <p class="text-justify text-secoundary">IVT's satragic expansion into western India in 2024 underscores its commitment to establishing a comprehensive PAN-India presence, ensuring accessibility and exceeding client expections nationwide.</p>
+                            <p class="text-left text-secoundary">IVT's satragic expansion into western India in 2024 underscores its commitment to establishing a comprehensive PAN-India presence, ensuring accessibility and exceeding client expections nationwide.</p>
                         </div>
                     </div>
                     <div class="d-flex flex-column aligns-content-right flex-content-end">
                         <div class="timeline jurney-right-2021">
-                            <p class="text-justify text-secoundary">Transitioning to a co-working office in August marked a turning point, leading to strategic projects aimed at achieving new height of success and innovation.</p>
+                            <p class="text-left text-secoundary">Transitioning to a co-working office in August marked a turning point, leading to strategic projects aimed at achieving new height of success and innovation.</p>
                         </div>
                         <div class="timeline jurney-right-2023">
-                            <p class="text-justify text-secoundary">The launch of IVT2.0 in 2023 ushered in a new chapter, introducing a modernized office space designed to foster innovation, collaboration, and growth.</p>
+                            <p class="text-left text-secoundary">The launch of IVT2.0 in 2023 ushered in a new chapter, introducing a modernized office space designed to foster innovation, collaboration, and growth.</p>
                         </div>
                     </div>
                 </div>
@@ -82,8 +82,8 @@
 
                 </div>
                 <div class="overlay d-flex aligns-content-center justify-content-center">
-                    <div class="text-white  ove-text">
-                        <p  class="text-justify px-5 py-5">An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio.</p>
+                    <div class="text-dark  ove-text">
+                        <p  class="text-center px-5 py-5">An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio.</p>
                     </div>
                     <button type="button" class="btn btn-dark w-100 py-3 social-btn"><i class="fab fa-linkedin-in fw-normal text-white" ></i></button>
                 </div>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="overlay d-flex aligns-content-center justify-content-center">
-                    <div class="text-center text-white ove-text"><p class="text-justify px-5 py-5">Seasoned Sales professional with around 35+ years of experience in Sales, specialization in the Government Ministries and Departments in India. A result-oriented Sales leader with the ability to formulate the sales strategy, develop alliances, manage client relationships & lead teams in multiple domains. Worked for companies like SAP India Pvt Ltd, IBM India Pvt Ltd., Tata Infotech Ltd, Pertech Computers Ltd.
+                    <div class="text-center text-dark ove-text"><p class="text-center px-5 py-5">Seasoned Sales professional with around 35+ years of experience in Sales, specialization in the Government Ministries and Departments in India. A result-oriented Sales leader with the ability to formulate the sales strategy, develop alliances, manage client relationships & lead teams in multiple domains. Worked for companies like SAP India Pvt Ltd, IBM India Pvt Ltd., Tata Infotech Ltd, Pertech Computers Ltd.
                         </p></div>
                     <button type="button" class="btn btn-dark w-100 py-3 social-btn"><i class="fab fa-linkedin-in fw-normal text-white" ></i></button>
                 </div>

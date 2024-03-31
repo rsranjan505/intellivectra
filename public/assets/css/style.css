@@ -455,17 +455,17 @@ video {
 }
 .about-jurney .jurney-left-2020 {
     top: 80px;
-    left: 100px;
+    left: 130px;
 
 }
 .about-jurney .jurney-left-2022 {
     top: 310px;
-    left: 100px;
+    left: 130px;
 
 }
 .about-jurney .jurney-left-2024 {
     top: 540px;
-    left: 100px;
+    left: 130px;
 
 }
 
@@ -806,7 +806,7 @@ a.blog-link:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #0f0f0fdb;
+    background-color: #ffb845db;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -1489,5 +1489,22 @@ p.ivt-text {
 .oem-img-left {
     border-radius: 2px var(--light) solid;
     border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.oem-img-box {
+    position: relative;
+    top: 114%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+}
+.oem-img-box h5 {
+   background-color: var(--dark);
+}
+.oem-img-box h5.right-titile {
+    border-bottom-right-radius: 15px;
+}
+.oem-img-box h5.left-titile {
     border-bottom-left-radius: 15px;
 }

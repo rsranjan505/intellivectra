@@ -159,17 +159,24 @@
                         <h1 class="fw-bold"> <span class="text-primary">Latest  </span>Blogs</h1>
                     </div>
                 </div>
+
                 <div class="row g-5">
                     <div class="col-lg-12">
                         <div class="row g-5">
                             <div id="blogs" class="owl-carousel blogs-carousel">
                                 @if (isset($blogs))
                                     @foreach ($blogs as $blog)
+
                                         <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
                                             <div class="">
                                                 <div class="blog-item bg-light rounded overflow-hidden">
                                                     <div class="blog-img position-relative overflow-hidden">
+                                                        @if ($blog->image)
+                                                        <img class="img-fluid w-100" src="{{ $blog->image->url}}" alt="">
+                                                        @else
                                                         <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                                                        @endif
+
                                                         <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>
                                                     </div>
                                                     <div class="p-4">

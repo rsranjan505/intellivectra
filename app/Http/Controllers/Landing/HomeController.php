@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     public function index(){
 
-        $blogs = Blog::with('category','sub_category','banner')->latest()->get();
+        $blogs = Blog::with('category','sub_category','banner','image')->latest()->get();
         return view('home',compact('blogs'));
     }
 

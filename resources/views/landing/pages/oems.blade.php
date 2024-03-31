@@ -86,29 +86,20 @@
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
 
-                                <a class=" active" id="pills-introduction-tab" data-toggle="pill" href="#pills-introduction" role="tab" aria-controls="pills-introduction" aria-selected="true"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                <a class=" active" id="pills-introduction-tab" data-toggle="pill" href="#pills-introduction" role="tab" aria-controls="pills-introduction" aria-selected="true"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
                                     </div><img alt="oem-img"  src="{{ asset('assets/img/oems/disk-1.png')}}" class="oem-img-right"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " id="pills-benifits" data-toggle="pill" href="#pills-benifits" role="tab" aria-controls="pills-benifits" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
+                                <a class=" " id="pills-benifits" data-toggle="pill" href="#pills-benifits" role="tab" aria-controls="pills-benifits" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/disk-2.png')}}" class="oem-img-right"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-                                <a class="" id="pills-journey" data-toggle="pill" href="#pills-journey" role="tab" aria-controls="pills-journey" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                <a class="" id="pills-journey" data-toggle="pill" href="#pills-journey" role="tab" aria-controls="pills-journey" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/disk-3.png')}}" class="oem-img-right"/></a>
                             </li>
                         </ul>
@@ -128,30 +119,22 @@
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
 
-                                <a class=" active"  data-toggle="pill" href="#pills-introduction-cyviz" role="tab" aria-controls="pills-introduction-cyviz" aria-selected="true"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-cyviz" role="tab" aria-controls="pills-introduction-cyviz" aria-selected="true"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
                                     </div><img alt="oem-img"  src="{{ asset('assets/img/oems/cyviz-1.png')}}" class="oem-img-left"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-cyviz" role="tab" aria-controls="pills-benifits-cyviz" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
+                                <a class=" " data-toggle="pill" href="#pills-benifits-cyviz" role="tab" aria-controls="pills-benifits-cyviz" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-2.png')}}" class="oem-img-left"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-cyviz" role="tab" aria-controls="pills-journey-cyviz" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
-                                    </div><img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-3.png')}}" class="oem-img-left"/></a>
+                                <a class="" data-toggle="pill" href="#pills-journey-cyviz" role="tab" aria-controls="pills-journey-cyviz" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile " >Achivement</h5>
+                                    </div>
+                                    <img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-3.png')}}" class="oem-img-left"/></a>
                             </li>
                         </ul>
 
@@ -283,29 +266,20 @@
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
 
-                                <a class=" active" data-toggle="pill" href="#pills-introduction-scale" role="tab" aria-controls="pills-introduction-scale" aria-selected="true"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                <a class=" active" data-toggle="pill" href="#pills-introduction-scale" role="tab" aria-controls="pills-introduction-scale" aria-selected="true"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
                                     </div><img alt="oem-img"  src="{{ asset('assets/img/oems/scale-1.png')}}" class="oem-img-right"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-scale" role="tab" aria-controls="pills-benifits-scale" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
+                                <a class=" " data-toggle="pill" href="#pills-benifits-scale" role="tab" aria-controls="pills-benifits-scale" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/scale-2.png')}}" class="oem-img-right"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-scale" role="tab" aria-controls="pills-journey-scale" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                <a class="" data-toggle="pill" href="#pills-journey-scale" role="tab" aria-controls="pills-journey-scale" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/scale-3.png')}}" class="oem-img-right"/></a>
                             </li>
                         </ul>
@@ -325,29 +299,20 @@
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
 
-                                <a class=" active"  data-toggle="pill" href="#pills-introduction-motadata" role="tab" aria-controls="pills-introduction-motadata" aria-selected="true"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-motadata" role="tab" aria-controls="pills-introduction-motadata" aria-selected="true"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile"  >Introduction</h5>
                                     </div><img alt="oem-img"  src="{{ asset('assets/img/oems/motadata-1.png')}}" class="oem-img-left"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-motadata" role="tab" aria-controls="pills-benifits-motadata" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
+                                <a class=" " data-toggle="pill" href="#pills-benifits-motadata" role="tab" aria-controls="pills-benifits-motadata" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile"  >Benefits</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/motadata-2.png')}}" class="oem-img-left"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-motadata" role="tab" aria-controls="pills-journey-motadata" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                <a class="" data-toggle="pill" href="#pills-journey-motadata" role="tab" aria-controls="pills-journey-motadata" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile"  >Achivement</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/motadata-3.png')}}" class="oem-img-left"/></a>
                             </li>
                         </ul>
@@ -478,29 +443,20 @@
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
 
-                                <a class=" active" data-toggle="pill" href="#pills-introduction-juniper" role="tab" aria-controls="pills-introduction-juniper" aria-selected="true"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                <a class=" active" data-toggle="pill" href="#pills-introduction-juniper" role="tab" aria-controls="pills-introduction-juniper" aria-selected="true"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
                                     </div><img alt="oem-img"  src="{{ asset('assets/img/oems/juniper-1.png')}}" class="oem-img-right"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-juniper" role="tab" aria-controls="pills-benifits-juniper" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
+                                <a class=" " data-toggle="pill" href="#pills-benifits-juniper" role="tab" aria-controls="pills-benifits-juniper" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/juniper-2.png')}}" class="oem-img-right"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-juniper" role="tab" aria-controls="pills-journey-juniper" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                <a class="" data-toggle="pill" href="#pills-journey-juniper" role="tab" aria-controls="pills-journey-juniper" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/juniper-3.png')}}" class="oem-img-right"/></a>
                             </li>
                         </ul>
@@ -521,29 +477,20 @@
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
 
-                                <a class=" active"  data-toggle="pill" href="#pills-introduction-exagrid" role="tab" aria-controls="pills-introduction-exagrid" aria-selected="true"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Introduction</h5>
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-exagrid" role="tab" aria-controls="pills-introduction-exagrid" aria-selected="true"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
                                     </div><img alt="oem-img"  src="{{ asset('assets/img/oems/exagrid-1.png')}}" class="oem-img-left"/> </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-exagrid" role="tab" aria-controls="pills-benifits-exagrid" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Benefits</h5>
+                                <a class=" " data-toggle="pill" href="#pills-benifits-exagrid" role="tab" aria-controls="pills-benifits-exagrid" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/exagrid-2.png')}}" class="oem-img-left"/></a>
 
                             </li>
                             <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-exagrid" role="tab" aria-controls="pills-journey-exagrid" aria-selected="false"><div style="    position: relative;
-                                    top: 80%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);">
-                                        <h5 class="fw-bold pb-1 text-primary" >Journey</h5>
+                                <a class="" data-toggle="pill" href="#pills-journey-exagrid" role="tab" aria-controls="pills-journey-exagrid" aria-selected="false"><div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
                                     </div><img alt="oem-img" src="{{ asset('assets/img/oems/exagrid-3.png')}}" class="oem-img-left"/></a>
                             </li>
                         </ul>
