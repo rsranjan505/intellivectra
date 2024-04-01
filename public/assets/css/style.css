@@ -1475,7 +1475,11 @@ p.ivt-text {
     border-color: white !important;
 }
 .oems-card{
-    height: 150px;
+    margin-right: 4px;
+    margin-bottom: 14px;
+}
+.oems-card a.active h5{
+   color: var(--light) !important;
 }
 .oems-card img {
     width: 100%;
@@ -1485,30 +1489,45 @@ p.ivt-text {
     height: 80px;
 }
 .oem-img-right {
+    margin-top: 80px;
     border-radius: 2px var(--light) solid;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 15px solid var(--primary);
+    width: 100%;
+    min-height:450px;
+    overflow:none;
 }
 
 .oem-img-left {
+    margin-top: 80px;
     border-radius: 2px var(--light) solid;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 15px solid var(--primary);
+    width: 100%;
+    min-height:450px;
+    overflow:none;
+}
 }
 
-.oem-img-box {
+.oem-titile-tab {
     position: relative;
     top: 114%;
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -50%);
 }
-.oem-img-box h5 {
+.oem-titile-tab h5 {
    background-color: var(--dark);
 }
-.oem-img-box h5.right-titile {
+.oem-titile-tab h5.right-titile {
     border-bottom-right-radius: 15px;
 }
-.oem-img-box h5.left-titile {
+.oem-titile-tab h5.left-titile {
     border-bottom-left-radius: 15px;
+}
+.img-border {
+
+
 }
