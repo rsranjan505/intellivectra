@@ -25,7 +25,7 @@
 
                                     <div class="row g-3">
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" name="*first_name" id="first_name" placeholder="First Name" >
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" name="*first_name" id="first_name" placeholder="*First Name" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="first_name_error"></p>
                                         </div>
                                         <div class="col-md-12">

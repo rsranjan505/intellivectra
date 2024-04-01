@@ -1,25 +1,28 @@
-<svg width="352" height="305" viewBox="0 0 352 305" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_ii_898_11039)">
-<path d="M335.416 0.949219C344.787 0.949219 352.426 8.57178 351.982 17.9583C349.281 74.9478 333.041 130.556 304.511 180.108C275.981 229.66 236.075 271.567 188.206 302.407C180.322 307.486 169.919 304.664 165.234 296.526L0.495857 10.405C-0.53745 8.61033 0.207439 6.32707 1.24075 4.53239C2.27405 2.73772 3.87354 0.949219 5.94015 0.949219L335.416 0.949219Z" fill="#862AF9"/>
+<svg width="348" height="306" viewBox="0 0 348 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_51_550" fill="white">
+<path d="M330.526 0.473859C339.915 0.473861 347.568 8.08966 347.123 17.468C344.417 74.5893 328.099 130.327 299.425 179.994C270.752 229.66 230.642 271.663 182.528 302.569C174.628 307.643 164.206 304.824 159.511 296.693L3.198 25.9744C-3.34589 14.641 4.83321 0.473819 17.9201 0.473821L330.526 0.473859Z"/>
+</mask>
+<g filter="url(#filter0_ii_51_550)">
+<path d="M330.526 0.473859C339.915 0.473861 347.568 8.08966 347.123 17.468C344.417 74.5893 328.099 130.327 299.425 179.994C270.752 229.66 230.642 271.663 182.528 302.569C174.628 307.643 164.206 304.824 159.511 296.693L3.198 25.9744C-3.34589 14.641 4.83321 0.473819 17.9201 0.473821L330.526 0.473859Z" fill="#0ABED3"/>
 </g>
-<path d="M347.986 17.769C345.315 74.1241 329.256 129.113 301.044 178.112C272.832 227.111 233.372 268.55 186.04 299.044C180.189 302.814 172.311 300.801 168.7 294.53L3.99982 8.47422C3.99793 8.42757 4.00094 8.33675 4.02821 8.18746C4.10487 7.7678 4.32704 7.18859 4.70723 6.52827C5.08761 5.86761 5.47625 5.38617 5.79849 5.11136C5.90742 5.01847 5.9811 4.9714 6.02191 4.94922L335.416 4.94922C342.62 4.94922 348.317 10.7778 347.986 17.769ZM4.00428 8.5136C4.00396 8.51384 4.00273 8.50921 4.00159 8.49898C4.00404 8.50824 4.00461 8.51336 4.00428 8.5136ZM6.06049 4.93171C6.06045 4.93211 6.05578 4.9342 6.04663 4.93681C6.05596 4.93262 6.06054 4.93132 6.06049 4.93171Z" stroke="white" stroke-width="8"/>
+<path d="M330.526 0.473859C339.915 0.473861 347.568 8.08966 347.123 17.468C344.417 74.5893 328.099 130.327 299.425 179.994C270.752 229.66 230.642 271.663 182.528 302.569C174.628 307.643 164.206 304.824 159.511 296.693L3.198 25.9744C-3.34589 14.641 4.83321 0.473819 17.9201 0.473821L330.526 0.473859Z" stroke="white" stroke-width="12" mask="url(#path-1-inside-1_51_550)"/>
 <defs>
-<filter id="filter0_ii_898_11039" x="0" y="0.949219" width="360.591" height="312.591" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_ii_51_550" x="0.894775" y="0.473816" width="354.838" height="313.226" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feMorphology radius="8.59104" operator="erode" in="SourceAlpha" result="effect1_innerShadow_898_11039"/>
+<feMorphology radius="8.59104" operator="erode" in="SourceAlpha" result="effect1_innerShadow_51_550"/>
 <feOffset/>
 <feGaussianBlur stdDeviation="28.6368"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow_898_11039"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_51_550"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="8.59104" dy="8.59104"/>
 <feGaussianBlur stdDeviation="21.4776"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="effect1_innerShadow_898_11039" result="effect2_innerShadow_898_11039"/>
+<feBlend mode="normal" in2="effect1_innerShadow_51_550" result="effect2_innerShadow_51_550"/>
 </filter>
 </defs>
 </svg>

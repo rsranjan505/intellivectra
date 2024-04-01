@@ -7,7 +7,7 @@
         <div class="row g-5">
             <div class="col-lg-12 " data-wow-delay="0.3s" style="min-height: 370px;">
                 <div class="position-relative d-flex flex-row justify-content-center process-img">
-                    <img class="position-absolute " style="width: 90%;" data-wow-delay="0.3s" src="{{ asset('assets/img/process-1.svg')}}" >
+                    <img class="position-absolute " style="width: 90%;" data-wow-delay="0.3s" src="{{ asset('assets/img/process-1.png')}}" >
                     <div class="d-flex flex-row justify-content-center" style="margin-top: 270px;">
                         <div class="process-item pitem1 wow fadeInUp" data-wow-delay="0.4s">
                             <h4 class="text-primary text-center ">Concept</h4>

@@ -806,7 +806,7 @@ a.blog-link:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #ffb845db;
+    background-color: #ffb845ee;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -827,10 +827,14 @@ a.blog-link:hover {
   .ove-text {
     font-size: 16px;
     padding: 10px;
+
     /* -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); */
     /* white-space: nowrap; */
+  }
+  .ove-text p {
+    font-weight: 600;
   }
 
 

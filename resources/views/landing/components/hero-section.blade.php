@@ -146,8 +146,8 @@
             <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
                 <div class="container">
                     <div class="mx-3 px-5 text-left">
-                        <h3 class="text-primary mb-md-1 animated slideInDown fw-bold">EXPERIENCE CENTRE </h3>
-                        <h2 class="display-1 text-white mb-md-1 animated zoomIn">Visit our IVT Platform to learn how our <strong>Success </strong>Solutions can help you Work Better and Smarter.</h2>
+                        <h2 class="text-primary mb-md-1 animated slideInDown fw-bold">Experience <span class="text-white">Centre</span> </h2>
+                        <p class=" text-white mb-md-1 animated zoomIn">Visit our IVT Platform to learn how our <strong>Success </strong>Solutions can help you Work Better and Smarter</p>
                         <p class="mb-md-3"></p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
 

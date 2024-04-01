@@ -3,22 +3,7 @@
 
 @section('contents')
 
-    <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="oem-search-box " >
-                <div class="d-flex align-items-start justify-content-between">
-                    <input type="search" class="oem-search-input p-2 mr-2" placeholder="Search OEMS">
-                    <a href="#" class="box-shadow p-2 px-2 bg-primary mr-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                          </svg>
-                    </a>
 
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 
     <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">

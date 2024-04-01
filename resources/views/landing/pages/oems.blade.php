@@ -3,7 +3,7 @@
 
 @section('contents')
 
-    <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
+    {{-- <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
         <div class="container">
             <div class="oem-search-box " >
                 <div class="d-flex align-items-start justify-content-between">
@@ -18,18 +18,50 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
     <div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
         <div class="container">
             <div class="row">
+
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-start">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Disk Archive Corporation </span></h4> --}}
                         <div class="oems-b">
                             <img alt="oem-img" style="width: 250px;"  src="{{ asset('assets/img/brand/b-20.png')}}" class=""/>
                         </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" active" id="pills-introduction-tab" data-bs-toggle="pill" href="#pills-introduction" role="tab" aria-controls="pills-introduction" aria-selected="true">
+                                    <div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
+                                    </div>
+                                </a>
+                            </li>
+                            {{-- <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                            </li> --}}
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " id="pills-benifits" data-bs-toggle="pill" href="#pills-benifits" role="tab" aria-controls="pills-benifits" aria-selected="false">
+                                    <div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" id="pills-journey" data-bs-toggle="pill" href="#pills-journey" role="tab" aria-controls="pills-journey" aria-selected="false">
+                                    <div  class="oem-img-box">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction" role="tabpanel" aria-labelledby="pills-introduction-tab">
@@ -81,14 +113,14 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
+                    {{-- <img alt="oem-img"  src="{{ asset('assets/img/oems/disk-1.png')}}" class="oem-img-right"/> --}}
+                    {{-- <div class="d-flex flex-column justify-content-center" >
                         <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
                             <li class="oems-card nav-item mb-2" role="presentation">
-
                                 <a class=" active" id="pills-introduction-tab" data-toggle="pill" href="#pills-introduction" role="tab" aria-controls="pills-introduction" aria-selected="true"><div  class="oem-img-box">
                                         <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
-                                    </div><img alt="oem-img"  src="{{ asset('assets/img/oems/disk-1.png')}}" class="oem-img-right"/> </a>
+                                    </div>
+                                     </a>
 
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
@@ -104,7 +136,7 @@
                             </li>
                         </ul>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

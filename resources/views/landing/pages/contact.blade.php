@@ -124,7 +124,7 @@
                                             <p class="ml-3 text-danger fw-bold text-left" id="mobile_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <textarea type="text" name="message" rows="6" id="message" class="form-control border border-warning form-input-textarea input-form" placeholder="*Message" ></textarea>
+                                            <textarea type="text" name="message" rows="6" id="message" class="form-control border border-warning form-input-textarea input-form" placeholder="Message" ></textarea>
                                             <p class="ml-3 text-danger fw-bold text-left" id="message_error"></p>
                                         </div>
 

@@ -172,7 +172,7 @@
                                                 <div class="blog-item bg-light rounded overflow-hidden">
                                                     <div class="blog-img position-relative overflow-hidden">
                                                         @if ($blog->image)
-                                                        <img class="img-fluid w-100" src="{{ $blog->image->url}}" alt="">
+                                                        <img class="img-fluid w-100" src="{{ $blog->image->url}}" alt="{{ $blog->title}}" style="height:300px;" >
                                                         @else
                                                         <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                                                         @endif
