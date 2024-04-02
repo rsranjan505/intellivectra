@@ -373,7 +373,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  ibm Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-18.png')}}" class=""/>
+                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-18.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="d-flex flex-column justify-content-center" >
@@ -557,7 +557,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  ibm Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/roombr.svg')}}" class=""/>
+                            <img alt="oems disk" style="width: 200px;"  src="{{ asset('assets/img/brand/roombr.svg')}}" class=""/>
                         </div>
                     </div>
                     <div class="d-flex flex-column justify-content-center" >
@@ -586,7 +586,6 @@
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-roombr" role="tabpanel" aria-labelledby="pills-introduction-roombr-tab">
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify"> In the world of technological innovation, Roombr stands at the forefront, revolutionising the
                                 landscape of virtual collaboration with its groundbreaking Walltop Computer technology. As
                                 the pioneer in this domain, Roombr has redefined the way we interact, collaborate, and
