@@ -16,28 +16,51 @@
                             <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-10.png')}}" class=""/>
                         </div>
                     </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+
+                                <a class=" active" id="pills-introduction-infotrend-tab" data-bs-toggle="pill" href="#pills-introduction-infotrend" role="tab" aria-controls="pills-introduction-infotrend" aria-selected="true"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " id="pills-benifits-infotrend-tab" data-bs-toggle="pill" href="#pills-benifits-infotrend" role="tab" aria-controls="pills-benifits-infotrend" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" id="pills-journey-infotrend-tab" data-bs-toggle="pill" href="#pills-journey-infotrend" role="tab" aria-controls="pills-journey-infotrend" aria-selected="false">
+                                    <div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
+                    </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-infotrend" role="tabpanel" aria-labelledby="pills-introduction-infotrend-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
-                            <p class="mb-4 text-justify">With a rich history spanning over 30 years, Infotrend Technology is a leading provider of
+                            <p class="mb-4 text-justify">With a rich history spanning over 30 years, Infortrend Technology is a leading provider of
                                 enterprise data storage solutions. Founded in 1993 and publicly listed on the Taiwan Stock
-                                Exchange since 2002, Infotrend has established itself as a reputable and reliable player in
+                                Exchange since 2002, Infortrend has established itself as a reputable and reliable player in
                                 the industry. Headquartered in Taipei, Taiwan, with a workforce of 500 employees worldwide,
-                                Infotrend operates with a commitment to delivering high-quality products and services to its
+                                Infortrend operates with a commitment to delivering high-quality products and services to its
                                 global customer base</p>
                                 <h4>Product Offerings</h4>
-                                <p class="text-justify">Infotrend offers a wide range of storage solutions tailored to meet the diverse needs of
+                                <p class="text-justify">Infortrend offers a wide range of storage solutions tailored to meet the diverse needs of
                                     businesses, from small and medium-sized enterprises (SMBs) to large enterprises. Their
                                     product lines include ibm-out NAS systems, unified storage solutions, SAN storage,
                                     storage servers, and AI storage appliances. With a variety of form factors and
-                                    communication interfaces available, Infotrend ensures complete compatibility with various
+                                    communication interfaces available, Infortrend ensures complete compatibility with various
                                     enterprise applications, offering flexibility and scalability.</p>
 
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-infotrend" role="tabpanel" aria-labelledby="pills-benifits-infotrend-tab">
                             <h5 class="mt-2 mb-3">
-                                Benefits of Choosing Infotrend:
+                                Benefits of Choosing Infortrend:
                             </h5>
                             <ul>
                                 <li><strong>Comprehensive Solutions:</strong> Tailored storage solutions for businesses of all sizes
@@ -49,7 +72,7 @@
                             </ul>
                             <h4>Technology Advantages:
                             </h4>
-                            <p>Infotrend excels in hardware design and firmware integration, prioritising price-performance,
+                            <p>Infortrend excels in hardware design and firmware integration, prioritising price-performance,
                                 efficiency, and reliability. Their streamlined firmware architecture optimises data processing
                                 for various applications, while Intelligent Drive Recovery (IDR) technology enhances data
                                 integrity and minimises downtime, ensuring system reliability.</p>
@@ -57,7 +80,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-journey-infotrend" role="tabpanel" aria-labelledby="pills-journey-infotrend-tab">
                             <p class="mt-2 mb-3 text-justify">
-                                Infotrend is committed to providing exceptional service and support to its customers globally.
+                                Infortrend is committed to providing exceptional service and support to its customers globally.
                                 With regional branch offices in key locations such as the USA, UK, Germany, China, and
                                 Japan, as well as a network of channel partners, they offer professional services and
                                 round-the-clock assistance.
@@ -68,31 +91,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active" id="pills-introduction-infotrend-tab" data-toggle="pill" href="#pills-introduction-infotrend" role="tab" aria-controls="pills-introduction-infotrend" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/infotrend-1.png')}}" class="oem-img-right"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " id="pills-benifits-infotrend" data-toggle="pill" href="#pills-benifits-infotrend" role="tab" aria-controls="pills-benifits-infotrend" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/infotrend-2.png')}}" class="oem-img-right"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" id="pills-journey-infotrend" data-toggle="pill" href="#pills-journey-infotrend" role="tab" aria-controls="pills-journey-infotrend" aria-selected="false">
-                                    <div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/infotrend-3.png')}}" class="oem-img-right"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk" src="{{ asset('assets/img/oems/infotrend-3.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -102,42 +101,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active"  data-toggle="pill" href="#pills-introduction-dell" role="tab" aria-controls="pills-introduction-dell" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/dell-1.png')}}" class="oem-img-left"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-dell" role="tab" aria-controls="pills-benifits-dell" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/dell-2.png')}}" class="oem-img-left"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-dell" role="tab" aria-controls="pills-journey-dell" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/dell-3.png')}}" class="oem-img-left"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/dell-1.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  dell  </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; "  src="{{ asset('assets/img/brand/b-11.png')}}" class=""/>
+                            <img alt="oems disk" style="width: 200px; margin-top:-40px;"  src="{{ asset('assets/img/brand/b-11.png')}}" class=""/>
                         </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+
+                                <a class=" active"  data-bs-toggle="pill" href="#pills-introduction-dell" role="tab" aria-controls="pills-introduction-dell" aria-selected="true"><div  class="oem-titile-tab">
+                                    <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
+                                    </div> </a>
+
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " data-bs-toggle="pill" href="#pills-benifits-dell" role="tab" aria-controls="pills-benifits-dell" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-bs-toggle="pill" href="#pills-journey-dell" role="tab" aria-controls="pills-journey-dell" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active " id="pills-introduction-dell" role="tabpanel" aria-labelledby="pills-introduction-dell-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify">Dell Technologies is revolutionising data management and infrastructure solutions,
                                 empowering businesses to innovate and thrive in today's digital landscape. Leveraging
                                 intelligent technology, Dell offers a comprehensive range of devices, servers, storage
@@ -201,9 +199,31 @@
                             <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-13.png')}}" class=""/>
                         </div>
                     </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+
+                                <a class=" active" data-toggle="pill" href="#pills-introduction-ibm" role="tab" aria-controls="pills-introduction-ibm" aria-selected="true"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
+                                    </div> </a>
+
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-ibm" role="tab" aria-controls="pills-benifits-ibm" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-ibm" role="tab" aria-controls="pills-journey-ibm" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
+                    </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-ibm" role="tabpanel" aria-labelledby="pills-introduction-ibm-tab">
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify"> IBM is a global leader in technology, renowned for its innovative solutions that empower
                                 businesses to thrive in today's digital landscape. With a rich history spanning decades, IBM
                                 continues to push the boundaries of what's possible, driving progress and transformation
@@ -253,30 +273,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active" data-toggle="pill" href="#pills-introduction-ibm" role="tab" aria-controls="pills-introduction-ibm" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/ibm-1.png')}}" class="oem-img-right"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-ibm" role="tab" aria-controls="pills-benifits-ibm" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/ibm-2.png')}}" class="oem-img-right"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-ibm" role="tab" aria-controls="pills-journey-ibm" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/ibm-3.png')}}" class="oem-img-right"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/ibm-1.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -286,42 +283,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active"  data-toggle="pill" href="#pills-introduction-couchbase" role="tab" aria-controls="pills-introduction-couchbase" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/couchbase-1.png')}}" class="oem-img-left"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-couchbase" role="tab" aria-controls="pills-benifits-couchbase" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/couchbase-2.png')}}" class="oem-img-left"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-couchbase" role="tab" aria-controls="pills-journey-couchbase" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/couchbase-3.png')}}" class="oem-img-left"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/couchbase-1.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  couchbase  </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-17.png')}}" class=""/>
+                            <img alt="oems disk" style="width: 200px;"  src="{{ asset('assets/img/brand/b-17.png')}}" class=""/>
                         </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center" >
+
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item mb-2" role="presentation">
+
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-couchbase" role="tab" aria-controls="pills-introduction-couchbase" aria-selected="true"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
+                                    </div> </a>
+
+                            </li>
+                            <li class="oems-card nav-item mb-2" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-couchbase" role="tab" aria-controls="pills-benifits-couchbase" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-couchbase" role="tab" aria-controls="pills-journey-couchbase" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-couchbase" role="tabpanel" aria-labelledby="pills-introduction-couchbase-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify">Couchbase, a leading provider of distributed NoSQL cloud databases, stands out for its
                                 unmatched versatility, performance, scalability, and financial value for cloud, mobile, AI, and
                                 edge computing applications. With Couchbase Capella now featuring generative AI coding
@@ -379,9 +376,32 @@
                             <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-18.png')}}" class=""/>
                         </div>
                     </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item" role="presentation">
+
+                                <a class=" active" data-toggle="pill" href="#pills-introduction-piconets" role="tab" aria-controls="pills-introduction-piconets" aria-selected="true"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
+                                    </div> </a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-piconets" role="tab" aria-controls="pills-benifits-piconets" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-piconets" role="tab" aria-controls="pills-journey-piconets" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
+                    </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-piconets" role="tabpanel" aria-labelledby="pills-introduction-piconets-tab">
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+
                             <p class="mb-4 text-justify"> picoNETS, established in 2017, is dedicated to enhancing the internet experience for users
                                 worldwide through Deep Edge Caching and Content Delivery Network (CDN) solutions.
                                 Their vision revolves around providing superior Quality of Service (QoS) to internet-enabled
@@ -426,30 +446,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active" data-toggle="pill" href="#pills-introduction-piconets" role="tab" aria-controls="pills-introduction-piconets" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/piconets-1.png')}}" class="oem-img-right"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-piconets" role="tab" aria-controls="pills-benifits-piconets" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/piconets-2.png')}}" class="oem-img-right"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-piconets" role="tab" aria-controls="pills-journey-piconets" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/piconets-3.png')}}" class="oem-img-right"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/piconets-1.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -460,42 +457,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active"  data-toggle="pill" href="#pills-introduction-redhat" role="tab" aria-controls="pills-introduction-redhat" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/redhat-1.png')}}" class="oem-img-left"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-redhat" role="tab" aria-controls="pills-benifits-redhat" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/redhat-2.png')}}" class="oem-img-left"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-redhat" role="tab" aria-controls="pills-journey-redhat" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/redhat-3.png')}}" class="oem-img-left"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/redhat-1.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  redhat  </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px;"  src="{{ asset('assets/img/brand/b-19.png')}}" class=""/>
+                            <img alt="oems disk" style="width: 200px;"  src="{{ asset('assets/img/brand/b-19.png')}}" class=""/>
                         </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center" >
+
+                        <ul class="nav nav-pills nav-fill " id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item" role="presentation">
+
+                                <a class=" active"  data-toggle="pill" href="#pills-introduction-redhat" role="tab" aria-controls="pills-introduction-redhat" aria-selected="true"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Introduction</h5>
+                                    </div> </a>
+
+                            </li>
+                            <li class="oems-card nav-item " role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-redhat" role="tab" aria-controls="pills-benifits-redhat" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-redhat" role="tab" aria-controls="pills-journey-redhat" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-redhat" role="tabpanel" aria-labelledby="pills-introduction-redhat-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
                             <p class="mb-4 text-justify">Red Hat, an open-source software solutions company, has been instrumental in
                                 revolutionising IT infrastructure with its flagship product, Red Hat Enterprise Linux. Over the
                                 years, the company has expanded its portfolio to include hybrid cloud infrastructure,
@@ -563,6 +560,30 @@
                             <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/roombr.svg')}}" class=""/>
                         </div>
                     </div>
+                    <div class="d-flex flex-column justify-content-center" >
+                        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+                            <li class="oems-card nav-item" role="presentation">
+
+                                <a class=" active" data-toggle="pill" href="#pills-introduction-roombr" role="tab" aria-controls="pills-introduction-roombr" aria-selected="true"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
+                                    </div> </a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class=" " data-toggle="pill" href="#pills-benifits-roombr" role="tab" aria-controls="pills-benifits-roombr" aria-selected="false"><div  class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
+                                    </div></a>
+
+                            </li>
+                            <li class="oems-card nav-item" role="presentation">
+                                <a class="" data-toggle="pill" href="#pills-journey-roombr" role="tab" aria-controls="pills-journey-roombr" aria-selected="false">
+                                    <div s class="oem-titile-tab">
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                    </div></a>
+                            </li>
+                        </ul>
+
+                    </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-roombr" role="tabpanel" aria-labelledby="pills-introduction-roombr-tab">
                             <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
@@ -617,31 +638,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="d-flex flex-column justify-content-center" >
-                        {{-- <div class="nav nav-pills mb-3" id="pills-tab" role="tablist"> --}}
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="oems-card nav-item mb-2" role="presentation">
-
-                                <a class=" active" data-toggle="pill" href="#pills-introduction-roombr" role="tab" aria-controls="pills-introduction-roombr" aria-selected="true"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Introduction</h5>
-                                    </div><img alt="oems disk"  src="{{ asset('assets/img/oems/roombr-1.png')}}" class="oem-img-right"/> </a>
-
-                            </li>
-                            <li class="oems-card nav-item mb-2" role="presentation">
-                                <a class=" " data-toggle="pill" href="#pills-benifits-roombr" role="tab" aria-controls="pills-benifits-roombr" aria-selected="false"><div  class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Benefits</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/roombr-2.png')}}" class="oem-img-right"/></a>
-
-                            </li>
-                            <li class="oems-card nav-item" role="presentation">
-                                <a class="" data-toggle="pill" href="#pills-journey-roombr" role="tab" aria-controls="pills-journey-roombr" aria-selected="false">
-                                    <div s class="oem-img-box">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
-                                    </div><img alt="oems disk" src="{{ asset('assets/img/oems/roombr-3.png')}}" class="oem-img-right"/></a>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/roombr-1.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
