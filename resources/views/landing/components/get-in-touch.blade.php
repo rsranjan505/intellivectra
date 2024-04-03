@@ -15,15 +15,15 @@
 
                                     </div>
                                     <div class="col-md-12">
-                                        <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="*Last Name" >
+                                        <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name*" >
                                         <p class="ml-3 text-danger fw-bold text-left" id="last_name_error"></p>
                                     </div>
                                     <div class="col-md-12">
-                                        <input type="email"  name="email" id="email"class="form-control border border-warning form-input-rounded input-form" placeholder="*name@example.com" >
+                                        <input type="email"  name="email" id="email"class="form-control border border-warning form-input-rounded input-form" placeholder="name@example.com*" >
                                         <p class="ml-3 text-danger fw-bold text-left" id="email_error"></p>
                                     </div>
                                     <div class="col-12">
-                                        <input type="number" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="*+91-0000-000-000" >
+                                        <input type="number" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="+91-0000-000-000*" >
                                         <p class="ml-3 text-danger fw-bold text-left" id="mobile_error"></p>
                                     </div>
                                     <div class="col-12">

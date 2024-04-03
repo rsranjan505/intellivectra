@@ -450,36 +450,36 @@ video {
 }
 .about-jurney .timeline {
     position: absolute;
-    width: 20%;
-    font-size: 11px;
+    width: 25%;
+    font-size: 12px;
 }
 .about-jurney .jurney-left-2020 {
     top: 80px;
-    left: 130px;
+    left: 10px;
 
 }
 .about-jurney .jurney-left-2022 {
     top: 310px;
-    left: 130px;
+    left: 10px;
 
 }
 .about-jurney .jurney-left-2024 {
     top: 540px;
-    left: 130px;
+    left: 10px;
 
 }
 
 .about-jurney .jurney-right-2021 {
     top: 80px;
     left: auto;
-    right: 62px;
+    right: 10px;
 
 }
 
 .about-jurney .jurney-right-2023 {
     top: 303px;
     left: auto;
-    right: 62px;
+    right: 10px;
 
 }
 
@@ -1488,28 +1488,42 @@ p.ivt-text {
 .oems-b {
     height: 80px;
 }
+.oem-gradient-right {
+    position: absolute;
+    margin-top: 55px;
+    width: 90%;
+    min-height: 420px;
+    z-index: 0;
+    margin-left: 32px;
+    background-image: linear-gradient(to right, var(--primary) , rgb(241, 73, 35));
+}
+.oem-gradient-left {
+    position: absolute;
+    margin-top: 55px;
+    width: 90%;
+    min-height: 420px;
+    z-index: 0;
+    margin-left: -25px;
+    background-image: linear-gradient(to right, var(--primary) , rgb(241, 73, 35));
+}
+
 .oem-img-right {
+    position: relative;
     margin-top: 80px;
-    border-radius: 2px var(--light) solid;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border: 15px solid var(--primary);
     width: 100%;
-    min-height:450px;
-    overflow:none;
+    min-height:420px;
+    z-index: 99;
+
 }
 
 .oem-img-left {
+    position: relative;
     margin-top: 80px;
-    border-radius: 2px var(--light) solid;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border: 15px solid var(--primary);
     width: 100%;
-    min-height:450px;
-    overflow:none;
+    min-height:420px;
+    z-index: 99;
 }
-}
+
 
 .oem-titile-tab {
     position: relative;

@@ -300,7 +300,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                    <div class="form-rounded-serach w-100 box-shadow" >
+                    {{-- <div class="form-rounded-serach w-100 box-shadow" >
                         <form action="">
                             <div class="input-group ">
                                 <div class="input-group-prepend">
@@ -316,7 +316,7 @@
                                 </button>
                             </div>
                         </form>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="box-shadow px-3 p-2 ">
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">

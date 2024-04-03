@@ -16,7 +16,7 @@
                     <div class="container">
                         <div class="position-relative px-3">
                             <h1>Join the <span class="text-primary">Team</span> </h1>
-                            <p>At our staffing and consultancy firm, we welcome bright minds to join and help us excel. If you're eager to make a significant impact, we're excited to offer you opportunities.</p>
+                            {{-- <p>At our staffing and consultancy firm, we welcome bright minds to join and help us excel. If you're eager to make a significant impact, we're excited to offer you opportunities.</p> --}}
                         </div>
                         <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="row">
@@ -25,27 +25,27 @@
 
                                     <div class="row g-3">
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" name="*first_name" id="first_name" placeholder="*First Name" >
+                                            <input type="text" class="form-control border border-warning form-input-rounded input-form" name="*first_name" id="first_name" placeholder="First Name*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="first_name_error"></p>
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="*Last Name" >
+                                            <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="last_name_error"></p>
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="email" name="email" id="email" class="form-control border border-warning form-input-rounded input-form" placeholder="*name@example.com" >
+                                            <input type="email" name="email" id="email" class="form-control border border-warning form-input-rounded input-form" placeholder="name@example.com*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="email_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="number" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="*+91-0000-000-000" >
+                                            <input type="number" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="+91-0000-000-000*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="mobile_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="number" name="total_experience" id="total_experience" class="form-control border border-warning form-input-rounded input-form" placeholder="*Total Experience" >
+                                            <input type="number" name="total_experience" id="total_experience" class="form-control border border-warning form-input-rounded input-form" placeholder="Total Experience*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="total_experience_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="text" name="applied_for" id="applied_for" class="form-control border border-warning form-input-rounded input-form" placeholder="*Applied For" >
+                                            <input type="text" name="applied_for" id="applied_for" class="form-control border border-warning form-input-rounded input-form" placeholder="Applied For*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="applied_for_error"></p>
                                         </div>
                                         <div class="col-12">
@@ -54,7 +54,7 @@
                                         <div class="col-12">
                                             <div class="row">
                                                 <div class="col-4">
-                                                    <label class="fw-bold pt-3">*Upload Your CV</label>
+                                                    <label class="fw-bold pt-3">Upload Your CV*</label>
                                                 </div>
                                                 <div class="col-8">
                                                     <input type="file"  name="attach_cv" id="attach_cv" class="form-control border border-warning form-input-rounded input-form" >

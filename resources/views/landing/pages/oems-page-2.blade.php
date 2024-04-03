@@ -91,6 +91,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oems disk" src="{{ asset('assets/img/oems/infotrend-3.png')}}" class="oem-img-right"/>
                 </div>
             </div>
@@ -101,6 +103,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-left" >
+                    </div>
                     <img alt="oems disk"  src="{{ asset('assets/img/oems/dell-1.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
@@ -273,6 +277,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oems disk"  src="{{ asset('assets/img/oems/ibm-1.png')}}" class="oem-img-right"/>
                 </div>
             </div>
@@ -283,6 +289,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-left" >
+                    </div>
                     <img alt="oems disk"  src="{{ asset('assets/img/oems/couchbase-1.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
@@ -446,6 +454,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oems disk"  src="{{ asset('assets/img/oems/piconets-1.png')}}" class="oem-img-right"/>
                 </div>
             </div>
@@ -457,6 +467,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-left" >
+                    </div>
                     <img alt="oems disk"  src="{{ asset('assets/img/oems/redhat-1.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
@@ -637,6 +649,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oems disk"  src="{{ asset('assets/img/oems/roombr-1.png')}}" class="oem-img-right"/>
                 </div>
             </div>

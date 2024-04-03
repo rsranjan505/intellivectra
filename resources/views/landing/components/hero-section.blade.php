@@ -151,7 +151,7 @@
                         <p class="mb-md-3"></p>
                         <div class="form-rounded input-form-bg w-50" style="max-width: 300px;">
 
-                            <button class="btn btn-primary btn-lg bg shadow-none btn-book w-100" >Book A Demo
+                            <button class="btn btn-primary btn-lg bg shadow-none btn-book w-100" >Book a Demo
                             </button>
 
                             {{-- <button class="  rounded-circle" style="border: 1px solid;

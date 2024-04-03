@@ -107,6 +107,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oem-img"  src="{{ asset('assets/img/oems/disk-3.png')}}" class="oem-img-right"/>
                 </div>
             </div>
@@ -117,6 +119,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-left" >
+                    </div>
                     <img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-3.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
@@ -286,6 +290,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oem-img" src="{{ asset('assets/img/oems/scale-3.png')}}" class="oem-img-right"/>
                 </div>
             </div>
@@ -296,6 +302,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-left" >
+                    </div>
                     <img alt="oem-img" src="{{ asset('assets/img/oems/motadata-3.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
@@ -464,6 +472,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-right" >
+                    </div>
                     <img alt="oem-img" src="{{ asset('assets/img/oems/juniper-3.png')}}" class="oem-img-right"/>
                 </div>
             </div>
@@ -475,6 +485,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="oem-gradient-left" >
+                    </div>
                     <img alt="oem-img" src="{{ asset('assets/img/oems/exagrid-3.png')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">

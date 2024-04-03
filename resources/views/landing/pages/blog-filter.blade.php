@@ -7,7 +7,7 @@
                     @if ($item->image)
                         <img class="img-fluid w-100" src="{{ $item->image->url}}" alt="">
                     @else
-                        <img class="img-fluid w-100" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
+                        <img class="img-fluid w-100" style="height: 400px;" src="{{ asset('assets/img/blog/blog-1.png')}}" alt="">
                     @endif
 
                     <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href=""></a>

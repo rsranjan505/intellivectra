@@ -107,20 +107,20 @@
                                     @csrf
                                     <div class="row g-3">
                                         <div class="col-md-12">
-                                            <input type="text" name="first_name" id="first_name" class="form-control border border-warning form-input-rounded input-form " placeholder="*First Name" >
+                                            <input type="text" name="first_name" id="first_name" class="form-control border border-warning form-input-rounded input-form " placeholder="First Name*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="first_name_error"></p>
 
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="*Last Name" >
+                                            <input type="text" name="last_name" id="last_name" class="form-control border border-warning form-input-rounded input-form" placeholder="Last Name*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="last_name_error"></p>
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="email"  name="email" id="email"class="form-control border border-warning form-input-rounded input-form" placeholder="*name@example.com" >
+                                            <input type="email"  name="email" id="email"class="form-control border border-warning form-input-rounded input-form" placeholder="name@example.com*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="email_error"></p>
                                         </div>
                                         <div class="col-12">
-                                            <input type="number" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="*+91-0000-000-000" >
+                                            <input type="number" name="mobile" id="mobile" class="form-control border border-warning form-input-rounded input-form" placeholder="+91-0000-000-000*" >
                                             <p class="ml-3 text-danger fw-bold text-left" id="mobile_error"></p>
                                         </div>
                                         <div class="col-12">
@@ -160,7 +160,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4" >
                     <div class="d-flex align-items-center flex-column justify-content-center">
                         <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/contact-3.png')}}" style="object-fit: cover;">
-                        <div class="d-flex align-items-center flex-column justify-content-cente w-50 py-3">
+                        <div class="d-flex align-items-center flex-column justify-content-cente w-100 py-3">
                             <h4 class="contact-text"><span class="text-primary">Delhi, NCR</span></h4>
                             <p class="text-center text-justify">2nd Floor, Plot No. 29, Maruti Industrial Area, Sector-18, Gurugram–122015, Haryana</p>
                         </div>
@@ -170,7 +170,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4">
                     <div class="d-flex align-items-center flex-column justify-content-center">
                         <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/contact-2.png')}}" style="object-fit: cover;">
-                        <div class="d-flex align-items-center flex-column justify-content-cente w-50 py-3">
+                        <div class="d-flex align-items-center flex-column justify-content-cente w-100 py-3">
                             <h4 class="contact-text"><span class="text-primary">Dubai, UAE</span></h4>
 
                             <p class="text-center text-justify">Office #1111, Clover Bay Tower, Business Bay, PO Box: 283426, Dubai, UAE</p>
@@ -183,7 +183,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4">
                     <div class="d-flex align-items-center flex-column justify-content-center">
                         <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/gateway-of-india-1.png')}}" style="object-fit: cover;">
-                        <div class="d-flex align-items-center flex-column justify-content-cente w-60 py-3">
+                        <div class="d-flex align-items-center flex-column justify-content-cente w-100 py-3">
                             <h4 class="contact-text"><span class="text-primary">Maharastra, Mumbai</span></h4>
 
                             <p class="text-center text-justify">Coming Soon</p>
