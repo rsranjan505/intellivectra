@@ -19,14 +19,14 @@
             <div class="container py-3">
                 <div class="flex-row justify-content-center">
                     <div class="d-flex flex-row justify-content-center">
-                        <h1><span class="text-primary">Use </span> Case</h1>
+                        <h1><span class="text-primary">Case </span> Study</h1>
 
                     </div>
                 </div>
                 <div class="box-shadow case-content row my-2 text-left py-4">
                     <div class="col-lg-6 col-sm-12">
                         <div class="card">
-                            <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
+                            <img class="card-img-top" src="{{ asset('assets/img/prayagraj.jpg')}}" alt="Card image cap" style=" border-right: 40px;">
                           </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="flex-column justify-content-center">
                     <div class="d-flex align-items-center flex-column justify-content-center">
-                        <h1 ><span class="text-primary">Our  </span>OEMs</h1>
+                        <h1 ><span class="text-primary">Our  </span>OEM's</h1>
                         <p>Partnering with industry-leading manufacturers to deliver cutting-edge technology solutions tailored to your business needs.</p>
                     </div>
                 </div>
