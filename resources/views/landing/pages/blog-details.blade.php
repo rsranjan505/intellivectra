@@ -39,12 +39,12 @@
                                     </div>
                                     <div class="social-link d-flex flex-row justify-content-center text-left pt-3">
                                         <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="copyToClipboard('blog-share-data')"><i class="fas fa-link fw-normal"></i></a>
-                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','{{$blog->title}}','{{$blog->short_description}}','twitter')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','twitter')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                                             <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
                                           </svg></a>
-                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','{{$blog->title}}','{{$blog->short_description}}','facebook')"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','{{$blog->title}}','{{$blog->short_description}}','linkedin')"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                                        <a class="btn box-shadow btn-rounded" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','{{$blog->title}}','{{$blog->short_description}}','email')"><i class="fas fa-envelope fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','facebook')"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded me-2 mr-2" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','linkedin')"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                        <a class="btn box-shadow btn-rounded" href="javascript:void(0)" onclick="socialshare('{{ Request::url()}}','email')"><i class="fas fa-envelope fw-normal"></i></a>
 
 
                                     </div>
@@ -99,6 +99,26 @@
         </div>
     </div>
 </div>
+
+<script>
+    function socialshare(url, social_type  ) {
+        const title = '{{ $blog->title}}';
+        const desc = '{{ $blog->small_description}}';
+
+        if(social_type == 'facebook') {
+            shareOnFacebook(url, title, desc);
+        }
+        else if(social_type == 'twitter') {
+            shareOnTwitter(url, title, desc);
+        }
+        else if(social_type == 'email') {
+            emailBlog(url, title, desc);
+        }
+        else if(social_type == 'linkedin') {
+            shareOnLinkedin(url, title, desc);
+        }
+    }
+</script>
 
 
 @endsection

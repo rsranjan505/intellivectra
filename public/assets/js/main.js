@@ -556,20 +556,7 @@ $('#career-apply').on('submit', function (e) {
 
 });
 
-function socialshare(url, title, desc, social_type  ) {
-    if(social_type == 'facebook') {
-        shareOnFacebook(url, title, desc);
-    }
-    else if(social_type == 'twitter') {
-        shareOnTwitter(url, title, desc);
-    }
-    else if(social_type == 'email') {
-        emailBlog(url, title, desc);
-    }
-    else if(social_type == 'linkedin') {
-        shareOnLinkedin(url, title, desc);
-    }
-}
+
 
 function shareOnFacebook(url, title, desc) {
     window.open('https://www.facebook.com/sharer/sharer.php?u='+url+'&display=popup&ref=plugin&src=sdkpreparse&quote='+desc, 'share-dialog', 'width=626,height=436');
