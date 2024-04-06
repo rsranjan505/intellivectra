@@ -7,7 +7,7 @@
         <div class="row g-5">
 
             <div class="col-lg-12 col-md-12" data-wow-delay="0.5s">
-                <div class="d-flex flex-row justify-content-between ">
+                <div class="d-flex d-sm-flex flex-sm-column flex-lg-row flex-md-row justify-content-between ">
                     {{-- <div class=" d-flex flex-row justify-content-between"> --}}
                         <div class="text-center px-4 wow fadeInUp" data-wow-delay="0.6s">
                             <img class="ups-img  py-2" data-wow-delay="0.2s" src="{{ asset('assets/img/oem-2.svg')}}" >
