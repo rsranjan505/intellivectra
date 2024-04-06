@@ -154,15 +154,15 @@
         </div>
     </div>
 
-    <div class="container-fluid py-5 my-4 wow fadeInUp" data-wow-delay="0.3s">
+    <div class="container-fluid py-5 my-4 wow fadeInUp" data-wow-delay="0.3s"  >
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-4 col-sm-12 py-4 px-4" >
-                    <div class="d-flex align-items-center flex-column justify-content-center">
+                    <div class="d-flex align-items-center flex-column justify-content-center" >
                         <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/contact-3.png')}}" style="object-fit: cover;">
                         <div class="d-flex align-items-center flex-column justify-content-cente w-100 py-3">
                             <h4 class="contact-text"><span class="text-primary">Delhi, NCR</span></h4>
-                            <p class="text-center text-justify">2nd Floor, Plot No. 29, Maruti Industrial Area, Sector-18, Gurugram–122015, Haryana</p>
+                            <p class="text-center text-justify" style="color:black;">2nd Floor, Plot No. 29, Maruti Industrial Area, Sector-18, Gurugram–122015, Haryana</p>
                         </div>
                         <a class="link-map text-primary" href="https://www.google.com/maps/dir/25.6170256,85.116814/Intelli+Vectra+Technologies/@26.787533,75.8239746,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390d1930ce6b42f9:0xb39219cee9e1d009!2m2!1d77.0743589!2d28.490693?entry=ttu" target="_blank"><i class="bi bi-geo-alt text-primary me-2 mr-2"></i> Get Direction</a>
                     </div>
@@ -173,7 +173,7 @@
                         <div class="d-flex align-items-center flex-column justify-content-cente w-100 py-3">
                             <h4 class="contact-text"><span class="text-primary">Dubai, UAE</span></h4>
 
-                            <p class="text-center text-justify">Office #1111, Clover Bay Tower, Business Bay, PO Box: 283426, Dubai, UAE</p>
+                            <p class="text-center text-justify"  style="color:black;">Office #1111, Clover Bay Tower, Business Bay, PO Box: 283426, Dubai, UAE</p>
                         </div>
                         <a class="link-map text-primary mt-4" href="https://maps.app.goo.gl/91mdqZL9617oJdke7" target="_blank"><i class="bi bi-geo-alt text-primary me-2 mr-2"></i> Get Direction</a>
 
@@ -184,9 +184,9 @@
                     <div class="d-flex align-items-center flex-column justify-content-center">
                         <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/gateway-of-india-1.png')}}" style="object-fit: cover;">
                         <div class="d-flex align-items-center flex-column justify-content-cente w-100 py-3">
-                            <h4 class="contact-text"><span class="text-primary">Maharastra, Mumbai</span></h4>
+                            <h4 class="contact-text"><span class="text-primary" >Maharastra, Mumbai</span></h4>
 
-                            <p class="text-center text-justify">Coming Soon</p>
+                            <p class="text-center text-justify"  style="color:black;">Coming Soon</p>
                         </div>
                     </div>
                 </div>

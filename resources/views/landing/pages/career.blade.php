@@ -29,7 +29,7 @@
 
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <h4 class="text-center">Welcome to Our Career Page!</h4>
+            <h1 class="text-center" style="color:black;">Welcome to Our <span class="text-primary">Career Page!</span></h1>
             <p class="text-justify">
                 At Intelli Vectra Technologies, we are committed to developing a culture that is innovative, collaborative, and growth-oriented. We're excited that you're considering joining our team as we continue to push boundaries, drive change, and make a positive impact in the world.
 

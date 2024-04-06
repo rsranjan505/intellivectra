@@ -157,7 +157,8 @@
 <div class="container-fluid mb-4 bg-primary" data-wow-delay="0.2s" style="min-height: 690px;">
     <div class="container">
         <div class="text-center position-relative mx-auto pt-3">
-            <h1 ><span class="text-primary">Services & </span>Solutions</h1>
+            <!-- <h1 ><span class="text-primary">Services & </span>Solutions</h1> -->
+            <h1>Solutions</h1>
             <hp class="mb-0">Empowering your digital journey: seamless solutions for every IT need.</hp>
         </div>
         <div class="row">
@@ -167,37 +168,37 @@
                         <div class="ser-slice slice1 wow fadeInUp" data-wow-delay="0.1s" >
                             <img src="{{ asset('assets/img/service/1.svg')}}" >
                             <div class="titile slice1-text">
-                                <h5>Digital Services</h5>
+                                <h6 style="position: relative; top:10px;">IT Infrastructure Platform</h6>
                             </div>
                         </div>
                         <div class="ser-slice slice2 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/2.svg')}}" >
                             <div class="titile slice2-text">
-                                <h5>Platform & Operation Services</h5>
+                                <h6 style="position: relative; left: 27px;">IT Security Solutions</h6>
                             </div>
                         </div>
                         <div class="ser-slice slice3 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/3.svg')}}" >
                             <div class="titile slice3-text">
-                                <h5>Security Services </h5>
+                                <h6 style="position: relative; left: 27px; top:10px;">Cloud Solutions </h6>
                             </div>
                         </div>
                         <div class="ser-slice slice4 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/4.svg')}}" >
                             <div class="titile slice4-text">
-                                <h5>Enterprise Application Services</h5>
+                                <h6 style="position: relative; right: 7px; top:10px;">Collaboration and Digital Workplace</h6>
                             </div>
                         </div>
                         <div class="ser-slice slice5 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/5.svg')}}" >
                             <div class="titile slice5-text">
-                                <h5>Consulting Services</h5>
+                                <h6>Enterprise Application Modernization</h6>
                             </div>
                         </div>
                         <div class="ser-slice slice6 wow fadeInUp">
                             <img src="{{ asset('assets/img/service/6.svg')}}" >
                             <div class="titile slice6-text">
-                                <h5>Staffing Services</h5>
+                                <h6>Consulting and Digital Transformation</h6>
                             </div>
                         </div>
 

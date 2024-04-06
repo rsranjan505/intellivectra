@@ -31,7 +31,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" id="pills-journey-infotrend-tab" data-bs-toggle="pill" href="#pills-journey-infotrend" role="tab" aria-controls="pills-journey-infotrend" aria-selected="false">
                                     <div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
@@ -59,10 +59,10 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-infotrend" role="tabpanel" aria-labelledby="pills-benifits-infotrend-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Benefits of Choosing Infortrend:
-                            </h5>
-                            <ul>
+                                </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Comprehensive Solutions:</strong> Tailored storage solutions for businesses of all sizes
                                     and industries.</li>
                                 <li><strong>Reliability and Performance:</strong>High-performance systems with top reliability.</li>
@@ -93,7 +93,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oems disk" src="{{ asset('assets/img/oems/infotrend-3.png')}}" class="oem-img-right"/>
+                    <img alt="oems disk" src="{{ asset('assets/img/oems/infortrend.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-left" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/dell-1.png')}}" class="oem-img-left"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/dellp.jpg')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
@@ -129,7 +129,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-bs-toggle="pill" href="#pills-journey-dell" role="tab" aria-controls="pills-journey-dell" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
                                     </div></a>
@@ -158,10 +158,10 @@
                                 Additionally, PowerStore storage allows proactive monitoring and predictive analysis,
                                 enhancing issue resolution and capacity planning.
                                 </p>
-                            <h5>
+                            <p>
                                 Key Benefits of choosing Dell are -
-                            </h5>
-                            <ul>
+                                </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Enhanced Security:</strong>  Dell devices feature built-in intruder protection and
                                     auto-dimming for heightened privacy
                                 </li>
@@ -218,7 +218,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-ibm" role="tab" aria-controls="pills-journey-ibm" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
                                     </div></a>
@@ -242,10 +242,10 @@
                                 </p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-ibm" role="tabpanel" aria-labelledby="pills-benifits-ibm-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Key benefits of choosing IBM are -
-                            </h5>
-                            <ul>
+                                </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Enhanced Scalability:</strong> IBM provides scalable solutions for evolving business needs,
                                     ensuring seamless growth.</li>
                                 <li><strong>Improved Efficiency:</strong>Streamlined data management processes and enhanced
@@ -279,7 +279,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/ibm-1.png')}}" class="oem-img-right"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/imb.jpeg')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -291,7 +291,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-left" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/couchbase-1.png')}}" class="oem-img-left"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/couchbase.jpg')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
@@ -316,7 +316,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-couchbase" role="tab" aria-controls="pills-journey-couchbase" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
                                     </div></a>
@@ -339,10 +339,10 @@
                                     patterns.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-couchbase" role="tabpanel" aria-labelledby="pills-benifits-couchbase-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Key Benefits of using CouchBase’s services are -
-                            </h5>
-                            <ul>
+                                </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Versatile Solutions:</strong> ICouchbase offers a comprehensive suite of cloud applications
                                     and infrastructure that cater to various business needs, ensuring flexibility and
                                     scalability.</li>
@@ -422,10 +422,10 @@
                                 </p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-piconets" role="tabpanel" aria-labelledby="pills-benifits-piconets-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Benefits of Choosing picoNETS solutions include:
-                            </h5>
-                            <ul>
+                                </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Higher Performance:</strong> Achieve significantly better performance than traditional
                                     CDNs, ensuring ultra-low latency and buffer-free experiences for users.</li>
                                 <li><strong>Enhanced Security:</strong> With token-based authentication and secure content delivery,
@@ -456,7 +456,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/piconets-1.png')}}" class="oem-img-right"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/piconet.jpg')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -469,7 +469,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-left" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/redhat-1.png')}}" class="oem-img-left"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/redhat.jpg')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
@@ -521,10 +521,10 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-redhat" role="tabpanel" aria-labelledby="pills-benifits-redhat-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Benefits of using Red Hat services include -
-                            </h5>
-                            <ul>
+                            </p>
+                            <ul style="margin-left:-26px;"> 
                                 <li><strong>Versatile Solutions:</strong> Red Hat offers a wide range of solutions, from hybrid cloud
                                     infrastructure to automation, catering to diverse IT needs.
                                     </li>
@@ -547,13 +547,13 @@
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="pills-journey-redhat" role="tabpanel" aria-labelledby="pills-journey-redhat-tab">
-                            {{-- <p class="mt-2 mb-3 text-justify">
+                            <p class="mt-2 mb-3 text-justify">
                                 Also, redhat's unmatched support sets it apart in the industry. Each customer is assigned a
                                 dedicated Level 2 Customer Support Engineer, ensuring personalised and expert
                                 assistance. With support teams located worldwide and proactive health status monitoring,
                                 redhat prioritises customer satisfaction and strives to provide exceptional service.
 
-                            </p> --}}
+                            </p> 
 
                         </div>
                     </div>
@@ -611,10 +611,10 @@
                                     </p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-roombr" role="tabpanel" aria-labelledby="pills-benifits-roombr-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Benefits of using Roombr include:
-                            </h5>
-                            <ul>
+                            </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Immersive Collaboration:</strong> Experience lifelike 3D virtual meetings and collaborative
                                     sessions.</li>
                                 <li><strong>Global Connectivity:</strong> Connect with colleagues worldwide, turning any room into a
@@ -651,7 +651,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/roombr-1.png')}}" class="oem-img-right"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/oems/roombr.jpg')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>

@@ -74,10 +74,10 @@
                                     user-defined replication levels</p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits" role="tabpanel" aria-labelledby="pills-benifits-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3" style="margin-top:-25px;">
                                 The benefits of choosing ALTO are -
-                            </h5>
-                            <ul>
+    </p>
+                            <ul style="margin-left:-25px;">
                                 <li>Cost-effective Sustainability: ALTO ensures low ownership costs and minimal</li>
                                 <li>environmental impact, supporting businesses' sustainability aims.</li>
                                 <li>Speedy Data Retrieval: ALTO prioritises quick content restoration, vital for
@@ -109,7 +109,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oem-img"  src="{{ asset('assets/img/oems/disk-3.png')}}" class="oem-img-right"/>
+                    <img alt="oem-img"  src="{{ asset('assets/img/oems/desknew.jpg')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-left" >
                     </div>
-                    <img alt="oem-img" src="{{ asset('assets/img/oems/cyviz-3.png')}}" class="oem-img-left"/>
+                    <img alt="oem-img" src="{{ asset('assets/img/oems/cyviz.jpg')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end ">
@@ -156,8 +156,8 @@
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active " id="pills-introduction-cyviz" role="tabpanel" aria-labelledby="pills-introduction-cyviz-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
-                            <p class="mb-4 text-justify">Cyviz is next-level collaboration and visualisation solutions to empower organisations
+                            <!-- <h5 class="pb-1 mt-2 mb-3">Introduction</h5> -->
+                            <p class=" mt-4 mb-4 text-justify">Cyviz is next-level collaboration and visualisation solutions to empower organisations
                                 worldwide. With over 25 years of experience, Cyviz has become synonymous with
                                 innovative technologies that transform the way people communicate and work together.
                                 </p>
@@ -172,10 +172,10 @@
                             <p class="mt-2 mb-3 text-justify">Cyviz's standardised and configurable solutions accommodate diverse industries, offering
                                 reliability, usability, and precision essential for effective collaborative spaces. From finance to
                                 defence and energy sectors, Cyviz ensures well-designed solutions for various verticals.</p>
-                            <h5>
+                            <p>
                                 Benefits of Cyviz's products/services:
-                            </h5>
-                            <ul>
+    </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Enhanced Collaboration:</strong>  Cyviz fosters seamless communication, driving teamwork.
                                 </li>
                                 <li><strong>Improved Efficiency:</strong>Streamlined workflows boost productivity with intuitive
@@ -233,7 +233,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-scale" role="tab" aria-controls="pills-journey-scale" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
                                     </div></a>
@@ -243,7 +243,7 @@
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-scale" role="tabpanel" aria-labelledby="pills-introduction-scale-tab">
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+                            <!-- <h5 class="pb-1 mt-2 mb-3">Introduction</h5> -->
                             <p class="mb-4 text-justify">Scale Computing is revolutionising IT infrastructure with its innovative Scale Computing
                                 Platform. This solution integrates virtualization software, disaster recovery software, servers,
                                 and shared storage into one highly available platform, eliminating the need for separate
@@ -257,10 +257,10 @@
                                 </p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-scale" role="tabpanel" aria-labelledby="pills-benifits-scale-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 The benefits of choosing Scale Computing are -
-                            </h5>
-                            <ul>
+    </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Integrated Solution:</strong> Combines multiple components into one platform for
                                     streamlined IT management.</li>
                                 <li><strong>Maximum Uptime:</strong>Self-healing technology ensures continuous operation with
@@ -292,7 +292,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oem-img" src="{{ asset('assets/img/oems/scale-3.png')}}" class="oem-img-right"/>
+                    <img alt="oem-img" src="{{ asset('assets/img/oems/scale_comp.jpg')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -304,7 +304,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-left" >
                     </div>
-                    <img alt="oem-img" src="{{ asset('assets/img/oems/motadata-3.png')}}" class="oem-img-left"/>
+                    <img alt="oem-img" src="{{ asset('assets/img/oems/motadata.jpg')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
@@ -329,7 +329,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-motadata" role="tab" aria-controls="pills-journey-motadata" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary left-titile"  >Achivement</h5>
                                     </div></a>
@@ -340,7 +340,7 @@
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-motadata" role="tabpanel" aria-labelledby="pills-introduction-motadata-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+                            <!-- <h5 class="pb-1 mt-2 mb-3">Introduction</h5> -->
                             <p class="mb-4 text-justify">Motadata, a leading brand under Mindarray Systems Pvt Ltd, is a global software
                                 organisation specialising in IT operations solutions through its AIOps and ServiceOps
                                 platforms. Utilising the Deep Learning Framework for IT Operations (DFIT), these platforms
@@ -352,10 +352,10 @@
                                     Additionally, it has been recognized as a notable vendor in various software market reports.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-motadata" role="tabpanel" aria-labelledby="pills-benifits-motadata-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 Benefits of Motadata's Products/Services
-                            </h5>
-                            <ul>
+    </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Real-time Monitoring:</strong> Instant alerts and dashboards minimise downtime, ensuring
                                     smooth IT operations.</li>
 
@@ -416,7 +416,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-juniper" role="tab" aria-controls="pills-journey-juniper" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
                                     </div></a>
@@ -426,7 +426,7 @@
                     </div>
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-juniper" role="tabpanel" aria-labelledby="pills-introduction-juniper-tab">
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+                            <!-- <h5 class="pb-1 mt-2 mb-3">Introduction</h5> -->
                             <p class="mb-4 text-justify"> Juniper Networks, a leading provider of networking solutions, is dedicated to revolutionising
                                 how people connect, work, and live by simplifying network operations and enhancing user
                                 experiences. With a focus on innovation and commitment to excellence, Juniper offers a
@@ -440,10 +440,10 @@
                                 </p>
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-juniper" role="tabpanel" aria-labelledby="pills-benifits-juniper-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 By choosing Juniper's products and services, businesses can benefit from:
-                            </h5>
-                            <ul>
+    </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>AI-Driven Networking:</strong> Juniper's platform reduces networking trouble tickets by up
                                     to 90%, OpEX by 85%, and time to resolve incidents by 50%.</li>
                                 <li><strong>Cloud Empowerment:</strong> Juniper's cloud solutions enable efficient and secure delivery
@@ -474,7 +474,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oem-img" src="{{ asset('assets/img/oems/juniper-3.png')}}" class="oem-img-right"/>
+                    <img alt="oem-img" src="{{ asset('assets/img/oems/juniper.jpg')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -487,7 +487,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-left" >
                     </div>
-                    <img alt="oem-img" src="{{ asset('assets/img/oems/exagrid-3.png')}}" class="oem-img-left"/>
+                    <img alt="oem-img" src="{{ asset('assets/img/oems/exagrid.webp')}}" class="oem-img-left"/>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="d-flex flex-row justify-content-end">
@@ -512,7 +512,7 @@
                                     </div></a>
 
                             </li>
-                            <li class="oems-card nav-item" role="presentation">
+                            <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-exagrid" role="tab" aria-controls="pills-journey-exagrid" aria-selected="false"><div  class="oem-titile-tab">
                                         <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
                                     </div></a>
@@ -523,7 +523,7 @@
                     <div class="tab-content pt-2" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-introduction-exagrid" role="tabpanel" aria-labelledby="pills-introduction-exagrid-tab">
 
-                            <h5 class="pb-1 mt-2 mb-3">Introduction</h5>
+                            <!-- <h5 class="pb-1 mt-2 mb-3">Introduction</h5> -->
                             <p class="mb-4 text-justify">ExaGrid, a leading provider of backup storage solutions, stands out for its innovative Tiered
                                 Backup Storage approach, offering customers enhanced performance, security, and
                                 scalability. With over 4,000 customers worldwide and an impressive NPS score of +81,
@@ -535,10 +535,10 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-benifits-exagrid" role="tabpanel" aria-labelledby="pills-benifits-exagrid-tab">
-                            <h5 class="mt-2 mb-3">
+                            <p class="mt-2 mb-3">
                                 The benefits of choosing ExaGrid are -
-                            </h5>
-                            <ul>
+                            </p>
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Enhanced Performance:</strong>  ExaGrid's Tiered Backup Storage architecture ensures 3X
                                     faster backups and 20X faster restores, saving valuable time and optimising backup
                                     operations..</li>
