@@ -254,6 +254,9 @@ $("#carouselExampleIndicators").carousel({interval: 5000});
 var mouse_is_inside = false;
 $('.slice1').click(function (param) {
 
+    $('.ser-slice').css('z-index','9');
+    $(this).css('z-index','999');
+
 
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
@@ -283,6 +286,10 @@ $('.slice1').click(function (param) {
     $('.line').children('#slice-item').css('transform','scaleX(-1)');
 });
 $('.slice2').click(function (param) {
+
+    $('.ser-slice').css('z-index','9');
+    $(this).css('z-index','999');
+
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
     $('#line').css('margin-left','');
@@ -311,6 +318,10 @@ $('.slice2').click(function (param) {
 });
 
 $('.slice3').click(function (param) {
+
+    $('.ser-slice').css('z-index','9');
+    $(this).css('z-index','999');
+
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
     $('#line').css('margin-left','');
@@ -335,6 +346,10 @@ $('.slice3').click(function (param) {
 });
 
 $('.slice4').click(function (param) {
+
+    $('.ser-slice').css('z-index','9');
+    $(this).css('z-index','999');
+
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
     $('#line').css('margin-left','');
@@ -360,6 +375,10 @@ $('.slice4').click(function (param) {
 });
 
 $('.slice5').click(function (param) {
+
+    $('.ser-slice').css('z-index','9');
+    $(this).css('z-index','999');
+
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
     $('#line').css('margin-left','');
@@ -385,6 +404,10 @@ $('.slice5').click(function (param) {
 });
 
 $('.slice6').click(function (param) {
+
+    $('.ser-slice').css('z-index','9');
+    $(this).css('z-index','999');
+
     $('#line').css('margin-top','');
     $('#line').css('margin-right','');
     $('#line').css('margin-left','');
@@ -532,3 +555,57 @@ $('#career-apply').on('submit', function (e) {
     });
 
 });
+
+function socialshare(url, title, desc, social_type  ) {
+    if(social_type == 'facebook') {
+        shareOnFacebook(url, title, desc);
+    }
+    else if(social_type == 'twitter') {
+        shareOnTwitter(url, title, desc);
+    }
+    else if(social_type == 'email') {
+        emailBlog(url, title, desc);
+    }
+    else if(social_type == 'linkedin') {
+        shareOnLinkedin(url, title, desc);
+    }
+}
+
+function shareOnFacebook(url, title, desc) {
+    window.open('https://www.facebook.com/sharer/sharer.php?u='+url+'&display=popup&ref=plugin&src=sdkpreparse&quote='+desc, 'share-dialog', 'width=626,height=436');
+}
+
+function shareOnTwitter(url, title, desc) {
+    window.open('https://twitter.com/share?url='+url+'&text='+title+'%0A'+desc+'&via=IntelliVectra', 'share-dialog', 'width=626,height=436');
+}
+
+function emailBlog(url, title, desc) {
+    window.location.href = 'mailto:?subject='+title+'&body='+url+'%0A%0A'+desc;
+}
+
+
+function shareOnLinkedin(url, title, desc) {
+    window.open('https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary='+desc+'&source=IntelliVectra', 'share-dialog', 'width=626,height=436');
+}
+
+function copyToClipboard(elementId) {
+    var aux = document.createElement("input");
+    aux.setAttribute("value", document.getElementById(elementId).innerText);
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand("copy");
+    document.body.removeChild(aux);
+
+    var msg = $('#copy-message');
+    msg.text('Copied to Clipboard');
+
+    setTimeout(function() {
+        msg.text('');
+    },5000) //  5 seconds
+}
+
+
+
+
+
+
