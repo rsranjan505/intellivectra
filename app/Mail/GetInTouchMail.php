@@ -13,7 +13,7 @@ use Illuminate\Mail\Mailables\Address;
 
 class GetInTouchMail extends Mailable
 {
-    public Request $request;
+    public $request;
     use Queueable, SerializesModels;
 
     /**
@@ -30,7 +30,7 @@ class GetInTouchMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('no-reply@inteelivectra.com', 'Get In Touch Data'),
+            from: new Address('no-reply@inteelivectra.tech', 'Get In Touch Data'),
             subject: 'Get In Touch User Data',
         );
     }

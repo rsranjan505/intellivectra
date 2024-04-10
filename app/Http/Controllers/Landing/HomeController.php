@@ -38,9 +38,10 @@ class HomeController extends Controller
             'mobile' => 'required',
         ]);
 
-        $to = env('MAIL_TO',null);
+        // $to = env('MAIL_TO',null);
+        $to = 'r.s.ranjan505@gmail.com';
 
-        $data= $request->all();
+        $data = $request->all();
 
         Mail::to($to)->send(new  GetInTouchMail($data));
 

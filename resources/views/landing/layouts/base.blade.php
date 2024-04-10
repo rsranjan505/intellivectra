@@ -135,7 +135,7 @@
             $.ajax({
             type: 'post',
             url: $(this).attr('action'),
-            data: $('gettouch').serialize(),
+            data: $('#gettouch').serialize(),
             headers: {
                     'X-CSRF-TOKEN': $('meta[name="token"]').attr('content')
                 },
