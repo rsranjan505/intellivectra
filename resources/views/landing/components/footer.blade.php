@@ -29,11 +29,11 @@
             <div class="col-lg-8 col-md-6">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-md-12 pt-5 mb-4">
-                        <div class="position-relative pb-3 mb-2">
+                        <div class="position-relative pb-2 mb-2">
                             <h4 class="text-primary mb-0">Our Company</h4>
                         </div>
                         <div class="link-animated d-flex flex-column">
-                            <a class="text-light mb-3 ml-4" href="{{ route('about')}}">About Us</a>
+                            <a class="text-light mb-2 ml-4" href="{{ route('about')}}">About Us</a>
                             <a class="text-light mb-3 ml-4" href="{{ route('about')}}">Our Team</a>
                             <a class="text-light mb-3 ml-4" href="{{ route('oems')}}">Our OEMs</a>
                             <a class="text-light  mb-3 ml-4" href="{{ route('contact')}}">Contact Us</a>
@@ -113,9 +113,9 @@
 
 <!-- jasraj footer  start -->
 <div class="container-fluid bg-dark pb-4 text-light wow fadeInUp footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 footer-about">
+    <div class="">
+        <div class="row px-3">
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-about">
                 <div class="d-flex flex-column align-items-center justify-content-evenly mt-3">
                     <a href="index.html" class="my-3 navbar-brand">
                         <img src="{{ asset('assets/img/footer-logo.png')}}" width="200"/>
@@ -140,73 +140,68 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-6">
-                <div class="row gx-5">
-                    <div class="col-lg-4 col-md-12 pt-5 mb-4">
+            <div class="col-lg-9 col-md-6">
+                <div class="row">
+                    <div class="col-lg-2 col-md-12 col-sm-12 pt-5 mb-4">
                         <div class="position-relative pb-3 mb-2">
-                            <p class="text-primary mb-0">Our Company</p>
+                            <p class="text-primary mb-0">Company</p>
                         </div>
                         <div class="link-animated d-flex flex-column">
-                            <a class="text-light mb-3 " href="{{ route('about')}}">About Us</a>
-                            <a class="text-light mb-3 " href="{{ route('about')}}">Our Team</a>
-                            <a class="text-light mb-3 " href="{{ route('oems')}}">Our OEMs</a>
-                            <a class="text-light  mb-3 " href="{{ route('contact')}}">Contact Us</a>
+                            <a class="text-light mb-2 " href="{{ route('about')}}">About Us</a>
+                            <a class="text-light mb-2 " href="{{ route('about')}}">Our Team</a>
+                            <a class="text-light mb-2 " href="{{ route('oems')}}">Our OEMs</a>
+                            <a class="text-light  mb-2 " href="{{ route('contact')}}">Contact Us</a>
                             <a class="text-light  " href="{{ route('career')}}">Career</a>
                         </div>
 
                     </div>
-                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
+                    <div class="col-lg-3 col-md-12 col-sm-12 pt-0 pt-lg-5 mb-4">
                         <div class="position-relative pb-3 ">
                             <p class="text-primary mb-0">IT Staffing Services</p>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-3" href="{{ route('services.consulting')}}">Permanent Hiring</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Contract Consultants</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Recruitment Outsourcing</a>
-                           
-                        </div>
-                    </div>
+                            <a class="text-light mb-2" href="{{ route('services.consulting')}}">Permanent Hiring</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">Contract Consultants</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">Recruitment Outsourcing</a>
 
-                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
-                        <div class="position-relative pb-3 ">
+                        </div>
+                        <div class="position-relative pb-2 ">
                             <p class="text-primary mb-0">Professional IT Services</p>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-3" href="{{ route('services.consulting')}}">Cloud Transformation</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">IT Lifecycle Management</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">IT Security Audit Services</a>
-            
+                            <a class="text-light mb-2" href="{{ route('services.consulting')}}">Cloud Transformation</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">IT Lifecycle Management</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">IT Security Audit Services</a>
+
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
-                        <div class="position-relative pb-3">
+                    <div class="col-lg-4 col-md-12 col-sm-12 pt-0 pt-lg-5 mb-4">
+                        <div class="position-relative pb-2">
                             <p class="text-primary mb-0">Technology Solutions</p>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-3" href="{{ route('services.consulting')}}">Cloud Solutions</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">IT Security Solutions</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">IT Infrastructure Platform</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Collaboration and Digital Workplace</a>
-                            <a class="text-light mb-3" href="{{ route('services.staffing')}}">Enterprise Application Modernization </a>
+                            <a class="text-light mb-2" href="{{ route('services.consulting')}}">Cloud Solutions</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">IT Security Solutions</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">IT Infrastructure Platform</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">Collaboration and Digital Workplace</a>
+                            <a class="text-light mb-2" href="{{ route('services.staffing')}}">Enterprise Application Modernization </a>
                             <a class="text-light" href="{{ route('services.staffing')}}">Consulting and Digital Transformation</a>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-4">
-                        <div class="position-relative pb-3">
+                    <div class="col-lg-3 col-md-12 col-sm-12 pt-0 pt-lg-5 mb-4">
+                        <div class="position-relative pb-2">
                             <p class="footer-text text-primary mb-0">Contact Us</p>
                         </div>
-                        <div class="d-flex mb-3">
+                        <div class="d-flex mb-2">
                             <i class="bi bi-telephone text-primary me-2 mr-2"></i>
                             <p class="footer-text mb-0">+91-012-4496-0635</p>
                         </div>
-                        <div class="d-flex mb-3">
+                        <div class="d-flex mb-2">
                             <i class="bi bi-envelope-open text-primary me-2 mr-2"></i>
                             <p class="footer-text mb-0">info@intellivectra.tech</p>
                         </div>
 
-                        <div class="d-flex mb-3">
+                        <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2 mr-2"></i>
                             <p class="footer-text mb-0">2nd Floor, Plot No. 29,
                                 Maruti Industrial Area, Sector-18,
@@ -225,27 +220,30 @@
     </div>
 </div>
 <div class="container-fluid text-white bg-dark " >
-    <div class="container text-center ">
-    <hr>
-        <div class="row justify-content-between py-3 ">
-                <div class="d-flex align-items-center justify-content-center" >
+        <hr>
+        <div class="row py-3 px-3">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="" >
                     <p class="mb-0">&copy; <a class="text-light" href="#">2024 Intelli Vectra Technologies Pvt. Ltd</a>. All rights reserved.
-                   </p>
+                    </p>
                 </div>
-                <div class="d-flex align-items-center justify-content-center" style="margin-left:-160px !important;">
-
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex align-items-lg-start align-items-sm-center justify-content-lg-end justify-content-sm-center" >
+                    <a class="text-light bottom-footer-link mr-2" href="{{ route('term')}}">Terms </a>
+                    <a class="text-light bottom-footer-link mr-2" href="{{ route('privacy')}}">Privacy </a>
+                    <a class="text-light bottom-footer-link" href="#">Cookies </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex align-items-lg-end align-items-sm-center justify-content-lg-end justify-content-sm-center">
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #0077b5 ;"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><svg class="ml-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 912">
-                        <!-- !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
                         <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
                 </div>
-                <div class="d-flex align-items-end justify-content-center" >
-                    <a class="text-light bottom-footer-link" href="{{ route('term')}}">Terms & Conditions</a>
-                    <a class="text-light bottom-footer-link" href="{{ route('privacy')}}">Privacy Policy</a>
-                </div>
-
+            </div>
         </div>
-    </div>
+
 </div>
 
 
@@ -258,19 +256,19 @@
     <div class="content">
       <div class="top">
         <div class="logo-details">
-          
+
         </div>
-        
-      
+
+
       </div>
       <div class="link-boxes">
-        
+
       <a href="index.html">
                         <img src="{{ asset('assets/img/footer-logo.png')}}" />
                     </a>
-                    
 
-                    
+
+
 
         <ul class="box" style="position: relative; left:7%;">
           <li class="link_name">Company</li>
@@ -285,7 +283,7 @@
           <li><a href="#">Permanent Hiring</a></li>
           <li><a href="#">Contract Consultants</a></li>
           <li><a href="#">Recruitment Outsourcing</a></li>
-        
+
           <li class="link_name">IT Services</li>
           <li><a href="#">Cloud Transformation</a></li>
           <li><a href="#">IT Lifecycle Management</a></li>
@@ -299,7 +297,7 @@
           <li><a href="#">Collaboration & Digital Workplace</a></li>
           <li><a href="#">Enterprise Application Modernization</a></li>
           <li><a href="#">Consulting & Digital Transformation</a></li>
-          
+
         </ul>
         <ul class="box">
           <li class="link_name">Contact Us</li>
@@ -313,9 +311,9 @@
           <li><input type="button" value="Subscribe"></li>
         </ul>
       </div>
-      
+
     </div>
-    
+
 
 
     <div class="container-fluid text-white bg-dark " >
@@ -329,8 +327,8 @@
                 <div class="d-flex align-items-center justify-content-center" style="margin-left:-160px !important;">
 
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 mr-3 box-shadow" href=""><i class="fab fa-linkedin-in fw-normal" style="color: #0077b5 ;"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><svg class="ml-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 912"> 
-                       
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2 box-shadow" href=""><svg class="ml-2 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 912">
+
                         <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
                 </div>
                 <div class="d-flex align-items-end justify-content-center" >

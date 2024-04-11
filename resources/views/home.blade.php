@@ -130,7 +130,7 @@
         <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="case-content p-4 row box-shadow">
-                    <div class="col-lg-6 col-sm-12 text-left">
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                         <h1 >Get <span class="text-primary">  Expert’s Advice </span></h1>
                         <p class="mb-4 text-justify">Get the expertise from our professionals for personalised advice crafted to address your unique business needs. Access industry-leading insights and unique solutions customised to propel your business forward.</p>
 
@@ -138,13 +138,7 @@
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                         </svg></a>
                     </div>
-                    {{-- <div class="col-lg-6">
-                        <div class="card" style="width: 28rem;">
-                            <img class="card-img-top" src="{{ asset('assets/img/home-6.png')}}" alt="Card image cap">
-                          </div>
-                    </div> --}}
-
-                    <div class="col-lg-6 col-sm-12" >
+                    <div class="col-lg-6 col-md-6 col-sm-12 my-2" >
                         <img class="card-img-top case-content-img"  src="{{ asset('assets/img/home-6.png')}}" alt="Card image cap">
                     </div>
                 </div>
@@ -166,7 +160,6 @@
                             <div id="blogs" class="owl-carousel blogs-carousel">
                                 @if (isset($blogs))
                                     @foreach ($blogs as $blog)
-
                                         <div class="mr-4 wow slideInUp" data-wow-delay="0.1s">
                                             <div class="">
                                                 <div class="blog-item bg-light rounded overflow-hidden">

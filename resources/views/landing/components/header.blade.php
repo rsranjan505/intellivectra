@@ -46,7 +46,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'solutions/') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                            aria-expanded="false">Services</a>
-                        <ul class="dropdown-menu mega-dropdown"  aria-labelledby="dropdown2">
+                        <ul class="dropdown-menu mega-dropdown"  aria-labelledby="dropdown2" >
                             <div class="row">
                              <!-- jas test -->
                                 <div class="c-container">
@@ -122,7 +122,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'solutions/') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                            aria-expanded="false">Solutions</a>
-                        <ul class="dropdown-menu mega-dropdown" aria-labelledby="dropdown2">
+                        <ul class="dropdown-menu mega-dropdown" aria-labelledby="dropdown2" style="left: 46%;">
                             <div class="row" >
                              <!-- jas test -->
                                 <div class="c-container">

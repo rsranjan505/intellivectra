@@ -354,7 +354,7 @@ line-height: normal;
     width: 100vw;
     position: absolute;
     top: 100%; /* Position dropdown below the navbar */
-    left: 50%; /* Center horizontally */
+    left: 150px; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     display: none; /* Hide dropdown by default */
     z-index: 1000; /* Ensure dropdown is above other elements */
@@ -951,7 +951,11 @@ video {
         bottom: -1px;
         left: 50%;
         background: var(--primary);
+
         transition: .5s;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: var(--dark);
     }
 
     .navbar-dark .navbar-nav .nav-link:hover::before,
@@ -1001,11 +1005,20 @@ video {
         font-size: 30px;
         font-weight: 600 !important;
     }
-
+    .navbar-dark .navbar-nav .nav-link {
+        color: var(--dark);
+    }
     .header-top {
         margin-top: 0px;
         height:400px;
     }
+    h2.display-1 {
+        font-size: 20px !important;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+
 }
 
 
@@ -1014,12 +1027,19 @@ video {
         font-size: 14px;
         font-weight: 500 !important;
     }
-
+    .navbar-dark .navbar-nav .nav-link {
+        color: var(--dark);
+    }
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
     }
-
+    h2.display-1 {
+        font-size: 16px !important;
+    }
+    h2 {
+        font-size: 16px !important;
+    }
     /* .header-top {
         margin-top: 0px;
         height:300px;
