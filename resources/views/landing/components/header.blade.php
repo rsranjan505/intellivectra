@@ -119,10 +119,6 @@
                         </ul>
                     </li>
 
-
-
-
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'solutions/') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                            aria-expanded="false">Solutions</a>
