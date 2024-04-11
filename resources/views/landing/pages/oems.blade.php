@@ -109,7 +109,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oem-img"  src="{{ asset('assets/img/oems/desknew.jpg')}}" class="oem-img-right"/>
+                    <img alt="oem-img"  src="{{ asset('assets/img/disk03.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>
@@ -474,7 +474,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oem-img" src="{{ asset('assets/img/oems/juniper.jpg')}}" class="oem-img-right"/>
+                    <img alt="oem-img" src="{{ asset('assets/img/image.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>

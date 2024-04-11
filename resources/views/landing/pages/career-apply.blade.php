@@ -54,10 +54,11 @@
                                         <div class="col-12">
                                             <div class="row">
                                                 <div class="col-4">
-                                                    <label class="fw-bold pt-3">Upload Your CV*</label>
+                                                    <label class="fw-bold pt-3 ml-3">Upload Your CV*</label>
                                                 </div>
-                                                <div class="col-8">
-                                                    <input type="file"  name="attach_cv" id="attach_cv" class="form-control border border-warning form-input-rounded input-form" >
+                                                <div class="col-8" style="margin-top: 18px;">
+                                                    <!-- <input type="file"  name="attach_cv" id="attach_cv" class="form-control border border-warning form-input-rounded input-form" > -->
+                                                    <input type="file"  name="attach_cv" id="attach_cv" >
                                                     <p class="ml-3 text-danger fw-bold text-left" id="attach_cv_error"></p>
                                                 </div>
 

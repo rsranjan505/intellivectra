@@ -47,7 +47,7 @@
         <div class="row g-5">
             <div class="about-jurney">
                 <div class="col-lg-12 d-flex aligns-content-center justify-content-center" style="min-height: 680px;" >
-                    <img class="position-absolute h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-5.svg')}}" >
+                    <img class="position-absolute h-100 rounded wow zoomIn" style="min-height: 600px;" data-wow-delay="0.9s" src="{{ asset('assets/img/about-arrow.svg')}}" >
                 </div>
                 <div class="d-flex flex-row  flex-content-between">
                     <div class="d-flex flex-column aligns-content-left flex-content-start">
@@ -80,7 +80,7 @@
         <div class="text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 660px;">
         <img  src="{{ asset('assets\img\Frame 16.svg')}}" alt="" style="width:50px; height:50px;">
             <h1 class="fw-boldtext-uppercase">Meet our <span class="text-primary">Leaders</span></h1>
-            <p class="mb-0">Welcome to the team! We are a group of passionate individuals working together to achieve our goals
+            <p class="mb-0">Welcome to the team! We are a group of passionate individuals working together to achieve our goals. 
 Get to know the faces behind our success.</p>
         </div>
         <!-- <div class="d-flex flex-row aligns-content-center justify-content-center">
@@ -121,7 +121,7 @@ Get to know the faces behind our success.</p>
                 </div> -->
 
                 <div class="main-ceo">
-                <img src="{{ asset('assets/img/leaders/manas-sinha-CEO.jpg')}}" alt="" style="width: 500px; height: 500px; border-radius:20px;">
+                <img src="{{ asset('assets/img/leaders/manas-sinha-CEO.jpg')}}" alt="" style="width: 400px; height: 400px; border-radius:20px;">
                 
                <div class="main-text"> 
                 <p style="font-weight: 600; font-size: 36px; color:#000000;">MANAS<span style="color:#F2A024;"> SINHA</span></p>
@@ -296,7 +296,7 @@ Get to know the faces behind our success.</p>
                     </div>
                     </div>
                     <div class="theback">
-                        <p>Passionate and dynamic leader with extensive experience driving innovative solutions and delivering exceptional value in India and the ME region. A bold risk-taker with a proven track record of enabling organic growth, expanding into new channels, and revitalizing teams across industry giants like HCL, Siemens, EMC, and others.
+                        <p>Passionate & dynamic leader with experience driving innovative solutions & delivering exceptional value in India & the ME region.A bold risk-taker with a proven track record of enabling organic growth, expanding into new channels, & revitalizing teams across industry giants like HCL, Siemens, EMC etc.
 </p>
 <div class="social"><ul>
 

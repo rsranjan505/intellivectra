@@ -279,7 +279,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="oem-gradient-right" >
                     </div>
-                    <img alt="oems disk"  src="{{ asset('assets/img/oems/imb.jpeg')}}" class="oem-img-right"/>
+                    <img alt="oems disk"  src="{{ asset('assets/img/ibm1.png')}}" class="oem-img-right"/>
                 </div>
             </div>
         </div>

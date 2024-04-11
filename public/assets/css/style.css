@@ -72,56 +72,7 @@ footer .content .top{
     width: 115px;
     height: 97px;
 }
-/* .content .top .media-icons{
-  display: flex;
-}
-.content .top .media-icons a{
-  height: 40px;
-  width: 40px;
-  margin: 0 8px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  color: #fff;
-  font-size: 17px;
-  text-decoration: none;
-  transition: all 0.4s ease;
-}
-.top .media-icons a:nth-child(1){
-  background: #4267B2;
-}
-.top .media-icons a:nth-child(1):hover{
-  color: #4267B2;
-  background: #fff;
-}
-.top .media-icons a:nth-child(2){
-  background: #1DA1F2;
-}
-.top .media-icons a:nth-child(2):hover{
-  color: #1DA1F2;
-  background: #fff;
-}
-.top .media-icons a:nth-child(3){
-  background: #E1306C;
-}
-.top .media-icons a:nth-child(3):hover{
-  color: #E1306C;
-  background: #fff;
-}
-.top .media-icons a:nth-child(4){
-  background: #0077B5;
-}
-.top .media-icons a:nth-child(4):hover{
-  color: #0077B5;
-  background: #fff;
-}
-.top .media-icons a:nth-child(5){
-  background: #FF0000;
-}
-.top .media-icons a:nth-child(5):hover{
-  color: #FF0000;
-  background: #fff;
-} */
+
 footer .content .link-boxes{
   width: 100%;
   display: flex;
@@ -192,91 +143,6 @@ footer .bottom-details .bottom_text{
 }
 
 
-/* .content .link-boxes .input-box{
-    margin-right: 55px;
-  }
-  .link-boxes .input-box input{
-    height: 40px;
-    width: calc(100% + 55px);
-    outline: none;
-    border: 2px solid #AFAFB6;
-    background: #343A40;
-    border-radius: 4px;
-    padding: 0 15px;
-    font-size: 15px;
-    color: #fff;
-    margin-top: 5px;
-  }
-  .link-boxes .input-box input::placeholder{
-    color: #AFAFB6;
-    font-size: 16px;
-  }
-  .link-boxes .input-box input[type="button"]{
-    background: #fff;
-    color: #140B5C;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 4px 0;
-    opacity: 0.8;
-    cursor: pointer;
-    transition: all 0.4s ease;
-  }
-  .input-box input[type="button"]:hover{
-    opacity: 1;
-  } */
-
-
-/* @media (max-width: 900px) {
-  footer .content .link-boxes{
-    flex-wrap: wrap;
-  }
-  footer .content .link-boxes .input-box{
-    width: 40%;
-    margin-top: 10px;
-  }
-}
-@media (max-width: 700px){
-  footer{
-    position: relative;
-  }
-  .content .top .logo-details{
-    font-size: 26px;
-  }
-  .content .top .media-icons a{
-    height: 35px;
-    width: 35px;
-    font-size: 14px;
-    line-height: 35px;
-  }
-  footer .content .link-boxes .box{
-    width: calc(100% / 3 - 10px);
-  }
-  footer .content .link-boxes .input-box{
-    width: 60%;
-  }
-  .bottom-details .bottom_text span,
-  .bottom-details .bottom_text a{
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px){
-  footer::before{
-    top: 145px;
-  }
-  footer .content .top{
-    flex-direction: column;
-  }
-  .content .top .media-icons{
-    margin-top: 16px;
-  }
-  footer .content .link-boxes .box{
-    width: calc(100% / 2 - 10px);
-  }
-  footer .content .link-boxes .input-box{
-    width: 100%;
-  }
-} */
 
 /* footer end  */
 
@@ -493,11 +359,11 @@ flex-shrink: 0;
     font-weight: 600;
     line-height: normal;
     width: 560px;
-height: auto;
-line-height: 180%;
+    height: auto;
+    line-height: 150%;
     position: relative;
     left: 50%;
-    margin-top: -490px;
+    margin-top: -400px;
     padding-bottom: 100px;
     /* display: inline-block;
 vertical-align: middle; */
@@ -517,8 +383,8 @@ grid-gap: 1rem;
   }
 .full-card{
     position: relative;
-    width: 384px;
-height: 374px;
+    width: 300px;
+height: 290px;
 display: inline-block;
 vertical-align: middle;
 padding: .5rem;
@@ -576,7 +442,7 @@ background: linear-gradient(98deg, #DECF37 0.62%, #F2A024 18.19%, #D13375 42.79%
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -584,7 +450,7 @@ background: linear-gradient(98deg, #DECF37 0.62%, #F2A024 18.19%, #D13375 42.79%
     .theback p{
         padding: 25px;
        position: relative;
-       top: 15%;
+       top: 8%;
         justify-content: center;
     align-items: center;
     }
@@ -594,7 +460,7 @@ background: linear-gradient(98deg, #DECF37 0.62%, #F2A024 18.19%, #D13375 42.79%
     display: flex;
     position: absolute;
     top: 73%;
-    left: 17%;
+    left: 7%;
     /* transform: translate(-50%, -50%); */
   }
 
@@ -1146,7 +1012,7 @@ video {
 }
 
 .about-jurney .jurney-right-2021 {
-    top: 80px;
+    top: 110px;
     left: auto;
     right: 10px;
 
@@ -1659,7 +1525,7 @@ a.text-primaryv:hover{
 }
 
 .form-input-rounded{
-    border-radius: 35px;
+    border-radius: 6px;
     margin: 10px;
     min-height: 45px;
 }
@@ -1675,7 +1541,20 @@ a.text-primaryv:hover{
     border: 0.5px solid #DDDDDD;
     border-radius: 45px !important;
 }
-
+/* jasraj career page  */
+.col-8 input[type="file"]::file-selector-button{
+    background-color: var(--primary);
+    border-radius: 30px;
+    border: .5px solid rgb(161, 118, 0);
+    margin-left:15px ;
+}
+.col-8 input[type="file"]::file-selector-button:hover{
+    background-color: rgb(255, 166, 0,0.8);
+    border: .5px solid rgb(161, 118, 0);
+    color: white;
+    cursor: pointer;
+}
+/* jasraj career page end  */
 .input-form{
     margin-bottom: 5px;
 

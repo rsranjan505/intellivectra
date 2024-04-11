@@ -12,7 +12,7 @@
     <li><b>Service Description Intelli</b> Vectra Technologies Private Limited offers a range of system integration services and IT solutions designed to optimize business IT infrastructure and enhance operational efficiency. Our services include but are not limited to network solutions, data management, cybersecurity, cloud computing, software development, and professional IT services.
 </li>
 
-    <li><b>User Information</b><ul>
+    <li><b>User Information</b><ul style="margin-left:-26px;">
         <li>By entering details, users agree to provide accurate and complete information and to maintain the confidentiality of their account credentials.</li>
         <li>Users are responsible for all activities that occur under their account and must notify Intelli Vectra Technologies Private Limited immediately of any unauthorized use or security breaches.
 </li>
@@ -20,7 +20,7 @@
 
     <li><b>Intellectual Property Rights
 </b>
-<ul><li>The content, design, layout, graphics, trademarks, logos, and other intellectual property displayed on the Website are the property of Intelli Vectra Technologies Private Limited or its licensors.
+<ulstyle="margin-left:-26px;"><li>The content, design, layout, graphics, trademarks, logos, and other intellectual property displayed on the Website are the property of Intelli Vectra Technologies Private Limited or its licensors.
 </li>
 <li>Users may not use, copy, reproduce, distribute, modify, or create derivative works based on any content from the Website without prior written consent from Intelli Vectra Technologies Private Limited.
 </li></ul></li>
@@ -31,7 +31,7 @@
 
     <li><b>Limitation of Liability
 </b>
-<ul><li>Intelli Vectra Technologies Private Limited strives to provide accurate and reliable information on the Website. However, we do not warrant the completeness, accuracy, or reliability of any content or services.</li>
+<ul style="margin-left:-26px;"><li>Intelli Vectra Technologies Private Limited strives to provide accurate and reliable information on the Website. However, we do not warrant the completeness, accuracy, or reliability of any content or services.</li>
 <li>Users agree that Intelli Vectra Technologies Private Limited shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use the Website or its services.
 </li></ul></li>
 

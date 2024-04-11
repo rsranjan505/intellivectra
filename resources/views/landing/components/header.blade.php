@@ -57,7 +57,7 @@
                                             <div class="block"></div>
                                             <p>Streamlining and transforming businesses into cloud-based solutions for enhanced scalability and efficiency.
                                                 </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.cloud')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -67,7 +67,7 @@
                                         <p class="card-head">IT Lifecycle Management</p>
                                         <div class="block"></div>
                                                         <p>Comprehensive management of IT infrastructure from planning to retirement, ensuring optimal performance throughout.</p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.data')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -79,7 +79,7 @@
                                             <div class="block"></div>
                                                         <p>Performing thorough assessments to identify vulnerabilities and fortify digital assets against cyber threats.
                                             </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.command')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -90,7 +90,7 @@
                                             <div class="block"></div>
                                             <p>Seamless recruitment processes to secure permanent talent perfectly suited to organizational needs.
                                                 </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.staffing')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -101,7 +101,7 @@
                                         <div class="block"></div>
                                             <p>Get full access of top-tier IT expertise on a flexible basis to support project-specific requirements.
                                             </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.consulting')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
                                     <div class="card-test">
@@ -111,7 +111,7 @@
                                             <div class="block"></div>
                                                 <p>Outsourcing of the recruitment process to expert professionals for efficient and effective candidate selection.
                                                 </p>
-                                                <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                                <a href="{{route('services.staffing')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                                             <div class="block"></div>
                                             <p>Build a resilient foundation tailored to your needs, ensuring seamless operations and scalability.
                                                 </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.infrastucture')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -143,7 +143,7 @@
                                         <p class="card-head">IT Security Solutions</p>
                                         <div class="block"></div>
                                                         <p>Safeguard your digital assets with cutting-edge defenses, protecting against evolving cyber threats and vulnerabilities.</p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.security')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -155,7 +155,7 @@
                                             <div class="block"></div>
                                                         <p>Unlock agility & efficiency with customized cloud solutions, enabling scalable & flexible IT resources for your business.
                                             </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.cloud')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -166,7 +166,7 @@
                                             <div class="block"></div>
                                             <p>Foster collaboration and productivity in the digital realm, optimizing workflows and communication channels.
                                                 </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.staffing')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -176,7 +176,7 @@
                                         <p class="card-head">Enterprise Application Modernization</p>
                                         <div class="block"></div>
                                                         <p>Revamp legacy systems for enhanced performance and functionality, driving innovation and agility across your organization.</p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.backup')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
 
@@ -188,7 +188,7 @@
                                             <div class="block"></div>
                                                         <p>Expert guidance for digital transformation, leveraging technology to stay ahead in a competitive landscape.
                                             </p>
-                                            <a href="" ><p class="know-more">Know More &rarr;</p></a>
+                                            <a href="{{route('services.consulting')}}" ><p class="know-more">Know More &rarr;</p></a>
                                         </div>
                                     </div>
                                 </div>

@@ -148,8 +148,8 @@
             @endphp
         @elseif ($type == 'term')
             @php
-                $whitetitle = 'And Condition';
-                $colortitle = 'Term';
+                $whitetitle = 'And Conditions';
+                $colortitle = 'Terms';
                 $subheading = "";
                 $img = asset('assets/img/privacy-bg.jpg');
             @endphp
