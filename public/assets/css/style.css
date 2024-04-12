@@ -156,12 +156,13 @@ footer .bottom-details .bottom_text{
     left: 17%;
 }
 
-.nav-pills a.active{
+.mega-dropdown .nav-pills a.active{
     background-color: #fff !important;
 }
 
-.nav-pills .nav-link{
+.mega-dropdown .nav-pills a.nav-link{
     font-weight: 700 !important;
+    color: var(--dark) !important;
 }
 
 .block{
@@ -760,11 +761,6 @@ hr {
     border-color: var(--primary) !important;
 }
 
-.header-top {
-    /* margin-top: 65px; height:630px; */
-    /* margin-top: 65px;height:630px;
-    margin-top: 65px;height:630px; */
-}
 
 .nav-item a {
     color: var(--light) !important;
@@ -800,6 +796,17 @@ video {
 
     .navbar-dark .navbar-brand h1 {
         color: var(--primary);
+    }
+
+    .nav-item a {
+        color: var(--dark) !important;
+    }
+
+ .wh-img {
+        display: none;
+    }
+ .dk-img {
+        display: block;
     }
 }
 
