@@ -47,8 +47,94 @@
                         <a class="nav-link dropdown-toggle {{ str_contains(Request::url(),'solutions/') ? 'active' : ''}}" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
                            aria-expanded="false">Services</a>
                         <ul class="dropdown-menu mega-dropdown"  aria-labelledby="dropdown2" >
-                            <div class="row">
-                             <!-- jas test -->
+                                <div class="mx-5">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                <a class="nav-link active" id="v-pills-prayagraj-smart-tab" data-toggle="pill" href="#v-pills-prayagraj-smart" role="tab" aria-controls="v-pills-prayagraj-smart" aria-selected="true">Professional IT Services</a>
+                                                <a class="nav-link" id="v-pills-sanganer-smart-tab" data-toggle="pill" href="#v-pills-sanganer-smart" role="tab" aria-controls="v-pills-sanganer-smart" aria-selected="false">IT Staffing Services</a>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <div class="tab-content" id="v-pills-tabContent">
+                                                <div class="tab-pane fade show active" id="v-pills-prayagraj-smart" role="tabpanel" aria-labelledby="v-pills-prayagraj-smart-tab">
+                                                    <div class="d-flex flex-row justify-content-between wrap">
+                                                        <div class="card-test">
+                                                            <img src="{{ asset('assets/img/r04.png')}}" alt="">
+                                                            <div class="card-content">
+                                                                <p class="card-head">Cloud Transformation</p>
+                                                                <div class="block"></div>
+                                                                <p>Streamlining and transforming businesses into cloud-based solutions for enhanced scalability and efficiency.
+                                                                    </p>
+                                                                <a href="{{route('services.cloud')}}" ><p class="know-more">Know More &rarr;</p></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-test">
+                                                            <img src="{{ asset('assets/img/r05.png')}}" alt="">
+                                                            <div class="card-content">
+                                                            <p class="card-head">IT Lifecycle Management</p>
+                                                            <div class="block"></div>
+                                                                            <p>Comprehensive management of IT infrastructure from planning to retirement, ensuring optimal performance throughout.</p>
+                                                                <a href="{{route('services.data')}}" ><p class="know-more">Know More &rarr;</p></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="card-test">
+                                                            <img src="{{ asset('assets/img/r06.png')}}" alt="">
+                                                            <div class="card-content">
+                                                                <p class="card-head">IT Security Audit Services</p>
+                                                                <div class="block"></div>
+                                                                            <p>Performing thorough assessments to identify vulnerabilities and fortify digital assets against cyber threats.
+                                                                </p>
+                                                                <a href="{{route('services.command')}}" ><p class="know-more">Know More &rarr;</p></a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-sanganer-smart" role="tabpanel" aria-labelledby="v-pills-sanganer-smart-tab">
+                                                    <div class="d-flex flex-row justify-content-between wrap">
+
+                                                        <div class="card-test">
+                                                            <img src="{{ asset('assets/img/r01.png')}}" alt="">
+                                                            <div class="card-content">
+                                                                <p class="card-head">Permanent Hiring</p>
+                                                                <div class="block"></div>
+                                                                <p>Seamless recruitment processes to secure permanent talent perfectly suited to organizational needs.
+                                                                    </p>
+                                                                <a href="{{route('services.staffing')}}" ><p class="know-more">Know More &rarr;</p></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="card-test">
+                                                            <img src="{{ asset('assets/img/r02.png')}}" alt="">
+                                                            <div class="card-content">
+                                                            <p class="card-head">Contract Consultants</p>
+                                                            <div class="block"></div>
+                                                                <p>Get full access of top-tier IT expertise on a flexible basis to support project-specific requirements.
+                                                                </p>
+                                                                <a href="{{route('services.consulting')}}" ><p class="know-more">Know More &rarr;</p></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-test">
+                                                            <img src="{{ asset('assets/img/r03.png')}}" alt="">
+                                                            <div class="card-content">
+                                                                <p class="card-head">Recruitment Outsourcing</p>
+                                                                <div class="block"></div>
+                                                                    <p>Outsourcing of the recruitment process to expert professionals for efficient and effective candidate selection.
+                                                                    </p>
+                                                                    <a href="{{route('services.staffing')}}" ><p class="know-more">Know More &rarr;</p></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            {{-- <div class="row">
                                 <div class="c-container">
                                     <div class="card-test">
                                         <img src="{{ asset('assets/img/r04.png')}}" alt="">
@@ -115,7 +201,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </ul>
                     </li>
 

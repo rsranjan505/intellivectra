@@ -14,7 +14,6 @@
     @include('landing.components.pages.our-usp')
 
 
-
         <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-3">
                 <div class="flex-row justify-content-center">
