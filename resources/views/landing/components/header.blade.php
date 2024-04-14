@@ -51,14 +51,14 @@
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                                <a class="nav-link active" id="v-pills-prayagraj-smart-tab" data-toggle="pill" href="#v-pills-prayagraj-smart" role="tab" aria-controls="v-pills-prayagraj-smart" aria-selected="true">Professional IT Services</a>
-                                                <a class="nav-link" id="v-pills-sanganer-smart-tab" data-toggle="pill" href="#v-pills-sanganer-smart" role="tab" aria-controls="v-pills-sanganer-smart" aria-selected="false">IT Staffing Services</a>
+                                                <a class="nav-link active" id="professional-it-services-tab" data-toggle="pill" href="#professional-it-services" role="tab" aria-controls="professional-it-services" aria-selected="true">Professional IT Services</a>
+                                                <a class="nav-link" id="it-staffing-services-tab" data-toggle="pill" href="#it-staffing-services" role="tab" aria-controls="it-staffing-services" aria-selected="false">IT Staffing Services</a>
 
                                             </div>
                                         </div>
                                         <div class="col-sm-9">
                                             <div class="tab-content" id="v-pills-tabContent">
-                                                <div class="tab-pane fade show active" id="v-pills-prayagraj-smart" role="tabpanel" aria-labelledby="v-pills-prayagraj-smart-tab">
+                                                <div class="tab-pane fade show active" id="professional-it-services" role="tabpanel" aria-labelledby="professional-it-services-tab">
                                                     <div class="d-flex flex-row justify-content-between wrap">
                                                         <div class="card-test">
                                                             <img src="{{ asset('assets/img/r04.png')}}" alt="">
@@ -93,7 +93,7 @@
 
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane fade" id="v-pills-sanganer-smart" role="tabpanel" aria-labelledby="v-pills-sanganer-smart-tab">
+                                                <div class="tab-pane fade" id="it-staffing-services" role="tabpanel" aria-labelledby="it-staffing-services-tab">
                                                     <div class="d-flex flex-row justify-content-between wrap">
 
                                                         <div class="card-test">
