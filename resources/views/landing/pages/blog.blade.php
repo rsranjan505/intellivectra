@@ -8,7 +8,7 @@
 
         <div class="row ">
             <div class="col-lg-12">
-                <div class="row mx-5 px-4">
+                <div class="row mx-2 px-4">
                     @include('landing.pages.blog-filter')
                 </div>
             </div>
