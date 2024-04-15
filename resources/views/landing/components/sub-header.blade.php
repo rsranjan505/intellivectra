@@ -43,8 +43,15 @@
             @endphp
         @elseif ($type == 'prayagraj')
             @php
-            $whitetitle = 'Smart City ';
+                $whitetitle = 'Prayagraj';
                 $colortitle = 'Prayagraj';
+                $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
+                $img = asset('assets/img/case-study-bg.jpg');
+            @endphp
+        @elseif ($type == 'smart-city')
+            @php
+                $whitetitle = 'City ';
+                $colortitle = 'Smart ';
                 $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp

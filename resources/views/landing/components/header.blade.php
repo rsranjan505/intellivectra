@@ -439,6 +439,8 @@
             @include('landing.components.sub-header',['type' => 'term'])
         @elseif (Request::is('case-study/prayagraj-smart'))
             @include('landing.components.sub-header',['type' => 'prayagraj'])
+        @elseif (Request::is('case-study/smart-city'))
+            @include('landing.components.sub-header',['type' => 'smart-city'])
         @endif
 
 
