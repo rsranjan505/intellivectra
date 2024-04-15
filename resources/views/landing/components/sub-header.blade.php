@@ -174,10 +174,18 @@
 
     @if (isset($sub_type))
     <div class="carousel-inner" >
-        <div class="bg p-5">
-            <h1 class="text-white text-center">{{ ucfirst($whitetitle)}}</h1>
-            <p class="text-white text-center">{{ ucfirst($subheading)}}</p>
+        <div class="carousel-item active">
+            <img class="w-100" src="{{ $img }}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="container">
+                    <div class="bg p-5">
+                        <h1 class="text-white text-center">{{ ucfirst($whitetitle)}}</h1>
+                        <p class="text-white text-center">{{ ucfirst($subheading)}}</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
     @else
         <div class="carousel-inner" >
