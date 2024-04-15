@@ -48,10 +48,10 @@
                 $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp
-        @elseif ($type == 'smart-city')
+        @elseif ($type == 'weather-forecast')
             @php
-                $whitetitle = 'City ';
-                $colortitle = 'Smart ';
+                $whitetitle = 'Forecast';
+                $colortitle = 'Weather';
                 $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp

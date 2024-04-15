@@ -19,6 +19,6 @@ class CaseStudyController extends Controller
 
     public function smartIndex(){
         $data['title']='smart-city';
-        return view('landing.pages.case-study.smart-city-solutions',compact('data'));
+        return view('landing.pages.case-study.weather-forecast',compact('data'));
     }
 }
