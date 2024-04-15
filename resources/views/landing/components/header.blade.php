@@ -210,8 +210,14 @@
                            aria-expanded="false">Solutions</a>
                         <ul class="dropdown-menu mega-dropdown" aria-labelledby="dropdown2" style="left: 46%;">
                             <div class="row" >
+                            <div class="col-sm-3">
+                                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                <a class="nav-link active" id="professional-it-services-tab" data-toggle="pill" href="#professional-it-services" role="tab" aria-controls="professional-it-services" aria-selected="true">Technologies Solutions</a>
+                                            
+                                            </div>
+                                        </div>
                              <!-- jas test -->
-                                <div class="c-container">
+                                <div class="c-container" style="margin-left:200px; margin-top:-40px;">
                                     <div class="card-test">
                                         <img src="{{ asset('assets/img/c 01.png')}}" alt="">
                                         <div class="card-content">
