@@ -200,7 +200,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  ibm Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oems disk" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-13.png')}}" class=""/>
+                            <img alt="oems disk" style="width: 250px; margin-top:-20px;"  src="{{ asset('assets/img/brand/b-13.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="d-flex flex-column justify-content-center" >
@@ -524,7 +524,7 @@
                             <p class="mt-2 mb-3">
                                 Benefits of using Red Hat services include -
                             </p>
-                            <ul style="margin-left:-26px;"> 
+                            <ul style="margin-left:-26px;">
                                 <li><strong>Versatile Solutions:</strong> Red Hat offers a wide range of solutions, from hybrid cloud
                                     infrastructure to automation, catering to diverse IT needs.
                                     </li>
@@ -553,7 +553,7 @@
                                 assistance. With support teams located worldwide and proactive health status monitoring,
                                 redhat prioritises customer satisfaction and strives to provide exceptional service.
 
-                            </p> 
+                            </p>
 
                         </div>
                     </div>

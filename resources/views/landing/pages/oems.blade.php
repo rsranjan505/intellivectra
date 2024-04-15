@@ -215,7 +215,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oem-img" style="width: 225px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-2.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 225px; margin-top:-20px;"  src="{{ asset('assets/img/brand/b-2.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="d-flex flex-column justify-content-center" >
@@ -398,7 +398,7 @@
                     <div class="d-flex flex-row justify-content-between">
                         {{-- <h4 class="pb-2 fw-bold"><span class="text-primary">  Scale Computing </span></h4> --}}
                         <div class="oems-b">
-                            <img alt="oem-img" style="width: 250px; margin-top:-50px;"  src="{{ asset('assets/img/brand/b-5.png')}}" class=""/>
+                            <img alt="oem-img" style="width: 250px; margin-top:-20px;"  src="{{ asset('assets/img/brand/b-5.png')}}" class=""/>
                         </div>
                     </div>
                     <div class="d-flex flex-column justify-content-center" >
