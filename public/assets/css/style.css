@@ -213,12 +213,13 @@ line-height: normal;
 .card-content .know-more {
     display: inline;
     /* padding: 8px 16px; */
-    color: #0043fb;
+    color: #040404;
     text-decoration: none;
+    font-weight: 700;
     transition: color 0.3s; /* Smooth transition on hover */
 }
 
-.card-content .know-more:hover {
+.card-content a > p:hover {
     color: rgb(255, 179, 0); /* Change text color to yellow on hover */
 }
 
