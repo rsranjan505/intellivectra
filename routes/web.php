@@ -48,6 +48,7 @@ Route::get('/blogs/{category}/{slug}',[BlogController::class,'blogDetail'])->nam
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
 Route::get('/case-study',[CaseStudyController::class,'index'])->name('case-study');
 Route::get('/case-study/prayagraj-smart',[CaseStudyController::class,'pragrajIndex'])->name('case-study-pragraj');
+Route::get('/case-study/smart-city',[CaseStudyController::class,'smartIndex'])->name('smart-city-solutions');
 
 
 
