@@ -139,7 +139,7 @@ Get to know the faces behind our success.</p>
             <div class="full-card">
                 <div class="thecard">
                     <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\Mr. Manoj Pradhan.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                    <img src="{{ asset('assets\img\leaders\Manoj-Sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
                     <div class="text-block">
                     <p style="font-weight: 800;">MANOJ<span style="color:#F2A024;"> PRADHAN</span></p>
                         <p>Executive Director</p>
@@ -175,7 +175,7 @@ Get to know the faces behind our success.</p>
             <div class="full-card">
                 <div class="thecard">
                     <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\Mrs. Renu Pohani.jpeg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                    <img src="{{ asset('assets\img\leaders\Renu-Maam.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
                     <div class="text-block">
                     <p style="font-weight: 800;">RENU <span style="color:#F2A024;"> POHANI</span></p>
                         <p>Director - Corporate Sales & Staffing Business</p>
@@ -210,7 +210,7 @@ Get to know the faces behind our success.</p>
             <div class="full-card">
                 <div class="thecard">
                     <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\Mr. Sanjay Dinkar.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                    <img src="{{ asset('assets\img\leaders\sanjay-dinkar.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
                     <div class="text-block">
                         <p style="font-weight: 600;">SANJAY<span style="color:#F2A024;"> DINKAR</span></p>
                         <p>Director - Sales</p>
@@ -248,7 +248,7 @@ Get to know the faces behind our success.</p>
             <div class="full-card">
                 <div class="thecard">
                     <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\Mr.Debashis S Tripathy.jpeg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                    <img src="{{ asset('assets\img\leaders\debashis-sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
                     <div class="text-block">
                     <p style="font-weight: 800;">DEBASHIS S.<span style="color:#F2A024;"> TRIPATHY</span></p>
                         <p>Vice President of Finance, Accounts, and Administration
