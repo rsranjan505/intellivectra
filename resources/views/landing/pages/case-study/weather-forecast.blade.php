@@ -28,15 +28,11 @@
 </div>
 
 
-
-<div class="container-fluid py-5 wow fadeInUp bg-primary" data-wow-delay="0.1s">
+<div class="container-fluid py-2 wow fadeInUp bg-primary" data-wow-delay="0.1s">
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6">
-                <div class="position-relative pb-3">
-                    <h1>Solution Provided by IVT </h1>
-                </div>
-
+                <h1 class="text-left">Solution Provided by IVT </h1>
                 <p class="text-justify">Intelli Vectra Technologies has provided a comprehensive solution to IMD that includes the following:
                 </p>
 

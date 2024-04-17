@@ -33,9 +33,7 @@
             <p class="text-justify">
                 At Intelli Vectra Technologies, we are committed to developing a culture that is innovative, collaborative, and growth-oriented. We're excited that you're considering joining our team as we continue to push boundaries, drive change, and make a positive impact in the world.
 
-                </p>
-                <p class="text-justify">Here, you'll find more than just a job; you'll find opportunities to thrive, grow your skills, and contribute to meaningful projects that shape the future. Whether you're a seasoned professional or just starting your career journey, we have a place for you.</p>
-                <p class="text-justify">Check out our current openings, learn more about our company, and see why Intelli Vectra can be the ideal fit for you. We're dedicated to helping our employees realise their full potential by encouraging their talents and providing them with the necessary support.</p>
+                Here, you'll find more than just a job you'll find opportunities to thrive, grow your skills, and contribute to meaningful projects that shape the future. Whether you're a seasoned professional or just starting your career journey, we have a place for you. Check out our current openings, learn more about our company, and see why Intelli Vectra can be the ideal fit for you. We're dedicated to helping our employees realise their full potential by encouraging their talents and providing them with the necessary support.</p>
         </div>
     </div>
 

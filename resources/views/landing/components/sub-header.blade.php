@@ -43,16 +43,16 @@
             @endphp
         @elseif ($type == 'prayagraj')
             @php
-                $whitetitle = 'Prayagraj';
+                $whitetitle = 'Smart City';
                 $colortitle = 'Prayagraj';
-                $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
+                $subheading = "";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp
         @elseif ($type == 'weather-forecast')
             @php
                 $whitetitle = 'Forecast';
                 $colortitle = 'Weather';
-                $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
+                $subheading = "";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp
         @elseif ($type == 'career')
@@ -174,10 +174,18 @@
 
     @if (isset($sub_type))
     <div class="carousel-inner" >
-        <div class="bg p-5">
-            <h1 class="text-white text-center">{{ ucfirst($whitetitle)}}</h1>
-            <p class="text-white text-center">{{ ucfirst($subheading)}}</p>
+        <div class="carousel-item active">
+            <img class="w-100" src="{{ $img }}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="container">
+                    <div class="bg p-5">
+                        <h1 class="text-white text-center">{{ ucfirst($whitetitle)}}</h1>
+                        <p class="text-white text-center">{{ ucfirst($subheading)}}</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
     @else
         <div class="carousel-inner" >
@@ -188,7 +196,7 @@
                         <div class="p-3 text-center">
                             <h2 class="fw-bold text-primary mb-md-1 animated slideInDown">{{ ucfirst($colortitle)}}<span class="text-white mb-md-4 animated zoomIn">{{' ' . ucfirst($whitetitle)}}</span></h2>
                             @if ($type == 'blogs-details')
-                                <p class="blog-slug text-primary"> <a href="{{ route('home')}}">Home</a> - <a href="{{ route('blogs')}}">Blogs</a> - <a href="{{ route('blogs')}}">{{$blog->category ? $blog->category->name :''}}</a> - {{ ucfirst($subheading)}}</p>
+                                {{-- <p class="blog-slug text-primary"> <a href="{{ route('home')}}">Home</a> - <a href="{{ route('blogs')}}">Blogs</a> - <a href="{{ route('blogs')}}">{{$blog->category ? $blog->category->name :''}}</a> - {{ ucfirst($subheading)}}</p> --}}
                             @else
                                 <p>{{ ucfirst($subheading)}}</p>
                             @endif

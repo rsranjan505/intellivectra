@@ -24,9 +24,7 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6">
-                <div class="position-relative pb-3">
-                    <h1>Solution Provided by IVT </h1>
-                </div>
+                <h1 class="text-left">Solution Provided by IVT </h1>
                 <ol class="ol-test">
                     <li>Integrated Blended Classroom Solutions</li>
                         <div class="position-relative pt-1" style="margin-bottom: -13px;">
@@ -55,7 +53,7 @@
                     <img class="position-absolute  rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/prayagraj.jpg')}}" style="object-fit:cover; margin-top:35px; width:500px; height:300px;position:relative; right: 10%; ">
             </div>
             </div>
-            
+
             <!-- <div class="col-lg-6" >
                 <div class="card" style="min-height: 300px; position:relative; top: 20%; left: 20%;">
                     <img class="position-absolute  rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/prayagraj.jpg')}}" style="object-fit:cover; margin-top:35px; width:500px; height:300px">

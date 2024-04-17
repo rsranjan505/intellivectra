@@ -21,19 +21,19 @@
                   </svg></a> -->
             </div>
 
-            
+
 
                     <div class="col-lg-6" >
                <div class="about-gradient" >
-                 
+
                  </div>
                     <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/aboutus.jpg')}}" style=" width:350px; height:200px; position: relative; top:10%; ">
-                  
+
             </div>
 
             <!-- <div class="col-lg-6" >
                 <div class="card" style="min-height: 300px;">
-                
+
                     <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/aboutus.jpg')}}" style="object-fit: cover; ">
                 </div>
             </div> -->
@@ -80,7 +80,7 @@
         <div class="text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 660px;">
         <img  src="{{ asset('assets\img\Frame 16.svg')}}" alt="" style="width:50px; height:50px;">
             <h1 class="fw-boldtext-uppercase">Meet our <span class="text-primary">Leaders</span></h1>
-            <p class="mb-0">Welcome to the team! We are a group of passionate individuals working together to achieve our goals. 
+            <p class="mb-0">Welcome to the team! We are a group of passionate individuals working together to achieve our goals.
 Get to know the faces behind our success.</p>
         </div>
         <!-- <div class="d-flex flex-row aligns-content-center justify-content-center">
@@ -122,207 +122,164 @@ Get to know the faces behind our success.</p>
 
                 <div class="main-ceo">
                 <img src="{{ asset('assets/img/leaders/manas-sir.jpg')}}" alt="" style="width: 400px; height: 450px; border-radius:20px;">
-                
-               <div class="main-text"> 
-                <p style="font-weight: 600; font-size: 36px; color:#000000;">MANAS<span style="color:#F2A024;"> SINHA</span></p>
-                <p style="color:#383838;">Founder, CEO & MD</p>
-                <p>An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio. He has been awarded an Honorary Doctorate of Philosophy (PhD) in Innovation & Technology by Maryland State University, USA. He has taken a new initiative to create a difference in the IT Solutions & Services sector especially in the Government & Enterprise space through a dynamic and innovative approach with introduction of new technologies related to Cyber Security, Business Digitization, Hyperconverged Infrastructure, Hybrid Cloud, Application Modernization and in the complex systems automation area. 
-
-</p>
+               <div class="main-text">
+                    <p style="font-weight: 600; font-size: 36px; color:#000000;">MANAS<span style="color:#F2A024;"> SINHA</span></p>
+                    <p style="color:#383838;">Founder, CEO & MD</p>
+                    <p>An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio. He has been awarded an Honorary Doctorate of Philosophy (PhD) in Innovation & Technology by Maryland State University, USA. He has taken a new initiative to create a difference in the IT Solutions & Services sector especially in the Government & Enterprise space through a dynamic and innovative approach with introduction of new technologies related to Cyber Security, Business Digitization, Hyperconverged Infrastructure, Hybrid Cloud, Application Modernization and in the complex systems automation area.
+                    </p>
                 </div>
             </div>
 
-            
-            <div class="full-container">
-
-
-            <div class="full-card">
-                <div class="thecard">
-                    <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\Manoj-Sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
-                    <div class="text-block">
-                    <p style="font-weight: 800;">MANOJ<span style="color:#F2A024;"> PRADHAN</span></p>
-                        <p>Executive Director</p>
+            <div class="full-container flex-column d-flex justify-content-center wrap">
+                <div class="d-flex justify-content-center wrap">
+                    <div class="full-card">
+                        <div class="thecard">
+                            <div class="thefront">
+                                <img src="{{ asset('assets\img\leaders\Manoj-Sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                                <div class="text-block">
+                                <p style="font-weight: 800;">MANOJ<span style="color:#F2A024;"> PRADHAN</span></p>
+                                    <p>Executive Director</p>
+                                </div>
+                            </div>
+                            <div class="theback">
+                                <p>Experienced sales leader with over 35 years in government sales within India. Proven track record in formulating sales strategies and managing client relationships across diverse domains. Previous roles at SAP India Pvt Ltd, IBM India Pvt Ltd, Tata Infotech Ltd, and Pertech Computers Ltd.
+                                </p>
+                                <div class="social"><ul>
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <i class="fab fa-facebook-f icon"></i>    </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="full-card">
+                        <div class="thecard">
+                            <div class="thefront">
+                                <img src="{{ asset('assets\img\leaders\Renu-Maam.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                                <div class="text-block">
+                                    <p style="font-weight: 800;">RENU <span style="color:#F2A024;"> POHANI</span></p>
+                                    <p>Director - Corporate Sales & Staffing Business</p>
+                                </div>
+                            </div>
+                            <div class="theback">
+                                <p>With over 24 years of experience, Mrs. Renu Pohani is a seasoned Business Director adept at managing global teams and multi-million-dollar campaigns, specializing in Brand Strategy, Product Market Alignment, Customer Acquisition, and Account Management with a mindful yet competitive approach.
+                                </p>
+                                <div class="social"><ul>
+
+                                <li>
+                                    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="fab fa-facebook-f icon"></i>    </a>
+                                </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="theback">
-                        <p>Experienced sales leader with over 35 years in government sales within India. Proven track record in formulating sales strategies and managing client relationships across diverse domains. Previous roles at SAP India Pvt Ltd, IBM India Pvt Ltd, Tata Infotech Ltd, and Pertech Computers Ltd.
-</p>
-<div class="social"><ul>
 
-<li>
-    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
-  <li>
-    <a href="#"><i class="fab fa-twitter icon"></i></a>
-  </li> 
-   <li>
-    <a href="#">
-      <i class="fab fa-facebook-f icon"></i>    </a>
-  </li>
-  
-  <!-- <li>
-    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
-</ul></div>
+                    <div class="full-card">
+                        <div class="thecard">
+                            <div class="thefront">
+                                <img src="{{ asset('assets\img\leaders\sanjay-dinkar.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                                <div class="text-block">
+                                    <p style="font-weight: 600;">SANJAY<span style="color:#F2A024;"> DINKAR</span></p>
+                                    <p>Director - Sales</p>
+                                </div>
+                            </div>
+                            <div class="theback">
+                                <p>A seasoned sales expert with 25 years of experience in global markets, adept at leading teams and driving business growth through strategic sales, account management, and business development across diverse verticals.
+                                </p>
+                                <div class="social"><ul>
 
-
-                         </div>
-
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <i class="fab fa-facebook-f icon"></i>    </a>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-
-
-            <div class="full-card">
-                <div class="thecard">
-                    <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\Renu-Maam.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
-                    <div class="text-block">
-                    <p style="font-weight: 800;">RENU <span style="color:#F2A024;"> POHANI</span></p>
-                        <p>Director - Corporate Sales & Staffing Business</p>
+                <div class="d-flex justify-content-center wrap">
+                    <div class="full-card">
+                        <div class="thecard">
+                            <div class="thefront">
+                                <img src="{{ asset('assets\img\leaders\debashis-sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                                <div class="text-block">
+                                    <p style="font-weight: 800;">DEBASHIS S.<span style="color:#F2A024;"> TRIPATHY</span></p>
+                                    <p>Vice President of Finance, Accounts, and Administration
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="theback">
+                                <p>With 33 years of experience in finance and accounts, possessing diverse qualifications including CA-Inter, LLB, M.Com, and a Diploma in Labour Welfare. His expertise in financial management and strategic vision makes him an ideal leader to drive our department towards long-term success.
+                                </p>
+                                <div class="social">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fab fa-facebook-f icon"></i>    </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="full-card">
+                        <div class="thecard">
+                            <div class="thefront">
+                            <img src="{{ asset('assets\img\leaders\sanjay-arora.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
+                            <div class="text-block">
+                                <p style="font-weight: 600;">SANJAY<span style="color:#F2A024;"> ARORA</span></p>
+                                <p>Director - Government Sales</p>
+                            </div>
+                            </div>
+                            <div class="theback">
+                                <p>Passionate & dynamic leader with experience driving innovative solutions & delivering exceptional value in India & the ME region.A bold risk-taker with a proven track record of enabling organic growth, expanding into new channels, & revitalizing teams across industry giants like HCL, Siemens, EMC etc.
+                                </p>
+                                <div class="social">
+                                    <ul>
+
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fab fa-facebook-f icon"></i>    </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="theback">
-                        <p>With over 24 years of experience, Mrs. Renu Pohani is a seasoned Business Director adept at managing global teams and multi-million-dollar campaigns, specializing in Brand Strategy, Product Market Alignment, Customer Acquisition, and Account Management with a mindful yet competitive approach.
-</p>
-<div class="social"><ul>
-
-<li>
-    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
-  <li>
-    <a href="#"><i class="fab fa-twitter icon"></i></a>
-  </li> 
-   <li>
-    <a href="#">
-      <i class="fab fa-facebook-f icon"></i>    </a>
-  </li>
-  
-  <!-- <li>
-    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
-</ul></div>
-
-
-                         </div>
-
                 </div>
-
-            </div>
-
-            <div class="full-card">
-                <div class="thecard">
-                    <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\sanjay-dinkar.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
-                    <div class="text-block">
-                        <p style="font-weight: 600;">SANJAY<span style="color:#F2A024;"> DINKAR</span></p>
-                        <p>Director - Sales</p>
-                    </div>
-                    </div>
-                    <div class="theback">
-                        <p>A seasoned sales expert with 25 years of experience in global markets, adept at leading teams and driving business growth through strategic sales, account management, and business development across diverse verticals.
-</p>
-<div class="social"><ul>
-
-<li>
-    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
-  <li>
-    <a href="#"><i class="fab fa-twitter icon"></i></a>
-  </li> 
-   <li>
-    <a href="#">
-      <i class="fab fa-facebook-f icon"></i>    </a>
-  </li>
-  
-  <!-- <li>
-    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
-</ul></div>
-
-
-                         </div>
-
-                </div>
-
-            </div>
-
-
-           
-                                        
-            <div class="full-card" style="position:relative; left:50%;">
-                <div class="thecard">
-                    <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\debashis-sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
-                    <div class="text-block">
-                    <p style="font-weight: 800;">DEBASHIS S.<span style="color:#F2A024;"> TRIPATHY</span></p>
-                        <p>VP of Finance, Accounts and Administration
-</p>
-                    </div>
-                    </div>
-                    <div class="theback">
-                        <p>With 33 years of experience in finance and accounts, possessing diverse qualifications including CA-Inter, LLB, M.Com, and a Diploma in Labour Welfare. His expertise in financial management and strategic vision makes him an ideal leader to drive our department towards long-term success.
-
-</p>
-<div class="social"><ul>
-
-<li>
-    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
-  <li>
-    <a href="#"><i class="fab fa-twitter icon"></i></a>
-  </li> 
-   <li>
-    <a href="#">
-      <i class="fab fa-facebook-f icon"></i>    </a>
-  </li>
-  
-  <!-- <li>
-    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
-</ul></div>
-
-
-                         </div>
-
-                </div>
-
-            </div>
-
-
-            
-           
-
-            <div class="full-card" style="position:relative; left:50%;">
-                <div class="thecard">
-                    <div class="thefront">
-                    <img src="{{ asset('assets\img\leaders\sanjay-arora.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
-                    <div class="text-block">
-                        <p style="font-weight: 600;">SANJAY<span style="color:#F2A024;"> ARORA</span></p>
-                        <p>Director - Government Sales</p>
-                    </div>
-                    </div>
-                    <div class="theback">
-                        <p>Passionate & dynamic leader with experience driving innovative solutions & delivering exceptional value in India & the ME region.A bold risk-taker with a proven track record of enabling organic growth, expanding into new channels, & revitalizing teams across industry giants like HCL, Siemens, EMC etc.
-</p>
-<div class="social"><ul>
-
-<li>
-    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
-  <li>
-    <a href="#"><i class="fab fa-twitter icon"></i></a>
-  </li> 
-   <li>
-    <a href="#">
-      <i class="fab fa-facebook-f icon"></i>    </a>
-  </li>
-  
-  <!-- <li>
-    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
-</ul></div>
-
-
-                         </div>
-
-                </div>
-
-            </div>
-
-
-
             </div>
         </div>
     </div>
