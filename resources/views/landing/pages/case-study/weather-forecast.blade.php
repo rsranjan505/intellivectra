@@ -72,7 +72,7 @@
                 <div class="case-gradient" style="position:relative; top: 10%; left: 35%;">
                <!-- <div class="oem-gradient-right" >
                     </div> -->
-                    <img class="position-absolute  rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/prayagraj.jpg')}}" style="object-fit:cover; margin-top:35px; width:500px; height:300px;position:relative; right: 10%; ">
+                    <img class="position-absolute  rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('assets/img/weather.jpg')}}" style="object-fit:cover; margin-top:35px; width:500px; height:300px;position:relative; right: 10%; ">
             </div>
             </div>
 

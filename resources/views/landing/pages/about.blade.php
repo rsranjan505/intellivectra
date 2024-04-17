@@ -121,7 +121,7 @@ Get to know the faces behind our success.</p>
                 </div> -->
 
                 <div class="main-ceo">
-                <img src="{{ asset('assets/img/leaders/manas-sinha-CEO.jpg')}}" alt="" style="width: 400px; height: 400px; border-radius:20px;">
+                <img src="{{ asset('assets/img/leaders/manas-sir.jpg')}}" alt="" style="width: 400px; height: 450px; border-radius:20px;">
                 
                <div class="main-text"> 
                 <p style="font-weight: 600; font-size: 36px; color:#000000;">MANAS<span style="color:#F2A024;"> SINHA</span></p>
@@ -244,14 +244,14 @@ Get to know the faces behind our success.</p>
 
 
            
-
-            <div class="full-card">
+                                        
+            <div class="full-card" style="position:relative; left:50%;">
                 <div class="thecard">
                     <div class="thefront">
                     <img src="{{ asset('assets\img\leaders\debashis-sir.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">
                     <div class="text-block">
                     <p style="font-weight: 800;">DEBASHIS S.<span style="color:#F2A024;"> TRIPATHY</span></p>
-                        <p>Vice President of Finance, Accounts, and Administration
+                        <p>VP of Finance, Accounts and Administration
 </p>
                     </div>
                     </div>
@@ -286,7 +286,7 @@ Get to know the faces behind our success.</p>
             
            
 
-            <div class="full-card">
+            <div class="full-card" style="position:relative; left:50%;">
                 <div class="thecard">
                     <div class="thefront">
                     <img src="{{ asset('assets\img\leaders\sanjay-arora.jpg')}}" alt="" style="width:100%; height:100%; border-radius:20px;">

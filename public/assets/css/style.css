@@ -213,8 +213,9 @@ line-height: normal;
 .card-content .know-more {
     display: inline;
     /* padding: 8px 16px; */
-    color: #0043fb;
+    color: #000000;
     text-decoration: none;
+    font-weight: 600;
     transition: color 0.3s; /* Smooth transition on hover */
 }
 
@@ -378,8 +379,11 @@ flex-shrink: 0;
     /* display: inline-block;
 vertical-align: middle; */
     color: #6b6a6a;
+    text-align: justify;
 }
-
+.last-two{
+  
+}
 .full-container {
 
     display: grid;
