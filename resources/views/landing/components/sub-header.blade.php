@@ -38,7 +38,7 @@
             @php
                $whitetitle = 'Study';
                 $colortitle = 'Case';
-                $subheading = "Discover how our IT services streamlined operations, enhanced cybersecurity, and boosted productivity for businesses of all sizes.";
+                $subheading = "Discover how our IT services streamlined operations, enhanced IT Security, and boosted productivity for businesses of all sizes.";
                 $img = asset('assets/img/case-study-bg.jpg');
             @endphp
         @elseif ($type == 'prayagraj')

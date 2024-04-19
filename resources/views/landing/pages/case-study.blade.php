@@ -75,7 +75,7 @@
         <div class="box-shadow case-content row my-2 text-left py-4">
             <div class="col-lg-6 col-sm-12">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets/img/home-5.png')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ asset('assets/img/weather.jpg')}}" alt="Card image cap">
                   </div>
             </div>
             <div class="col-lg-6 col-sm-12">

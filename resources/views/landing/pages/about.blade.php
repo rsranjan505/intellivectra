@@ -123,11 +123,27 @@ Get to know the faces behind our success.</p>
                 <div class="main-ceo">
                 <img src="{{ asset('assets/img/leaders/manas-sir.jpg')}}" alt="" style="width: 400px; height: 450px; border-radius:20px;">
                <div class="main-text">
+                                <div class="social"><ul style="position:relative; top:-15px; left:-9% ">
+                                    <li>
+                                        <a href="#" style="background-color:rgba(100, 100, 100, 0.45);"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                    <li>
+                                        <a href="#" style="background-color:rgba(100, 100, 100, 0.45);"><i class="fab fa-twitter icon"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"style="background-color:rgba(100, 100, 100, 0.45);">
+                                        <i class="fab fa-facebook-f icon"></i>    </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
+                                    </ul>
+                                </div>
                     <p style="font-weight: 600; font-size: 36px; color:#000000;">MANAS<span style="color:#F2A024;"> SINHA</span></p>
                     <p style="color:#383838;">Founder, CEO & MD</p>
                     <p>An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio. He has been awarded an Honorary Doctorate of Philosophy (PhD) in Innovation & Technology by Maryland State University, USA. He has taken a new initiative to create a difference in the IT Solutions & Services sector especially in the Government & Enterprise space through a dynamic and innovative approach with introduction of new technologies related to Cyber Security, Business Digitization, Hyperconverged Infrastructure, Hybrid Cloud, Application Modernization and in the complex systems automation area.
                     </p>
+                    
                 </div>
+                 
             </div>
 
             <div class="full-container flex-column d-flex justify-content-center wrap">
@@ -201,7 +217,7 @@ Get to know the faces behind our success.</p>
                                 </div>
                             </div>
                             <div class="theback">
-                                <p>A seasoned sales expert with 25 years of experience in global markets, adept at leading teams and driving business growth through strategic sales, account management, and business development across diverse verticals.
+                                <p>Engineering graduate and sales expert with 25 years of global market experience across India, SEA/MEA, Turkish, and Russian markets. Skilled in collaborative cross-functional business management, large enterprise account management, strategic sales, and business development.
                                 </p>
                                 <div class="social"><ul>
 

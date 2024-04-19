@@ -36,23 +36,23 @@
                 <p class="text-justify">Intelli Vectra Technologies has provided a comprehensive solution to IMD that includes the following:
                 </p>
 
-                <h5>Hardware Provisioning:</h5>
-                <ul>
+                <h6>Hardware Provisioning:</h6>
+                <ul style="margin-left:-24px;">
                     <li>Servers</li>
                     <li>Unified Storage</li>
                     <li>Smart Network Rack</li>
                     <li>Cables and Peripherals</li>
                 </ul>
 
-                <h5>Software and Virtualization:</h5>
-                <ul>
+                <h6>Software and Virtualization:</h6>
+                <ul style="margin-left:-24px;">
                     <li>Linux OS Installation</li>
                     <li>Virtual Machines</li>
                     <li>Application Software</li>
                 </ul>
 
-                <h5>Networking Infrastructure:</h5>
-                <ul>
+                <h6>Networking Infrastructure:</h6>
+                <ul style="margin-left:-24px;">
                     <li>UTP Cabling</li>
                     <li>Passive Components</li>
                     <li>Network Switches</li>
