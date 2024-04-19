@@ -4,9 +4,9 @@
                 <div class="row g-5">
                     <div class="col-lg-7 col-md-7 col-sm-12">
                         <div class="position-relative pb-3">
-                            <h1> <span class="text-primary">About </span>IVT</h1>
+                            <h1> <span class="text-primary">About </span>Intelli Vectra Technologies (IVT)</h1>
                         </div>
-                        <p class="mb-2 text-justify">Intelli Vectra stands as a technology and vendor-agnostic solution provider. Our client relationships are fiduciary, dedicated to safeguarding their best interests as we drive business transformation through innovation and engagement. Embracing a holistic approach, we navigate diverse technological landscapes to deliver bespoke solutions tailored to each client's unique needs.
+                        <p class="mb-2 text-justify">Intelli Vectra Technologies stands as a technology and vendor-agnostic solution provider. Our client relationships are fiduciary, dedicated to safeguarding their best interests as we drive business transformation through innovation and engagement. Embracing a holistic approach, we navigate diverse technological landscapes to deliver bespoke solutions tailored to each client's unique needs.
                         </p>
                         <p class="text-justify">
                             Our commitment extends beyond mere consultation; we actively collaborate with clients, fostering an environment of mutual growth and success. By prioritizing innovation and fostering meaningful engagement, we empower businesses to adapt, thrive, and seize new opportunities in an ever-evolving digital ecosystem.

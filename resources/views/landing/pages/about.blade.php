@@ -125,7 +125,7 @@ Get to know the faces behind our success.</p>
                <div class="main-text">
                                 <div class="social"><ul style="position:relative; top:-15px; left:-9% ">
                                     <li>
-                                        <a href="#" style="background-color:rgba(100, 100, 100, 0.45);"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                        <a href="https://www.linkedin.com/in/manassinha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" style="background-color:rgba(100, 100, 100, 0.45);"><i class="fab fa-linkedin-in icon"></i></a></li>
                                     <li>
                                         <a href="#" style="background-color:rgba(100, 100, 100, 0.45);"><i class="fab fa-twitter icon"></i></a>
                                     </li>
@@ -137,7 +137,7 @@ Get to know the faces behind our success.</p>
                                         <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li> -->
                                     </ul>
                                 </div>
-                    <p style="font-weight: 600; font-size: 36px; color:#000000;">MANAS<span style="color:#F2A024;"> SINHA</span></p>
+                    <p style="font-weight: 600; font-size: 36px; color:#000000;">DR. MANAS<span style="color:#F2A024;"> SINHA</span></p>
                     <p style="color:#383838;">Founder, CEO & MD</p>
                     <p>An experienced IT professional with extensive experience across the globe for over 30+ years including that in IBM which entailed stints in Sales, Product Management, Branding, Technology, Business Development and Training portfolio. He has been awarded an Honorary Doctorate of Philosophy (PhD) in Innovation & Technology by Maryland State University, USA. He has taken a new initiative to create a difference in the IT Solutions & Services sector especially in the Government & Enterprise space through a dynamic and innovative approach with introduction of new technologies related to Cyber Security, Business Digitization, Hyperconverged Infrastructure, Hybrid Cloud, Application Modernization and in the complex systems automation area.
                     </p>
@@ -162,7 +162,7 @@ Get to know the faces behind our success.</p>
                                 </p>
                                 <div class="social"><ul>
                                     <li>
-                                        <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                        <a href="https://www.linkedin.com/in/manoj-pradhan-921aa28?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                                     <li>
                                         <a href="#"><i class="fab fa-twitter icon"></i></a>
                                     </li>
@@ -193,7 +193,7 @@ Get to know the faces behind our success.</p>
                                 <div class="social"><ul>
 
                                 <li>
-                                    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                    <a href="https://www.linkedin.com/in/renu-p-3599834?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                                 <li>
                                     <a href="#"><i class="fab fa-twitter icon"></i></a>
                                 </li>
@@ -222,7 +222,7 @@ Get to know the faces behind our success.</p>
                                 <div class="social"><ul>
 
                                     <li>
-                                        <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                        <a href="https://www.linkedin.com/in/sanjay-dinkar-42570992?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                                     <li>
                                         <a href="#"><i class="fab fa-twitter icon"></i></a>
                                     </li>
@@ -253,7 +253,7 @@ Get to know the faces behind our success.</p>
                                 <div class="social">
                                     <ul>
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                                         <li>
                                             <a href="#"><i class="fab fa-twitter icon"></i></a>
                                         </li>
@@ -282,7 +282,7 @@ Get to know the faces behind our success.</p>
                                     <ul>
 
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                                            <a href="https://www.linkedin.com/in/sanjay-arora-2543818?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                                         <li>
                                             <a href="#"><i class="fab fa-twitter icon"></i></a>
                                         </li>

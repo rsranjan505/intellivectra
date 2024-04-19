@@ -34,7 +34,7 @@
                             <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" id="pills-journey-infotrend-tab" data-bs-toggle="pill" href="#pills-journey-infotrend" role="tab" aria-controls="pills-journey-infotrend" aria-selected="false">
                                     <div  class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>
@@ -131,7 +131,7 @@
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-bs-toggle="pill" href="#pills-journey-dell" role="tab" aria-controls="pills-journey-dell" aria-selected="false"><div  class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>
@@ -220,7 +220,7 @@
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-ibm" role="tab" aria-controls="pills-journey-ibm" aria-selected="false"><div  class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>
@@ -318,7 +318,7 @@
                             </li>
                             <li class="oems-card nav-item mb-2" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-couchbase" role="tab" aria-controls="pills-journey-couchbase" aria-selected="false"><div  class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>
@@ -401,7 +401,7 @@
                             </li>
                             <li class="oems-card nav-item" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-piconets" role="tab" aria-controls="pills-journey-piconets" aria-selected="false"><div  class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>
@@ -496,7 +496,7 @@
                             </li>
                             <li class="oems-card nav-item" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-redhat" role="tab" aria-controls="pills-journey-redhat" aria-selected="false"><div  class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary left-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>
@@ -590,7 +590,7 @@
                             <li class="oems-card nav-item" role="presentation">
                                 <a class="" data-toggle="pill" href="#pills-journey-roombr" role="tab" aria-controls="pills-journey-roombr" aria-selected="false">
                                     <div s class="oem-titile-tab">
-                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achivement</h5>
+                                        <h5 class="fw-bold pb-1 text-primary right-titile" >Achievements</h5>
                                     </div></a>
                             </li>
                         </ul>

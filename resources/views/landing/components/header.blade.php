@@ -212,7 +212,7 @@
                             <div class="row" >
                             <div class="col-sm-3">
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                                <a class="nav-link active" id="professional-it-services-tab" data-toggle="pill" href="#professional-it-services" role="tab" aria-controls="professional-it-services" aria-selected="true">Technologies Solutions</a>
+                                                <a class="nav-link active" id="professional-it-services-tab" data-toggle="pill" href="#professional-it-services" role="tab" aria-controls="professional-it-services" aria-selected="true">IT Solutions</a>
 
                                             </div>
                                         </div>

@@ -10,21 +10,21 @@
             @php
                 $whitetitle = 'Us';
                 $colortitle = 'About';
-                $subheading = 'Intelli Vectra Technologies is an IT solution provider that is technology and vendor agnostic.';
+                $subheading = 'Intelli Vectra Technologies offers technology-agnostic IT solutions, prioritizing client interests with innovation';
                 $img = asset('assets/img/about-bg.jpg');
             @endphp
         @elseif ($type == 'contact')
             @php
                 $whitetitle = 'Us';
                 $colortitle = 'Contact';
-                $subheading = "Get in touch today for expert IT solutions tailored to your business needs. We're here to support your success.";
+                $subheading = "Reach out to us for all your business requirements. Our team is dedicated to empowering your journey to success.";
                 $img = asset('assets/img/contact-bg.png');
             @endphp
         @elseif ($type == 'blogs')
             @php
                 $whitetitle = 'Blogs';
                 $colortitle = 'Our';
-                $subheading = "Customized staffing, connecting talent and opportunities for mutual success.";
+                $subheading = "";
                 $img = asset('assets/img/blog-bg.jpg');
             @endphp
          @elseif ($type == 'blogs-details')
@@ -59,14 +59,14 @@
             @php
                 $whitetitle = '';
                 $colortitle = 'career';
-                $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
+                $subheading = "Discover openings to join our team and unleash your potential with thrilling roles.";
                 $img = asset('assets/img/career-bg.png');
             @endphp
         @elseif ($type == 'career-apply')
             @php
                 $whitetitle = '';
                 $colortitle = 'career';
-                $subheading = "Explore Opportunities to Join Our Team. Unlock Your Potential with Exciting Roles in IT Services. Join Us Today!";
+                $subheading = "Discover openings to join our team and unleash your potential with thrilling roles.";
                 $img = asset('assets/img/career-bg.png');
             @endphp
 
